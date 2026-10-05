@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 16d36c1345be32343ae57e79e28a28f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 138604309262308751
+    second: spr_kiro_walk_strip26_0
+  - first:
+      213: 8580667089397082312
+    second: spr_kiro_walk_strip26_1
+  - first:
+      213: -5154800665320829563
+    second: spr_kiro_walk_strip26_2
+  - first:
+      213: 9141073325115551707
+    second: spr_kiro_walk_strip26_3
+  - first:
+      213: 8829438588868723321
+    second: spr_kiro_walk_strip26_4
+  - first:
+      213: 5874609780620992804
+    second: spr_kiro_walk_strip26_5
+  - first:
+      213: -2199415542748015201
+    second: spr_kiro_walk_strip26_6
+  - first:
+      213: 3756561082122792922
+    second: spr_kiro_walk_strip26_7
+  - first:
+      213: -2776483042327452787
+    second: spr_kiro_walk_strip26_8
+  - first:
+      213: -1999589352965912862
+    second: spr_kiro_walk_strip26_9
+  - first:
+      213: 3013331672457901874
+    second: spr_kiro_walk_strip26_10
+  - first:
+      213: 380685979276419334
+    second: spr_kiro_walk_strip26_11
+  - first:
+      213: -3308034588497697511
+    second: spr_kiro_walk_strip26_12
+  - first:
+      213: -6545013023387775734
+    second: spr_kiro_walk_strip26_13
+  - first:
+      213: -5422166429982358549
+    second: spr_kiro_walk_strip26_14
+  - first:
+      213: 5641390550433937129
+    second: spr_kiro_walk_strip26_15
+  - first:
+      213: 8639196195372499646
+    second: spr_kiro_walk_strip26_16
+  - first:
+      213: 8958413777281666277
+    second: spr_kiro_walk_strip26_17
+  - first:
+      213: -1094971691326524956
+    second: spr_kiro_walk_strip26_18
+  - first:
+      213: -7704447363674609965
+    second: spr_kiro_walk_strip26_19
+  - first:
+      213: -1523962237343511734
+    second: spr_kiro_walk_strip26_20
+  - first:
+      213: 4701618240192979857
+    second: spr_kiro_walk_strip26_21
+  - first:
+      213: -77627747861783571
+    second: spr_kiro_walk_strip26_22
+  - first:
+      213: -5307659208045278144
+    second: spr_kiro_walk_strip26_23
+  - first:
+      213: 2436965108941718092
+    second: spr_kiro_walk_strip26_24
+  - first:
+      213: -1351368357455409532
+    second: spr_kiro_walk_strip26_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_0
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 81
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f851be982eb6ce100800000000000000
+      internalID: 138604309262308751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 81
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8e5676147a41770800000000000000
+      internalID: 8580667089397082312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_2
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 81
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58dca9f2b187678b0800000000000000
+      internalID: -5154800665320829563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_3
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 81
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdfaf49f1cd9bde70800000000000000
+      internalID: 9141073325115551707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_4
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 81
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97285afbd97788a70800000000000000
+      internalID: 8829438588868723321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_5
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 81
+        width: 76
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42123ff687ec68150800000000000000
+      internalID: 5874609780620992804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_6
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f951805873b1a71e0800000000000000
+      internalID: -2199415542748015201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_7
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf6cfca66cf12430800000000000000
+      internalID: 3756561082122792922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_8
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d832d292263f779d0800000000000000
+      internalID: -2776483042327452787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_9
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 82
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e640d7e3180044e0800000000000000
+      internalID: -1999589352965912862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_10
+      rect:
+        serializedVersion: 2
+        x: 2645
+        y: 82
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2377947d03181d920800000000000000
+      internalID: 3013331672457901874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_11
+      rect:
+        serializedVersion: 2
+        x: 2899
+        y: 82
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6012eb591e7784500800000000000000
+      internalID: 380685979276419334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_12
+      rect:
+        serializedVersion: 2
+        x: 3154
+        y: 82
+        width: 81
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915a3e781108712d0800000000000000
+      internalID: -3308034588497697511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_13
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 82
+        width: 81
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d8aaa05517b25a0800000000000000
+      internalID: -6545013023387775734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_14
+      rect:
+        serializedVersion: 2
+        x: 3665
+        y: 82
+        width: 82
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be38adb1c5890c4b0800000000000000
+      internalID: -5422166429982358549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_15
+      rect:
+        serializedVersion: 2
+        x: 3921
+        y: 81
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e63cd5f0de3a4e40800000000000000
+      internalID: 5641390550433937129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_16
+      rect:
+        serializedVersion: 2
+        x: 4177
+        y: 81
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb28512da2794e770800000000000000
+      internalID: 8639196195372499646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_17
+      rect:
+        serializedVersion: 2
+        x: 4433
+        y: 81
+        width: 81
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecc6d1eddda25c70800000000000000
+      internalID: 8958413777281666277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_18
+      rect:
+        serializedVersion: 2
+        x: 4690
+        y: 81
+        width: 79
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1bf535c01edc0f0800000000000000
+      internalID: -1094971691326524956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_19
+      rect:
+        serializedVersion: 2
+        x: 4947
+        y: 81
+        width: 78
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6ea7151fd441590800000000000000
+      internalID: -7704447363674609965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_20
+      rect:
+        serializedVersion: 2
+        x: 5204
+        y: 81
+        width: 76
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4bc7006b6cc9dae0800000000000000
+      internalID: -1523962237343511734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_21
+      rect:
+        serializedVersion: 2
+        x: 5461
+        y: 81
+        width: 74
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193233411e08f3140800000000000000
+      internalID: 4701618240192979857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_22
+      rect:
+        serializedVersion: 2
+        x: 5717
+        y: 81
+        width: 74
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb1cff79f53ceef0800000000000000
+      internalID: -77627747861783571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_23
+      rect:
+        serializedVersion: 2
+        x: 5973
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c41ab42186756b0800000000000000
+      internalID: -5307659208045278144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_24
+      rect:
+        serializedVersion: 2
+        x: 6229
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c420e70ead6d1d120800000000000000
+      internalID: 2436965108941718092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_walk_strip26_25
+      rect:
+        serializedVersion: 2
+        x: 6484
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48eca2583a9fe3de0800000000000000
+      internalID: -1351368357455409532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_kiro_walk_strip26_0: 138604309262308751
+      spr_kiro_walk_strip26_1: 8580667089397082312
+      spr_kiro_walk_strip26_10: 3013331672457901874
+      spr_kiro_walk_strip26_11: 380685979276419334
+      spr_kiro_walk_strip26_12: -3308034588497697511
+      spr_kiro_walk_strip26_13: -6545013023387775734
+      spr_kiro_walk_strip26_14: -5422166429982358549
+      spr_kiro_walk_strip26_15: 5641390550433937129
+      spr_kiro_walk_strip26_16: 8639196195372499646
+      spr_kiro_walk_strip26_17: 8958413777281666277
+      spr_kiro_walk_strip26_18: -1094971691326524956
+      spr_kiro_walk_strip26_19: -7704447363674609965
+      spr_kiro_walk_strip26_2: -5154800665320829563
+      spr_kiro_walk_strip26_20: -1523962237343511734
+      spr_kiro_walk_strip26_21: 4701618240192979857
+      spr_kiro_walk_strip26_22: -77627747861783571
+      spr_kiro_walk_strip26_23: -5307659208045278144
+      spr_kiro_walk_strip26_24: 2436965108941718092
+      spr_kiro_walk_strip26_25: -1351368357455409532
+      spr_kiro_walk_strip26_3: 9141073325115551707
+      spr_kiro_walk_strip26_4: 8829438588868723321
+      spr_kiro_walk_strip26_5: 5874609780620992804
+      spr_kiro_walk_strip26_6: -2199415542748015201
+      spr_kiro_walk_strip26_7: 3756561082122792922
+      spr_kiro_walk_strip26_8: -2776483042327452787
+      spr_kiro_walk_strip26_9: -1999589352965912862
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

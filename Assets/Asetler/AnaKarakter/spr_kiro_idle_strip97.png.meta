@@ -1,0 +1,2639 @@
+fileFormatVersion: 2
+guid: 8946829686eb4cd4ca847e60a784090d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3941970146596329562
+    second: spr_kiro_idle_strip97_0
+  - first:
+      213: 3510861119637732100
+    second: spr_kiro_idle_strip97_1
+  - first:
+      213: 4076527658099301378
+    second: spr_kiro_idle_strip97_2
+  - first:
+      213: -3598916452435377704
+    second: spr_kiro_idle_strip97_3
+  - first:
+      213: -7429444343931937890
+    second: spr_kiro_idle_strip97_4
+  - first:
+      213: 6649643819526058327
+    second: spr_kiro_idle_strip97_5
+  - first:
+      213: -1741102904466006672
+    second: spr_kiro_idle_strip97_6
+  - first:
+      213: -4236685468020155796
+    second: spr_kiro_idle_strip97_7
+  - first:
+      213: 5665760876688876576
+    second: spr_kiro_idle_strip97_8
+  - first:
+      213: -8923567841804712127
+    second: spr_kiro_idle_strip97_9
+  - first:
+      213: -666927767550757549
+    second: spr_kiro_idle_strip97_10
+  - first:
+      213: -1388380368468641907
+    second: spr_kiro_idle_strip97_11
+  - first:
+      213: 3794779762769762606
+    second: spr_kiro_idle_strip97_12
+  - first:
+      213: 2396875081396946589
+    second: spr_kiro_idle_strip97_13
+  - first:
+      213: 807051690348971737
+    second: spr_kiro_idle_strip97_14
+  - first:
+      213: -7764471813611600222
+    second: spr_kiro_idle_strip97_15
+  - first:
+      213: 1883683787924184154
+    second: spr_kiro_idle_strip97_16
+  - first:
+      213: 2912976712350262851
+    second: spr_kiro_idle_strip97_17
+  - first:
+      213: 7617718168239843122
+    second: spr_kiro_idle_strip97_18
+  - first:
+      213: -3713352198769628093
+    second: spr_kiro_idle_strip97_19
+  - first:
+      213: -6340910427105324118
+    second: spr_kiro_idle_strip97_20
+  - first:
+      213: 7887948233184507769
+    second: spr_kiro_idle_strip97_21
+  - first:
+      213: -6475264758521904997
+    second: spr_kiro_idle_strip97_22
+  - first:
+      213: -2818496083762040112
+    second: spr_kiro_idle_strip97_23
+  - first:
+      213: 5310476301449367282
+    second: spr_kiro_idle_strip97_24
+  - first:
+      213: -3347282918532918808
+    second: spr_kiro_idle_strip97_25
+  - first:
+      213: -5850341321796037135
+    second: spr_kiro_idle_strip97_26
+  - first:
+      213: 2867782320690242458
+    second: spr_kiro_idle_strip97_27
+  - first:
+      213: -6483539981677078343
+    second: spr_kiro_idle_strip97_28
+  - first:
+      213: -7803222366311879947
+    second: spr_kiro_idle_strip97_29
+  - first:
+      213: 525312402907072588
+    second: spr_kiro_idle_strip97_30
+  - first:
+      213: -1689253234073099728
+    second: spr_kiro_idle_strip97_31
+  - first:
+      213: -8000173323317595373
+    second: spr_kiro_idle_strip97_32
+  - first:
+      213: -3729851583896096548
+    second: spr_kiro_idle_strip97_33
+  - first:
+      213: -9090804274850008638
+    second: spr_kiro_idle_strip97_34
+  - first:
+      213: 2336297096929719049
+    second: spr_kiro_idle_strip97_35
+  - first:
+      213: 7421128958815483207
+    second: spr_kiro_idle_strip97_36
+  - first:
+      213: -805167149576599877
+    second: spr_kiro_idle_strip97_37
+  - first:
+      213: 6805744649372411682
+    second: spr_kiro_idle_strip97_38
+  - first:
+      213: -7781903764481188760
+    second: spr_kiro_idle_strip97_39
+  - first:
+      213: 5570316049448951196
+    second: spr_kiro_idle_strip97_40
+  - first:
+      213: -825464026661429142
+    second: spr_kiro_idle_strip97_41
+  - first:
+      213: 4770126903237515329
+    second: spr_kiro_idle_strip97_42
+  - first:
+      213: 8559965275751664462
+    second: spr_kiro_idle_strip97_43
+  - first:
+      213: 4754566231694450589
+    second: spr_kiro_idle_strip97_44
+  - first:
+      213: 5690579141437684193
+    second: spr_kiro_idle_strip97_45
+  - first:
+      213: 2327833865728478051
+    second: spr_kiro_idle_strip97_46
+  - first:
+      213: 385660976709379569
+    second: spr_kiro_idle_strip97_47
+  - first:
+      213: 7793801922945494362
+    second: spr_kiro_idle_strip97_48
+  - first:
+      213: 5671845690156153692
+    second: spr_kiro_idle_strip97_49
+  - first:
+      213: -6813374766873862741
+    second: spr_kiro_idle_strip97_50
+  - first:
+      213: 570018894004232090
+    second: spr_kiro_idle_strip97_51
+  - first:
+      213: -4642874119390139404
+    second: spr_kiro_idle_strip97_52
+  - first:
+      213: -4441266690394411872
+    second: spr_kiro_idle_strip97_53
+  - first:
+      213: 8883745303375887835
+    second: spr_kiro_idle_strip97_54
+  - first:
+      213: -3746248813362899361
+    second: spr_kiro_idle_strip97_55
+  - first:
+      213: 5751039271177223046
+    second: spr_kiro_idle_strip97_56
+  - first:
+      213: -3567300804464577278
+    second: spr_kiro_idle_strip97_57
+  - first:
+      213: -2178900625199988613
+    second: spr_kiro_idle_strip97_58
+  - first:
+      213: 5487537055988020306
+    second: spr_kiro_idle_strip97_59
+  - first:
+      213: 8671207257960240377
+    second: spr_kiro_idle_strip97_60
+  - first:
+      213: 5501001028605672837
+    second: spr_kiro_idle_strip97_61
+  - first:
+      213: -3609473760366208978
+    second: spr_kiro_idle_strip97_62
+  - first:
+      213: -6978347715808674523
+    second: spr_kiro_idle_strip97_63
+  - first:
+      213: -5450803943481846012
+    second: spr_kiro_idle_strip97_64
+  - first:
+      213: -6180648597100879485
+    second: spr_kiro_idle_strip97_65
+  - first:
+      213: -3159953955205519682
+    second: spr_kiro_idle_strip97_66
+  - first:
+      213: 8271040523506339195
+    second: spr_kiro_idle_strip97_67
+  - first:
+      213: 6040782855146371860
+    second: spr_kiro_idle_strip97_68
+  - first:
+      213: 4201889974387129311
+    second: spr_kiro_idle_strip97_69
+  - first:
+      213: 8045460970300823238
+    second: spr_kiro_idle_strip97_70
+  - first:
+      213: -6540355405828709140
+    second: spr_kiro_idle_strip97_71
+  - first:
+      213: 582752023983786593
+    second: spr_kiro_idle_strip97_72
+  - first:
+      213: 7707803710143672085
+    second: spr_kiro_idle_strip97_73
+  - first:
+      213: 2004720288941432205
+    second: spr_kiro_idle_strip97_74
+  - first:
+      213: 4636294498102036282
+    second: spr_kiro_idle_strip97_75
+  - first:
+      213: 1386991180089296798
+    second: spr_kiro_idle_strip97_76
+  - first:
+      213: -3837391982749757770
+    second: spr_kiro_idle_strip97_77
+  - first:
+      213: 6833975431862794839
+    second: spr_kiro_idle_strip97_78
+  - first:
+      213: 4496173858049142871
+    second: spr_kiro_idle_strip97_79
+  - first:
+      213: -5923600851100361358
+    second: spr_kiro_idle_strip97_80
+  - first:
+      213: 1355268846116299755
+    second: spr_kiro_idle_strip97_81
+  - first:
+      213: -8679487657859390704
+    second: spr_kiro_idle_strip97_82
+  - first:
+      213: -33737487896110689
+    second: spr_kiro_idle_strip97_83
+  - first:
+      213: 7443036996385290911
+    second: spr_kiro_idle_strip97_84
+  - first:
+      213: -6917428737676989495
+    second: spr_kiro_idle_strip97_85
+  - first:
+      213: 6996999607833076788
+    second: spr_kiro_idle_strip97_86
+  - first:
+      213: 1977850486422827678
+    second: spr_kiro_idle_strip97_87
+  - first:
+      213: -1995412607106095998
+    second: spr_kiro_idle_strip97_88
+  - first:
+      213: 3098185153732347079
+    second: spr_kiro_idle_strip97_89
+  - first:
+      213: 4222120736814919008
+    second: spr_kiro_idle_strip97_90
+  - first:
+      213: -2606193321575173554
+    second: spr_kiro_idle_strip97_91
+  - first:
+      213: 4838420024447392681
+    second: spr_kiro_idle_strip97_92
+  - first:
+      213: -4978645145191473351
+    second: spr_kiro_idle_strip97_93
+  - first:
+      213: 1679394199981214980
+    second: spr_kiro_idle_strip97_94
+  - first:
+      213: 6383547189114058779
+    second: spr_kiro_idle_strip97_95
+  - first:
+      213: 1304798924756662713
+    second: spr_kiro_idle_strip97_96
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 81
+        width: 76
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a76ee0890f4b49c0800000000000000
+      internalID: -3941970146596329562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 81
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40bbcb3469519b030800000000000000
+      internalID: 3510861119637732100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_2
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 81
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c50128e4cb29830800000000000000
+      internalID: 4076527658099301378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_3
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 81
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1c74ced841e0ec0800000000000000
+      internalID: -3598916452435377704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_4
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 81
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bd6696bbf45e890800000000000000
+      internalID: -7429444343931937890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_5
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751f8b192d7484c50800000000000000
+      internalID: 6649643819526058327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_6
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d17e5122c56d7e0800000000000000
+      internalID: -1741102904466006672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_7
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a599583054435c0800000000000000
+      internalID: -4236685468020155796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_8
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 81
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024a855bf73d0ae40800000000000000
+      internalID: 5665760876688876576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_9
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 81
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1478124b35e192480800000000000000
+      internalID: -8923567841804712127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_10
+      rect:
+        serializedVersion: 2
+        x: 2642
+        y: 81
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355fa4c9ab89eb6f0800000000000000
+      internalID: -666927767550757549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_11
+      rect:
+        serializedVersion: 2
+        x: 2898
+        y: 81
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87fc4c296b7bbce0800000000000000
+      internalID: -1388380368468641907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_12
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 81
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e299bb0b614c9a430800000000000000
+      internalID: 3794779762769762606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_13
+      rect:
+        serializedVersion: 2
+        x: 3411
+        y: 81
+        width: 77
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9686a5ff29634120800000000000000
+      internalID: 2396875081396946589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_14
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d601a68c39333b00800000000000000
+      internalID: 807051690348971737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_15
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6c521060e0f3490800000000000000
+      internalID: -7764471813611600222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_16
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c1268cc60342a10800000000000000
+      internalID: 1883683787924184154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_17
+      rect:
+        serializedVersion: 2
+        x: 4437
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3466f92e2e8fc6820800000000000000
+      internalID: 2912976712350262851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_18
+      rect:
+        serializedVersion: 2
+        x: 4693
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237a9f8405297b960800000000000000
+      internalID: 7617718168239843122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_19
+      rect:
+        serializedVersion: 2
+        x: 4949
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34cab6279d5877cc0800000000000000
+      internalID: -3713352198769628093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_20
+      rect:
+        serializedVersion: 2
+        x: 5205
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa311d7ef8f8008a0800000000000000
+      internalID: -6340910427105324118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_21
+      rect:
+        serializedVersion: 2
+        x: 5461
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977f1ad302f977d60800000000000000
+      internalID: 7887948233184507769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_22
+      rect:
+        serializedVersion: 2
+        x: 5716
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9042b1720d3326a0800000000000000
+      internalID: -6475264758521904997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_23
+      rect:
+        serializedVersion: 2
+        x: 5972
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2b88eaeb0b2e8d0800000000000000
+      internalID: -2818496083762040112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_24
+      rect:
+        serializedVersion: 2
+        x: 6227
+        y: 81
+        width: 76
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe05006f0a92b940800000000000000
+      internalID: 5310476301449367282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_25
+      rect:
+        serializedVersion: 2
+        x: 6482
+        y: 81
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1dc169bef0c81d0800000000000000
+      internalID: -3347282918532918808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_26
+      rect:
+        serializedVersion: 2
+        x: 6737
+        y: 81
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5de8370996fcea0800000000000000
+      internalID: -5850341321796037135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_27
+      rect:
+        serializedVersion: 2
+        x: 6994
+        y: 81
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9323e593d86cc720800000000000000
+      internalID: 2867782320690242458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_28
+      rect:
+        serializedVersion: 2
+        x: 7249
+        y: 81
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b85819ecb6d506a0800000000000000
+      internalID: -6483539981677078343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_29
+      rect:
+        serializedVersion: 2
+        x: 7505
+        y: 81
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fae890e99265b390800000000000000
+      internalID: -7803222366311879947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_30
+      rect:
+        serializedVersion: 2
+        x: 7761
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c480263e8d84a4700800000000000000
+      internalID: 525312402907072588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_31
+      rect:
+        serializedVersion: 2
+        x: 8017
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032a46732219e88e0800000000000000
+      internalID: -1689253234073099728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_32
+      rect:
+        serializedVersion: 2
+        x: 8273
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313391acfbca9f090800000000000000
+      internalID: -8000173323317595373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_33
+      rect:
+        serializedVersion: 2
+        x: 8529
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0f1fcfeb7ec3cc0800000000000000
+      internalID: -3729851583896096548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_34
+      rect:
+        serializedVersion: 2
+        x: 8786
+        y: 81
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c176fa5da9f6d180800000000000000
+      internalID: -9090804274850008638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_35
+      rect:
+        serializedVersion: 2
+        x: 9042
+        y: 81
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903b548d4d13c6020800000000000000
+      internalID: 2336297096929719049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_36
+      rect:
+        serializedVersion: 2
+        x: 9298
+        y: 81
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745bf8e18752df660800000000000000
+      internalID: 7421128958815483207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_37
+      rect:
+        serializedVersion: 2
+        x: 9555
+        y: 81
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb64ca05eb873d4f0800000000000000
+      internalID: -805167149576599877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_38
+      rect:
+        serializedVersion: 2
+        x: 9811
+        y: 81
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227abd143bcd27e50800000000000000
+      internalID: 6805744649372411682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_39
+      rect:
+        serializedVersion: 2
+        x: 10067
+        y: 81
+        width: 76
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86cd2d9a1cf110490800000000000000
+      internalID: -7781903764481188760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_40
+      rect:
+        serializedVersion: 2
+        x: 10324
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ddf062fecbd4d40800000000000000
+      internalID: 5570316049448951196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_41
+      rect:
+        serializedVersion: 2
+        x: 10580
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a606bfb57dc5b84f0800000000000000
+      internalID: -825464026661429142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_42
+      rect:
+        serializedVersion: 2
+        x: 10837
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14891013525e23240800000000000000
+      internalID: 4770126903237515329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_43
+      rect:
+        serializedVersion: 2
+        x: 11093
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b4bdec01b1bc670800000000000000
+      internalID: 8559965275751664462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_44
+      rect:
+        serializedVersion: 2
+        x: 11349
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f17350ccc9bf140800000000000000
+      internalID: 4754566231694450589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_45
+      rect:
+        serializedVersion: 2
+        x: 11605
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9f3a3449ff8fe40800000000000000
+      internalID: 5690579141437684193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_46
+      rect:
+        serializedVersion: 2
+        x: 11861
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36bced641902e4020800000000000000
+      internalID: 2327833865728478051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_47
+      rect:
+        serializedVersion: 2
+        x: 12117
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f52e707d942a5500800000000000000
+      internalID: 385660976709379569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_48
+      rect:
+        serializedVersion: 2
+        x: 12372
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d2cea3e85292c60800000000000000
+      internalID: 7793801922945494362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_49
+      rect:
+        serializedVersion: 2
+        x: 12628
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b769eba9176be40800000000000000
+      internalID: 5671845690156153692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_50
+      rect:
+        serializedVersion: 2
+        x: 12883
+        y: 81
+        width: 76
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad9fd29fb70271a0800000000000000
+      internalID: -6813374766873862741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_51
+      rect:
+        serializedVersion: 2
+        x: 13139
+        y: 81
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f126cf92d19e700800000000000000
+      internalID: 570018894004232090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_52
+      rect:
+        serializedVersion: 2
+        x: 13394
+        y: 81
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb65e06692319fb0800000000000000
+      internalID: -4642874119390139404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_53
+      rect:
+        serializedVersion: 2
+        x: 13650
+        y: 81
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac2446d9737d52c0800000000000000
+      internalID: -4441266690394411872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_54
+      rect:
+        serializedVersion: 2
+        x: 13905
+        y: 81
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddb3ca0947694b70800000000000000
+      internalID: 8883745303375887835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_55
+      rect:
+        serializedVersion: 2
+        x: 14161
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56964f7d86a20cc0800000000000000
+      internalID: -3746248813362899361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_56
+      rect:
+        serializedVersion: 2
+        x: 14417
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bf6df2fbbcfcf40800000000000000
+      internalID: 5751039271177223046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_57
+      rect:
+        serializedVersion: 2
+        x: 14673
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2057ce691d66e7ec0800000000000000
+      internalID: -3567300804464577278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_58
+      rect:
+        serializedVersion: 2
+        x: 14929
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70041afc6df2c1e0800000000000000
+      internalID: -2178900625199988613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_59
+      rect:
+        serializedVersion: 2
+        x: 15185
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25475f1d0e5a72c40800000000000000
+      internalID: 5487537055988020306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_60
+      rect:
+        serializedVersion: 2
+        x: 15441
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f452802f01565870800000000000000
+      internalID: 8671207257960240377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_61
+      rect:
+        serializedVersion: 2
+        x: 15698
+        y: 81
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d791b3a4b775c40800000000000000
+      internalID: 5501001028605672837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_62
+      rect:
+        serializedVersion: 2
+        x: 15954
+        y: 81
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28574f1db298edc0800000000000000
+      internalID: -3609473760366208978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_63
+      rect:
+        serializedVersion: 2
+        x: 16210
+        y: 81
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52db010b9bde72f90800000000000000
+      internalID: -6978347715808674523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_64
+      rect:
+        serializedVersion: 2
+        x: 16467
+        y: 81
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407577861bada54b0800000000000000
+      internalID: -5450803943481846012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_65
+      rect:
+        serializedVersion: 2
+        x: 16723
+        y: 81
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3812940f8dce93aa0800000000000000
+      internalID: -6180648597100879485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_66
+      rect:
+        serializedVersion: 2
+        x: 16980
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb66261be969524d0800000000000000
+      internalID: -3159953955205519682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_67
+      rect:
+        serializedVersion: 2
+        x: 17236
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7dc476c883a8c270800000000000000
+      internalID: 8271040523506339195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_68
+      rect:
+        serializedVersion: 2
+        x: 17493
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bf446500c25d350800000000000000
+      internalID: 6040782855146371860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_69
+      rect:
+        serializedVersion: 2
+        x: 17749
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbbe9c4bac105a30800000000000000
+      internalID: 4201889974387129311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_70
+      rect:
+        serializedVersion: 2
+        x: 18005
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6dc05302837af60800000000000000
+      internalID: 8045460970300823238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_71
+      rect:
+        serializedVersion: 2
+        x: 18261
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce426c2296dfb35a0800000000000000
+      internalID: -6540355405828709140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_72
+      rect:
+        serializedVersion: 2
+        x: 18517
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a81b5d0e9561800800000000000000
+      internalID: 582752023983786593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_73
+      rect:
+        serializedVersion: 2
+        x: 18773
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f2d8df2ae97fa60800000000000000
+      internalID: 7707803710143672085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_74
+      rect:
+        serializedVersion: 2
+        x: 19028
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d5f583b7232db10800000000000000
+      internalID: 2004720288941432205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_75
+      rect:
+        serializedVersion: 2
+        x: 19284
+        y: 81
+        width: 75
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a374879284d675040800000000000000
+      internalID: 4636294498102036282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_76
+      rect:
+        serializedVersion: 2
+        x: 19539
+        y: 81
+        width: 76
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9782d331259f3310800000000000000
+      internalID: 1386991180089296798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_77
+      rect:
+        serializedVersion: 2
+        x: 19795
+        y: 81
+        width: 76
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bec444b258debac0800000000000000
+      internalID: -3837391982749757770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_78
+      rect:
+        serializedVersion: 2
+        x: 20050
+        y: 81
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75abde3827827de50800000000000000
+      internalID: 6833975431862794839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_79
+      rect:
+        serializedVersion: 2
+        x: 20306
+        y: 81
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750ba695d4e956e30800000000000000
+      internalID: 4496173858049142871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_80
+      rect:
+        serializedVersion: 2
+        x: 20562
+        y: 81
+        width: 78
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d16f619642bcda0800000000000000
+      internalID: -5923600851100361358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_81
+      rect:
+        serializedVersion: 2
+        x: 20818
+        y: 81
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be36ae3c5d1eec210800000000000000
+      internalID: 1355268846116299755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_82
+      rect:
+        serializedVersion: 2
+        x: 21073
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01367e806f34c8780800000000000000
+      internalID: -8679487657859390704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_83
+      rect:
+        serializedVersion: 2
+        x: 21329
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99965afee3288ff0800000000000000
+      internalID: -33737487896110689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_84
+      rect:
+        serializedVersion: 2
+        x: 21585
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ab2ab96bafa4760800000000000000
+      internalID: 7443036996385290911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_85
+      rect:
+        serializedVersion: 2
+        x: 21841
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb2fa3963b5000a0800000000000000
+      internalID: -6917428737676989495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_86
+      rect:
+        serializedVersion: 2
+        x: 22097
+        y: 81
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434207652165a1160800000000000000
+      internalID: 6996999607833076788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_87
+      rect:
+        serializedVersion: 2
+        x: 22354
+        y: 81
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92f01ec98cb27b10800000000000000
+      internalID: 1977850486422827678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_88
+      rect:
+        serializedVersion: 2
+        x: 22610
+        y: 81
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284ea155ecede44e0800000000000000
+      internalID: -1995412607106095998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_89
+      rect:
+        serializedVersion: 2
+        x: 22867
+        y: 81
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c40b908bf6fefa20800000000000000
+      internalID: 3098185153732347079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_90
+      rect:
+        serializedVersion: 2
+        x: 23123
+        y: 81
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06de9acb07cf79a30800000000000000
+      internalID: 4222120736814919008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_91
+      rect:
+        serializedVersion: 2
+        x: 23379
+        y: 81
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4234837bf0f4dbd0800000000000000
+      internalID: -2606193321575173554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_92
+      rect:
+        serializedVersion: 2
+        x: 23636
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abd25f8065852340800000000000000
+      internalID: 4838420024447392681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_93
+      rect:
+        serializedVersion: 2
+        x: 23892
+        y: 81
+        width: 75
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f93225e9c48eab0800000000000000
+      internalID: -4978645145191473351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_94
+      rect:
+        serializedVersion: 2
+        x: 24149
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d4bb780286e4710800000000000000
+      internalID: 1679394199981214980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_95
+      rect:
+        serializedVersion: 2
+        x: 24405
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b183616d85ae69850800000000000000
+      internalID: 6383547189114058779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_idle_strip97_96
+      rect:
+        serializedVersion: 2
+        x: 24661
+        y: 81
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9be6d75b39b1210800000000000000
+      internalID: 1304798924756662713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_kiro_idle_strip97_0: -3941970146596329562
+      spr_kiro_idle_strip97_1: 3510861119637732100
+      spr_kiro_idle_strip97_10: -666927767550757549
+      spr_kiro_idle_strip97_11: -1388380368468641907
+      spr_kiro_idle_strip97_12: 3794779762769762606
+      spr_kiro_idle_strip97_13: 2396875081396946589
+      spr_kiro_idle_strip97_14: 807051690348971737
+      spr_kiro_idle_strip97_15: -7764471813611600222
+      spr_kiro_idle_strip97_16: 1883683787924184154
+      spr_kiro_idle_strip97_17: 2912976712350262851
+      spr_kiro_idle_strip97_18: 7617718168239843122
+      spr_kiro_idle_strip97_19: -3713352198769628093
+      spr_kiro_idle_strip97_2: 4076527658099301378
+      spr_kiro_idle_strip97_20: -6340910427105324118
+      spr_kiro_idle_strip97_21: 7887948233184507769
+      spr_kiro_idle_strip97_22: -6475264758521904997
+      spr_kiro_idle_strip97_23: -2818496083762040112
+      spr_kiro_idle_strip97_24: 5310476301449367282
+      spr_kiro_idle_strip97_25: -3347282918532918808
+      spr_kiro_idle_strip97_26: -5850341321796037135
+      spr_kiro_idle_strip97_27: 2867782320690242458
+      spr_kiro_idle_strip97_28: -6483539981677078343
+      spr_kiro_idle_strip97_29: -7803222366311879947
+      spr_kiro_idle_strip97_3: -3598916452435377704
+      spr_kiro_idle_strip97_30: 525312402907072588
+      spr_kiro_idle_strip97_31: -1689253234073099728
+      spr_kiro_idle_strip97_32: -8000173323317595373
+      spr_kiro_idle_strip97_33: -3729851583896096548
+      spr_kiro_idle_strip97_34: -9090804274850008638
+      spr_kiro_idle_strip97_35: 2336297096929719049
+      spr_kiro_idle_strip97_36: 7421128958815483207
+      spr_kiro_idle_strip97_37: -805167149576599877
+      spr_kiro_idle_strip97_38: 6805744649372411682
+      spr_kiro_idle_strip97_39: -7781903764481188760
+      spr_kiro_idle_strip97_4: -7429444343931937890
+      spr_kiro_idle_strip97_40: 5570316049448951196
+      spr_kiro_idle_strip97_41: -825464026661429142
+      spr_kiro_idle_strip97_42: 4770126903237515329
+      spr_kiro_idle_strip97_43: 8559965275751664462
+      spr_kiro_idle_strip97_44: 4754566231694450589
+      spr_kiro_idle_strip97_45: 5690579141437684193
+      spr_kiro_idle_strip97_46: 2327833865728478051
+      spr_kiro_idle_strip97_47: 385660976709379569
+      spr_kiro_idle_strip97_48: 7793801922945494362
+      spr_kiro_idle_strip97_49: 5671845690156153692
+      spr_kiro_idle_strip97_5: 6649643819526058327
+      spr_kiro_idle_strip97_50: -6813374766873862741
+      spr_kiro_idle_strip97_51: 570018894004232090
+      spr_kiro_idle_strip97_52: -4642874119390139404
+      spr_kiro_idle_strip97_53: -4441266690394411872
+      spr_kiro_idle_strip97_54: 8883745303375887835
+      spr_kiro_idle_strip97_55: -3746248813362899361
+      spr_kiro_idle_strip97_56: 5751039271177223046
+      spr_kiro_idle_strip97_57: -3567300804464577278
+      spr_kiro_idle_strip97_58: -2178900625199988613
+      spr_kiro_idle_strip97_59: 5487537055988020306
+      spr_kiro_idle_strip97_6: -1741102904466006672
+      spr_kiro_idle_strip97_60: 8671207257960240377
+      spr_kiro_idle_strip97_61: 5501001028605672837
+      spr_kiro_idle_strip97_62: -3609473760366208978
+      spr_kiro_idle_strip97_63: -6978347715808674523
+      spr_kiro_idle_strip97_64: -5450803943481846012
+      spr_kiro_idle_strip97_65: -6180648597100879485
+      spr_kiro_idle_strip97_66: -3159953955205519682
+      spr_kiro_idle_strip97_67: 8271040523506339195
+      spr_kiro_idle_strip97_68: 6040782855146371860
+      spr_kiro_idle_strip97_69: 4201889974387129311
+      spr_kiro_idle_strip97_7: -4236685468020155796
+      spr_kiro_idle_strip97_70: 8045460970300823238
+      spr_kiro_idle_strip97_71: -6540355405828709140
+      spr_kiro_idle_strip97_72: 582752023983786593
+      spr_kiro_idle_strip97_73: 7707803710143672085
+      spr_kiro_idle_strip97_74: 2004720288941432205
+      spr_kiro_idle_strip97_75: 4636294498102036282
+      spr_kiro_idle_strip97_76: 1386991180089296798
+      spr_kiro_idle_strip97_77: -3837391982749757770
+      spr_kiro_idle_strip97_78: 6833975431862794839
+      spr_kiro_idle_strip97_79: 4496173858049142871
+      spr_kiro_idle_strip97_8: 5665760876688876576
+      spr_kiro_idle_strip97_80: -5923600851100361358
+      spr_kiro_idle_strip97_81: 1355268846116299755
+      spr_kiro_idle_strip97_82: -8679487657859390704
+      spr_kiro_idle_strip97_83: -33737487896110689
+      spr_kiro_idle_strip97_84: 7443036996385290911
+      spr_kiro_idle_strip97_85: -6917428737676989495
+      spr_kiro_idle_strip97_86: 6996999607833076788
+      spr_kiro_idle_strip97_87: 1977850486422827678
+      spr_kiro_idle_strip97_88: -1995412607106095998
+      spr_kiro_idle_strip97_89: 3098185153732347079
+      spr_kiro_idle_strip97_9: -8923567841804712127
+      spr_kiro_idle_strip97_90: 4222120736814919008
+      spr_kiro_idle_strip97_91: -2606193321575173554
+      spr_kiro_idle_strip97_92: 4838420024447392681
+      spr_kiro_idle_strip97_93: -4978645145191473351
+      spr_kiro_idle_strip97_94: 1679394199981214980
+      spr_kiro_idle_strip97_95: 6383547189114058779
+      spr_kiro_idle_strip97_96: 1304798924756662713
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

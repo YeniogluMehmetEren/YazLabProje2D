@@ -1,0 +1,1573 @@
+fileFormatVersion: 2
+guid: 7a18a824197ce2646988b73777dde1b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2390412605721730823
+    second: spr_kiro_sword_draw_strip56_0
+  - first:
+      213: 8372119332571908151
+    second: spr_kiro_sword_draw_strip56_1
+  - first:
+      213: -5750753174446801815
+    second: spr_kiro_sword_draw_strip56_2
+  - first:
+      213: 4956300320148095411
+    second: spr_kiro_sword_draw_strip56_3
+  - first:
+      213: -1248837485107811512
+    second: spr_kiro_sword_draw_strip56_4
+  - first:
+      213: 5127689800394778228
+    second: spr_kiro_sword_draw_strip56_5
+  - first:
+      213: 8309056481277158684
+    second: spr_kiro_sword_draw_strip56_6
+  - first:
+      213: -907306997091834923
+    second: spr_kiro_sword_draw_strip56_7
+  - first:
+      213: -1007522472953381485
+    second: spr_kiro_sword_draw_strip56_8
+  - first:
+      213: -5716466314087297112
+    second: spr_kiro_sword_draw_strip56_9
+  - first:
+      213: 5017321347003730110
+    second: spr_kiro_sword_draw_strip56_10
+  - first:
+      213: -4511772780791852946
+    second: spr_kiro_sword_draw_strip56_11
+  - first:
+      213: 4514954101355149029
+    second: spr_kiro_sword_draw_strip56_12
+  - first:
+      213: 4662204166163850393
+    second: spr_kiro_sword_draw_strip56_13
+  - first:
+      213: 6977347914584023696
+    second: spr_kiro_sword_draw_strip56_14
+  - first:
+      213: 3974407894209613743
+    second: spr_kiro_sword_draw_strip56_15
+  - first:
+      213: 3109906416039792413
+    second: spr_kiro_sword_draw_strip56_16
+  - first:
+      213: -2242841565240168153
+    second: spr_kiro_sword_draw_strip56_17
+  - first:
+      213: 7256414780568651850
+    second: spr_kiro_sword_draw_strip56_18
+  - first:
+      213: 3043313391090511667
+    second: spr_kiro_sword_draw_strip56_19
+  - first:
+      213: -6134265197844683093
+    second: spr_kiro_sword_draw_strip56_20
+  - first:
+      213: 2381937444557164083
+    second: spr_kiro_sword_draw_strip56_21
+  - first:
+      213: -6214847691589967683
+    second: spr_kiro_sword_draw_strip56_22
+  - first:
+      213: -1622976446250117217
+    second: spr_kiro_sword_draw_strip56_23
+  - first:
+      213: -7948791678717580085
+    second: spr_kiro_sword_draw_strip56_24
+  - first:
+      213: 4309571161021292
+    second: spr_kiro_sword_draw_strip56_25
+  - first:
+      213: 8907153182087917875
+    second: spr_kiro_sword_draw_strip56_26
+  - first:
+      213: 881902778041607327
+    second: spr_kiro_sword_draw_strip56_27
+  - first:
+      213: 3898863559375024333
+    second: spr_kiro_sword_draw_strip56_28
+  - first:
+      213: 909850089596294333
+    second: spr_kiro_sword_draw_strip56_29
+  - first:
+      213: 557898947321931312
+    second: spr_kiro_sword_draw_strip56_30
+  - first:
+      213: 1611180388875761266
+    second: spr_kiro_sword_draw_strip56_31
+  - first:
+      213: 5964715774257471868
+    second: spr_kiro_sword_draw_strip56_32
+  - first:
+      213: 17641598102635823
+    second: spr_kiro_sword_draw_strip56_33
+  - first:
+      213: 5785754929813636287
+    second: spr_kiro_sword_draw_strip56_34
+  - first:
+      213: -1675058407681410690
+    second: spr_kiro_sword_draw_strip56_35
+  - first:
+      213: 6833872969405494410
+    second: spr_kiro_sword_draw_strip56_36
+  - first:
+      213: 2576544469653372148
+    second: spr_kiro_sword_draw_strip56_37
+  - first:
+      213: 8954830136813723473
+    second: spr_kiro_sword_draw_strip56_38
+  - first:
+      213: 2633620880275626233
+    second: spr_kiro_sword_draw_strip56_39
+  - first:
+      213: 4971483088358214989
+    second: spr_kiro_sword_draw_strip56_40
+  - first:
+      213: -6956019972051549376
+    second: spr_kiro_sword_draw_strip56_41
+  - first:
+      213: 3294269143241691629
+    second: spr_kiro_sword_draw_strip56_42
+  - first:
+      213: -8760318120913159398
+    second: spr_kiro_sword_draw_strip56_43
+  - first:
+      213: 579932828676899097
+    second: spr_kiro_sword_draw_strip56_44
+  - first:
+      213: 3685292228300195663
+    second: spr_kiro_sword_draw_strip56_45
+  - first:
+      213: 1414286775429880816
+    second: spr_kiro_sword_draw_strip56_46
+  - first:
+      213: -7564280048279974559
+    second: spr_kiro_sword_draw_strip56_47
+  - first:
+      213: -8560251021592367637
+    second: spr_kiro_sword_draw_strip56_48
+  - first:
+      213: 5331958678673016578
+    second: spr_kiro_sword_draw_strip56_49
+  - first:
+      213: 166925044708187103
+    second: spr_kiro_sword_draw_strip56_50
+  - first:
+      213: -3083141072531461544
+    second: spr_kiro_sword_draw_strip56_51
+  - first:
+      213: 153730057541134664
+    second: spr_kiro_sword_draw_strip56_52
+  - first:
+      213: -6444155535689598421
+    second: spr_kiro_sword_draw_strip56_53
+  - first:
+      213: -3407505539210692855
+    second: spr_kiro_sword_draw_strip56_54
+  - first:
+      213: 4717329726348524582
+    second: spr_kiro_sword_draw_strip56_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 81
+        width: 77
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fd8a699937c2120800000000000000
+      internalID: 2390412605721730823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_1
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 81
+        width: 77
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7380123fc2ebf2470800000000000000
+      internalID: 8372119332571908151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_2
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 81
+        width: 77
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96cf526e4783130b0800000000000000
+      internalID: -5750753174446801815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_3
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 81
+        width: 77
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1059ea1e058c440800000000000000
+      internalID: 4956300320148095411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_4
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 81
+        width: 77
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84be4f58cec3baee0800000000000000
+      internalID: -1248837485107811512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_5
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 81
+        width: 78
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476aceea4b6392740800000000000000
+      internalID: 5127689800394778228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_6
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 81
+        width: 78
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15ae21b8d2bf4370800000000000000
+      internalID: 8309056481277158684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_7
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 81
+        width: 78
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d36d10e7199863f0800000000000000
+      internalID: -907306997091834923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_8
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 81
+        width: 79
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39df36026af8402f0800000000000000
+      internalID: -1007522472953381485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_9
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 81
+        width: 80
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af075aac280ba0b0800000000000000
+      internalID: -5716466314087297112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_10
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 81
+        width: 80
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb84424ae2b11a540800000000000000
+      internalID: 5017321347003730110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_11
+      rect:
+        serializedVersion: 2
+        x: 2897
+        y: 81
+        width: 80
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6010ad6f86f261c0800000000000000
+      internalID: -4511772780791852946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_12
+      rect:
+        serializedVersion: 2
+        x: 3153
+        y: 81
+        width: 80
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6777c75d658ae30800000000000000
+      internalID: 4514954101355149029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_13
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 81
+        width: 80
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994ea8adcf973b040800000000000000
+      internalID: 4662204166163850393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_14
+      rect:
+        serializedVersion: 2
+        x: 3665
+        y: 81
+        width: 80
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092e713f5f484d060800000000000000
+      internalID: 6977347914584023696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_15
+      rect:
+        serializedVersion: 2
+        x: 3922
+        y: 81
+        width: 79
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf4fd62ceee72730800000000000000
+      internalID: 3974407894209613743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_16
+      rect:
+        serializedVersion: 2
+        x: 4178
+        y: 81
+        width: 79
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f82cc886b982b20800000000000000
+      internalID: 3109906416039792413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_17
+      rect:
+        serializedVersion: 2
+        x: 4435
+        y: 81
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721f060ca73dfd0e0800000000000000
+      internalID: -2242841565240168153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_18
+      rect:
+        serializedVersion: 2
+        x: 4694
+        y: 81
+        width: 78
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4840bafbc6f3b460800000000000000
+      internalID: 7256414780568651850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_19
+      rect:
+        serializedVersion: 2
+        x: 4952
+        y: 81
+        width: 76
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fa320b7650c3a20800000000000000
+      internalID: 3043313391090511667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_20
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 81
+        width: 77
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba62d64ad46bedaa0800000000000000
+      internalID: -6134265197844683093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_21
+      rect:
+        serializedVersion: 2
+        x: 5465
+        y: 81
+        width: 73
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e080c5c775e0120800000000000000
+      internalID: 2381937444557164083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_22
+      rect:
+        serializedVersion: 2
+        x: 5717
+        y: 81
+        width: 78
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0af91c3fc60c9a0800000000000000
+      internalID: -6214847691589967683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_23
+      rect:
+        serializedVersion: 2
+        x: 5972
+        y: 81
+        width: 79
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f979f6265870a79e0800000000000000
+      internalID: -1622976446250117217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_24
+      rect:
+        serializedVersion: 2
+        x: 6228
+        y: 81
+        width: 80
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc257c251830b190800000000000000
+      internalID: -7948791678717580085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_25
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 81
+        width: 86
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bdf2a388f4f0000800000000000000
+      internalID: 4309571161021292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_26
+      rect:
+        serializedVersion: 2
+        x: 6733
+        y: 81
+        width: 91
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331375280a09c9b70800000000000000
+      internalID: 8907153182087917875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_27
+      rect:
+        serializedVersion: 2
+        x: 6987
+        y: 81
+        width: 115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94a99377e52d3c00800000000000000
+      internalID: 881902778041607327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_28
+      rect:
+        serializedVersion: 2
+        x: 7243
+        y: 81
+        width: 112
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0734c00cb8b1630800000000000000
+      internalID: 3898863559375024333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_29
+      rect:
+        serializedVersion: 2
+        x: 7499
+        y: 81
+        width: 110
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db49e3df5df60ac00800000000000000
+      internalID: 909850089596294333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_30
+      rect:
+        serializedVersion: 2
+        x: 7756
+        y: 81
+        width: 104
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03620bff22e0eb700800000000000000
+      internalID: 557898947321931312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_31
+      rect:
+        serializedVersion: 2
+        x: 8013
+        y: 81
+        width: 99
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276f30cf6001c5610800000000000000
+      internalID: 1611180388875761266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_32
+      rect:
+        serializedVersion: 2
+        x: 8272
+        y: 81
+        width: 89
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7129cee46de6c250800000000000000
+      internalID: 5964715774257471868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_33
+      rect:
+        serializedVersion: 2
+        x: 8530
+        y: 81
+        width: 84
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f258d24a0fcae3000800000000000000
+      internalID: 17641598102635823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_34
+      rect:
+        serializedVersion: 2
+        x: 8788
+        y: 81
+        width: 82
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4c10554712b4050800000000000000
+      internalID: 5785754929813636287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_35
+      rect:
+        serializedVersion: 2
+        x: 9044
+        y: 81
+        width: 82
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e793e18c04ff0c8e0800000000000000
+      internalID: -1675058407681410690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_36
+      rect:
+        serializedVersion: 2
+        x: 9302
+        y: 81
+        width: 80
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84fe8d124bc6de50800000000000000
+      internalID: 6833872969405494410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_37
+      rect:
+        serializedVersion: 2
+        x: 9558
+        y: 81
+        width: 80
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcbfa54b89b1c320800000000000000
+      internalID: 2576544469653372148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_38
+      rect:
+        serializedVersion: 2
+        x: 9814
+        y: 81
+        width: 80
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f9eb09092f54c70800000000000000
+      internalID: 8954830136813723473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_39
+      rect:
+        serializedVersion: 2
+        x: 10070
+        y: 81
+        width: 80
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f851e1bc308c8420800000000000000
+      internalID: 2633620880275626233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_40
+      rect:
+        serializedVersion: 2
+        x: 10326
+        y: 81
+        width: 80
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d047067814ef440800000000000000
+      internalID: 4971483088358214989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_41
+      rect:
+        serializedVersion: 2
+        x: 10580
+        y: 81
+        width: 82
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0434853a0b0477f90800000000000000
+      internalID: -6956019972051549376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_42
+      rect:
+        serializedVersion: 2
+        x: 10835
+        y: 81
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1937df45897bd20800000000000000
+      internalID: 3294269143241691629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_43
+      rect:
+        serializedVersion: 2
+        x: 11090
+        y: 81
+        width: 82
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bbd8b45191d6680800000000000000
+      internalID: -8760318120913159398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_44
+      rect:
+        serializedVersion: 2
+        x: 11344
+        y: 81
+        width: 83
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911cfd6c5d55c0800800000000000000
+      internalID: 579932828676899097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_45
+      rect:
+        serializedVersion: 2
+        x: 11598
+        y: 81
+        width: 83
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47475191c9c42330800000000000000
+      internalID: 3685292228300195663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_46
+      rect:
+        serializedVersion: 2
+        x: 11854
+        y: 81
+        width: 83
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbd70c345e80a310800000000000000
+      internalID: 1414286775429880816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_47
+      rect:
+        serializedVersion: 2
+        x: 12109
+        y: 81
+        width: 84
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d82b49f57460790800000000000000
+      internalID: -7564280048279974559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_48
+      rect:
+        serializedVersion: 2
+        x: 12365
+        y: 81
+        width: 84
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bedefcdcc01e33980800000000000000
+      internalID: -8560251021592367637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_49
+      rect:
+        serializedVersion: 2
+        x: 12620
+        y: 81
+        width: 85
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207cd571b2ceef940800000000000000
+      internalID: 5331958678673016578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_50
+      rect:
+        serializedVersion: 2
+        x: 12877
+        y: 81
+        width: 84
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb92f99179015200800000000000000
+      internalID: 166925044708187103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_51
+      rect:
+        serializedVersion: 2
+        x: 13133
+        y: 81
+        width: 84
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a685b978b7635d0800000000000000
+      internalID: -3083141072531461544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_52
+      rect:
+        serializedVersion: 2
+        x: 13390
+        y: 81
+        width: 82
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8492a0f3ca8222200800000000000000
+      internalID: 153730057541134664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_53
+      rect:
+        serializedVersion: 2
+        x: 13647
+        y: 81
+        width: 81
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2abad1dea2c196a0800000000000000
+      internalID: -6444155535689598421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_54
+      rect:
+        serializedVersion: 2
+        x: 13904
+        y: 81
+        width: 80
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907bb2d04cb16b0d0800000000000000
+      internalID: -3407505539210692855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro_sword_draw_strip56_55
+      rect:
+        serializedVersion: 2
+        x: 14160
+        y: 81
+        width: 80
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cf4638462577140800000000000000
+      internalID: 4717329726348524582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_kiro_sword_draw_strip56_0: 2390412605721730823
+      spr_kiro_sword_draw_strip56_1: 8372119332571908151
+      spr_kiro_sword_draw_strip56_10: 5017321347003730110
+      spr_kiro_sword_draw_strip56_11: -4511772780791852946
+      spr_kiro_sword_draw_strip56_12: 4514954101355149029
+      spr_kiro_sword_draw_strip56_13: 4662204166163850393
+      spr_kiro_sword_draw_strip56_14: 6977347914584023696
+      spr_kiro_sword_draw_strip56_15: 3974407894209613743
+      spr_kiro_sword_draw_strip56_16: 3109906416039792413
+      spr_kiro_sword_draw_strip56_17: -2242841565240168153
+      spr_kiro_sword_draw_strip56_18: 7256414780568651850
+      spr_kiro_sword_draw_strip56_19: 3043313391090511667
+      spr_kiro_sword_draw_strip56_2: -5750753174446801815
+      spr_kiro_sword_draw_strip56_20: -6134265197844683093
+      spr_kiro_sword_draw_strip56_21: 2381937444557164083
+      spr_kiro_sword_draw_strip56_22: -6214847691589967683
+      spr_kiro_sword_draw_strip56_23: -1622976446250117217
+      spr_kiro_sword_draw_strip56_24: -7948791678717580085
+      spr_kiro_sword_draw_strip56_25: 4309571161021292
+      spr_kiro_sword_draw_strip56_26: 8907153182087917875
+      spr_kiro_sword_draw_strip56_27: 881902778041607327
+      spr_kiro_sword_draw_strip56_28: 3898863559375024333
+      spr_kiro_sword_draw_strip56_29: 909850089596294333
+      spr_kiro_sword_draw_strip56_3: 4956300320148095411
+      spr_kiro_sword_draw_strip56_30: 557898947321931312
+      spr_kiro_sword_draw_strip56_31: 1611180388875761266
+      spr_kiro_sword_draw_strip56_32: 5964715774257471868
+      spr_kiro_sword_draw_strip56_33: 17641598102635823
+      spr_kiro_sword_draw_strip56_34: 5785754929813636287
+      spr_kiro_sword_draw_strip56_35: -1675058407681410690
+      spr_kiro_sword_draw_strip56_36: 6833872969405494410
+      spr_kiro_sword_draw_strip56_37: 2576544469653372148
+      spr_kiro_sword_draw_strip56_38: 8954830136813723473
+      spr_kiro_sword_draw_strip56_39: 2633620880275626233
+      spr_kiro_sword_draw_strip56_4: -1248837485107811512
+      spr_kiro_sword_draw_strip56_40: 4971483088358214989
+      spr_kiro_sword_draw_strip56_41: -6956019972051549376
+      spr_kiro_sword_draw_strip56_42: 3294269143241691629
+      spr_kiro_sword_draw_strip56_43: -8760318120913159398
+      spr_kiro_sword_draw_strip56_44: 579932828676899097
+      spr_kiro_sword_draw_strip56_45: 3685292228300195663
+      spr_kiro_sword_draw_strip56_46: 1414286775429880816
+      spr_kiro_sword_draw_strip56_47: -7564280048279974559
+      spr_kiro_sword_draw_strip56_48: -8560251021592367637
+      spr_kiro_sword_draw_strip56_49: 5331958678673016578
+      spr_kiro_sword_draw_strip56_5: 5127689800394778228
+      spr_kiro_sword_draw_strip56_50: 166925044708187103
+      spr_kiro_sword_draw_strip56_51: -3083141072531461544
+      spr_kiro_sword_draw_strip56_52: 153730057541134664
+      spr_kiro_sword_draw_strip56_53: -6444155535689598421
+      spr_kiro_sword_draw_strip56_54: -3407505539210692855
+      spr_kiro_sword_draw_strip56_55: 4717329726348524582
+      spr_kiro_sword_draw_strip56_6: 8309056481277158684
+      spr_kiro_sword_draw_strip56_7: -907306997091834923
+      spr_kiro_sword_draw_strip56_8: -1007522472953381485
+      spr_kiro_sword_draw_strip56_9: -5716466314087297112
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
