@@ -117,7 +117,7 @@ TextureImporter:
     maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -145,12 +145,12 @@ TextureImporter:
       name: spr_kiro_run_strip15_0
       rect:
         serializedVersion: 2
-        x: 85
-        y: 82
-        width: 85
-        height: 91
+        x: 86
+        y: 83
+        width: 83
+        height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -167,12 +167,12 @@ TextureImporter:
       name: spr_kiro_run_strip15_1
       rect:
         serializedVersion: 2
-        x: 342
-        y: 81
-        width: 85
-        height: 93
+        x: 343
+        y: 82
+        width: 83
+        height: 91
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -189,12 +189,12 @@ TextureImporter:
       name: spr_kiro_run_strip15_2
       rect:
         serializedVersion: 2
-        x: 599
-        y: 83
-        width: 87
-        height: 92
+        x: 600
+        y: 84
+        width: 85
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -211,12 +211,12 @@ TextureImporter:
       name: spr_kiro_run_strip15_3
       rect:
         serializedVersion: 2
-        x: 855
-        y: 86
-        width: 87
-        height: 89
+        x: 856
+        y: 87
+        width: 85
+        height: 87
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -233,12 +233,12 @@ TextureImporter:
       name: spr_kiro_run_strip15_4
       rect:
         serializedVersion: 2
-        x: 1111
-        y: 89
-        width: 87
-        height: 86
+        x: 1112
+        y: 90
+        width: 85
+        height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -255,12 +255,12 @@ TextureImporter:
       name: spr_kiro_run_strip15_5
       rect:
         serializedVersion: 2
-        x: 1366
-        y: 83
-        width: 87
-        height: 90
+        x: 1367
+        y: 84
+        width: 85
+        height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -277,12 +277,12 @@ TextureImporter:
       name: spr_kiro_run_strip15_6
       rect:
         serializedVersion: 2
-        x: 1621
-        y: 81
-        width: 86
-        height: 92
+        x: 1622
+        y: 82
+        width: 84
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -299,12 +299,12 @@ TextureImporter:
       name: spr_kiro_run_strip15_7
       rect:
         serializedVersion: 2
-        x: 1877
-        y: 81
-        width: 85
-        height: 91
+        x: 1878
+        y: 82
+        width: 83
+        height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -321,12 +321,12 @@ TextureImporter:
       name: spr_kiro_run_strip15_8
       rect:
         serializedVersion: 2
-        x: 2133
-        y: 81
-        width: 85
-        height: 92
+        x: 2134
+        y: 82
+        width: 83
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -343,12 +343,12 @@ TextureImporter:
       name: spr_kiro_run_strip15_9
       rect:
         serializedVersion: 2
-        x: 2390
-        y: 81
-        width: 85
-        height: 93
+        x: 2391
+        y: 82
+        width: 83
+        height: 91
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -365,12 +365,12 @@ TextureImporter:
       name: spr_kiro_run_strip15_10
       rect:
         serializedVersion: 2
-        x: 2646
-        y: 82
-        width: 85
-        height: 93
+        x: 2647
+        y: 83
+        width: 83
+        height: 91
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -387,12 +387,12 @@ TextureImporter:
       name: spr_kiro_run_strip15_11
       rect:
         serializedVersion: 2
-        x: 2902
-        y: 89
-        width: 85
-        height: 86
+        x: 2903
+        y: 90
+        width: 83
+        height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -409,12 +409,12 @@ TextureImporter:
       name: spr_kiro_run_strip15_12
       rect:
         serializedVersion: 2
-        x: 3159
-        y: 88
-        width: 84
-        height: 86
+        x: 3160
+        y: 89
+        width: 82
+        height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -431,12 +431,12 @@ TextureImporter:
       name: spr_kiro_run_strip15_13
       rect:
         serializedVersion: 2
-        x: 3414
-        y: 83
-        width: 85
-        height: 90
+        x: 3415
+        y: 84
+        width: 83
+        height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -453,12 +453,12 @@ TextureImporter:
       name: spr_kiro_run_strip15_14
       rect:
         serializedVersion: 2
-        x: 3669
-        y: 81
-        width: 85
-        height: 91
+        x: 3670
+        y: 82
+        width: 83
+        height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -475,7 +475,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cbdc34ba8759e25418c19dda7bcc4989
     internalID: 0
     vertices: []
     indices: 
@@ -483,7 +483,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       spr_kiro_run_strip15_0: -5957486556268462042
       spr_kiro_run_strip15_1: -1731433659695171007
