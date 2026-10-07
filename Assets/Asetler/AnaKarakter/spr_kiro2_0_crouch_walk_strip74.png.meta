@@ -1,0 +1,2041 @@
+fileFormatVersion: 2
+guid: 14926b05d3070384d89795c76821347e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8579245008574147310
+    second: spr_kiro2_0_crouch_walk_strip74_0
+  - first:
+      213: -2302098912746340235
+    second: spr_kiro2_0_crouch_walk_strip74_1
+  - first:
+      213: -2982582449348395639
+    second: spr_kiro2_0_crouch_walk_strip74_2
+  - first:
+      213: 6573782463177422860
+    second: spr_kiro2_0_crouch_walk_strip74_3
+  - first:
+      213: -770834805614412733
+    second: spr_kiro2_0_crouch_walk_strip74_4
+  - first:
+      213: -8478244486641847517
+    second: spr_kiro2_0_crouch_walk_strip74_5
+  - first:
+      213: 983744233284783468
+    second: spr_kiro2_0_crouch_walk_strip74_6
+  - first:
+      213: -5642325933569351382
+    second: spr_kiro2_0_crouch_walk_strip74_7
+  - first:
+      213: -3951311411924718959
+    second: spr_kiro2_0_crouch_walk_strip74_8
+  - first:
+      213: -43884176472964468
+    second: spr_kiro2_0_crouch_walk_strip74_9
+  - first:
+      213: 5257914028249135773
+    second: spr_kiro2_0_crouch_walk_strip74_10
+  - first:
+      213: 6012425777836303875
+    second: spr_kiro2_0_crouch_walk_strip74_11
+  - first:
+      213: -2231277884132134597
+    second: spr_kiro2_0_crouch_walk_strip74_12
+  - first:
+      213: -7310024501970546992
+    second: spr_kiro2_0_crouch_walk_strip74_13
+  - first:
+      213: -8684702544689189411
+    second: spr_kiro2_0_crouch_walk_strip74_14
+  - first:
+      213: -1036500253515081147
+    second: spr_kiro2_0_crouch_walk_strip74_15
+  - first:
+      213: 7734356549590291642
+    second: spr_kiro2_0_crouch_walk_strip74_16
+  - first:
+      213: -6504899917807746577
+    second: spr_kiro2_0_crouch_walk_strip74_17
+  - first:
+      213: 335051452968402477
+    second: spr_kiro2_0_crouch_walk_strip74_18
+  - first:
+      213: -6125008268352642167
+    second: spr_kiro2_0_crouch_walk_strip74_19
+  - first:
+      213: 2831205612085510658
+    second: spr_kiro2_0_crouch_walk_strip74_20
+  - first:
+      213: 8718480640998494233
+    second: spr_kiro2_0_crouch_walk_strip74_21
+  - first:
+      213: -5946914830580058283
+    second: spr_kiro2_0_crouch_walk_strip74_22
+  - first:
+      213: -3800538775845692579
+    second: spr_kiro2_0_crouch_walk_strip74_23
+  - first:
+      213: 7552263142685354729
+    second: spr_kiro2_0_crouch_walk_strip74_24
+  - first:
+      213: 7106975753583085262
+    second: spr_kiro2_0_crouch_walk_strip74_25
+  - first:
+      213: -9129217786656045401
+    second: spr_kiro2_0_crouch_walk_strip74_26
+  - first:
+      213: -7594117076406770703
+    second: spr_kiro2_0_crouch_walk_strip74_27
+  - first:
+      213: -628611533866166416
+    second: spr_kiro2_0_crouch_walk_strip74_28
+  - first:
+      213: -3850042045531604401
+    second: spr_kiro2_0_crouch_walk_strip74_29
+  - first:
+      213: 1539407441924855172
+    second: spr_kiro2_0_crouch_walk_strip74_30
+  - first:
+      213: 6716228448117556037
+    second: spr_kiro2_0_crouch_walk_strip74_31
+  - first:
+      213: 4491271451600765478
+    second: spr_kiro2_0_crouch_walk_strip74_32
+  - first:
+      213: 192341457397873310
+    second: spr_kiro2_0_crouch_walk_strip74_33
+  - first:
+      213: -3359148686232822317
+    second: spr_kiro2_0_crouch_walk_strip74_34
+  - first:
+      213: -2261965574058996572
+    second: spr_kiro2_0_crouch_walk_strip74_35
+  - first:
+      213: 5707246634359961552
+    second: spr_kiro2_0_crouch_walk_strip74_36
+  - first:
+      213: 2479313381929896905
+    second: spr_kiro2_0_crouch_walk_strip74_37
+  - first:
+      213: -7780347894223279067
+    second: spr_kiro2_0_crouch_walk_strip74_38
+  - first:
+      213: -7446400419507102795
+    second: spr_kiro2_0_crouch_walk_strip74_39
+  - first:
+      213: -8055741503022375240
+    second: spr_kiro2_0_crouch_walk_strip74_40
+  - first:
+      213: 7592556626016623190
+    second: spr_kiro2_0_crouch_walk_strip74_41
+  - first:
+      213: -8756201170294766107
+    second: spr_kiro2_0_crouch_walk_strip74_42
+  - first:
+      213: 7829608916338389976
+    second: spr_kiro2_0_crouch_walk_strip74_43
+  - first:
+      213: -3385655615608320001
+    second: spr_kiro2_0_crouch_walk_strip74_44
+  - first:
+      213: -8684862031149962400
+    second: spr_kiro2_0_crouch_walk_strip74_45
+  - first:
+      213: 7716838550553722968
+    second: spr_kiro2_0_crouch_walk_strip74_46
+  - first:
+      213: -6908715828960374483
+    second: spr_kiro2_0_crouch_walk_strip74_47
+  - first:
+      213: -7844887540116308042
+    second: spr_kiro2_0_crouch_walk_strip74_48
+  - first:
+      213: 7356673217852395509
+    second: spr_kiro2_0_crouch_walk_strip74_49
+  - first:
+      213: -3914471627373016562
+    second: spr_kiro2_0_crouch_walk_strip74_50
+  - first:
+      213: -2780552787518461770
+    second: spr_kiro2_0_crouch_walk_strip74_51
+  - first:
+      213: -9051790146855511273
+    second: spr_kiro2_0_crouch_walk_strip74_52
+  - first:
+      213: 8057278764984252148
+    second: spr_kiro2_0_crouch_walk_strip74_53
+  - first:
+      213: 7092221558401082174
+    second: spr_kiro2_0_crouch_walk_strip74_54
+  - first:
+      213: -1858953193488913244
+    second: spr_kiro2_0_crouch_walk_strip74_55
+  - first:
+      213: 2511145744655146983
+    second: spr_kiro2_0_crouch_walk_strip74_56
+  - first:
+      213: 4078271943390216961
+    second: spr_kiro2_0_crouch_walk_strip74_57
+  - first:
+      213: 1789041508415840265
+    second: spr_kiro2_0_crouch_walk_strip74_58
+  - first:
+      213: 2070657572403966406
+    second: spr_kiro2_0_crouch_walk_strip74_59
+  - first:
+      213: 594749751546602771
+    second: spr_kiro2_0_crouch_walk_strip74_60
+  - first:
+      213: -7895985423163954197
+    second: spr_kiro2_0_crouch_walk_strip74_61
+  - first:
+      213: 7210871089621535495
+    second: spr_kiro2_0_crouch_walk_strip74_62
+  - first:
+      213: -2517935697930205729
+    second: spr_kiro2_0_crouch_walk_strip74_63
+  - first:
+      213: -3120167108524794174
+    second: spr_kiro2_0_crouch_walk_strip74_64
+  - first:
+      213: -6463794494763244714
+    second: spr_kiro2_0_crouch_walk_strip74_65
+  - first:
+      213: 5190331192359832544
+    second: spr_kiro2_0_crouch_walk_strip74_66
+  - first:
+      213: 8615773377925107541
+    second: spr_kiro2_0_crouch_walk_strip74_67
+  - first:
+      213: -3144180292582234338
+    second: spr_kiro2_0_crouch_walk_strip74_68
+  - first:
+      213: -7769975945764249454
+    second: spr_kiro2_0_crouch_walk_strip74_69
+  - first:
+      213: 356377282570881769
+    second: spr_kiro2_0_crouch_walk_strip74_70
+  - first:
+      213: 1562751243845511533
+    second: spr_kiro2_0_crouch_walk_strip74_71
+  - first:
+      213: -6950932610763915796
+    second: spr_kiro2_0_crouch_walk_strip74_72
+  - first:
+      213: -5348913088011749657
+    second: spr_kiro2_0_crouch_walk_strip74_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 65
+        width: 175
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeaea1961e99f0770800000000000000
+      internalID: 8579245008574147310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 65
+        width: 173
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57001f36c3d4d00e0800000000000000
+      internalID: -2302098912746340235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 66
+        width: 173
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d3641901dbb96d0800000000000000
+      internalID: -2982582449348395639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_3
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 65
+        width: 172
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08f1642254ca3b50800000000000000
+      internalID: 6573782463177422860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_4
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 64
+        width: 172
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c78de04d17d45f0800000000000000
+      internalID: -770834805614412733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_5
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 64
+        width: 172
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3237cce1f89375a80800000000000000
+      internalID: -8478244486641847517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_6
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 64
+        width: 172
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d47c60b26f6ad00800000000000000
+      internalID: 983744233284783468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_7
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 64
+        width: 173
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21ef9e257e62b1b0800000000000000
+      internalID: -5642325933569351382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_8
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 64
+        width: 175
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19aa74fa43f1a29c0800000000000000
+      internalID: -3951311411924718959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_9
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 64
+        width: 177
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c828112f297146ff0800000000000000
+      internalID: -43884176472964468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_10
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 63
+        width: 178
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a355973fcd7f840800000000000000
+      internalID: 5257914028249135773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_11
+      rect:
+        serializedVersion: 2
+        x: 2873
+        y: 64
+        width: 177
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306a556c36d607350800000000000000
+      internalID: 6012425777836303875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_12
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 64
+        width: 177
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b317e111698e801e0800000000000000
+      internalID: -2231277884132134597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_13
+      rect:
+        serializedVersion: 2
+        x: 3385
+        y: 64
+        width: 176
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dec4a412739d8a90800000000000000
+      internalID: -7310024501970546992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_14
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 64
+        width: 173
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dddaed39c0db97780800000000000000
+      internalID: -8684702544689189411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_15
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 64
+        width: 172
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a91a3d28c9d91f0800000000000000
+      internalID: -1036500253515081147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_16
+      rect:
+        serializedVersion: 2
+        x: 4156
+        y: 64
+        width: 171
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab49b80bd44f55b60800000000000000
+      internalID: 7734356549590291642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_17
+      rect:
+        serializedVersion: 2
+        x: 4413
+        y: 64
+        width: 169
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe10a9b3df3f9b5a0800000000000000
+      internalID: -6504899917807746577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_18
+      rect:
+        serializedVersion: 2
+        x: 4669
+        y: 64
+        width: 169
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ef8a3758756a400800000000000000
+      internalID: 335051452968402477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_19
+      rect:
+        serializedVersion: 2
+        x: 4925
+        y: 64
+        width: 169
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983a28e7e699ffaa0800000000000000
+      internalID: -6125008268352642167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_20
+      rect:
+        serializedVersion: 2
+        x: 5181
+        y: 64
+        width: 169
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202037af0867a4720800000000000000
+      internalID: 2831205612085510658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_21
+      rect:
+        serializedVersion: 2
+        x: 5437
+        y: 64
+        width: 169
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910d5d353f34ef870800000000000000
+      internalID: 8718480640998494233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_22
+      rect:
+        serializedVersion: 2
+        x: 5693
+        y: 64
+        width: 169
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557f5cd3870587da0800000000000000
+      internalID: -5946914830580058283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_23
+      rect:
+        serializedVersion: 2
+        x: 5948
+        y: 64
+        width: 170
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b9e969e16c14bc0800000000000000
+      internalID: -3800538775845692579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_24
+      rect:
+        serializedVersion: 2
+        x: 6205
+        y: 65
+        width: 169
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea290e80570fc860800000000000000
+      internalID: 7552263142685354729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_25
+      rect:
+        serializedVersion: 2
+        x: 6460
+        y: 65
+        width: 170
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec642a32bcc01a260800000000000000
+      internalID: 7106975753583085262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_26
+      rect:
+        serializedVersion: 2
+        x: 6715
+        y: 65
+        width: 171
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6403daac08e4180800000000000000
+      internalID: -9129217786656045401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_27
+      rect:
+        serializedVersion: 2
+        x: 6970
+        y: 65
+        width: 172
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3eb0e11c64c9690800000000000000
+      internalID: -7594117076406770703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_28
+      rect:
+        serializedVersion: 2
+        x: 7225
+        y: 65
+        width: 174
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0779136f329b647f0800000000000000
+      internalID: -628611533866166416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_29
+      rect:
+        serializedVersion: 2
+        x: 7481
+        y: 65
+        width: 174
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a35c17827e19ac0800000000000000
+      internalID: -3850042045531604401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_30
+      rect:
+        serializedVersion: 2
+        x: 7737
+        y: 65
+        width: 175
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485168c89e21d5510800000000000000
+      internalID: 1539407441924855172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_31
+      rect:
+        serializedVersion: 2
+        x: 7992
+        y: 65
+        width: 176
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5438b608036d43d50800000000000000
+      internalID: 6716228448117556037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_32
+      rect:
+        serializedVersion: 2
+        x: 8248
+        y: 65
+        width: 177
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6224486e693345e30800000000000000
+      internalID: 4491271451600765478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_33
+      rect:
+        serializedVersion: 2
+        x: 8505
+        y: 65
+        width: 177
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9af7c359855ba200800000000000000
+      internalID: 192341457397873310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_34
+      rect:
+        serializedVersion: 2
+        x: 8761
+        y: 65
+        width: 177
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd5f514118e161d0800000000000000
+      internalID: -3359148686232822317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_35
+      rect:
+        serializedVersion: 2
+        x: 9017
+        y: 65
+        width: 178
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac0d087b42eb90e0800000000000000
+      internalID: -2261965574058996572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_36
+      rect:
+        serializedVersion: 2
+        x: 9273
+        y: 65
+        width: 178
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7b19e5396343f40800000000000000
+      internalID: 5707246634359961552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_37
+      rect:
+        serializedVersion: 2
+        x: 9530
+        y: 65
+        width: 178
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbcdc8826a486220800000000000000
+      internalID: 2479313381929896905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_38
+      rect:
+        serializedVersion: 2
+        x: 9786
+        y: 65
+        width: 178
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52cecdfefc6a60490800000000000000
+      internalID: -7780347894223279067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_39
+      rect:
+        serializedVersion: 2
+        x: 10043
+        y: 66
+        width: 177
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb95fb654219a890800000000000000
+      internalID: -7446400419507102795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_40
+      rect:
+        serializedVersion: 2
+        x: 10298
+        y: 66
+        width: 178
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bedafdb8c1443090800000000000000
+      internalID: -8055741503022375240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_41
+      rect:
+        serializedVersion: 2
+        x: 10555
+        y: 65
+        width: 177
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a52c6360e2e5960800000000000000
+      internalID: 7592556626016623190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_42
+      rect:
+        serializedVersion: 2
+        x: 10810
+        y: 65
+        width: 178
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e588be8d69bb7680800000000000000
+      internalID: -8756201170294766107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_43
+      rect:
+        serializedVersion: 2
+        x: 11067
+        y: 64
+        width: 177
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3b49c83db58ac60800000000000000
+      internalID: 7829608916338389976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_44
+      rect:
+        serializedVersion: 2
+        x: 11323
+        y: 64
+        width: 176
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff0cd3d72cb301d0800000000000000
+      internalID: -3385655615608320001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_45
+      rect:
+        serializedVersion: 2
+        x: 11578
+        y: 64
+        width: 177
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b670e3ffb297780800000000000000
+      internalID: -8684862031149962400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_46
+      rect:
+        serializedVersion: 2
+        x: 11834
+        y: 63
+        width: 177
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8508bc2b6c7b71b60800000000000000
+      internalID: 7716838550553722968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_47
+      rect:
+        serializedVersion: 2
+        x: 12090
+        y: 63
+        width: 175
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21d2b8be8f4f10a0800000000000000
+      internalID: -6908715828960374483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_48
+      rect:
+        serializedVersion: 2
+        x: 12346
+        y: 64
+        width: 175
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bfba74a85c512390800000000000000
+      internalID: -7844887540116308042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_49
+      rect:
+        serializedVersion: 2
+        x: 12603
+        y: 64
+        width: 174
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ffc8b67057281660800000000000000
+      internalID: 7356673217852395509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_50
+      rect:
+        serializedVersion: 2
+        x: 12860
+        y: 64
+        width: 172
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a061f6bc00da9c0800000000000000
+      internalID: -3914471627373016562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_51
+      rect:
+        serializedVersion: 2
+        x: 13116
+        y: 64
+        width: 172
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b86db4c8fd7969d0800000000000000
+      internalID: -2780552787518461770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_52
+      rect:
+        serializedVersion: 2
+        x: 13373
+        y: 64
+        width: 170
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bdb43e1d4916280800000000000000
+      internalID: -9051790146855511273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_53
+      rect:
+        serializedVersion: 2
+        x: 13629
+        y: 64
+        width: 170
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f63f23f85431df60800000000000000
+      internalID: 8057278764984252148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_54
+      rect:
+        serializedVersion: 2
+        x: 13885
+        y: 64
+        width: 170
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e332dd06ee1ac6260800000000000000
+      internalID: 7092221558401082174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_55
+      rect:
+        serializedVersion: 2
+        x: 14141
+        y: 64
+        width: 169
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ace3007beba336e0800000000000000
+      internalID: -1858953193488913244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_56
+      rect:
+        serializedVersion: 2
+        x: 14396
+        y: 64
+        width: 169
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef576900c169d220800000000000000
+      internalID: 2511145744655146983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_57
+      rect:
+        serializedVersion: 2
+        x: 14652
+        y: 64
+        width: 169
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103473399bee89830800000000000000
+      internalID: 4078271943390216961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_58
+      rect:
+        serializedVersion: 2
+        x: 14908
+        y: 64
+        width: 169
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9002e8de5c3f3d810800000000000000
+      internalID: 1789041508415840265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_59
+      rect:
+        serializedVersion: 2
+        x: 15164
+        y: 64
+        width: 169
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c17c9e57147cbc10800000000000000
+      internalID: 2070657572403966406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_60
+      rect:
+        serializedVersion: 2
+        x: 15418
+        y: 65
+        width: 171
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315ef277fb9f04800800000000000000
+      internalID: 594749751546602771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_61
+      rect:
+        serializedVersion: 2
+        x: 15673
+        y: 65
+        width: 172
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb66a4a713db6290800000000000000
+      internalID: -7895985423163954197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_62
+      rect:
+        serializedVersion: 2
+        x: 15929
+        y: 65
+        width: 173
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b860a1d09221460800000000000000
+      internalID: 7210871089621535495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_63
+      rect:
+        serializedVersion: 2
+        x: 16184
+        y: 65
+        width: 174
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd54895c2de7e0dd0800000000000000
+      internalID: -2517935697930205729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_64
+      rect:
+        serializedVersion: 2
+        x: 16440
+        y: 65
+        width: 174
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce9580db80f2b4d0800000000000000
+      internalID: -3120167108524794174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_65
+      rect:
+        serializedVersion: 2
+        x: 16696
+        y: 65
+        width: 175
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653e286572dfb46a0800000000000000
+      internalID: -6463794494763244714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_66
+      rect:
+        serializedVersion: 2
+        x: 16952
+        y: 65
+        width: 174
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebcc3b48b2c70840800000000000000
+      internalID: 5190331192359832544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_67
+      rect:
+        serializedVersion: 2
+        x: 17208
+        y: 65
+        width: 176
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f4e782d30619770800000000000000
+      internalID: 8615773377925107541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_68
+      rect:
+        serializedVersion: 2
+        x: 17464
+        y: 65
+        width: 176
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e172ad6bea0ad54d0800000000000000
+      internalID: -3144180292582234338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_69
+      rect:
+        serializedVersion: 2
+        x: 17720
+        y: 65
+        width: 177
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290646f5b008b2490800000000000000
+      internalID: -7769975945764249454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_70
+      rect:
+        serializedVersion: 2
+        x: 17977
+        y: 65
+        width: 177
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea08a5104b12f400800000000000000
+      internalID: 356377282570881769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_71
+      rect:
+        serializedVersion: 2
+        x: 18233
+        y: 65
+        width: 178
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6926b9f9f100b510800000000000000
+      internalID: 1562751243845511533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_72
+      rect:
+        serializedVersion: 2
+        x: 18491
+        y: 65
+        width: 176
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedfcbd3e93598f90800000000000000
+      internalID: -6950932610763915796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_crouch_walk_strip74_73
+      rect:
+        serializedVersion: 2
+        x: 18748
+        y: 65
+        width: 176
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e63f9ed2e7d4c5b0800000000000000
+      internalID: -5348913088011749657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_kiro2_0_crouch_walk_strip74_0: 8579245008574147310
+      spr_kiro2_0_crouch_walk_strip74_1: -2302098912746340235
+      spr_kiro2_0_crouch_walk_strip74_10: 5257914028249135773
+      spr_kiro2_0_crouch_walk_strip74_11: 6012425777836303875
+      spr_kiro2_0_crouch_walk_strip74_12: -2231277884132134597
+      spr_kiro2_0_crouch_walk_strip74_13: -7310024501970546992
+      spr_kiro2_0_crouch_walk_strip74_14: -8684702544689189411
+      spr_kiro2_0_crouch_walk_strip74_15: -1036500253515081147
+      spr_kiro2_0_crouch_walk_strip74_16: 7734356549590291642
+      spr_kiro2_0_crouch_walk_strip74_17: -6504899917807746577
+      spr_kiro2_0_crouch_walk_strip74_18: 335051452968402477
+      spr_kiro2_0_crouch_walk_strip74_19: -6125008268352642167
+      spr_kiro2_0_crouch_walk_strip74_2: -2982582449348395639
+      spr_kiro2_0_crouch_walk_strip74_20: 2831205612085510658
+      spr_kiro2_0_crouch_walk_strip74_21: 8718480640998494233
+      spr_kiro2_0_crouch_walk_strip74_22: -5946914830580058283
+      spr_kiro2_0_crouch_walk_strip74_23: -3800538775845692579
+      spr_kiro2_0_crouch_walk_strip74_24: 7552263142685354729
+      spr_kiro2_0_crouch_walk_strip74_25: 7106975753583085262
+      spr_kiro2_0_crouch_walk_strip74_26: -9129217786656045401
+      spr_kiro2_0_crouch_walk_strip74_27: -7594117076406770703
+      spr_kiro2_0_crouch_walk_strip74_28: -628611533866166416
+      spr_kiro2_0_crouch_walk_strip74_29: -3850042045531604401
+      spr_kiro2_0_crouch_walk_strip74_3: 6573782463177422860
+      spr_kiro2_0_crouch_walk_strip74_30: 1539407441924855172
+      spr_kiro2_0_crouch_walk_strip74_31: 6716228448117556037
+      spr_kiro2_0_crouch_walk_strip74_32: 4491271451600765478
+      spr_kiro2_0_crouch_walk_strip74_33: 192341457397873310
+      spr_kiro2_0_crouch_walk_strip74_34: -3359148686232822317
+      spr_kiro2_0_crouch_walk_strip74_35: -2261965574058996572
+      spr_kiro2_0_crouch_walk_strip74_36: 5707246634359961552
+      spr_kiro2_0_crouch_walk_strip74_37: 2479313381929896905
+      spr_kiro2_0_crouch_walk_strip74_38: -7780347894223279067
+      spr_kiro2_0_crouch_walk_strip74_39: -7446400419507102795
+      spr_kiro2_0_crouch_walk_strip74_4: -770834805614412733
+      spr_kiro2_0_crouch_walk_strip74_40: -8055741503022375240
+      spr_kiro2_0_crouch_walk_strip74_41: 7592556626016623190
+      spr_kiro2_0_crouch_walk_strip74_42: -8756201170294766107
+      spr_kiro2_0_crouch_walk_strip74_43: 7829608916338389976
+      spr_kiro2_0_crouch_walk_strip74_44: -3385655615608320001
+      spr_kiro2_0_crouch_walk_strip74_45: -8684862031149962400
+      spr_kiro2_0_crouch_walk_strip74_46: 7716838550553722968
+      spr_kiro2_0_crouch_walk_strip74_47: -6908715828960374483
+      spr_kiro2_0_crouch_walk_strip74_48: -7844887540116308042
+      spr_kiro2_0_crouch_walk_strip74_49: 7356673217852395509
+      spr_kiro2_0_crouch_walk_strip74_5: -8478244486641847517
+      spr_kiro2_0_crouch_walk_strip74_50: -3914471627373016562
+      spr_kiro2_0_crouch_walk_strip74_51: -2780552787518461770
+      spr_kiro2_0_crouch_walk_strip74_52: -9051790146855511273
+      spr_kiro2_0_crouch_walk_strip74_53: 8057278764984252148
+      spr_kiro2_0_crouch_walk_strip74_54: 7092221558401082174
+      spr_kiro2_0_crouch_walk_strip74_55: -1858953193488913244
+      spr_kiro2_0_crouch_walk_strip74_56: 2511145744655146983
+      spr_kiro2_0_crouch_walk_strip74_57: 4078271943390216961
+      spr_kiro2_0_crouch_walk_strip74_58: 1789041508415840265
+      spr_kiro2_0_crouch_walk_strip74_59: 2070657572403966406
+      spr_kiro2_0_crouch_walk_strip74_6: 983744233284783468
+      spr_kiro2_0_crouch_walk_strip74_60: 594749751546602771
+      spr_kiro2_0_crouch_walk_strip74_61: -7895985423163954197
+      spr_kiro2_0_crouch_walk_strip74_62: 7210871089621535495
+      spr_kiro2_0_crouch_walk_strip74_63: -2517935697930205729
+      spr_kiro2_0_crouch_walk_strip74_64: -3120167108524794174
+      spr_kiro2_0_crouch_walk_strip74_65: -6463794494763244714
+      spr_kiro2_0_crouch_walk_strip74_66: 5190331192359832544
+      spr_kiro2_0_crouch_walk_strip74_67: 8615773377925107541
+      spr_kiro2_0_crouch_walk_strip74_68: -3144180292582234338
+      spr_kiro2_0_crouch_walk_strip74_69: -7769975945764249454
+      spr_kiro2_0_crouch_walk_strip74_7: -5642325933569351382
+      spr_kiro2_0_crouch_walk_strip74_70: 356377282570881769
+      spr_kiro2_0_crouch_walk_strip74_71: 1562751243845511533
+      spr_kiro2_0_crouch_walk_strip74_72: -6950932610763915796
+      spr_kiro2_0_crouch_walk_strip74_73: -5348913088011749657
+      spr_kiro2_0_crouch_walk_strip74_8: -3951311411924718959
+      spr_kiro2_0_crouch_walk_strip74_9: -43884176472964468
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1833 @@
+fileFormatVersion: 2
+guid: 6fc4c63e0b8bb0948852a203689de679
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8606468533326497272
+    second: spr_kiro2_0_hurt_strip58_0
+  - first:
+      213: 3159023479092857344
+    second: spr_kiro2_0_hurt_strip58_1
+  - first:
+      213: 7918360911431178953
+    second: spr_kiro2_0_hurt_strip58_2
+  - first:
+      213: 5022964985298984352
+    second: spr_kiro2_0_hurt_strip58_3
+  - first:
+      213: 5603819017366957160
+    second: spr_kiro2_0_hurt_strip58_4
+  - first:
+      213: -2719600289472743730
+    second: spr_kiro2_0_hurt_strip58_5
+  - first:
+      213: 271213148049107284
+    second: spr_kiro2_0_hurt_strip58_6
+  - first:
+      213: -2086439831427854110
+    second: spr_kiro2_0_hurt_strip58_7
+  - first:
+      213: -7592957359201970432
+    second: spr_kiro2_0_hurt_strip58_8
+  - first:
+      213: 7621664760603753217
+    second: spr_kiro2_0_hurt_strip58_9
+  - first:
+      213: -2829369113549640167
+    second: spr_kiro2_0_hurt_strip58_10
+  - first:
+      213: 4961629734704184874
+    second: spr_kiro2_0_hurt_strip58_11
+  - first:
+      213: 8494718439043549246
+    second: spr_kiro2_0_hurt_strip58_12
+  - first:
+      213: -7366911832381549991
+    second: spr_kiro2_0_hurt_strip58_13
+  - first:
+      213: 1034624983892786459
+    second: spr_kiro2_0_hurt_strip58_14
+  - first:
+      213: 1591664768459029564
+    second: spr_kiro2_0_hurt_strip58_15
+  - first:
+      213: -8686797455682712738
+    second: spr_kiro2_0_hurt_strip58_16
+  - first:
+      213: -2431673149713099837
+    second: spr_kiro2_0_hurt_strip58_17
+  - first:
+      213: -3638896619264640078
+    second: spr_kiro2_0_hurt_strip58_18
+  - first:
+      213: 2809761354599279421
+    second: spr_kiro2_0_hurt_strip58_19
+  - first:
+      213: -7863805051979130440
+    second: spr_kiro2_0_hurt_strip58_20
+  - first:
+      213: -5737154913517034642
+    second: spr_kiro2_0_hurt_strip58_21
+  - first:
+      213: 8170141464370932563
+    second: spr_kiro2_0_hurt_strip58_22
+  - first:
+      213: 7079200974502813171
+    second: spr_kiro2_0_hurt_strip58_23
+  - first:
+      213: 8051307187914318407
+    second: spr_kiro2_0_hurt_strip58_24
+  - first:
+      213: 3645614037323921137
+    second: spr_kiro2_0_hurt_strip58_25
+  - first:
+      213: 2618058805715518959
+    second: spr_kiro2_0_hurt_strip58_26
+  - first:
+      213: 1415362215676004881
+    second: spr_kiro2_0_hurt_strip58_27
+  - first:
+      213: -4888224867032077724
+    second: spr_kiro2_0_hurt_strip58_28
+  - first:
+      213: 1260735790853376670
+    second: spr_kiro2_0_hurt_strip58_29
+  - first:
+      213: -3030967936221806152
+    second: spr_kiro2_0_hurt_strip58_30
+  - first:
+      213: 4834168934398702224
+    second: spr_kiro2_0_hurt_strip58_31
+  - first:
+      213: 2544537387555434924
+    second: spr_kiro2_0_hurt_strip58_32
+  - first:
+      213: 455225496248578963
+    second: spr_kiro2_0_hurt_strip58_33
+  - first:
+      213: -6264492388805612078
+    second: spr_kiro2_0_hurt_strip58_34
+  - first:
+      213: 2270196056020491658
+    second: spr_kiro2_0_hurt_strip58_35
+  - first:
+      213: 5137496461136070980
+    second: spr_kiro2_0_hurt_strip58_36
+  - first:
+      213: 819930187024590169
+    second: spr_kiro2_0_hurt_strip58_37
+  - first:
+      213: 6499497236966553185
+    second: spr_kiro2_0_hurt_strip58_38
+  - first:
+      213: 3070810412092987313
+    second: spr_kiro2_0_hurt_strip58_39
+  - first:
+      213: -7538744960297208093
+    second: spr_kiro2_0_hurt_strip58_40
+  - first:
+      213: 196272701925659299
+    second: spr_kiro2_0_hurt_strip58_41
+  - first:
+      213: -1870176733898689836
+    second: spr_kiro2_0_hurt_strip58_42
+  - first:
+      213: 4957271074263062165
+    second: spr_kiro2_0_hurt_strip58_43
+  - first:
+      213: 259903014884762495
+    second: spr_kiro2_0_hurt_strip58_44
+  - first:
+      213: 4644773030494209129
+    second: spr_kiro2_0_hurt_strip58_45
+  - first:
+      213: -987899886454433972
+    second: spr_kiro2_0_hurt_strip58_46
+  - first:
+      213: -5432742085513298489
+    second: spr_kiro2_0_hurt_strip58_47
+  - first:
+      213: 8352426424349355931
+    second: spr_kiro2_0_hurt_strip58_48
+  - first:
+      213: -8698275711103910290
+    second: spr_kiro2_0_hurt_strip58_49
+  - first:
+      213: 1816790826122837258
+    second: spr_kiro2_0_hurt_strip58_50
+  - first:
+      213: 5540438370105889169
+    second: spr_kiro2_0_hurt_strip58_51
+  - first:
+      213: -4852047811785833952
+    second: spr_kiro2_0_hurt_strip58_52
+  - first:
+      213: 7241933843145071579
+    second: spr_kiro2_0_hurt_strip58_53
+  - first:
+      213: -3717446033263926595
+    second: spr_kiro2_0_hurt_strip58_54
+  - first:
+      213: 8278439853319204272
+    second: spr_kiro2_0_hurt_strip58_55
+  - first:
+      213: 8099709697633817743
+    second: spr_kiro2_0_hurt_strip58_56
+  - first:
+      213: 8628034280378550567
+    second: spr_kiro2_0_hurt_strip58_57
+  - first:
+      213: -1887062594344970671
+    second: spr_kiro2_0_hurt_strip58_58
+  - first:
+      213: -3174269543333796338
+    second: spr_kiro2_0_hurt_strip58_59
+  - first:
+      213: 168007180587552932
+    second: spr_kiro2_0_hurt_strip58_60
+  - first:
+      213: 3213159636307040121
+    second: spr_kiro2_0_hurt_strip58_61
+  - first:
+      213: -3345701555498791039
+    second: spr_kiro2_0_hurt_strip58_62
+  - first:
+      213: -9158118826653429419
+    second: spr_kiro2_0_hurt_strip58_63
+  - first:
+      213: 8454039816848498823
+    second: spr_kiro2_0_hurt_strip58_64
+  - first:
+      213: -8701295070162293899
+    second: spr_kiro2_0_hurt_strip58_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_0
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 145
+        width: 124
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5c0833881507770800000000000000
+      internalID: 8606468533326497272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_1
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 174
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ac274fd1b17db20800000000000000
+      internalID: 3159023479092857344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_2
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 178
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca9131bb4ba3ed60800000000000000
+      internalID: 7918360911431178953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_3
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 187
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad98f39a0825b540800000000000000
+      internalID: 5022964985298984352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_4
+      rect:
+        serializedVersion: 2
+        x: 2975
+        y: 196
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c6cbbb4b3c4cd40800000000000000
+      internalID: 5603819017366957160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_5
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 200
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec67dee12f9024ad0800000000000000
+      internalID: -2719600289472743730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_6
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 65
+        width: 191
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459e1e3dbea83c300800000000000000
+      internalID: 271213148049107284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_7
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 65
+        width: 168
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0548a170a7b03e0800000000000000
+      internalID: -2086439831427854110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 65
+        width: 169
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0071412d28560a690800000000000000
+      internalID: -7592957359201970432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_9
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 65
+        width: 169
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b36ece7b795c960800000000000000
+      internalID: 7621664760603753217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_10
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 65
+        width: 200
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e696828cf0cb8d0800000000000000
+      internalID: -2829369113549640167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_11
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 65
+        width: 200
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2efe04b4ff3bd440800000000000000
+      internalID: 4961629734704184874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_12
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 65
+        width: 200
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38c622d96d43e570800000000000000
+      internalID: 8494718439043549246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_13
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 65
+        width: 204
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952964358b873c990800000000000000
+      internalID: -7366911832381549991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_14
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 65
+        width: 186
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d7ca0f0f9bb5e00800000000000000
+      internalID: 1034624983892786459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_15
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 65
+        width: 185
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c31858caab61610800000000000000
+      internalID: 1591664768459029564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_16
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 174
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5bc34a1dbb427780800000000000000
+      internalID: -8686797455682712738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_17
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 65
+        width: 188
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3de756726f04ed0800000000000000
+      internalID: -2431673149713099837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_18
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 185
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb7c52fdca008dc0800000000000000
+      internalID: -3638896619264640078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_19
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 65
+        width: 188
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ba284b0174ef620800000000000000
+      internalID: 2809761354599279421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_20
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 65
+        width: 189
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b99cdd28f62ed290800000000000000
+      internalID: -7863805051979130440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_21
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 65
+        width: 191
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e632e6eb0088160b0800000000000000
+      internalID: -5737154913517034642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_22
+      rect:
+        serializedVersion: 2
+        x: 3615
+        y: 65
+        width: 192
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35be484ef5c226170800000000000000
+      internalID: 8170141464370932563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_23
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 65
+        width: 192
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fdd6d277cf5e3260800000000000000
+      internalID: 7079200974502813171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_24
+      rect:
+        serializedVersion: 2
+        x: 4125
+        y: 65
+        width: 193
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742ae21da3dfbbf60800000000000000
+      internalID: 8051307187914318407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_25
+      rect:
+        serializedVersion: 2
+        x: 4380
+        y: 65
+        width: 195
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6bed2d6a2d79230800000000000000
+      internalID: 3645614037323921137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_26
+      rect:
+        serializedVersion: 2
+        x: 4636
+        y: 65
+        width: 195
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5c1cbdc96355420800000000000000
+      internalID: 2618058805715518959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_27
+      rect:
+        serializedVersion: 2
+        x: 4892
+        y: 65
+        width: 195
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ac0edaf6064a310800000000000000
+      internalID: 1415362215676004881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_28
+      rect:
+        serializedVersion: 2
+        x: 5149
+        y: 65
+        width: 193
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a6252e169892cb0800000000000000
+      internalID: -4888224867032077724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_29
+      rect:
+        serializedVersion: 2
+        x: 5406
+        y: 65
+        width: 192
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9acf69a5880f7110800000000000000
+      internalID: 1260735790853376670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_30
+      rect:
+        serializedVersion: 2
+        x: 5664
+        y: 65
+        width: 191
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b186e388b6dfe5d0800000000000000
+      internalID: -3030967936221806152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_31
+      rect:
+        serializedVersion: 2
+        x: 5921
+        y: 65
+        width: 190
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0923017880b661340800000000000000
+      internalID: 4834168934398702224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_32
+      rect:
+        serializedVersion: 2
+        x: 6178
+        y: 65
+        width: 189
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca131feb543005320800000000000000
+      internalID: 2544537387555434924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_33
+      rect:
+        serializedVersion: 2
+        x: 6435
+        y: 65
+        width: 188
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393f89c4d29415600800000000000000
+      internalID: 455225496248578963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_34
+      rect:
+        serializedVersion: 2
+        x: 6692
+        y: 65
+        width: 187
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd6a13fc5d0019a0800000000000000
+      internalID: -6264492388805612078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_35
+      rect:
+        serializedVersion: 2
+        x: 6949
+        y: 65
+        width: 186
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d1891f84b518f10800000000000000
+      internalID: 2270196056020491658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_36
+      rect:
+        serializedVersion: 2
+        x: 7206
+        y: 65
+        width: 185
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44987d0dfcd0c4740800000000000000
+      internalID: 5137496461136070980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_37
+      rect:
+        serializedVersion: 2
+        x: 7461
+        y: 65
+        width: 186
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9556832392af06b00800000000000000
+      internalID: 819930187024590169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_38
+      rect:
+        serializedVersion: 2
+        x: 7716
+        y: 65
+        width: 186
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166360c1d4ad23a50800000000000000
+      internalID: 6499497236966553185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_39
+      rect:
+        serializedVersion: 2
+        x: 7971
+        y: 65
+        width: 187
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b79f59ccc5bd9a20800000000000000
+      internalID: 3070810412092987313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_40
+      rect:
+        serializedVersion: 2
+        x: 8226
+        y: 65
+        width: 188
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6f73d866ff06790800000000000000
+      internalID: -7538744960297208093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_41
+      rect:
+        serializedVersion: 2
+        x: 8481
+        y: 65
+        width: 189
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a292658bfc49b200800000000000000
+      internalID: 196272701925659299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_42
+      rect:
+        serializedVersion: 2
+        x: 10284
+        y: 65
+        width: 185
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2b4cc4b2ccb06e0800000000000000
+      internalID: -1870176733898689836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_43
+      rect:
+        serializedVersion: 2
+        x: 10799
+        y: 65
+        width: 184
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596d4ccf6c3cbc440800000000000000
+      internalID: 4957271074263062165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_44
+      rect:
+        serializedVersion: 2
+        x: 11057
+        y: 65
+        width: 182
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73624e3a6c5b9300800000000000000
+      internalID: 259903014884762495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_45
+      rect:
+        serializedVersion: 2
+        x: 11315
+        y: 65
+        width: 180
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9640ce0567c857040800000000000000
+      internalID: 4644773030494209129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_46
+      rect:
+        serializedVersion: 2
+        x: 11572
+        y: 65
+        width: 180
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c471c3299464a42f0800000000000000
+      internalID: -987899886454433972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_47
+      rect:
+        serializedVersion: 2
+        x: 11829
+        y: 65
+        width: 178
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd3aac6bd50b94b0800000000000000
+      internalID: -5432742085513298489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_48
+      rect:
+        serializedVersion: 2
+        x: 12088
+        y: 65
+        width: 175
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9fede37497c9e370800000000000000
+      internalID: 8352426424349355931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_49
+      rect:
+        serializedVersion: 2
+        x: 12346
+        y: 65
+        width: 173
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e3e318354894780800000000000000
+      internalID: -8698275711103910290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_50
+      rect:
+        serializedVersion: 2
+        x: 12602
+        y: 65
+        width: 173
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d7d3e61a9863910800000000000000
+      internalID: 1816790826122837258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_51
+      rect:
+        serializedVersion: 2
+        x: 12861
+        y: 65
+        width: 169
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1911b16d75793ec40800000000000000
+      internalID: 5540438370105889169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_52
+      rect:
+        serializedVersion: 2
+        x: 13117
+        y: 65
+        width: 168
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0224b41f8301aacb0800000000000000
+      internalID: -4852047811785833952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_53
+      rect:
+        serializedVersion: 2
+        x: 13373
+        y: 65
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb9a8ff574808460800000000000000
+      internalID: 7241933843145071579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_54
+      rect:
+        serializedVersion: 2
+        x: 13629
+        y: 65
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db26e93578af86cc0800000000000000
+      internalID: -3717446033263926595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_55
+      rect:
+        serializedVersion: 2
+        x: 13885
+        y: 65
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd278f7f2de2e270800000000000000
+      internalID: 8278439853319204272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_56
+      rect:
+        serializedVersion: 2
+        x: 14141
+        y: 65
+        width: 167
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84104f4e03f76070800000000000000
+      internalID: 8099709697633817743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_57
+      rect:
+        serializedVersion: 2
+        x: 14398
+        y: 65
+        width: 165
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7294bd7f67fecb770800000000000000
+      internalID: 8628034280378550567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_58
+      rect:
+        serializedVersion: 2
+        x: 14653
+        y: 65
+        width: 166
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156142b819ecfc5e0800000000000000
+      internalID: -1887062594344970671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_59
+      rect:
+        serializedVersion: 2
+        x: 8738
+        y: 65
+        width: 189
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e066f381baab2f3d0800000000000000
+      internalID: -3174269543333796338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_60
+      rect:
+        serializedVersion: 2
+        x: 8995
+        y: 65
+        width: 188
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0d2aef3a1e45200800000000000000
+      internalID: 168007180587552932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_61
+      rect:
+        serializedVersion: 2
+        x: 9252
+        y: 65
+        width: 188
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97754b84aaf679c20800000000000000
+      internalID: 3213159636307040121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_62
+      rect:
+        serializedVersion: 2
+        x: 9509
+        y: 65
+        width: 188
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fc50c592ea191d0800000000000000
+      internalID: -3345701555498791039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_63
+      rect:
+        serializedVersion: 2
+        x: 9768
+        y: 65
+        width: 186
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551518ee273d7e080800000000000000
+      internalID: -9158118826653429419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_64
+      rect:
+        serializedVersion: 2
+        x: 10025
+        y: 65
+        width: 187
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78063480c68c25570800000000000000
+      internalID: 8454039816848498823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hurt_strip58_65
+      rect:
+        serializedVersion: 2
+        x: 10540
+        y: 65
+        width: 186
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b6e113c3ace3780800000000000000
+      internalID: -8701295070162293899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_kiro2_0_hurt_strip58_0: 8606468533326497272
+      spr_kiro2_0_hurt_strip58_1: 3159023479092857344
+      spr_kiro2_0_hurt_strip58_10: -2829369113549640167
+      spr_kiro2_0_hurt_strip58_11: 4961629734704184874
+      spr_kiro2_0_hurt_strip58_12: 8494718439043549246
+      spr_kiro2_0_hurt_strip58_13: -7366911832381549991
+      spr_kiro2_0_hurt_strip58_14: 1034624983892786459
+      spr_kiro2_0_hurt_strip58_15: 1591664768459029564
+      spr_kiro2_0_hurt_strip58_16: -8686797455682712738
+      spr_kiro2_0_hurt_strip58_17: -2431673149713099837
+      spr_kiro2_0_hurt_strip58_18: -3638896619264640078
+      spr_kiro2_0_hurt_strip58_19: 2809761354599279421
+      spr_kiro2_0_hurt_strip58_2: 7918360911431178953
+      spr_kiro2_0_hurt_strip58_20: -7863805051979130440
+      spr_kiro2_0_hurt_strip58_21: -5737154913517034642
+      spr_kiro2_0_hurt_strip58_22: 8170141464370932563
+      spr_kiro2_0_hurt_strip58_23: 7079200974502813171
+      spr_kiro2_0_hurt_strip58_24: 8051307187914318407
+      spr_kiro2_0_hurt_strip58_25: 3645614037323921137
+      spr_kiro2_0_hurt_strip58_26: 2618058805715518959
+      spr_kiro2_0_hurt_strip58_27: 1415362215676004881
+      spr_kiro2_0_hurt_strip58_28: -4888224867032077724
+      spr_kiro2_0_hurt_strip58_29: 1260735790853376670
+      spr_kiro2_0_hurt_strip58_3: 5022964985298984352
+      spr_kiro2_0_hurt_strip58_30: -3030967936221806152
+      spr_kiro2_0_hurt_strip58_31: 4834168934398702224
+      spr_kiro2_0_hurt_strip58_32: 2544537387555434924
+      spr_kiro2_0_hurt_strip58_33: 455225496248578963
+      spr_kiro2_0_hurt_strip58_34: -6264492388805612078
+      spr_kiro2_0_hurt_strip58_35: 2270196056020491658
+      spr_kiro2_0_hurt_strip58_36: 5137496461136070980
+      spr_kiro2_0_hurt_strip58_37: 819930187024590169
+      spr_kiro2_0_hurt_strip58_38: 6499497236966553185
+      spr_kiro2_0_hurt_strip58_39: 3070810412092987313
+      spr_kiro2_0_hurt_strip58_4: 5603819017366957160
+      spr_kiro2_0_hurt_strip58_40: -7538744960297208093
+      spr_kiro2_0_hurt_strip58_41: 196272701925659299
+      spr_kiro2_0_hurt_strip58_42: -1870176733898689836
+      spr_kiro2_0_hurt_strip58_43: 4957271074263062165
+      spr_kiro2_0_hurt_strip58_44: 259903014884762495
+      spr_kiro2_0_hurt_strip58_45: 4644773030494209129
+      spr_kiro2_0_hurt_strip58_46: -987899886454433972
+      spr_kiro2_0_hurt_strip58_47: -5432742085513298489
+      spr_kiro2_0_hurt_strip58_48: 8352426424349355931
+      spr_kiro2_0_hurt_strip58_49: -8698275711103910290
+      spr_kiro2_0_hurt_strip58_5: -2719600289472743730
+      spr_kiro2_0_hurt_strip58_50: 1816790826122837258
+      spr_kiro2_0_hurt_strip58_51: 5540438370105889169
+      spr_kiro2_0_hurt_strip58_52: -4852047811785833952
+      spr_kiro2_0_hurt_strip58_53: 7241933843145071579
+      spr_kiro2_0_hurt_strip58_54: -3717446033263926595
+      spr_kiro2_0_hurt_strip58_55: 8278439853319204272
+      spr_kiro2_0_hurt_strip58_56: 8099709697633817743
+      spr_kiro2_0_hurt_strip58_57: 8628034280378550567
+      spr_kiro2_0_hurt_strip58_58: -1887062594344970671
+      spr_kiro2_0_hurt_strip58_59: -3174269543333796338
+      spr_kiro2_0_hurt_strip58_6: 271213148049107284
+      spr_kiro2_0_hurt_strip58_60: 168007180587552932
+      spr_kiro2_0_hurt_strip58_61: 3213159636307040121
+      spr_kiro2_0_hurt_strip58_62: -3345701555498791039
+      spr_kiro2_0_hurt_strip58_63: -9158118826653429419
+      spr_kiro2_0_hurt_strip58_64: 8454039816848498823
+      spr_kiro2_0_hurt_strip58_65: -8701295070162293899
+      spr_kiro2_0_hurt_strip58_7: -2086439831427854110
+      spr_kiro2_0_hurt_strip58_8: -7592957359201970432
+      spr_kiro2_0_hurt_strip58_9: 7621664760603753217
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

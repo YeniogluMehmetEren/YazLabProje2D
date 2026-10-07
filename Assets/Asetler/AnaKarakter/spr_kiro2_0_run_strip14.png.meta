@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 24b0bc173f7e67e4e8d313008fa9f209
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6822736840145253640
+    second: spr_kiro2_0_run_strip14_0
+  - first:
+      213: 7473130289030691466
+    second: spr_kiro2_0_run_strip14_1
+  - first:
+      213: -8110815327690405637
+    second: spr_kiro2_0_run_strip14_2
+  - first:
+      213: -920718823868621897
+    second: spr_kiro2_0_run_strip14_3
+  - first:
+      213: 6735809161659808875
+    second: spr_kiro2_0_run_strip14_4
+  - first:
+      213: -1532792324690445277
+    second: spr_kiro2_0_run_strip14_5
+  - first:
+      213: 7669875859500123025
+    second: spr_kiro2_0_run_strip14_6
+  - first:
+      213: 5384731490328289822
+    second: spr_kiro2_0_run_strip14_7
+  - first:
+      213: -5236579465796984357
+    second: spr_kiro2_0_run_strip14_8
+  - first:
+      213: -7484249619933002792
+    second: spr_kiro2_0_run_strip14_9
+  - first:
+      213: 8272587573707602778
+    second: spr_kiro2_0_run_strip14_10
+  - first:
+      213: -2432011323444800913
+    second: spr_kiro2_0_run_strip14_11
+  - first:
+      213: 417377598211527411
+    second: spr_kiro2_0_run_strip14_12
+  - first:
+      213: -2889076792826985944
+    second: spr_kiro2_0_run_strip14_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_kiro2_0_run_strip14_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 67
+        width: 168
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8facb270ef4c051a0800000000000000
+      internalID: -6822736840145253640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_run_strip14_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 65
+        width: 170
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8af2ed4764e5b760800000000000000
+      internalID: 7473130289030691466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_run_strip14_2
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 65
+        width: 174
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf84832be68907f80800000000000000
+      internalID: -8110815327690405637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_run_strip14_3
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 66
+        width: 178
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb9b4d9b13f833f0800000000000000
+      internalID: -920718823868621897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_run_strip14_4
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 66
+        width: 179
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cfd83aeb66a7d50800000000000000
+      internalID: 6735809161659808875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_run_strip14_5
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 68
+        width: 174
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c7164708d6abae0800000000000000
+      internalID: -1532792324690445277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_run_strip14_6
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 66
+        width: 169
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19349dc157fd07a60800000000000000
+      internalID: 7669875859500123025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_run_strip14_7
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 65
+        width: 169
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12a0ebc2c86aba40800000000000000
+      internalID: 5384731490328289822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_run_strip14_8
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 64
+        width: 169
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1e01f68bee357b0800000000000000
+      internalID: -5236579465796984357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_run_strip14_9
+      rect:
+        serializedVersion: 2
+        x: 2363
+        y: 64
+        width: 172
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d38a89bf9a922890800000000000000
+      internalID: -7484249619933002792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_run_strip14_10
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 65
+        width: 175
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5bf62871922ec270800000000000000
+      internalID: 8272587573707602778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_run_strip14_11
+      rect:
+        serializedVersion: 2
+        x: 2873
+        y: 65
+        width: 174
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6258503692cf3ed0800000000000000
+      internalID: -2432011323444800913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_run_strip14_12
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 65
+        width: 172
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f29a96d6b2dac500800000000000000
+      internalID: 417377598211527411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_run_strip14_13
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 69
+        width: 168
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82209b2c6ffe7e7d0800000000000000
+      internalID: -2889076792826985944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_kiro2_0_run_strip14_0: -6822736840145253640
+      spr_kiro2_0_run_strip14_1: 7473130289030691466
+      spr_kiro2_0_run_strip14_10: 8272587573707602778
+      spr_kiro2_0_run_strip14_11: -2432011323444800913
+      spr_kiro2_0_run_strip14_12: 417377598211527411
+      spr_kiro2_0_run_strip14_13: -2889076792826985944
+      spr_kiro2_0_run_strip14_2: -8110815327690405637
+      spr_kiro2_0_run_strip14_3: -920718823868621897
+      spr_kiro2_0_run_strip14_4: 6735809161659808875
+      spr_kiro2_0_run_strip14_5: -1532792324690445277
+      spr_kiro2_0_run_strip14_6: 7669875859500123025
+      spr_kiro2_0_run_strip14_7: 5384731490328289822
+      spr_kiro2_0_run_strip14_8: -5236579465796984357
+      spr_kiro2_0_run_strip14_9: -7484249619933002792
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

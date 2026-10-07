@@ -1,0 +1,2327 @@
+fileFormatVersion: 2
+guid: 607e7ca29b6bec64389a383f24af3824
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5221632179051542494
+    second: spr_kiro2_0_jump_strip85_0
+  - first:
+      213: 3852664794138015790
+    second: spr_kiro2_0_jump_strip85_1
+  - first:
+      213: -287784566145081278
+    second: spr_kiro2_0_jump_strip85_2
+  - first:
+      213: -5838781692373230303
+    second: spr_kiro2_0_jump_strip85_3
+  - first:
+      213: -7594004189386804382
+    second: spr_kiro2_0_jump_strip85_4
+  - first:
+      213: -8885176306779685494
+    second: spr_kiro2_0_jump_strip85_5
+  - first:
+      213: -5938690964043174195
+    second: spr_kiro2_0_jump_strip85_6
+  - first:
+      213: 3407943132104650687
+    second: spr_kiro2_0_jump_strip85_7
+  - first:
+      213: 7703709491821728057
+    second: spr_kiro2_0_jump_strip85_8
+  - first:
+      213: -7003959729292809992
+    second: spr_kiro2_0_jump_strip85_9
+  - first:
+      213: 3923589651716464788
+    second: spr_kiro2_0_jump_strip85_10
+  - first:
+      213: -3925944269936935192
+    second: spr_kiro2_0_jump_strip85_11
+  - first:
+      213: 6064453621471608585
+    second: spr_kiro2_0_jump_strip85_12
+  - first:
+      213: -8209295956268904758
+    second: spr_kiro2_0_jump_strip85_13
+  - first:
+      213: 406497672006120999
+    second: spr_kiro2_0_jump_strip85_14
+  - first:
+      213: 2632831182350078284
+    second: spr_kiro2_0_jump_strip85_15
+  - first:
+      213: -489308505486250541
+    second: spr_kiro2_0_jump_strip85_16
+  - first:
+      213: 9100376621345000844
+    second: spr_kiro2_0_jump_strip85_17
+  - first:
+      213: 5839643118797115938
+    second: spr_kiro2_0_jump_strip85_18
+  - first:
+      213: 2246219848006704276
+    second: spr_kiro2_0_jump_strip85_19
+  - first:
+      213: 8464941060017559013
+    second: spr_kiro2_0_jump_strip85_20
+  - first:
+      213: -727692328879907047
+    second: spr_kiro2_0_jump_strip85_21
+  - first:
+      213: -8944478525332100855
+    second: spr_kiro2_0_jump_strip85_22
+  - first:
+      213: -5708014870855803500
+    second: spr_kiro2_0_jump_strip85_23
+  - first:
+      213: 1247594356776802067
+    second: spr_kiro2_0_jump_strip85_24
+  - first:
+      213: 2665506734591992411
+    second: spr_kiro2_0_jump_strip85_25
+  - first:
+      213: 3201610853882987167
+    second: spr_kiro2_0_jump_strip85_26
+  - first:
+      213: -3568928673479613212
+    second: spr_kiro2_0_jump_strip85_27
+  - first:
+      213: 1395402154264425440
+    second: spr_kiro2_0_jump_strip85_28
+  - first:
+      213: 2303285793698026607
+    second: spr_kiro2_0_jump_strip85_29
+  - first:
+      213: -6259225274291644932
+    second: spr_kiro2_0_jump_strip85_30
+  - first:
+      213: 1842737010177173660
+    second: spr_kiro2_0_jump_strip85_31
+  - first:
+      213: -6088155890005447797
+    second: spr_kiro2_0_jump_strip85_32
+  - first:
+      213: 2061452369017119174
+    second: spr_kiro2_0_jump_strip85_33
+  - first:
+      213: 6862188514008647476
+    second: spr_kiro2_0_jump_strip85_34
+  - first:
+      213: 8996242678360295191
+    second: spr_kiro2_0_jump_strip85_35
+  - first:
+      213: 5676155687807482336
+    second: spr_kiro2_0_jump_strip85_36
+  - first:
+      213: 4608343398066854737
+    second: spr_kiro2_0_jump_strip85_37
+  - first:
+      213: -9054199302118038557
+    second: spr_kiro2_0_jump_strip85_38
+  - first:
+      213: -5284592214499523290
+    second: spr_kiro2_0_jump_strip85_39
+  - first:
+      213: 6413264266203061629
+    second: spr_kiro2_0_jump_strip85_40
+  - first:
+      213: -6326528542323413681
+    second: spr_kiro2_0_jump_strip85_41
+  - first:
+      213: 522736080072679589
+    second: spr_kiro2_0_jump_strip85_42
+  - first:
+      213: 291549400929158769
+    second: spr_kiro2_0_jump_strip85_43
+  - first:
+      213: -1903629739322507781
+    second: spr_kiro2_0_jump_strip85_44
+  - first:
+      213: 756394362985040613
+    second: spr_kiro2_0_jump_strip85_45
+  - first:
+      213: -2150507316555431889
+    second: spr_kiro2_0_jump_strip85_46
+  - first:
+      213: -309197437988703120
+    second: spr_kiro2_0_jump_strip85_47
+  - first:
+      213: 1392512145590594817
+    second: spr_kiro2_0_jump_strip85_48
+  - first:
+      213: -4701983985643630268
+    second: spr_kiro2_0_jump_strip85_49
+  - first:
+      213: 6203575994278020122
+    second: spr_kiro2_0_jump_strip85_50
+  - first:
+      213: -7472057280080581582
+    second: spr_kiro2_0_jump_strip85_51
+  - first:
+      213: 91785393167597122
+    second: spr_kiro2_0_jump_strip85_52
+  - first:
+      213: -8786599626445004751
+    second: spr_kiro2_0_jump_strip85_53
+  - first:
+      213: -7881076474701341136
+    second: spr_kiro2_0_jump_strip85_54
+  - first:
+      213: 170156030243943702
+    second: spr_kiro2_0_jump_strip85_55
+  - first:
+      213: 617632081954490717
+    second: spr_kiro2_0_jump_strip85_56
+  - first:
+      213: 9143461684178803351
+    second: spr_kiro2_0_jump_strip85_57
+  - first:
+      213: 7606537328924691338
+    second: spr_kiro2_0_jump_strip85_58
+  - first:
+      213: -2170811734926224577
+    second: spr_kiro2_0_jump_strip85_59
+  - first:
+      213: 5312849796429876627
+    second: spr_kiro2_0_jump_strip85_60
+  - first:
+      213: 3934734674551106592
+    second: spr_kiro2_0_jump_strip85_61
+  - first:
+      213: -480690201967130575
+    second: spr_kiro2_0_jump_strip85_62
+  - first:
+      213: -2043786824142896747
+    second: spr_kiro2_0_jump_strip85_63
+  - first:
+      213: 1369796932286468076
+    second: spr_kiro2_0_jump_strip85_64
+  - first:
+      213: 2254140956269949930
+    second: spr_kiro2_0_jump_strip85_65
+  - first:
+      213: 3753665100736524868
+    second: spr_kiro2_0_jump_strip85_66
+  - first:
+      213: 2667593623180523799
+    second: spr_kiro2_0_jump_strip85_67
+  - first:
+      213: 1997992446758128326
+    second: spr_kiro2_0_jump_strip85_68
+  - first:
+      213: -3883686746999726650
+    second: spr_kiro2_0_jump_strip85_69
+  - first:
+      213: 6374824016057067720
+    second: spr_kiro2_0_jump_strip85_70
+  - first:
+      213: 9017926421177334249
+    second: spr_kiro2_0_jump_strip85_71
+  - first:
+      213: 5701141385275094070
+    second: spr_kiro2_0_jump_strip85_72
+  - first:
+      213: 4531531326843499788
+    second: spr_kiro2_0_jump_strip85_73
+  - first:
+      213: -53550220017421991
+    second: spr_kiro2_0_jump_strip85_74
+  - first:
+      213: 7225562174263109155
+    second: spr_kiro2_0_jump_strip85_75
+  - first:
+      213: -1177719875130100552
+    second: spr_kiro2_0_jump_strip85_76
+  - first:
+      213: 4300094462457774106
+    second: spr_kiro2_0_jump_strip85_77
+  - first:
+      213: 330086524344987952
+    second: spr_kiro2_0_jump_strip85_78
+  - first:
+      213: -6810540634822330989
+    second: spr_kiro2_0_jump_strip85_79
+  - first:
+      213: -1659155575427055574
+    second: spr_kiro2_0_jump_strip85_80
+  - first:
+      213: -1568430985648698992
+    second: spr_kiro2_0_jump_strip85_81
+  - first:
+      213: 6859402846892671761
+    second: spr_kiro2_0_jump_strip85_82
+  - first:
+      213: -1612575650405562456
+    second: spr_kiro2_0_jump_strip85_83
+  - first:
+      213: 1776196132475378548
+    second: spr_kiro2_0_jump_strip85_84
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 65
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22842e3d2390987b0800000000000000
+      internalID: -5221632179051542494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 65
+        width: 168
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28ff3dc73a677530800000000000000
+      internalID: 3852664794138015790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_2
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 65
+        width: 169
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240251b3675910cf0800000000000000
+      internalID: -287784566145081278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_3
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 65
+        width: 169
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d1a096cfa78fea0800000000000000
+      internalID: -5838781692373230303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_4
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 65
+        width: 168
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26375ccac6dac9690800000000000000
+      internalID: -7594004189386804382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_5
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 65
+        width: 169
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8dfda3893381b480800000000000000
+      internalID: -8885176306779685494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_6
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 65
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce62616808859da0800000000000000
+      internalID: -5938690964043174195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_7
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 65
+        width: 167
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf64dbf8327b4f20800000000000000
+      internalID: 3407943132104650687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_8
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 65
+        width: 167
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931d6d087f219ea60800000000000000
+      internalID: 7703709491821728057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_9
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 65
+        width: 167
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f86c5a1cbfecce90800000000000000
+      internalID: -7003959729292809992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_10
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 65
+        width: 167
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49065fa0004637630800000000000000
+      internalID: 3923589651716464788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_11
+      rect:
+        serializedVersion: 2
+        x: 2875
+        y: 65
+        width: 165
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eebd6eac7e3489c0800000000000000
+      internalID: -3925944269936935192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_12
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 65
+        width: 166
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f75a81074492450800000000000000
+      internalID: 6064453621471608585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_13
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 65
+        width: 166
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace8a8e82d8b21e80800000000000000
+      internalID: -8209295956268904758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_14
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 65
+        width: 174
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726b2fd9a7b24a500800000000000000
+      internalID: 406497672006120999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_15
+      rect:
+        serializedVersion: 2
+        x: 3905
+        y: 67
+        width: 167
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c415c81d202b98420800000000000000
+      internalID: 2632831182350078284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_16
+      rect:
+        serializedVersion: 2
+        x: 4163
+        y: 73
+        width: 163
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd2ae8b180a539f0800000000000000
+      internalID: -489308505486250541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_17
+      rect:
+        serializedVersion: 2
+        x: 4426
+        y: 84
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8dc98d32580b4e70800000000000000
+      internalID: 9100376621345000844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_18
+      rect:
+        serializedVersion: 2
+        x: 4688
+        y: 94
+        width: 157
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222d4fe0a749a0150800000000000000
+      internalID: 5839643118797115938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_19
+      rect:
+        serializedVersion: 2
+        x: 4941
+        y: 97
+        width: 162
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c1fdffc0d2c2f10800000000000000
+      internalID: 2246219848006704276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_20
+      rect:
+        serializedVersion: 2
+        x: 5193
+        y: 105
+        width: 163
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e517fe7b03897570800000000000000
+      internalID: 8464941060017559013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_21
+      rect:
+        serializedVersion: 2
+        x: 5445
+        y: 110
+        width: 159
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f165faea7b6e5f0800000000000000
+      internalID: -727692328879907047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_22
+      rect:
+        serializedVersion: 2
+        x: 5699
+        y: 113
+        width: 152
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909687ccb24ded380800000000000000
+      internalID: -8944478525332100855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_23
+      rect:
+        serializedVersion: 2
+        x: 5954
+        y: 115
+        width: 150
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d1ef1a7be09c0b0800000000000000
+      internalID: -5708014870855803500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_24
+      rect:
+        serializedVersion: 2
+        x: 6209
+        y: 115
+        width: 149
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317967b1578505110800000000000000
+      internalID: 1247594356776802067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_25
+      rect:
+        serializedVersion: 2
+        x: 6464
+        y: 116
+        width: 147
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5264cda048cdf420800000000000000
+      internalID: 2665506734591992411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_26
+      rect:
+        serializedVersion: 2
+        x: 6718
+        y: 117
+        width: 146
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f920bb6db186e6c20800000000000000
+      internalID: 3201610853882987167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_27
+      rect:
+        serializedVersion: 2
+        x: 6974
+        y: 117
+        width: 145
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4aa8cc74e987ec0800000000000000
+      internalID: -3568928673479613212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_28
+      rect:
+        serializedVersion: 2
+        x: 7229
+        y: 118
+        width: 146
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3febbbdd67d5310800000000000000
+      internalID: 1395402154264425440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_29
+      rect:
+        serializedVersion: 2
+        x: 7484
+        y: 119
+        width: 145
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64139dd93ae6ff10800000000000000
+      internalID: 2303285793698026607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_30
+      rect:
+        serializedVersion: 2
+        x: 7740
+        y: 119
+        width: 144
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf513bc96c3c229a0800000000000000
+      internalID: -6259225274291644932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_31
+      rect:
+        serializedVersion: 2
+        x: 7995
+        y: 120
+        width: 145
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98631a2c87b29910800000000000000
+      internalID: 1842737010177173660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_32
+      rect:
+        serializedVersion: 2
+        x: 8251
+        y: 120
+        width: 144
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8be5077976828ba0800000000000000
+      internalID: -6088155890005447797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_33
+      rect:
+        serializedVersion: 2
+        x: 8506
+        y: 120
+        width: 145
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c127a0f100cb9c10800000000000000
+      internalID: 2061452369017119174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_34
+      rect:
+        serializedVersion: 2
+        x: 8762
+        y: 120
+        width: 144
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437404798146b3f50800000000000000
+      internalID: 6862188514008647476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_35
+      rect:
+        serializedVersion: 2
+        x: 9018
+        y: 120
+        width: 144
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717cfd44d0319dc70800000000000000
+      internalID: 8996242678360295191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_36
+      rect:
+        serializedVersion: 2
+        x: 9273
+        y: 121
+        width: 144
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9f3954681c5ce40800000000000000
+      internalID: 5676155687807482336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_37
+      rect:
+        serializedVersion: 2
+        x: 9529
+        y: 121
+        width: 144
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b9acc87ef14ff30800000000000000
+      internalID: 4608343398066854737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_38
+      rect:
+        serializedVersion: 2
+        x: 9785
+        y: 121
+        width: 143
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e32aa7b4b5095280800000000000000
+      internalID: -9054199302118038557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_39
+      rect:
+        serializedVersion: 2
+        x: 10041
+        y: 121
+        width: 143
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62506ff316b59a6b0800000000000000
+      internalID: -5284592214499523290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_40
+      rect:
+        serializedVersion: 2
+        x: 10298
+        y: 121
+        width: 142
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d5db50fdd700950800000000000000
+      internalID: 6413264266203061629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_41
+      rect:
+        serializedVersion: 2
+        x: 10554
+        y: 121
+        width: 142
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d61756fc7a338a0800000000000000
+      internalID: -6326528542323413681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_42
+      rect:
+        serializedVersion: 2
+        x: 10810
+        y: 121
+        width: 142
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0230cf1b1214700800000000000000
+      internalID: 522736080072679589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_43
+      rect:
+        serializedVersion: 2
+        x: 11065
+        y: 121
+        width: 143
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1764cdca2aacb0400800000000000000
+      internalID: 291549400929158769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_44
+      rect:
+        serializedVersion: 2
+        x: 11320
+        y: 121
+        width: 143
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdffc386d2f495e0800000000000000
+      internalID: -1903629739322507781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_45
+      rect:
+        serializedVersion: 2
+        x: 11575
+        y: 120
+        width: 144
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eac4d36aa04f7a00800000000000000
+      internalID: 756394362985040613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_46
+      rect:
+        serializedVersion: 2
+        x: 11831
+        y: 120
+        width: 144
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20c5dd4dfcd722e0800000000000000
+      internalID: -2150507316555431889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_47
+      rect:
+        serializedVersion: 2
+        x: 12086
+        y: 120
+        width: 145
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074f83f719285bbf0800000000000000
+      internalID: -309197437988703120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_48
+      rect:
+        serializedVersion: 2
+        x: 12342
+        y: 119
+        width: 145
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d28572b62335310800000000000000
+      internalID: 1392512145590594817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_49
+      rect:
+        serializedVersion: 2
+        x: 12597
+        y: 119
+        width: 146
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441d22c2a723fbeb0800000000000000
+      internalID: -4701983985643630268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_50
+      rect:
+        serializedVersion: 2
+        x: 12853
+        y: 118
+        width: 145
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a140514bf77871650800000000000000
+      internalID: 6203575994278020122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_51
+      rect:
+        serializedVersion: 2
+        x: 13109
+        y: 116
+        width: 145
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23cec6f0e7bed4890800000000000000
+      internalID: -7472057280080581582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_52
+      rect:
+        serializedVersion: 2
+        x: 13365
+        y: 115
+        width: 145
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ef25b2456164100800000000000000
+      internalID: 91785393167597122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_53
+      rect:
+        serializedVersion: 2
+        x: 13622
+        y: 113
+        width: 143
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1306a22713abf0680800000000000000
+      internalID: -8786599626445004751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_54
+      rect:
+        serializedVersion: 2
+        x: 13878
+        y: 110
+        width: 142
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e1db5b3bac0a290800000000000000
+      internalID: -7881076474701341136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_55
+      rect:
+        serializedVersion: 2
+        x: 14136
+        y: 107
+        width: 140
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615b41b02048c5200800000000000000
+      internalID: 170156030243943702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_56
+      rect:
+        serializedVersion: 2
+        x: 14393
+        y: 103
+        width: 138
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5948ce2b15429800800000000000000
+      internalID: 617632081954490717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_57
+      rect:
+        serializedVersion: 2
+        x: 14650
+        y: 100
+        width: 136
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a5fd625f914ee70800000000000000
+      internalID: 9143461684178803351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_58
+      rect:
+        serializedVersion: 2
+        x: 14910
+        y: 96
+        width: 130
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b0e454669df8960800000000000000
+      internalID: 7606537328924691338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_59
+      rect:
+        serializedVersion: 2
+        x: 15171
+        y: 66
+        width: 122
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3319718a3abfd1e0800000000000000
+      internalID: -2170811734926224577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_60
+      rect:
+        serializedVersion: 2
+        x: 15435
+        y: 65
+        width: 115
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d853dbdb80bb940800000000000000
+      internalID: 5312849796429876627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_61
+      rect:
+        serializedVersion: 2
+        x: 15693
+        y: 64
+        width: 129
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ce702e65cfa9630800000000000000
+      internalID: 3934734674551106592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_62
+      rect:
+        serializedVersion: 2
+        x: 15953
+        y: 64
+        width: 140
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1380db0eece3459f0800000000000000
+      internalID: -480690201967130575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_63
+      rect:
+        serializedVersion: 2
+        x: 16204
+        y: 64
+        width: 155
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591c65e36b203a3e0800000000000000
+      internalID: -2043786824142896747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_64
+      rect:
+        serializedVersion: 2
+        x: 16457
+        y: 64
+        width: 161
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefca5b6d0f720310800000000000000
+      internalID: 1369796932286468076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_65
+      rect:
+        serializedVersion: 2
+        x: 16710
+        y: 64
+        width: 167
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3312cb141584f10800000000000000
+      internalID: 2254140956269949930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_66
+      rect:
+        serializedVersion: 2
+        x: 16965
+        y: 64
+        width: 169
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4427e277582b71430800000000000000
+      internalID: 3753665100736524868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_67
+      rect:
+        serializedVersion: 2
+        x: 17219
+        y: 64
+        width: 170
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719b5ca4442350520800000000000000
+      internalID: 2667593623180523799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_68
+      rect:
+        serializedVersion: 2
+        x: 17473
+        y: 64
+        width: 172
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca8ee46b8b4abb10800000000000000
+      internalID: 1997992446758128326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_69
+      rect:
+        serializedVersion: 2
+        x: 17728
+        y: 64
+        width: 173
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd5032fa7f5a1ac0800000000000000
+      internalID: -3883686746999726650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_70
+      rect:
+        serializedVersion: 2
+        x: 17982
+        y: 65
+        width: 174
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8e5b6daace77850800000000000000
+      internalID: 6374824016057067720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_71
+      rect:
+        serializedVersion: 2
+        x: 18236
+        y: 65
+        width: 174
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e972e01d4c162d70800000000000000
+      internalID: 9017926421177334249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_72
+      rect:
+        serializedVersion: 2
+        x: 18492
+        y: 65
+        width: 172
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634b99b42e58e1f40800000000000000
+      internalID: 5701141385275094070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_73
+      rect:
+        serializedVersion: 2
+        x: 18747
+        y: 65
+        width: 172
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05bf019bbb33ee30800000000000000
+      internalID: 4531531326843499788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_74
+      rect:
+        serializedVersion: 2
+        x: 19005
+        y: 65
+        width: 170
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951b73ecb50c14ff0800000000000000
+      internalID: -53550220017421991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_75
+      rect:
+        serializedVersion: 2
+        x: 19263
+        y: 65
+        width: 166
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326a37bc38a564460800000000000000
+      internalID: 7225562174263109155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_76
+      rect:
+        serializedVersion: 2
+        x: 19519
+        y: 65
+        width: 165
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4f3fd6306e7afe0800000000000000
+      internalID: -1177719875130100552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_77
+      rect:
+        serializedVersion: 2
+        x: 19774
+        y: 65
+        width: 166
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a108b6771210dab30800000000000000
+      internalID: 4300094462457774106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_78
+      rect:
+        serializedVersion: 2
+        x: 20030
+        y: 65
+        width: 166
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031f9bce1f3b49400800000000000000
+      internalID: 330086524344987952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_79
+      rect:
+        serializedVersion: 2
+        x: 20285
+        y: 65
+        width: 166
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3953d0d50691c71a0800000000000000
+      internalID: -6810540634822330989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_80
+      rect:
+        serializedVersion: 2
+        x: 20541
+        y: 65
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20cf837bce79f8e0800000000000000
+      internalID: -1659155575427055574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_81
+      rect:
+        serializedVersion: 2
+        x: 20797
+        y: 65
+        width: 166
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09981b51450db3ae0800000000000000
+      internalID: -1568430985648698992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_82
+      rect:
+        serializedVersion: 2
+        x: 21052
+        y: 65
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113475ceb8e713f50800000000000000
+      internalID: 6859402846892671761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_83
+      rect:
+        serializedVersion: 2
+        x: 21308
+        y: 65
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7c1206dfafe99e0800000000000000
+      internalID: -1612575650405562456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_jump_strip85_84
+      rect:
+        serializedVersion: 2
+        x: 21564
+        y: 65
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b1e97c8f056a810800000000000000
+      internalID: 1776196132475378548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_kiro2_0_jump_strip85_0: -5221632179051542494
+      spr_kiro2_0_jump_strip85_1: 3852664794138015790
+      spr_kiro2_0_jump_strip85_10: 3923589651716464788
+      spr_kiro2_0_jump_strip85_11: -3925944269936935192
+      spr_kiro2_0_jump_strip85_12: 6064453621471608585
+      spr_kiro2_0_jump_strip85_13: -8209295956268904758
+      spr_kiro2_0_jump_strip85_14: 406497672006120999
+      spr_kiro2_0_jump_strip85_15: 2632831182350078284
+      spr_kiro2_0_jump_strip85_16: -489308505486250541
+      spr_kiro2_0_jump_strip85_17: 9100376621345000844
+      spr_kiro2_0_jump_strip85_18: 5839643118797115938
+      spr_kiro2_0_jump_strip85_19: 2246219848006704276
+      spr_kiro2_0_jump_strip85_2: -287784566145081278
+      spr_kiro2_0_jump_strip85_20: 8464941060017559013
+      spr_kiro2_0_jump_strip85_21: -727692328879907047
+      spr_kiro2_0_jump_strip85_22: -8944478525332100855
+      spr_kiro2_0_jump_strip85_23: -5708014870855803500
+      spr_kiro2_0_jump_strip85_24: 1247594356776802067
+      spr_kiro2_0_jump_strip85_25: 2665506734591992411
+      spr_kiro2_0_jump_strip85_26: 3201610853882987167
+      spr_kiro2_0_jump_strip85_27: -3568928673479613212
+      spr_kiro2_0_jump_strip85_28: 1395402154264425440
+      spr_kiro2_0_jump_strip85_29: 2303285793698026607
+      spr_kiro2_0_jump_strip85_3: -5838781692373230303
+      spr_kiro2_0_jump_strip85_30: -6259225274291644932
+      spr_kiro2_0_jump_strip85_31: 1842737010177173660
+      spr_kiro2_0_jump_strip85_32: -6088155890005447797
+      spr_kiro2_0_jump_strip85_33: 2061452369017119174
+      spr_kiro2_0_jump_strip85_34: 6862188514008647476
+      spr_kiro2_0_jump_strip85_35: 8996242678360295191
+      spr_kiro2_0_jump_strip85_36: 5676155687807482336
+      spr_kiro2_0_jump_strip85_37: 4608343398066854737
+      spr_kiro2_0_jump_strip85_38: -9054199302118038557
+      spr_kiro2_0_jump_strip85_39: -5284592214499523290
+      spr_kiro2_0_jump_strip85_4: -7594004189386804382
+      spr_kiro2_0_jump_strip85_40: 6413264266203061629
+      spr_kiro2_0_jump_strip85_41: -6326528542323413681
+      spr_kiro2_0_jump_strip85_42: 522736080072679589
+      spr_kiro2_0_jump_strip85_43: 291549400929158769
+      spr_kiro2_0_jump_strip85_44: -1903629739322507781
+      spr_kiro2_0_jump_strip85_45: 756394362985040613
+      spr_kiro2_0_jump_strip85_46: -2150507316555431889
+      spr_kiro2_0_jump_strip85_47: -309197437988703120
+      spr_kiro2_0_jump_strip85_48: 1392512145590594817
+      spr_kiro2_0_jump_strip85_49: -4701983985643630268
+      spr_kiro2_0_jump_strip85_5: -8885176306779685494
+      spr_kiro2_0_jump_strip85_50: 6203575994278020122
+      spr_kiro2_0_jump_strip85_51: -7472057280080581582
+      spr_kiro2_0_jump_strip85_52: 91785393167597122
+      spr_kiro2_0_jump_strip85_53: -8786599626445004751
+      spr_kiro2_0_jump_strip85_54: -7881076474701341136
+      spr_kiro2_0_jump_strip85_55: 170156030243943702
+      spr_kiro2_0_jump_strip85_56: 617632081954490717
+      spr_kiro2_0_jump_strip85_57: 9143461684178803351
+      spr_kiro2_0_jump_strip85_58: 7606537328924691338
+      spr_kiro2_0_jump_strip85_59: -2170811734926224577
+      spr_kiro2_0_jump_strip85_6: -5938690964043174195
+      spr_kiro2_0_jump_strip85_60: 5312849796429876627
+      spr_kiro2_0_jump_strip85_61: 3934734674551106592
+      spr_kiro2_0_jump_strip85_62: -480690201967130575
+      spr_kiro2_0_jump_strip85_63: -2043786824142896747
+      spr_kiro2_0_jump_strip85_64: 1369796932286468076
+      spr_kiro2_0_jump_strip85_65: 2254140956269949930
+      spr_kiro2_0_jump_strip85_66: 3753665100736524868
+      spr_kiro2_0_jump_strip85_67: 2667593623180523799
+      spr_kiro2_0_jump_strip85_68: 1997992446758128326
+      spr_kiro2_0_jump_strip85_69: -3883686746999726650
+      spr_kiro2_0_jump_strip85_7: 3407943132104650687
+      spr_kiro2_0_jump_strip85_70: 6374824016057067720
+      spr_kiro2_0_jump_strip85_71: 9017926421177334249
+      spr_kiro2_0_jump_strip85_72: 5701141385275094070
+      spr_kiro2_0_jump_strip85_73: 4531531326843499788
+      spr_kiro2_0_jump_strip85_74: -53550220017421991
+      spr_kiro2_0_jump_strip85_75: 7225562174263109155
+      spr_kiro2_0_jump_strip85_76: -1177719875130100552
+      spr_kiro2_0_jump_strip85_77: 4300094462457774106
+      spr_kiro2_0_jump_strip85_78: 330086524344987952
+      spr_kiro2_0_jump_strip85_79: -6810540634822330989
+      spr_kiro2_0_jump_strip85_8: 7703709491821728057
+      spr_kiro2_0_jump_strip85_80: -1659155575427055574
+      spr_kiro2_0_jump_strip85_81: -1568430985648698992
+      spr_kiro2_0_jump_strip85_82: 6859402846892671761
+      spr_kiro2_0_jump_strip85_83: -1612575650405562456
+      spr_kiro2_0_jump_strip85_84: 1776196132475378548
+      spr_kiro2_0_jump_strip85_9: -7003959729292809992
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
