@@ -1,0 +1,47 @@
+{
+    "Gnome": {
+        "checkpoints": [
+            {
+                "steps": 60832,
+                "file_path": "results\\gnome\\Gnome\\Gnome-60832.onnx",
+                "reward": -2.000000089406967,
+                "creation_time": 1791375201.5840406,
+                "auxillary_file_paths": [
+                    "results\\gnome\\Gnome\\Gnome-60832.pt"
+                ]
+            },
+            {
+                "steps": 73917,
+                "file_path": "results\\gnome\\Gnome\\Gnome-73917.onnx",
+                "reward": -2.2553334260980287,
+                "creation_time": 1791376558.4131587,
+                "auxillary_file_paths": [
+                    "results\\gnome\\Gnome\\Gnome-73917.pt"
+                ]
+            },
+            {
+                "steps": 74685,
+                "file_path": "results\\gnome\\Gnome\\Gnome-74685.onnx",
+                "reward": null,
+                "creation_time": 1791376698.074684,
+                "auxillary_file_paths": [
+                    "results\\gnome\\Gnome\\Gnome-74685.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 74685,
+            "file_path": "results\\gnome\\Gnome.onnx",
+            "reward": null,
+            "creation_time": 1791376698.074684,
+            "auxillary_file_paths": [
+                "results\\gnome\\Gnome\\Gnome-74685.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
