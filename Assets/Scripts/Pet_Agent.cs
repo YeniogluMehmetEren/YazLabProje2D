@@ -10,12 +10,12 @@ public class Pet_Agent : Agent
     [SerializeField] private float moveSpeed = 1.5f;
     [SerializeField] private float jump = 5f;
 
-    [SerializeField] private TextMeshProUGUI textEpisode;
-    [SerializeField] private TextMeshProUGUI textReward;
+    //[SerializeField] private TextMeshProUGUI textEpisode;
+    //[SerializeField] private TextMeshProUGUI textReward;
 
-    private int _currentEpisode = 0;
-    private float _cumulativeReward = 0f;
-
+    [SerializeField] public int _currentEpisode = 0;
+    [HideInInspector] public float _cumulativeReward = 0f;
+    private bool hedefteMi = false;
     public override void Initialize()
     {
         Debug.Log("Initialize()");
@@ -30,6 +30,7 @@ public class Pet_Agent : Agent
 
         _currentEpisode++;
         _cumulativeReward = 0f;
+        hedefteMi = false;
 
         SetAgentPos();
     }
@@ -37,7 +38,7 @@ public class Pet_Agent : Agent
     private void SetAgentPos()
     {
         transform.localPosition = Vector3.zero;
-        mainCharacter.transform.localPosition = new Vector3(Random.Range(-10f, 10f),0,0);
+        mainCharacter.transform.localPosition = new Vector3(Random.Range(-30f, 30f),0,0);
     }
 
     public override void CollectObservations(VectorSensor sensor)
@@ -54,15 +55,38 @@ public class Pet_Agent : Agent
         sensor.AddObservation(agentPosY_normalized);
     }
 
+    public override void Heuristic(in ActionBuffers actionsOut)
+    {
+        var discreteActionsOut = actionsOut.DiscreteActions;
+
+        discreteActionsOut[0] = 0;
+
+        if(Input.GetKey(KeyCode.L))
+        {
+            discreteActionsOut[0] = 1;
+        }
+        else if(Input.GetKey(KeyCode.J))
+        {
+            discreteActionsOut[0] = 2;
+        }
+        else if(Input.GetKey(KeyCode.K))
+        {
+            discreteActionsOut[0] = 3;  
+        }
+    }
+
     public override void OnActionReceived(ActionBuffers actions)
     {
         MoveAgent(actions.DiscreteActions);
 
         AddReward(-2f / MaxStep);
 
-        _cumulativeReward = GetCumulativeReward();
+        if (hedefteMi)
+        {
+            AddReward(0.003f);
+        }
 
-        EditTexts();
+        _cumulativeReward = GetCumulativeReward();
     }
 
     public void MoveAgent(ActionSegment<int> act)
@@ -83,38 +107,19 @@ public class Pet_Agent : Agent
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("goal"))
         {
-            AddReward(1f);
+            hedefteMi = true;
         }
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("goal"))
         {
-            AddReward(0.1f * Time.fixedDeltaTime);
+            hedefteMi = false;
         }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.CompareTag("goal"))
-        {
-            AddReward(-0.06f);
-        }
-    }
-
-    private void EditTexts()
-    {
-        if (_cumulativeReward<0)
-        {
-            textReward.color = Color.red;
-        }
-        textReward.color = Color.green;
-        textEpisode.text = "Episode: " + _currentEpisode.ToString();
-        textReward.text = "Reword : " + _cumulativeReward.ToString();
     }
 }
