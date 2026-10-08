@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: bdb5fb94e88de674c8c4d22b80a1eed9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4036810610458888788
+    second: spr_kiro2_0_idle_strip35_0
+  - first:
+      213: 7063574962958066396
+    second: spr_kiro2_0_idle_strip35_1
+  - first:
+      213: -1052768380170400190
+    second: spr_kiro2_0_idle_strip35_2
+  - first:
+      213: 6703746762632952853
+    second: spr_kiro2_0_idle_strip35_3
+  - first:
+      213: 2762709146328206903
+    second: spr_kiro2_0_idle_strip35_4
+  - first:
+      213: -1036137530065112006
+    second: spr_kiro2_0_idle_strip35_5
+  - first:
+      213: 1927077383711535859
+    second: spr_kiro2_0_idle_strip35_6
+  - first:
+      213: -6935724548801959703
+    second: spr_kiro2_0_idle_strip35_7
+  - first:
+      213: -2293908718200813531
+    second: spr_kiro2_0_idle_strip35_8
+  - first:
+      213: -4280877201991674417
+    second: spr_kiro2_0_idle_strip35_9
+  - first:
+      213: 613609724442092689
+    second: spr_kiro2_0_idle_strip35_10
+  - first:
+      213: -8881744618608167401
+    second: spr_kiro2_0_idle_strip35_11
+  - first:
+      213: 3964410300146841175
+    second: spr_kiro2_0_idle_strip35_12
+  - first:
+      213: 6742257102348413524
+    second: spr_kiro2_0_idle_strip35_13
+  - first:
+      213: -8928135226651142561
+    second: spr_kiro2_0_idle_strip35_14
+  - first:
+      213: -4817587655297548146
+    second: spr_kiro2_0_idle_strip35_15
+  - first:
+      213: 2356337208243706368
+    second: spr_kiro2_0_idle_strip35_16
+  - first:
+      213: -8972862485488741919
+    second: spr_kiro2_0_idle_strip35_17
+  - first:
+      213: 5785289618906207105
+    second: spr_kiro2_0_idle_strip35_18
+  - first:
+      213: -2939512807089871510
+    second: spr_kiro2_0_idle_strip35_19
+  - first:
+      213: 723588983821810116
+    second: spr_kiro2_0_idle_strip35_20
+  - first:
+      213: 3096273568829012196
+    second: spr_kiro2_0_idle_strip35_21
+  - first:
+      213: -2982007283694164142
+    second: spr_kiro2_0_idle_strip35_22
+  - first:
+      213: 8601945610243325633
+    second: spr_kiro2_0_idle_strip35_23
+  - first:
+      213: 5926763341239662805
+    second: spr_kiro2_0_idle_strip35_24
+  - first:
+      213: -1684697145074742171
+    second: spr_kiro2_0_idle_strip35_25
+  - first:
+      213: 5405448807556692207
+    second: spr_kiro2_0_idle_strip35_26
+  - first:
+      213: -1790307072305442716
+    second: spr_kiro2_0_idle_strip35_27
+  - first:
+      213: 5456414062847466185
+    second: spr_kiro2_0_idle_strip35_28
+  - first:
+      213: -4190380523857788694
+    second: spr_kiro2_0_idle_strip35_29
+  - first:
+      213: -1593541646503668138
+    second: spr_kiro2_0_idle_strip35_30
+  - first:
+      213: 747426355056332194
+    second: spr_kiro2_0_idle_strip35_31
+  - first:
+      213: 6489052853246484704
+    second: spr_kiro2_0_idle_strip35_32
+  - first:
+      213: 8731538805004684193
+    second: spr_kiro2_0_idle_strip35_33
+  - first:
+      213: -8224973382761619361
+    second: spr_kiro2_0_idle_strip35_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 65
+        width: 168
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a0eedbcd1a50830800000000000000
+      internalID: 4036810610458888788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 65
+        width: 169
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2657f110cd60260800000000000000
+      internalID: 7063574962958066396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_2
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 65
+        width: 170
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e0e2d6cb0d361f0800000000000000
+      internalID: -1052768380170400190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_3
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 65
+        width: 171
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c79e2a92e780d50800000000000000
+      internalID: 6703746762632952853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_4
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 65
+        width: 172
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e8d94c45d175620800000000000000
+      internalID: 2762709146328206903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_5
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 65
+        width: 173
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34b406f766ee91f0800000000000000
+      internalID: -1036137530065112006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_6
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 65
+        width: 173
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2b0de9baa5eba10800000000000000
+      internalID: 1927077383711535859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_7
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 65
+        width: 173
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8e3b8154b5fbf90800000000000000
+      internalID: -6935724548801959703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_8
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 65
+        width: 172
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5280878ac266a20e0800000000000000
+      internalID: -2293908718200813531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_9
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 65
+        width: 172
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5d738add44794c0800000000000000
+      internalID: -4280877201991674417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_10
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 65
+        width: 171
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194a8181bcaf38800800000000000000
+      internalID: 613609724442092689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_11
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 65
+        width: 169
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7167f1ea354bdb480800000000000000
+      internalID: -8881744618608167401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_12
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 65
+        width: 168
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756f624e92a640730800000000000000
+      internalID: 3964410300146841175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_13
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 65
+        width: 167
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ae4d1dc1f419d50800000000000000
+      internalID: 6742257102348413524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_14
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 65
+        width: 166
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f569ecc8054e81480800000000000000
+      internalID: -8928135226651142561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_15
+      rect:
+        serializedVersion: 2
+        x: 3902
+        y: 65
+        width: 165
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80ceab5d8d742db0800000000000000
+      internalID: -4817587655297548146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_16
+      rect:
+        serializedVersion: 2
+        x: 4156
+        y: 65
+        width: 167
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ad66cd43463b020800000000000000
+      internalID: 2356337208243706368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_17
+      rect:
+        serializedVersion: 2
+        x: 4411
+        y: 65
+        width: 168
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1d3061c1df97380800000000000000
+      internalID: -8972862485488741919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_18
+      rect:
+        serializedVersion: 2
+        x: 4666
+        y: 65
+        width: 169
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183d8a1b14a794050800000000000000
+      internalID: 5785289618906207105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_19
+      rect:
+        serializedVersion: 2
+        x: 4921
+        y: 65
+        width: 170
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6562b81da0c437d0800000000000000
+      internalID: -2939512807089871510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_20
+      rect:
+        serializedVersion: 2
+        x: 5176
+        y: 65
+        width: 171
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9b518d854ba0a00800000000000000
+      internalID: 723588983821810116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_21
+      rect:
+        serializedVersion: 2
+        x: 5431
+        y: 65
+        width: 172
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8fb75f76c28fa20800000000000000
+      internalID: 3096273568829012196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_22
+      rect:
+        serializedVersion: 2
+        x: 5686
+        y: 65
+        width: 173
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25728c1cc28cd96d0800000000000000
+      internalID: -2982007283694164142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_23
+      rect:
+        serializedVersion: 2
+        x: 5942
+        y: 65
+        width: 173
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ceb8cb15ff306770800000000000000
+      internalID: 8601945610243325633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_24
+      rect:
+        serializedVersion: 2
+        x: 6199
+        y: 65
+        width: 173
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8b5668bd7104250800000000000000
+      internalID: 5926763341239662805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_25
+      rect:
+        serializedVersion: 2
+        x: 6456
+        y: 65
+        width: 171
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c84b95fd0ce98e0800000000000000
+      internalID: -1684697145074742171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_26
+      rect:
+        serializedVersion: 2
+        x: 6713
+        y: 65
+        width: 171
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8b9f91d03040b40800000000000000
+      internalID: 5405448807556692207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_27
+      rect:
+        serializedVersion: 2
+        x: 6969
+        y: 65
+        width: 171
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4605d54043d8727e0800000000000000
+      internalID: -1790307072305442716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_28
+      rect:
+        serializedVersion: 2
+        x: 7227
+        y: 65
+        width: 169
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca187b4ea319bb40800000000000000
+      internalID: 5456414062847466185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_29
+      rect:
+        serializedVersion: 2
+        x: 7484
+        y: 65
+        width: 168
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0cdb97d17c8d5c0800000000000000
+      internalID: -4190380523857788694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_30
+      rect:
+        serializedVersion: 2
+        x: 7741
+        y: 65
+        width: 167
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6569b51c05a92e9e0800000000000000
+      internalID: -1593541646503668138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_31
+      rect:
+        serializedVersion: 2
+        x: 7997
+        y: 65
+        width: 167
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adc5e45f446f5a00800000000000000
+      internalID: 747426355056332194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_32
+      rect:
+        serializedVersion: 2
+        x: 8254
+        y: 65
+        width: 166
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0ed76803fbd0a50800000000000000
+      internalID: 6489052853246484704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_33
+      rect:
+        serializedVersion: 2
+        x: 8509
+        y: 65
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1abc7de0848ac2970800000000000000
+      internalID: 8731538805004684193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_idle_strip35_34
+      rect:
+        serializedVersion: 2
+        x: 8765
+        y: 65
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50637149460bdd80800000000000000
+      internalID: -8224973382761619361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_kiro2_0_idle_strip35_0: 4036810610458888788
+      spr_kiro2_0_idle_strip35_1: 7063574962958066396
+      spr_kiro2_0_idle_strip35_10: 613609724442092689
+      spr_kiro2_0_idle_strip35_11: -8881744618608167401
+      spr_kiro2_0_idle_strip35_12: 3964410300146841175
+      spr_kiro2_0_idle_strip35_13: 6742257102348413524
+      spr_kiro2_0_idle_strip35_14: -8928135226651142561
+      spr_kiro2_0_idle_strip35_15: -4817587655297548146
+      spr_kiro2_0_idle_strip35_16: 2356337208243706368
+      spr_kiro2_0_idle_strip35_17: -8972862485488741919
+      spr_kiro2_0_idle_strip35_18: 5785289618906207105
+      spr_kiro2_0_idle_strip35_19: -2939512807089871510
+      spr_kiro2_0_idle_strip35_2: -1052768380170400190
+      spr_kiro2_0_idle_strip35_20: 723588983821810116
+      spr_kiro2_0_idle_strip35_21: 3096273568829012196
+      spr_kiro2_0_idle_strip35_22: -2982007283694164142
+      spr_kiro2_0_idle_strip35_23: 8601945610243325633
+      spr_kiro2_0_idle_strip35_24: 5926763341239662805
+      spr_kiro2_0_idle_strip35_25: -1684697145074742171
+      spr_kiro2_0_idle_strip35_26: 5405448807556692207
+      spr_kiro2_0_idle_strip35_27: -1790307072305442716
+      spr_kiro2_0_idle_strip35_28: 5456414062847466185
+      spr_kiro2_0_idle_strip35_29: -4190380523857788694
+      spr_kiro2_0_idle_strip35_3: 6703746762632952853
+      spr_kiro2_0_idle_strip35_30: -1593541646503668138
+      spr_kiro2_0_idle_strip35_31: 747426355056332194
+      spr_kiro2_0_idle_strip35_32: 6489052853246484704
+      spr_kiro2_0_idle_strip35_33: 8731538805004684193
+      spr_kiro2_0_idle_strip35_34: -8224973382761619361
+      spr_kiro2_0_idle_strip35_4: 2762709146328206903
+      spr_kiro2_0_idle_strip35_5: -1036137530065112006
+      spr_kiro2_0_idle_strip35_6: 1927077383711535859
+      spr_kiro2_0_idle_strip35_7: -6935724548801959703
+      spr_kiro2_0_idle_strip35_8: -2293908718200813531
+      spr_kiro2_0_idle_strip35_9: -4280877201991674417
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

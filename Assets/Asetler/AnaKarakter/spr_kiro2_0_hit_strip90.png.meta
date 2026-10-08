@@ -1,0 +1,3003 @@
+fileFormatVersion: 2
+guid: 9217be5414403704a8444f325d8077fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7562301418773421905
+    second: spr_kiro2_0_hit_strip90_0
+  - first:
+      213: -633734672093490446
+    second: spr_kiro2_0_hit_strip90_1
+  - first:
+      213: 3710000543363754194
+    second: spr_kiro2_0_hit_strip90_2
+  - first:
+      213: 860626791703181205
+    second: spr_kiro2_0_hit_strip90_3
+  - first:
+      213: 2292949240996173054
+    second: spr_kiro2_0_hit_strip90_4
+  - first:
+      213: -5582610769587200985
+    second: spr_kiro2_0_hit_strip90_5
+  - first:
+      213: -5113099167378919417
+    second: spr_kiro2_0_hit_strip90_6
+  - first:
+      213: -5962626698701277811
+    second: spr_kiro2_0_hit_strip90_7
+  - first:
+      213: -2950490876040656308
+    second: spr_kiro2_0_hit_strip90_8
+  - first:
+      213: 3610920058254097149
+    second: spr_kiro2_0_hit_strip90_9
+  - first:
+      213: -343077696753500580
+    second: spr_kiro2_0_hit_strip90_10
+  - first:
+      213: -1753400904453145685
+    second: spr_kiro2_0_hit_strip90_11
+  - first:
+      213: -2802580351761692496
+    second: spr_kiro2_0_hit_strip90_12
+  - first:
+      213: 8305129584411655103
+    second: spr_kiro2_0_hit_strip90_13
+  - first:
+      213: -8037384023054904595
+    second: spr_kiro2_0_hit_strip90_14
+  - first:
+      213: -1449642718318427308
+    second: spr_kiro2_0_hit_strip90_15
+  - first:
+      213: -2796481052908278531
+    second: spr_kiro2_0_hit_strip90_16
+  - first:
+      213: -3261221262431086872
+    second: spr_kiro2_0_hit_strip90_17
+  - first:
+      213: -5101805633568797408
+    second: spr_kiro2_0_hit_strip90_18
+  - first:
+      213: -7955126393211027187
+    second: spr_kiro2_0_hit_strip90_19
+  - first:
+      213: -3070683368901491223
+    second: spr_kiro2_0_hit_strip90_20
+  - first:
+      213: -7702648618682624110
+    second: spr_kiro2_0_hit_strip90_21
+  - first:
+      213: -4933119288453517363
+    second: spr_kiro2_0_hit_strip90_22
+  - first:
+      213: -1399492571485090223
+    second: spr_kiro2_0_hit_strip90_23
+  - first:
+      213: -2123641941847117874
+    second: spr_kiro2_0_hit_strip90_24
+  - first:
+      213: 2299728815989963305
+    second: spr_kiro2_0_hit_strip90_25
+  - first:
+      213: 6297636408284667046
+    second: spr_kiro2_0_hit_strip90_26
+  - first:
+      213: 4766715311136242700
+    second: spr_kiro2_0_hit_strip90_27
+  - first:
+      213: 4368445777672139132
+    second: spr_kiro2_0_hit_strip90_28
+  - first:
+      213: 3950840987938682789
+    second: spr_kiro2_0_hit_strip90_29
+  - first:
+      213: 8881847870979255604
+    second: spr_kiro2_0_hit_strip90_30
+  - first:
+      213: 3529956805465438666
+    second: spr_kiro2_0_hit_strip90_31
+  - first:
+      213: -8685305884557551429
+    second: spr_kiro2_0_hit_strip90_32
+  - first:
+      213: 8117622454410367410
+    second: spr_kiro2_0_hit_strip90_33
+  - first:
+      213: 1297223738563833141
+    second: spr_kiro2_0_hit_strip90_34
+  - first:
+      213: 6892418687002547156
+    second: spr_kiro2_0_hit_strip90_35
+  - first:
+      213: -5592093868997144310
+    second: spr_kiro2_0_hit_strip90_36
+  - first:
+      213: -2532741836333635548
+    second: spr_kiro2_0_hit_strip90_37
+  - first:
+      213: 877231171499683025
+    second: spr_kiro2_0_hit_strip90_38
+  - first:
+      213: -101224852365760829
+    second: spr_kiro2_0_hit_strip90_39
+  - first:
+      213: 5989269599204793523
+    second: spr_kiro2_0_hit_strip90_40
+  - first:
+      213: 5221172909351837570
+    second: spr_kiro2_0_hit_strip90_41
+  - first:
+      213: -7605629092469294470
+    second: spr_kiro2_0_hit_strip90_42
+  - first:
+      213: -1643797870375353553
+    second: spr_kiro2_0_hit_strip90_43
+  - first:
+      213: -4389759882688123623
+    second: spr_kiro2_0_hit_strip90_44
+  - first:
+      213: 7174950987491839524
+    second: spr_kiro2_0_hit_strip90_45
+  - first:
+      213: -3854309395179449891
+    second: spr_kiro2_0_hit_strip90_46
+  - first:
+      213: -570493654344711700
+    second: spr_kiro2_0_hit_strip90_47
+  - first:
+      213: -1830364576371941033
+    second: spr_kiro2_0_hit_strip90_48
+  - first:
+      213: 4616436179587925323
+    second: spr_kiro2_0_hit_strip90_49
+  - first:
+      213: -4129789886262125381
+    second: spr_kiro2_0_hit_strip90_50
+  - first:
+      213: 2203278669563101919
+    second: spr_kiro2_0_hit_strip90_51
+  - first:
+      213: -9081894231157736354
+    second: spr_kiro2_0_hit_strip90_52
+  - first:
+      213: 2796951317431051426
+    second: spr_kiro2_0_hit_strip90_53
+  - first:
+      213: 1128567946952257819
+    second: spr_kiro2_0_hit_strip90_54
+  - first:
+      213: 1830776223628129157
+    second: spr_kiro2_0_hit_strip90_55
+  - first:
+      213: 1909183190293926870
+    second: spr_kiro2_0_hit_strip90_56
+  - first:
+      213: -8508878885729044095
+    second: spr_kiro2_0_hit_strip90_57
+  - first:
+      213: -6093310736154407686
+    second: spr_kiro2_0_hit_strip90_58
+  - first:
+      213: 249410991984432870
+    second: spr_kiro2_0_hit_strip90_59
+  - first:
+      213: 6372129893797087222
+    second: spr_kiro2_0_hit_strip90_60
+  - first:
+      213: -552408933760293728
+    second: spr_kiro2_0_hit_strip90_61
+  - first:
+      213: -6581011662827921025
+    second: spr_kiro2_0_hit_strip90_62
+  - first:
+      213: 281151796882301739
+    second: spr_kiro2_0_hit_strip90_63
+  - first:
+      213: -260358839570264043
+    second: spr_kiro2_0_hit_strip90_64
+  - first:
+      213: 4280182156901621775
+    second: spr_kiro2_0_hit_strip90_65
+  - first:
+      213: -4587523111270511307
+    second: spr_kiro2_0_hit_strip90_66
+  - first:
+      213: 5002123584198159739
+    second: spr_kiro2_0_hit_strip90_67
+  - first:
+      213: 5554229158267153398
+    second: spr_kiro2_0_hit_strip90_68
+  - first:
+      213: 6512870845187009354
+    second: spr_kiro2_0_hit_strip90_69
+  - first:
+      213: -8598477537624114865
+    second: spr_kiro2_0_hit_strip90_70
+  - first:
+      213: 401744377263506195
+    second: spr_kiro2_0_hit_strip90_71
+  - first:
+      213: 5411967638623148557
+    second: spr_kiro2_0_hit_strip90_72
+  - first:
+      213: 5350892051754216073
+    second: spr_kiro2_0_hit_strip90_73
+  - first:
+      213: 119334692487591514
+    second: spr_kiro2_0_hit_strip90_74
+  - first:
+      213: 4045247105997759640
+    second: spr_kiro2_0_hit_strip90_75
+  - first:
+      213: -6840284717333250350
+    second: spr_kiro2_0_hit_strip90_76
+  - first:
+      213: 6447032161813517473
+    second: spr_kiro2_0_hit_strip90_77
+  - first:
+      213: -8592088922730895154
+    second: spr_kiro2_0_hit_strip90_78
+  - first:
+      213: -598656680801544892
+    second: spr_kiro2_0_hit_strip90_79
+  - first:
+      213: 4983420402812879194
+    second: spr_kiro2_0_hit_strip90_80
+  - first:
+      213: 5153445581990829512
+    second: spr_kiro2_0_hit_strip90_81
+  - first:
+      213: -5208217392455808009
+    second: spr_kiro2_0_hit_strip90_82
+  - first:
+      213: -3781363150399334523
+    second: spr_kiro2_0_hit_strip90_83
+  - first:
+      213: -885895256902469697
+    second: spr_kiro2_0_hit_strip90_84
+  - first:
+      213: -6746898727206962003
+    second: spr_kiro2_0_hit_strip90_85
+  - first:
+      213: 5226874170381469137
+    second: spr_kiro2_0_hit_strip90_86
+  - first:
+      213: -4563093788533501662
+    second: spr_kiro2_0_hit_strip90_87
+  - first:
+      213: 1175618486838376614
+    second: spr_kiro2_0_hit_strip90_88
+  - first:
+      213: 3526018166874531593
+    second: spr_kiro2_0_hit_strip90_89
+  - first:
+      213: 1750009756692468713
+    second: spr_kiro2_0_hit_strip90_90
+  - first:
+      213: 5650220103266090713
+    second: spr_kiro2_0_hit_strip90_91
+  - first:
+      213: -1844883933789986715
+    second: spr_kiro2_0_hit_strip90_92
+  - first:
+      213: 2853087082940372873
+    second: spr_kiro2_0_hit_strip90_93
+  - first:
+      213: 768498291322986609
+    second: spr_kiro2_0_hit_strip90_94
+  - first:
+      213: 6151592200508484204
+    second: spr_kiro2_0_hit_strip90_95
+  - first:
+      213: 3457325434811361795
+    second: spr_kiro2_0_hit_strip90_96
+  - first:
+      213: 6862294437780101039
+    second: spr_kiro2_0_hit_strip90_97
+  - first:
+      213: -5264557954951940084
+    second: spr_kiro2_0_hit_strip90_98
+  - first:
+      213: 3661079388443163415
+    second: spr_kiro2_0_hit_strip90_99
+  - first:
+      213: -4218828716564109561
+    second: spr_kiro2_0_hit_strip90_100
+  - first:
+      213: -5407427713653824529
+    second: spr_kiro2_0_hit_strip90_101
+  - first:
+      213: -3318433549593187882
+    second: spr_kiro2_0_hit_strip90_102
+  - first:
+      213: -4927619857780592461
+    second: spr_kiro2_0_hit_strip90_103
+  - first:
+      213: -1741669696047284684
+    second: spr_kiro2_0_hit_strip90_104
+  - first:
+      213: -904703485377302802
+    second: spr_kiro2_0_hit_strip90_105
+  - first:
+      213: 2818756424620084356
+    second: spr_kiro2_0_hit_strip90_106
+  - first:
+      213: -6217006210901243027
+    second: spr_kiro2_0_hit_strip90_107
+  - first:
+      213: -8263177731154199237
+    second: spr_kiro2_0_hit_strip90_108
+  - first:
+      213: 2318608933952574348
+    second: spr_kiro2_0_hit_strip90_109
+  - first:
+      213: 2144867675973184363
+    second: spr_kiro2_0_hit_strip90_110
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 65
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f1c66d211b2f860800000000000000
+      internalID: 7562301418773421905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 65
+        width: 166
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2d4046ca58437f0800000000000000
+      internalID: -633734672093490446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_2
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 65
+        width: 153
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8e3b776d19c7330800000000000000
+      internalID: 3710000543363754194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_3
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 65
+        width: 122
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597f6abd18f81fb00800000000000000
+      internalID: 860626791703181205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_4
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 65
+        width: 127
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef41495af2132df10800000000000000
+      internalID: 2292949240996173054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_5
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 65
+        width: 221
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c1c7f35159682b0800000000000000
+      internalID: -5582610769587200985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_6
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 65
+        width: 197
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700b80bc56f9a09b0800000000000000
+      internalID: -5113099167378919417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_7
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 65
+        width: 198
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8576afdb9e704da0800000000000000
+      internalID: -5962626698701277811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_8
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 65
+        width: 196
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ac09c3e20cd07d0800000000000000
+      internalID: -2950490876040656308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_9
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 65
+        width: 195
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa719859a09c1230800000000000000
+      internalID: 3610920058254097149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_10
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 65
+        width: 194
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ef5aa07a42d3bf0800000000000000
+      internalID: -343077696753500580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_11
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 65
+        width: 193
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babb835da2baaa7e0800000000000000
+      internalID: -1753400904453145685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_12
+      rect:
+        serializedVersion: 2
+        x: 3138
+        y: 65
+        width: 191
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b841cec40c3b19d0800000000000000
+      internalID: -2802580351761692496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_13
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 64
+        width: 192
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbb174ca5fb14370800000000000000
+      internalID: 8305129584411655103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_14
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 64
+        width: 191
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2996e90d9757090800000000000000
+      internalID: -8037384023054904595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_15
+      rect:
+        serializedVersion: 2
+        x: 3907
+        y: 64
+        width: 173
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4530663d0a5d1ebe0800000000000000
+      internalID: -1449642718318427308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_16
+      rect:
+        serializedVersion: 2
+        x: 4075
+        y: 130
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcaa4c7c47e039d0800000000000000
+      internalID: -2796481052908278531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_17
+      rect:
+        serializedVersion: 2
+        x: 4163
+        y: 64
+        width: 158
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e618de5a80ddb2d0800000000000000
+      internalID: -3261221262431086872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_18
+      rect:
+        serializedVersion: 2
+        x: 4419
+        y: 64
+        width: 145
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d8b0a8eceb239b0800000000000000
+      internalID: -5101805633568797408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_19
+      rect:
+        serializedVersion: 2
+        x: 4673
+        y: 64
+        width: 145
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01825581b6b99190800000000000000
+      internalID: -7955126393211027187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_20
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 64
+        width: 144
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e54de2cebdb265d0800000000000000
+      internalID: -3070683368901491223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_21
+      rect:
+        serializedVersion: 2
+        x: 5183
+        y: 64
+        width: 145
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297d4c544e1ba1590800000000000000
+      internalID: -7702648618682624110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_22
+      rect:
+        serializedVersion: 2
+        x: 5436
+        y: 64
+        width: 147
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfa919d42a0a8bb0800000000000000
+      internalID: -4933119288453517363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_23
+      rect:
+        serializedVersion: 2
+        x: 5692
+        y: 64
+        width: 147
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e45dacbe0049ce0800000000000000
+      internalID: -1399492571485090223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_24
+      rect:
+        serializedVersion: 2
+        x: 5947
+        y: 64
+        width: 148
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfe41ac7ee4782e0800000000000000
+      internalID: -2123641941847117874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_25
+      rect:
+        serializedVersion: 2
+        x: 6203
+        y: 64
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92abfc47c274aef10800000000000000
+      internalID: 2299728815989963305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_26
+      rect:
+        serializedVersion: 2
+        x: 6461
+        y: 64
+        width: 140
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acdf5072f2b56750800000000000000
+      internalID: 6297636408284667046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_27
+      rect:
+        serializedVersion: 2
+        x: 6723
+        y: 64
+        width: 116
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cf0b10256c62240800000000000000
+      internalID: 4766715311136242700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_28
+      rect:
+        serializedVersion: 2
+        x: 6982
+        y: 64
+        width: 107
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71f3be2a46df9c30800000000000000
+      internalID: 4368445777672139132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_29
+      rect:
+        serializedVersion: 2
+        x: 7241
+        y: 64
+        width: 103
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7732232f434d630800000000000000
+      internalID: 3950840987938682789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_30
+      rect:
+        serializedVersion: 2
+        x: 7498
+        y: 64
+        width: 103
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d27c2a499a24b70800000000000000
+      internalID: 8881847870979255604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_31
+      rect:
+        serializedVersion: 2
+        x: 7755
+        y: 64
+        width: 103
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac97d36130decf030800000000000000
+      internalID: 3529956805465438666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_32
+      rect:
+        serializedVersion: 2
+        x: 8013
+        y: 64
+        width: 101
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb856519058977780800000000000000
+      internalID: -8685305884557551429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_33
+      rect:
+        serializedVersion: 2
+        x: 8271
+        y: 65
+        width: 110
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b15ddffc9697a070800000000000000
+      internalID: 8117622454410367410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_34
+      rect:
+        serializedVersion: 2
+        x: 8478
+        y: 64
+        width: 183
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d2d430e1aa00210800000000000000
+      internalID: 1297223738563833141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_35
+      rect:
+        serializedVersion: 2
+        x: 8703
+        y: 64
+        width: 186
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d31d0a374ac6af50800000000000000
+      internalID: 6892418687002547156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_36
+      rect:
+        serializedVersion: 2
+        x: 8959
+        y: 64
+        width: 187
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0119cb1144e462b0800000000000000
+      internalID: -5592093868997144310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_37
+      rect:
+        serializedVersion: 2
+        x: 9215
+        y: 64
+        width: 188
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428209908b4e9dcd0800000000000000
+      internalID: -2532741836333635548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_38
+      rect:
+        serializedVersion: 2
+        x: 9471
+        y: 64
+        width: 190
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc632b4a1d8c2c00800000000000000
+      internalID: 877231171499683025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_39
+      rect:
+        serializedVersion: 2
+        x: 9727
+        y: 64
+        width: 193
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c62c487880689ef0800000000000000
+      internalID: -101224852365760829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_40
+      rect:
+        serializedVersion: 2
+        x: 9983
+        y: 64
+        width: 194
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcd5acc7f82e1350800000000000000
+      internalID: 5989269599204793523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_41
+      rect:
+        serializedVersion: 2
+        x: 10239
+        y: 64
+        width: 195
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f1fcc1915557840800000000000000
+      internalID: 5221172909351837570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_42
+      rect:
+        serializedVersion: 2
+        x: 10495
+        y: 64
+        width: 194
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7abdf103a0637690800000000000000
+      internalID: -7605629092469294470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_43
+      rect:
+        serializedVersion: 2
+        x: 10751
+        y: 64
+        width: 194
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23cbbdcb8e0039e0800000000000000
+      internalID: -1643797870375353553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_44
+      rect:
+        serializedVersion: 2
+        x: 11007
+        y: 64
+        width: 194
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d2d1705a07413c0800000000000000
+      internalID: -4389759882688123623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_45
+      rect:
+        serializedVersion: 2
+        x: 11263
+        y: 64
+        width: 193
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e0a4a98eb829360800000000000000
+      internalID: 7174950987491839524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_46
+      rect:
+        serializedVersion: 2
+        x: 11526
+        y: 64
+        width: 181
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1d0eda60eb28ac0800000000000000
+      internalID: -3854309395179449891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_47
+      rect:
+        serializedVersion: 2
+        x: 11793
+        y: 65
+        width: 167
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce14b224b033518f0800000000000000
+      internalID: -570493654344711700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_48
+      rect:
+        serializedVersion: 2
+        x: 12052
+        y: 65
+        width: 162
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75164ef8d1d3996e0800000000000000
+      internalID: -1830364576371941033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_49
+      rect:
+        serializedVersion: 2
+        x: 12311
+        y: 65
+        width: 156
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4589941f30e01040800000000000000
+      internalID: 4616436179587925323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_50
+      rect:
+        serializedVersion: 2
+        x: 12567
+        y: 65
+        width: 152
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc5850aaf900b6c0800000000000000
+      internalID: -4129789886262125381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_51
+      rect:
+        serializedVersion: 2
+        x: 12823
+        y: 65
+        width: 150
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd20188c64e939e10800000000000000
+      internalID: 2203278669563101919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_52
+      rect:
+        serializedVersion: 2
+        x: 13080
+        y: 65
+        width: 148
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c7c209051a6f180800000000000000
+      internalID: -9081894231157736354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_53
+      rect:
+        serializedVersion: 2
+        x: 13336
+        y: 65
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4e9818764c0d620800000000000000
+      internalID: 2796951317431051426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_54
+      rect:
+        serializedVersion: 2
+        x: 13592
+        y: 65
+        width: 142
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b113bfe719a79af00800000000000000
+      internalID: 1128567946952257819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_55
+      rect:
+        serializedVersion: 2
+        x: 13848
+        y: 65
+        width: 141
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583f5988649386910800000000000000
+      internalID: 1830776223628129157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_56
+      rect:
+        serializedVersion: 2
+        x: 14113
+        y: 65
+        width: 132
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3dd9c0ff7ce7a10800000000000000
+      internalID: 1909183190293926870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_57
+      rect:
+        serializedVersion: 2
+        x: 14407
+        y: 65
+        width: 159
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1897c434cb36ae980800000000000000
+      internalID: -8508878885729044095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_58
+      rect:
+        serializedVersion: 2
+        x: 14659
+        y: 45
+        width: 190
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc41715b26307ba0800000000000000
+      internalID: -6093310736154407686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_59
+      rect:
+        serializedVersion: 2
+        x: 14914
+        y: 41
+        width: 191
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e65f4cc9f5167300800000000000000
+      internalID: 249410991984432870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_60
+      rect:
+        serializedVersion: 2
+        x: 15169
+        y: 37
+        width: 192
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f74c6e906a5e6850800000000000000
+      internalID: 6372129893797087222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_61
+      rect:
+        serializedVersion: 2
+        x: 15425
+        y: 35
+        width: 192
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4277460037558f0800000000000000
+      internalID: -552408933760293728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_62
+      rect:
+        serializedVersion: 2
+        x: 15680
+        y: 54
+        width: 193
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f716076a2cc8ba4a0800000000000000
+      internalID: -6581011662827921025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_63
+      rect:
+        serializedVersion: 2
+        x: 15936
+        y: 65
+        width: 184
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23e125d11ad6e300800000000000000
+      internalID: 281151796882301739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_64
+      rect:
+        serializedVersion: 2
+        x: 16101
+        y: 107
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510184dc305036cf0800000000000000
+      internalID: -260358839570264043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_65
+      rect:
+        serializedVersion: 2
+        x: 16192
+        y: 60
+        width: 193
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00261c8ef2466b30800000000000000
+      internalID: 4280182156901621775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_66
+      rect:
+        serializedVersion: 2
+        x: 16360
+        y: 117
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d83d93908d550c0800000000000000
+      internalID: -4587523111270511307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_67
+      rect:
+        serializedVersion: 2
+        x: 16446
+        y: 65
+        width: 185
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d2cbeb5ec1b6540800000000000000
+      internalID: 5002123584198159739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_68
+      rect:
+        serializedVersion: 2
+        x: 16622
+        y: 131
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb61abedf5941d40800000000000000
+      internalID: 5554229158267153398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_69
+      rect:
+        serializedVersion: 2
+        x: 16700
+        y: 30
+        width: 191
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4bae5be68d526a50800000000000000
+      internalID: 6512870845187009354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_70
+      rect:
+        serializedVersion: 2
+        x: 16956
+        y: 65
+        width: 187
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f493db87c321ca880800000000000000
+      internalID: -8598477537624114865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_71
+      rect:
+        serializedVersion: 2
+        x: 17210
+        y: 65
+        width: 189
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3134d41f168439500800000000000000
+      internalID: 401744377263506195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_72
+      rect:
+        serializedVersion: 2
+        x: 17465
+        y: 65
+        width: 190
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ada0cb4eb2b1b40800000000000000
+      internalID: 5411967638623148557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_73
+      rect:
+        serializedVersion: 2
+        x: 17720
+        y: 65
+        width: 191
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a654888ff224a40800000000000000
+      internalID: 5350892051754216073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_74
+      rect:
+        serializedVersion: 2
+        x: 17976
+        y: 65
+        width: 191
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a567a134546f7a100800000000000000
+      internalID: 119334692487591514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_75
+      rect:
+        serializedVersion: 2
+        x: 18233
+        y: 65
+        width: 190
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8946cad6fca932830800000000000000
+      internalID: 4045247105997759640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_76
+      rect:
+        serializedVersion: 2
+        x: 18489
+        y: 65
+        width: 190
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de71dc7a4d6211a0800000000000000
+      internalID: -6840284717333250350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_77
+      rect:
+        serializedVersion: 2
+        x: 18745
+        y: 65
+        width: 189
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4d964e795787950800000000000000
+      internalID: 6447032161813517473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_78
+      rect:
+        serializedVersion: 2
+        x: 19001
+        y: 65
+        width: 184
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec86e0ac5a4c2c880800000000000000
+      internalID: -8592088922730895154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_79
+      rect:
+        serializedVersion: 2
+        x: 19257
+        y: 65
+        width: 177
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445d86eabe421b7f0800000000000000
+      internalID: -598656680801544892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_80
+      rect:
+        serializedVersion: 2
+        x: 19514
+        y: 65
+        width: 172
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51881cf37aa82540800000000000000
+      internalID: 4983420402812879194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_81
+      rect:
+        serializedVersion: 2
+        x: 19770
+        y: 65
+        width: 170
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd9ed3e377b48740800000000000000
+      internalID: 5153445581990829512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_82
+      rect:
+        serializedVersion: 2
+        x: 20026
+        y: 65
+        width: 169
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb09a930e1b8b7b0800000000000000
+      internalID: -5208217392455808009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_83
+      rect:
+        serializedVersion: 2
+        x: 20282
+        y: 65
+        width: 169
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58712bdcf36e58bc0800000000000000
+      internalID: -3781363150399334523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_84
+      rect:
+        serializedVersion: 2
+        x: 20537
+        y: 65
+        width: 170
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7ff1025faa4b3f0800000000000000
+      internalID: -885895256902469697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_85
+      rect:
+        serializedVersion: 2
+        x: 20793
+        y: 65
+        width: 170
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac3b4daa533e52a0800000000000000
+      internalID: -6746898727206962003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_86
+      rect:
+        serializedVersion: 2
+        x: 21049
+        y: 65
+        width: 170
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d580436d56998840800000000000000
+      internalID: 5226874170381469137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_87
+      rect:
+        serializedVersion: 2
+        x: 21306
+        y: 65
+        width: 169
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2215ba92062aca0c0800000000000000
+      internalID: -4563093788533501662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_88
+      rect:
+        serializedVersion: 2
+        x: 21563
+        y: 65
+        width: 168
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8326bf8c2a05010800000000000000
+      internalID: 1175618486838376614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_89
+      rect:
+        serializedVersion: 2
+        x: 21820
+        y: 65
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907612457deeee030800000000000000
+      internalID: 3526018166874531593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_90
+      rect:
+        serializedVersion: 2
+        x: 22076
+        y: 65
+        width: 168
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e35f1d0a98494810800000000000000
+      internalID: 1750009756692468713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_91
+      rect:
+        serializedVersion: 2
+        x: 22332
+        y: 65
+        width: 168
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de32fd6f3d996e40800000000000000
+      internalID: 5650220103266090713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_92
+      rect:
+        serializedVersion: 2
+        x: 22588
+        y: 65
+        width: 168
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5606f9a36d7a566e0800000000000000
+      internalID: -1844883933789986715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_93
+      rect:
+        serializedVersion: 2
+        x: 22843
+        y: 65
+        width: 168
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9879aebe593389720800000000000000
+      internalID: 2853087082940372873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_94
+      rect:
+        serializedVersion: 2
+        x: 16115
+        y: 87
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1702dc0df114aaa00800000000000000
+      internalID: 768498291322986609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_95
+      rect:
+        serializedVersion: 2
+        x: 16374
+        y: 102
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a2f5a8388de5550800000000000000
+      internalID: 6151592200508484204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_96
+      rect:
+        serializedVersion: 2
+        x: 16632
+        y: 105
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30aaade4a23eaff20800000000000000
+      internalID: 3457325434811361795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_97
+      rect:
+        serializedVersion: 2
+        x: 16375
+        y: 89
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa79504ee64cb3f50800000000000000
+      internalID: 6862294437780101039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_98
+      rect:
+        serializedVersion: 2
+        x: 14560
+        y: 69
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08f1abce6880f6b0800000000000000
+      internalID: -5264557954951940084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_99
+      rect:
+        serializedVersion: 2
+        x: 16026
+        y: 54
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bb8aa7e44cec230800000000000000
+      internalID: 3661079388443163415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_100
+      rect:
+        serializedVersion: 2
+        x: 16120
+        y: 59
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707aaf472a5b375c0800000000000000
+      internalID: -4218828716564109561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_101
+      rect:
+        serializedVersion: 2
+        x: 15802
+        y: 32
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3af0be425f4f4b0800000000000000
+      internalID: -5407427713653824529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_102
+      rect:
+        serializedVersion: 2
+        x: 15843
+        y: 36
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d962c9b44e82f1d0800000000000000
+      internalID: -3318433549593187882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_103
+      rect:
+        serializedVersion: 2
+        x: 16058
+        y: 30
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0b3d4d8d39d9bb0800000000000000
+      internalID: -4927619857780592461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_104
+      rect:
+        serializedVersion: 2
+        x: 16104
+        y: 35
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ef903a3a854d7e0800000000000000
+      internalID: -1741669696047284684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_105
+      rect:
+        serializedVersion: 2
+        x: 16283
+        y: 54
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee270f29f8d173f0800000000000000
+      internalID: -904703485377302802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_106
+      rect:
+        serializedVersion: 2
+        x: 16538
+        y: 54
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c84d5a80c3e1720800000000000000
+      internalID: 2818756424620084356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_107
+      rect:
+        serializedVersion: 2
+        x: 16312
+        y: 30
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b85d05ac1c8b9a0800000000000000
+      internalID: -6217006210901243027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_108
+      rect:
+        serializedVersion: 2
+        x: 16362
+        y: 34
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3db2aa32ab435d80800000000000000
+      internalID: -8263177731154199237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_109
+      rect:
+        serializedVersion: 2
+        x: 16568
+        y: 28
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c835a497a8a5d2020800000000000000
+      internalID: 2318608933952574348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_hit_strip90_110
+      rect:
+        serializedVersion: 2
+        x: 16621
+        y: 35
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b699c89c914cd10800000000000000
+      internalID: 2144867675973184363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_kiro2_0_hit_strip90_0: 7562301418773421905
+      spr_kiro2_0_hit_strip90_1: -633734672093490446
+      spr_kiro2_0_hit_strip90_10: -343077696753500580
+      spr_kiro2_0_hit_strip90_100: -4218828716564109561
+      spr_kiro2_0_hit_strip90_101: -5407427713653824529
+      spr_kiro2_0_hit_strip90_102: -3318433549593187882
+      spr_kiro2_0_hit_strip90_103: -4927619857780592461
+      spr_kiro2_0_hit_strip90_104: -1741669696047284684
+      spr_kiro2_0_hit_strip90_105: -904703485377302802
+      spr_kiro2_0_hit_strip90_106: 2818756424620084356
+      spr_kiro2_0_hit_strip90_107: -6217006210901243027
+      spr_kiro2_0_hit_strip90_108: -8263177731154199237
+      spr_kiro2_0_hit_strip90_109: 2318608933952574348
+      spr_kiro2_0_hit_strip90_11: -1753400904453145685
+      spr_kiro2_0_hit_strip90_110: 2144867675973184363
+      spr_kiro2_0_hit_strip90_12: -2802580351761692496
+      spr_kiro2_0_hit_strip90_13: 8305129584411655103
+      spr_kiro2_0_hit_strip90_14: -8037384023054904595
+      spr_kiro2_0_hit_strip90_15: -1449642718318427308
+      spr_kiro2_0_hit_strip90_16: -2796481052908278531
+      spr_kiro2_0_hit_strip90_17: -3261221262431086872
+      spr_kiro2_0_hit_strip90_18: -5101805633568797408
+      spr_kiro2_0_hit_strip90_19: -7955126393211027187
+      spr_kiro2_0_hit_strip90_2: 3710000543363754194
+      spr_kiro2_0_hit_strip90_20: -3070683368901491223
+      spr_kiro2_0_hit_strip90_21: -7702648618682624110
+      spr_kiro2_0_hit_strip90_22: -4933119288453517363
+      spr_kiro2_0_hit_strip90_23: -1399492571485090223
+      spr_kiro2_0_hit_strip90_24: -2123641941847117874
+      spr_kiro2_0_hit_strip90_25: 2299728815989963305
+      spr_kiro2_0_hit_strip90_26: 6297636408284667046
+      spr_kiro2_0_hit_strip90_27: 4766715311136242700
+      spr_kiro2_0_hit_strip90_28: 4368445777672139132
+      spr_kiro2_0_hit_strip90_29: 3950840987938682789
+      spr_kiro2_0_hit_strip90_3: 860626791703181205
+      spr_kiro2_0_hit_strip90_30: 8881847870979255604
+      spr_kiro2_0_hit_strip90_31: 3529956805465438666
+      spr_kiro2_0_hit_strip90_32: -8685305884557551429
+      spr_kiro2_0_hit_strip90_33: 8117622454410367410
+      spr_kiro2_0_hit_strip90_34: 1297223738563833141
+      spr_kiro2_0_hit_strip90_35: 6892418687002547156
+      spr_kiro2_0_hit_strip90_36: -5592093868997144310
+      spr_kiro2_0_hit_strip90_37: -2532741836333635548
+      spr_kiro2_0_hit_strip90_38: 877231171499683025
+      spr_kiro2_0_hit_strip90_39: -101224852365760829
+      spr_kiro2_0_hit_strip90_4: 2292949240996173054
+      spr_kiro2_0_hit_strip90_40: 5989269599204793523
+      spr_kiro2_0_hit_strip90_41: 5221172909351837570
+      spr_kiro2_0_hit_strip90_42: -7605629092469294470
+      spr_kiro2_0_hit_strip90_43: -1643797870375353553
+      spr_kiro2_0_hit_strip90_44: -4389759882688123623
+      spr_kiro2_0_hit_strip90_45: 7174950987491839524
+      spr_kiro2_0_hit_strip90_46: -3854309395179449891
+      spr_kiro2_0_hit_strip90_47: -570493654344711700
+      spr_kiro2_0_hit_strip90_48: -1830364576371941033
+      spr_kiro2_0_hit_strip90_49: 4616436179587925323
+      spr_kiro2_0_hit_strip90_5: -5582610769587200985
+      spr_kiro2_0_hit_strip90_50: -4129789886262125381
+      spr_kiro2_0_hit_strip90_51: 2203278669563101919
+      spr_kiro2_0_hit_strip90_52: -9081894231157736354
+      spr_kiro2_0_hit_strip90_53: 2796951317431051426
+      spr_kiro2_0_hit_strip90_54: 1128567946952257819
+      spr_kiro2_0_hit_strip90_55: 1830776223628129157
+      spr_kiro2_0_hit_strip90_56: 1909183190293926870
+      spr_kiro2_0_hit_strip90_57: -8508878885729044095
+      spr_kiro2_0_hit_strip90_58: -6093310736154407686
+      spr_kiro2_0_hit_strip90_59: 249410991984432870
+      spr_kiro2_0_hit_strip90_6: -5113099167378919417
+      spr_kiro2_0_hit_strip90_60: 6372129893797087222
+      spr_kiro2_0_hit_strip90_61: -552408933760293728
+      spr_kiro2_0_hit_strip90_62: -6581011662827921025
+      spr_kiro2_0_hit_strip90_63: 281151796882301739
+      spr_kiro2_0_hit_strip90_64: -260358839570264043
+      spr_kiro2_0_hit_strip90_65: 4280182156901621775
+      spr_kiro2_0_hit_strip90_66: -4587523111270511307
+      spr_kiro2_0_hit_strip90_67: 5002123584198159739
+      spr_kiro2_0_hit_strip90_68: 5554229158267153398
+      spr_kiro2_0_hit_strip90_69: 6512870845187009354
+      spr_kiro2_0_hit_strip90_7: -5962626698701277811
+      spr_kiro2_0_hit_strip90_70: -8598477537624114865
+      spr_kiro2_0_hit_strip90_71: 401744377263506195
+      spr_kiro2_0_hit_strip90_72: 5411967638623148557
+      spr_kiro2_0_hit_strip90_73: 5350892051754216073
+      spr_kiro2_0_hit_strip90_74: 119334692487591514
+      spr_kiro2_0_hit_strip90_75: 4045247105997759640
+      spr_kiro2_0_hit_strip90_76: -6840284717333250350
+      spr_kiro2_0_hit_strip90_77: 6447032161813517473
+      spr_kiro2_0_hit_strip90_78: -8592088922730895154
+      spr_kiro2_0_hit_strip90_79: -598656680801544892
+      spr_kiro2_0_hit_strip90_8: -2950490876040656308
+      spr_kiro2_0_hit_strip90_80: 4983420402812879194
+      spr_kiro2_0_hit_strip90_81: 5153445581990829512
+      spr_kiro2_0_hit_strip90_82: -5208217392455808009
+      spr_kiro2_0_hit_strip90_83: -3781363150399334523
+      spr_kiro2_0_hit_strip90_84: -885895256902469697
+      spr_kiro2_0_hit_strip90_85: -6746898727206962003
+      spr_kiro2_0_hit_strip90_86: 5226874170381469137
+      spr_kiro2_0_hit_strip90_87: -4563093788533501662
+      spr_kiro2_0_hit_strip90_88: 1175618486838376614
+      spr_kiro2_0_hit_strip90_89: 3526018166874531593
+      spr_kiro2_0_hit_strip90_9: 3610920058254097149
+      spr_kiro2_0_hit_strip90_90: 1750009756692468713
+      spr_kiro2_0_hit_strip90_91: 5650220103266090713
+      spr_kiro2_0_hit_strip90_92: -1844883933789986715
+      spr_kiro2_0_hit_strip90_93: 2853087082940372873
+      spr_kiro2_0_hit_strip90_94: 768498291322986609
+      spr_kiro2_0_hit_strip90_95: 6151592200508484204
+      spr_kiro2_0_hit_strip90_96: 3457325434811361795
+      spr_kiro2_0_hit_strip90_97: 6862294437780101039
+      spr_kiro2_0_hit_strip90_98: -5264557954951940084
+      spr_kiro2_0_hit_strip90_99: 3661079388443163415
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

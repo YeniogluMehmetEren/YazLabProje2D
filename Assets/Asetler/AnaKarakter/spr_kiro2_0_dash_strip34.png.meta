@@ -1,0 +1,1131 @@
+fileFormatVersion: 2
+guid: c0a878876dbaaec46a156af6b68b8385
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 664470578554631156
+    second: spr_kiro2_0_dash_strip34_0
+  - first:
+      213: -6340133747927642890
+    second: spr_kiro2_0_dash_strip34_1
+  - first:
+      213: -19931059824988438
+    second: spr_kiro2_0_dash_strip34_2
+  - first:
+      213: 2344468320325533333
+    second: spr_kiro2_0_dash_strip34_3
+  - first:
+      213: -1509433635239775594
+    second: spr_kiro2_0_dash_strip34_4
+  - first:
+      213: 9038992667705377599
+    second: spr_kiro2_0_dash_strip34_5
+  - first:
+      213: -921005159097623993
+    second: spr_kiro2_0_dash_strip34_6
+  - first:
+      213: -7218978119714241877
+    second: spr_kiro2_0_dash_strip34_7
+  - first:
+      213: 6737580985385964409
+    second: spr_kiro2_0_dash_strip34_8
+  - first:
+      213: 5407084298863878278
+    second: spr_kiro2_0_dash_strip34_9
+  - first:
+      213: 693140115831192066
+    second: spr_kiro2_0_dash_strip34_10
+  - first:
+      213: 6157821707373573868
+    second: spr_kiro2_0_dash_strip34_11
+  - first:
+      213: 2181850614858707169
+    second: spr_kiro2_0_dash_strip34_12
+  - first:
+      213: 444359377904047160
+    second: spr_kiro2_0_dash_strip34_13
+  - first:
+      213: 1709701435092616948
+    second: spr_kiro2_0_dash_strip34_14
+  - first:
+      213: 7404977109992665134
+    second: spr_kiro2_0_dash_strip34_15
+  - first:
+      213: -6747251965134346324
+    second: spr_kiro2_0_dash_strip34_16
+  - first:
+      213: -8369344584249901744
+    second: spr_kiro2_0_dash_strip34_17
+  - first:
+      213: -7968180267926037185
+    second: spr_kiro2_0_dash_strip34_18
+  - first:
+      213: 5452118363865116811
+    second: spr_kiro2_0_dash_strip34_19
+  - first:
+      213: 8151256767604011548
+    second: spr_kiro2_0_dash_strip34_20
+  - first:
+      213: 2931789776386581897
+    second: spr_kiro2_0_dash_strip34_21
+  - first:
+      213: -3235640397067200048
+    second: spr_kiro2_0_dash_strip34_22
+  - first:
+      213: -5705709259773935611
+    second: spr_kiro2_0_dash_strip34_23
+  - first:
+      213: -6789998227614326801
+    second: spr_kiro2_0_dash_strip34_24
+  - first:
+      213: 8078412789822949274
+    second: spr_kiro2_0_dash_strip34_25
+  - first:
+      213: 4613772799945580558
+    second: spr_kiro2_0_dash_strip34_26
+  - first:
+      213: -2264893977829096938
+    second: spr_kiro2_0_dash_strip34_27
+  - first:
+      213: -5594879119430036061
+    second: spr_kiro2_0_dash_strip34_28
+  - first:
+      213: 1036224290051211875
+    second: spr_kiro2_0_dash_strip34_29
+  - first:
+      213: -1777528526958964746
+    second: spr_kiro2_0_dash_strip34_30
+  - first:
+      213: 7967808697076525116
+    second: spr_kiro2_0_dash_strip34_31
+  - first:
+      213: -7627493902854705478
+    second: spr_kiro2_0_dash_strip34_32
+  - first:
+      213: -3897495214674825239
+    second: spr_kiro2_0_dash_strip34_33
+  - first:
+      213: 678246484802559675
+    second: spr_kiro2_0_dash_strip34_34
+  - first:
+      213: 5644031656067379978
+    second: spr_kiro2_0_dash_strip34_35
+  - first:
+      213: -8543418944953346451
+    second: spr_kiro2_0_dash_strip34_36
+  - first:
+      213: 3077028360494057655
+    second: spr_kiro2_0_dash_strip34_37
+  - first:
+      213: -9119877723838099240
+    second: spr_kiro2_0_dash_strip34_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 355
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3727e787ca83900800000000000000
+      internalID: 664470578554631156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 65
+        width: 260
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc8e4e92f15308a0800000000000000
+      internalID: -6340133747927642890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 65
+        width: 244
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee62238ec039bff0800000000000000
+      internalID: -19931059824988438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_3
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 65
+        width: 230
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ef82c0489398020800000000000000
+      internalID: 2344468320325533333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_4
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 65
+        width: 206
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692b1872b1a6d0be0800000000000000
+      internalID: -1509433635239775594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_5
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 64
+        width: 169
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3380fdc0f3f07d70800000000000000
+      internalID: 9038992667705377599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_6
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 64
+        width: 217
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a1fafffaee733f0800000000000000
+      internalID: -921005159097623993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_7
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 65
+        width: 234
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba28d1dd5a901db90800000000000000
+      internalID: -7218978119714241877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_8
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 65
+        width: 258
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9735b5f7532b08d50800000000000000
+      internalID: 6737580985385964409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_9
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 65
+        width: 130
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680af589582d90b40800000000000000
+      internalID: 5407084298863878278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_10
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 67
+        width: 178
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20af0bf43478e9900800000000000000
+      internalID: 693140115831192066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_11
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 65
+        width: 387
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6f032a73af47550800000000000000
+      internalID: 6157821707373573868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_12
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 67
+        width: 129
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0fe93039d774e10800000000000000
+      internalID: 2181850614858707169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_13
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 64
+        width: 1064
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8349598ff7eaa2600800000000000000
+      internalID: 444359377904047160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_14
+      rect:
+        serializedVersion: 2
+        x: 3929
+        y: 67
+        width: 168
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6cba695641ab710800000000000000
+      internalID: 1709701435092616948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_15
+      rect:
+        serializedVersion: 2
+        x: 4095
+        y: 103
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20f203c273c3c660800000000000000
+      internalID: 7404977109992665134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_16
+      rect:
+        serializedVersion: 2
+        x: 4095
+        y: 65
+        width: 129
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca76c101612fc52a0800000000000000
+      internalID: -6747251965134346324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_17
+      rect:
+        serializedVersion: 2
+        x: 4183
+        y: 65
+        width: 296
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05df1fc717d1adb80800000000000000
+      internalID: -8369344584249901744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_18
+      rect:
+        serializedVersion: 2
+        x: 4439
+        y: 65
+        width: 807
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3dddf773465b6190800000000000000
+      internalID: -7968180267926037185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_19
+      rect:
+        serializedVersion: 2
+        x: 5209
+        y: 71
+        width: 175
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80709fe3c0d9ab40800000000000000
+      internalID: 5452118363865116811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_20
+      rect:
+        serializedVersion: 2
+        x: 5375
+        y: 101
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12390ac7d41f1170800000000000000
+      internalID: 8151256767604011548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_21
+      rect:
+        serializedVersion: 2
+        x: 5375
+        y: 65
+        width: 127
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985e4a1b44fcfa820800000000000000
+      internalID: 2931789776386581897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_22
+      rect:
+        serializedVersion: 2
+        x: 5464
+        y: 65
+        width: 169
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9d7e7b332b813d0800000000000000
+      internalID: -3235640397067200048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_23
+      rect:
+        serializedVersion: 2
+        x: 5626
+        y: 65
+        width: 132
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500848b88af31d0b0800000000000000
+      internalID: -5705709259773935611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_24
+      rect:
+        serializedVersion: 2
+        x: 5718
+        y: 64
+        width: 1065
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef1481469415c1a0800000000000000
+      internalID: -6789998227614326801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_25
+      rect:
+        serializedVersion: 2
+        x: 6655
+        y: 101
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a978e5e81a94c1070800000000000000
+      internalID: 8078412789822949274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_26
+      rect:
+        serializedVersion: 2
+        x: 6655
+        y: 67
+        width: 129
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00ad1faae9670040800000000000000
+      internalID: 4613772799945580558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_27
+      rect:
+        serializedVersion: 2
+        x: 6744
+        y: 65
+        width: 294
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61243955dea7190e0800000000000000
+      internalID: -2264893977829096938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_28
+      rect:
+        serializedVersion: 2
+        x: 6998
+        y: 65
+        width: 171
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a55f15751ffa52b0800000000000000
+      internalID: -5594879119430036061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_29
+      rect:
+        serializedVersion: 2
+        x: 7167
+        y: 65
+        width: 128
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362422c6088616e00800000000000000
+      internalID: 1036224290051211875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_30
+      rect:
+        serializedVersion: 2
+        x: 7255
+        y: 65
+        width: 1061
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffcc74f833f457e0800000000000000
+      internalID: -1777528526958964746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_31
+      rect:
+        serializedVersion: 2
+        x: 8191
+        y: 67
+        width: 128
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38a3837bc7539e60800000000000000
+      internalID: 7967808697076525116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_32
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 65
+        width: 292
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe23e125b2b52690800000000000000
+      internalID: -7627493902854705478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_33
+      rect:
+        serializedVersion: 2
+        x: 8534
+        y: 64
+        width: 170
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9efa58780c059e9c0800000000000000
+      internalID: -3897495214674825239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_34
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 90
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe50dc959d996900800000000000000
+      internalID: 678246484802559675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_35
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 68
+        width: 41
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03b4f843e0a35e40800000000000000
+      internalID: 5644031656067379978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_36
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 67
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6696ba0cbdaf6980800000000000000
+      internalID: -8543418944953346451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_37
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 66
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b80d07bdfcc3ba20800000000000000
+      internalID: 3077028360494057655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_dash_strip34_38
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 68
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0d1a3878faf6180800000000000000
+      internalID: -9119877723838099240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_kiro2_0_dash_strip34_0: 664470578554631156
+      spr_kiro2_0_dash_strip34_1: -6340133747927642890
+      spr_kiro2_0_dash_strip34_10: 693140115831192066
+      spr_kiro2_0_dash_strip34_11: 6157821707373573868
+      spr_kiro2_0_dash_strip34_12: 2181850614858707169
+      spr_kiro2_0_dash_strip34_13: 444359377904047160
+      spr_kiro2_0_dash_strip34_14: 1709701435092616948
+      spr_kiro2_0_dash_strip34_15: 7404977109992665134
+      spr_kiro2_0_dash_strip34_16: -6747251965134346324
+      spr_kiro2_0_dash_strip34_17: -8369344584249901744
+      spr_kiro2_0_dash_strip34_18: -7968180267926037185
+      spr_kiro2_0_dash_strip34_19: 5452118363865116811
+      spr_kiro2_0_dash_strip34_2: -19931059824988438
+      spr_kiro2_0_dash_strip34_20: 8151256767604011548
+      spr_kiro2_0_dash_strip34_21: 2931789776386581897
+      spr_kiro2_0_dash_strip34_22: -3235640397067200048
+      spr_kiro2_0_dash_strip34_23: -5705709259773935611
+      spr_kiro2_0_dash_strip34_24: -6789998227614326801
+      spr_kiro2_0_dash_strip34_25: 8078412789822949274
+      spr_kiro2_0_dash_strip34_26: 4613772799945580558
+      spr_kiro2_0_dash_strip34_27: -2264893977829096938
+      spr_kiro2_0_dash_strip34_28: -5594879119430036061
+      spr_kiro2_0_dash_strip34_29: 1036224290051211875
+      spr_kiro2_0_dash_strip34_3: 2344468320325533333
+      spr_kiro2_0_dash_strip34_30: -1777528526958964746
+      spr_kiro2_0_dash_strip34_31: 7967808697076525116
+      spr_kiro2_0_dash_strip34_32: -7627493902854705478
+      spr_kiro2_0_dash_strip34_33: -3897495214674825239
+      spr_kiro2_0_dash_strip34_34: 678246484802559675
+      spr_kiro2_0_dash_strip34_35: 5644031656067379978
+      spr_kiro2_0_dash_strip34_36: -8543418944953346451
+      spr_kiro2_0_dash_strip34_37: 3077028360494057655
+      spr_kiro2_0_dash_strip34_38: -9119877723838099240
+      spr_kiro2_0_dash_strip34_4: -1509433635239775594
+      spr_kiro2_0_dash_strip34_5: 9038992667705377599
+      spr_kiro2_0_dash_strip34_6: -921005159097623993
+      spr_kiro2_0_dash_strip34_7: -7218978119714241877
+      spr_kiro2_0_dash_strip34_8: 6737580985385964409
+      spr_kiro2_0_dash_strip34_9: 5407084298863878278
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

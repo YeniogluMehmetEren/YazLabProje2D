@@ -1,0 +1,2041 @@
+fileFormatVersion: 2
+guid: 27d8d4540222bfd4baf57e62b56690d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3632259413871650175
+    second: spr_kiro2_0_death_strip62_0
+  - first:
+      213: -6610488956809395641
+    second: spr_kiro2_0_death_strip62_1
+  - first:
+      213: 7502052344092836903
+    second: spr_kiro2_0_death_strip62_2
+  - first:
+      213: 5538314670225361175
+    second: spr_kiro2_0_death_strip62_3
+  - first:
+      213: 1219857251470323172
+    second: spr_kiro2_0_death_strip62_4
+  - first:
+      213: 2563343726892548020
+    second: spr_kiro2_0_death_strip62_5
+  - first:
+      213: -3530873017968755143
+    second: spr_kiro2_0_death_strip62_6
+  - first:
+      213: -3740775496424811288
+    second: spr_kiro2_0_death_strip62_7
+  - first:
+      213: -3443966899604857697
+    second: spr_kiro2_0_death_strip62_8
+  - first:
+      213: -4936263024765529913
+    second: spr_kiro2_0_death_strip62_9
+  - first:
+      213: 3101030033395043040
+    second: spr_kiro2_0_death_strip62_10
+  - first:
+      213: -5953022680373962836
+    second: spr_kiro2_0_death_strip62_11
+  - first:
+      213: -987624769582729380
+    second: spr_kiro2_0_death_strip62_12
+  - first:
+      213: -5091670372858626680
+    second: spr_kiro2_0_death_strip62_13
+  - first:
+      213: -6145187307894730235
+    second: spr_kiro2_0_death_strip62_14
+  - first:
+      213: -3178598971457506030
+    second: spr_kiro2_0_death_strip62_15
+  - first:
+      213: -8093395576431639875
+    second: spr_kiro2_0_death_strip62_16
+  - first:
+      213: 324941226197601899
+    second: spr_kiro2_0_death_strip62_17
+  - first:
+      213: 1092185335551755069
+    second: spr_kiro2_0_death_strip62_18
+  - first:
+      213: -4993261928678146915
+    second: spr_kiro2_0_death_strip62_19
+  - first:
+      213: 551040344849247054
+    second: spr_kiro2_0_death_strip62_20
+  - first:
+      213: 3766023703667273423
+    second: spr_kiro2_0_death_strip62_21
+  - first:
+      213: 6383695925446563204
+    second: spr_kiro2_0_death_strip62_22
+  - first:
+      213: -7329046975357931077
+    second: spr_kiro2_0_death_strip62_23
+  - first:
+      213: -2163425787815941870
+    second: spr_kiro2_0_death_strip62_24
+  - first:
+      213: -4954604868293244660
+    second: spr_kiro2_0_death_strip62_25
+  - first:
+      213: -133894985245627901
+    second: spr_kiro2_0_death_strip62_26
+  - first:
+      213: 1583981138456415703
+    second: spr_kiro2_0_death_strip62_27
+  - first:
+      213: -9113563925134877810
+    second: spr_kiro2_0_death_strip62_28
+  - first:
+      213: -5387588228545123936
+    second: spr_kiro2_0_death_strip62_29
+  - first:
+      213: 1386097950307391190
+    second: spr_kiro2_0_death_strip62_30
+  - first:
+      213: 7699298404341727025
+    second: spr_kiro2_0_death_strip62_31
+  - first:
+      213: -5783873548502825583
+    second: spr_kiro2_0_death_strip62_32
+  - first:
+      213: -3134543643311220341
+    second: spr_kiro2_0_death_strip62_33
+  - first:
+      213: -6616809301523404731
+    second: spr_kiro2_0_death_strip62_34
+  - first:
+      213: 5791355507460830199
+    second: spr_kiro2_0_death_strip62_35
+  - first:
+      213: 985164803131318868
+    second: spr_kiro2_0_death_strip62_36
+  - first:
+      213: -7321185906570334521
+    second: spr_kiro2_0_death_strip62_37
+  - first:
+      213: -5873826001571973756
+    second: spr_kiro2_0_death_strip62_38
+  - first:
+      213: 4228315494654165583
+    second: spr_kiro2_0_death_strip62_39
+  - first:
+      213: 4337354551677126571
+    second: spr_kiro2_0_death_strip62_40
+  - first:
+      213: 267185230392227784
+    second: spr_kiro2_0_death_strip62_41
+  - first:
+      213: -2623254481515364899
+    second: spr_kiro2_0_death_strip62_42
+  - first:
+      213: 2007569173088529023
+    second: spr_kiro2_0_death_strip62_43
+  - first:
+      213: 7738181676557527321
+    second: spr_kiro2_0_death_strip62_44
+  - first:
+      213: -3132755153395004206
+    second: spr_kiro2_0_death_strip62_45
+  - first:
+      213: -7769212178053579843
+    second: spr_kiro2_0_death_strip62_46
+  - first:
+      213: -1450674457529646229
+    second: spr_kiro2_0_death_strip62_47
+  - first:
+      213: 5391562158095505554
+    second: spr_kiro2_0_death_strip62_48
+  - first:
+      213: 3509369782869355968
+    second: spr_kiro2_0_death_strip62_49
+  - first:
+      213: -4280348838419947917
+    second: spr_kiro2_0_death_strip62_50
+  - first:
+      213: 942684389054481795
+    second: spr_kiro2_0_death_strip62_51
+  - first:
+      213: -1248328962794661120
+    second: spr_kiro2_0_death_strip62_52
+  - first:
+      213: 2816856194056497449
+    second: spr_kiro2_0_death_strip62_53
+  - first:
+      213: 6967154232249604167
+    second: spr_kiro2_0_death_strip62_54
+  - first:
+      213: 8701181986730448363
+    second: spr_kiro2_0_death_strip62_55
+  - first:
+      213: -2447561874125657046
+    second: spr_kiro2_0_death_strip62_56
+  - first:
+      213: 4421177970375372800
+    second: spr_kiro2_0_death_strip62_57
+  - first:
+      213: -3362460468736575931
+    second: spr_kiro2_0_death_strip62_58
+  - first:
+      213: -2700557385752628660
+    second: spr_kiro2_0_death_strip62_59
+  - first:
+      213: -5441561824381713153
+    second: spr_kiro2_0_death_strip62_60
+  - first:
+      213: 1194167935547568732
+    second: spr_kiro2_0_death_strip62_61
+  - first:
+      213: -8903109177750874314
+    second: spr_kiro2_0_death_strip62_62
+  - first:
+      213: 9092709351792333759
+    second: spr_kiro2_0_death_strip62_63
+  - first:
+      213: 6081708361345839525
+    second: spr_kiro2_0_death_strip62_64
+  - first:
+      213: 8139295912936177601
+    second: spr_kiro2_0_death_strip62_65
+  - first:
+      213: 7973342470010751536
+    second: spr_kiro2_0_death_strip62_66
+  - first:
+      213: 2898996460687692705
+    second: spr_kiro2_0_death_strip62_67
+  - first:
+      213: -7652879377983891257
+    second: spr_kiro2_0_death_strip62_68
+  - first:
+      213: -573969536763425622
+    second: spr_kiro2_0_death_strip62_69
+  - first:
+      213: 164770534167430338
+    second: spr_kiro2_0_death_strip62_70
+  - first:
+      213: 3945947571416730548
+    second: spr_kiro2_0_death_strip62_71
+  - first:
+      213: 4248382428895978416
+    second: spr_kiro2_0_death_strip62_72
+  - first:
+      213: -417002279628847824
+    second: spr_kiro2_0_death_strip62_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_0
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 0
+        width: 1320
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a9c10ce4f979dc0800000000000000
+      internalID: -3632259413871650175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_1
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 177
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742cbb15153d244a0800000000000000
+      internalID: -6610488956809395641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_2
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 194
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7244a000cd4ac1860800000000000000
+      internalID: 7502052344092836903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_3
+      rect:
+        serializedVersion: 2
+        x: 2962
+        y: 198
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7190e1d69db0cdc40800000000000000
+      internalID: 5538314670225361175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_4
+      rect:
+        serializedVersion: 2
+        x: 3219
+        y: 203
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eda29605bdcde010800000000000000
+      internalID: 1219857251470323172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 65
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bff7a6d983d29320800000000000000
+      internalID: 2563343726892548020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_6
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 65
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ef5f092b1dffec0800000000000000
+      internalID: -3530873017968755143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_7
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 65
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e41d176188161cc0800000000000000
+      internalID: -3740775496424811288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_8
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 65
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c59da0a529430d0800000000000000
+      internalID: -3443966899604857697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_9
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 64
+        width: 205
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c094f2beeede7bb0800000000000000
+      internalID: -4936263024765529913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_10
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 54
+        width: 174
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea445aa262190b20800000000000000
+      internalID: 3101030033395043040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_11
+      rect:
+        serializedVersion: 2
+        x: 2767
+        y: 129
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca75774a96d926da0800000000000000
+      internalID: -5953022680373962836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_12
+      rect:
+        serializedVersion: 2
+        x: 2866
+        y: 56
+        width: 178
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57f4a531804b42f0800000000000000
+      internalID: -987624769582729380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_13
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 64
+        width: 176
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d7160d5c0c659b0800000000000000
+      internalID: -5091670372858626680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_14
+      rect:
+        serializedVersion: 2
+        x: 3374
+        y: 64
+        width: 179
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50212bab3b8e7baa0800000000000000
+      internalID: -6145187307894730235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_15
+      rect:
+        serializedVersion: 2
+        x: 3630
+        y: 64
+        width: 180
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2157ade831953e3d0800000000000000
+      internalID: -3178598971457506030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_16
+      rect:
+        serializedVersion: 2
+        x: 3886
+        y: 64
+        width: 180
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db203189a9b7eaf80800000000000000
+      internalID: -8093395576431639875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_17
+      rect:
+        serializedVersion: 2
+        x: 4141
+        y: 64
+        width: 182
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e4368d25c628400800000000000000
+      internalID: 324941226197601899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_18
+      rect:
+        serializedVersion: 2
+        x: 4396
+        y: 64
+        width: 183
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33047aa6c8382f00800000000000000
+      internalID: 1092185335551755069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_19
+      rect:
+        serializedVersion: 2
+        x: 4651
+        y: 64
+        width: 184
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c38a63bbe54bab0800000000000000
+      internalID: -4993261928678146915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_20
+      rect:
+        serializedVersion: 2
+        x: 4907
+        y: 64
+        width: 187
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4be5ab2640b5a700800000000000000
+      internalID: 551040344849247054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_21
+      rect:
+        serializedVersion: 2
+        x: 5164
+        y: 64
+        width: 188
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcee9c0fa9a934430800000000000000
+      internalID: 3766023703667273423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_22
+      rect:
+        serializedVersion: 2
+        x: 5422
+        y: 64
+        width: 190
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485d9563f91779850800000000000000
+      internalID: 6383695925446563204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_23
+      rect:
+        serializedVersion: 2
+        x: 5680
+        y: 64
+        width: 193
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1b3ab5b9ef94a90800000000000000
+      internalID: -7329046975357931077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_24
+      rect:
+        serializedVersion: 2
+        x: 5945
+        y: 62
+        width: 187
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219af4355b7f9f1e0800000000000000
+      internalID: -2163425787815941870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_25
+      rect:
+        serializedVersion: 2
+        x: 6203
+        y: 62
+        width: 183
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09c5f67f15bd3bb0800000000000000
+      internalID: -4954604868293244660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_26
+      rect:
+        serializedVersion: 2
+        x: 6460
+        y: 62
+        width: 181
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a6a37683f442ef0800000000000000
+      internalID: -133894985245627901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_27
+      rect:
+        serializedVersion: 2
+        x: 6718
+        y: 62
+        width: 178
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd0d90047e6bf510800000000000000
+      internalID: 1583981138456415703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_28
+      rect:
+        serializedVersion: 2
+        x: 6973
+        y: 62
+        width: 179
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b558455ed168180800000000000000
+      internalID: -9113563925134877810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_29
+      rect:
+        serializedVersion: 2
+        x: 7230
+        y: 62
+        width: 178
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9ed710d017b35b0800000000000000
+      internalID: -5387588228545123936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_30
+      rect:
+        serializedVersion: 2
+        x: 7485
+        y: 62
+        width: 179
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d618ffedb86c3310800000000000000
+      internalID: 1386097950307391190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_31
+      rect:
+        serializedVersion: 2
+        x: 7742
+        y: 62
+        width: 178
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f358a2b1769da60800000000000000
+      internalID: 7699298404341727025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_32
+      rect:
+        serializedVersion: 2
+        x: 7998
+        y: 62
+        width: 178
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19506b3e6ad8bbfa0800000000000000
+      internalID: -5783873548502825583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_33
+      rect:
+        serializedVersion: 2
+        x: 8255
+        y: 62
+        width: 177
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89d977f92ddf74d0800000000000000
+      internalID: -3134543643311220341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_34
+      rect:
+        serializedVersion: 2
+        x: 8511
+        y: 62
+        width: 177
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54862346ffe5c24a0800000000000000
+      internalID: -6616809301523404731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_35
+      rect:
+        serializedVersion: 2
+        x: 8768
+        y: 62
+        width: 176
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3743e66270f5050800000000000000
+      internalID: 5791355507460830199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_36
+      rect:
+        serializedVersion: 2
+        x: 9024
+        y: 62
+        width: 176
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4522cd73b220cad00800000000000000
+      internalID: 985164803131318868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_37
+      rect:
+        serializedVersion: 2
+        x: 9281
+        y: 62
+        width: 175
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce6740153ce56a90800000000000000
+      internalID: -7321185906570334521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_38
+      rect:
+        serializedVersion: 2
+        x: 9538
+        y: 62
+        width: 174
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48579d75f5afb7ea0800000000000000
+      internalID: -5873826001571973756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_39
+      rect:
+        serializedVersion: 2
+        x: 9795
+        y: 62
+        width: 173
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4244213a8efdaa30800000000000000
+      internalID: 4228315494654165583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_40
+      rect:
+        serializedVersion: 2
+        x: 10052
+        y: 62
+        width: 172
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba783a50cf0613c30800000000000000
+      internalID: 4337354551677126571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_41
+      rect:
+        serializedVersion: 2
+        x: 10309
+        y: 62
+        width: 171
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c772ca2d8b35b300800000000000000
+      internalID: 267185230392227784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_42
+      rect:
+        serializedVersion: 2
+        x: 10564
+        y: 62
+        width: 173
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd33d992f3589bd0800000000000000
+      internalID: -2623254481515364899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_43
+      rect:
+        serializedVersion: 2
+        x: 10821
+        y: 62
+        width: 172
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a67ffb6815cdb10800000000000000
+      internalID: 2007569173088529023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_44
+      rect:
+        serializedVersion: 2
+        x: 11077
+        y: 62
+        width: 174
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919e5a67c3b836b60800000000000000
+      internalID: 7738181676557527321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_45
+      rect:
+        serializedVersion: 2
+        x: 11334
+        y: 62
+        width: 173
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dccd9939c73684d0800000000000000
+      internalID: -3132755153395004206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_46
+      rect:
+        serializedVersion: 2
+        x: 11590
+        y: 62
+        width: 174
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb3a76efa63e2490800000000000000
+      internalID: -7769212178053579843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_47
+      rect:
+        serializedVersion: 2
+        x: 11847
+        y: 62
+        width: 174
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b638632544b2edbe0800000000000000
+      internalID: -1450674457529646229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_48
+      rect:
+        serializedVersion: 2
+        x: 12096
+        y: 62
+        width: 183
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29898b1973da2da40800000000000000
+      internalID: 5391562158095505554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_49
+      rect:
+        serializedVersion: 2
+        x: 12345
+        y: 61
+        width: 191
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdea6d5939c3b030800000000000000
+      internalID: 3509369782869355968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_50
+      rect:
+        serializedVersion: 2
+        x: 12595
+        y: 61
+        width: 199
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e1933e8652994c0800000000000000
+      internalID: -4280348838419947917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_51
+      rect:
+        serializedVersion: 2
+        x: 12842
+        y: 61
+        width: 209
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38506e01576151d00800000000000000
+      internalID: 942684389054481795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_52
+      rect:
+        serializedVersion: 2
+        x: 13081
+        y: 57
+        width: 228
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bdac91c6b0daee0800000000000000
+      internalID: -1248328962794661120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_53
+      rect:
+        serializedVersion: 2
+        x: 13334
+        y: 50
+        width: 233
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929a81eb8cb771720800000000000000
+      internalID: 2816856194056497449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_54
+      rect:
+        serializedVersion: 2
+        x: 13590
+        y: 44
+        width: 229
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748d8945cdd40b060800000000000000
+      internalID: 6967154232249604167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_55
+      rect:
+        serializedVersion: 2
+        x: 13846
+        y: 59
+        width: 147
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be598158aeec0c870800000000000000
+      internalID: 8701181986730448363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_56
+      rect:
+        serializedVersion: 2
+        x: 14102
+        y: 59
+        width: 147
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c63f67173880ed0800000000000000
+      internalID: -2447561874125657046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_57
+      rect:
+        serializedVersion: 2
+        x: 14358
+        y: 59
+        width: 147
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000b10d80fd2b5d30800000000000000
+      internalID: 4421177970375372800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_58
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 50
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546b9adc4042651d0800000000000000
+      internalID: -3362460468736575931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_59
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 0
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4238a6ad51b58ad0800000000000000
+      internalID: -2700557385752628660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_60
+      rect:
+        serializedVersion: 2
+        x: 13996
+        y: 38
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4c662f950bb74b0800000000000000
+      internalID: -5441561824381713153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_61
+      rect:
+        serializedVersion: 2
+        x: 14257
+        y: 33
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5279701969829010800000000000000
+      internalID: 1194167935547568732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_62
+      rect:
+        serializedVersion: 2
+        x: 14517
+        y: 31
+        width: 39
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63793af9f5dc17480800000000000000
+      internalID: -8903109177750874314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_63
+      rect:
+        serializedVersion: 2
+        x: 14614
+        y: 59
+        width: 147
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3547feafacf2e70800000000000000
+      internalID: 9092709351792333759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_64
+      rect:
+        serializedVersion: 2
+        x: 14773
+        y: 32
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1ba894881966450800000000000000
+      internalID: 6081708361345839525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_65
+      rect:
+        serializedVersion: 2
+        x: 14870
+        y: 59
+        width: 147
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf795c428694f070800000000000000
+      internalID: 8139295912936177601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_66
+      rect:
+        serializedVersion: 2
+        x: 15021
+        y: 34
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ac68d5bb007ae60800000000000000
+      internalID: 7973342470010751536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_67
+      rect:
+        serializedVersion: 2
+        x: 15126
+        y: 59
+        width: 147
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a39764ebed4b3820800000000000000
+      internalID: 2898996460687692705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_68
+      rect:
+        serializedVersion: 2
+        x: 15266
+        y: 41
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c89b5e90c28bc590800000000000000
+      internalID: -7652879377983891257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_69
+      rect:
+        serializedVersion: 2
+        x: 15382
+        y: 59
+        width: 147
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac02515fb9d808f0800000000000000
+      internalID: -573969536763425622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_70
+      rect:
+        serializedVersion: 2
+        x: 15517
+        y: 43
+        width: 73
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c440868de1694200800000000000000
+      internalID: 164770534167430338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_71
+      rect:
+        serializedVersion: 2
+        x: 15638
+        y: 59
+        width: 147
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb0c90e862d2c630800000000000000
+      internalID: 3945947571416730548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_72
+      rect:
+        serializedVersion: 2
+        x: 15771
+        y: 44
+        width: 77
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b32b586f4945fa30800000000000000
+      internalID: 4248382428895978416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_kiro2_0_death_strip62_73
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 32
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035c134d2a2863af0800000000000000
+      internalID: -417002279628847824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_kiro2_0_death_strip62_0: -3632259413871650175
+      spr_kiro2_0_death_strip62_1: -6610488956809395641
+      spr_kiro2_0_death_strip62_10: 3101030033395043040
+      spr_kiro2_0_death_strip62_11: -5953022680373962836
+      spr_kiro2_0_death_strip62_12: -987624769582729380
+      spr_kiro2_0_death_strip62_13: -5091670372858626680
+      spr_kiro2_0_death_strip62_14: -6145187307894730235
+      spr_kiro2_0_death_strip62_15: -3178598971457506030
+      spr_kiro2_0_death_strip62_16: -8093395576431639875
+      spr_kiro2_0_death_strip62_17: 324941226197601899
+      spr_kiro2_0_death_strip62_18: 1092185335551755069
+      spr_kiro2_0_death_strip62_19: -4993261928678146915
+      spr_kiro2_0_death_strip62_2: 7502052344092836903
+      spr_kiro2_0_death_strip62_20: 551040344849247054
+      spr_kiro2_0_death_strip62_21: 3766023703667273423
+      spr_kiro2_0_death_strip62_22: 6383695925446563204
+      spr_kiro2_0_death_strip62_23: -7329046975357931077
+      spr_kiro2_0_death_strip62_24: -2163425787815941870
+      spr_kiro2_0_death_strip62_25: -4954604868293244660
+      spr_kiro2_0_death_strip62_26: -133894985245627901
+      spr_kiro2_0_death_strip62_27: 1583981138456415703
+      spr_kiro2_0_death_strip62_28: -9113563925134877810
+      spr_kiro2_0_death_strip62_29: -5387588228545123936
+      spr_kiro2_0_death_strip62_3: 5538314670225361175
+      spr_kiro2_0_death_strip62_30: 1386097950307391190
+      spr_kiro2_0_death_strip62_31: 7699298404341727025
+      spr_kiro2_0_death_strip62_32: -5783873548502825583
+      spr_kiro2_0_death_strip62_33: -3134543643311220341
+      spr_kiro2_0_death_strip62_34: -6616809301523404731
+      spr_kiro2_0_death_strip62_35: 5791355507460830199
+      spr_kiro2_0_death_strip62_36: 985164803131318868
+      spr_kiro2_0_death_strip62_37: -7321185906570334521
+      spr_kiro2_0_death_strip62_38: -5873826001571973756
+      spr_kiro2_0_death_strip62_39: 4228315494654165583
+      spr_kiro2_0_death_strip62_4: 1219857251470323172
+      spr_kiro2_0_death_strip62_40: 4337354551677126571
+      spr_kiro2_0_death_strip62_41: 267185230392227784
+      spr_kiro2_0_death_strip62_42: -2623254481515364899
+      spr_kiro2_0_death_strip62_43: 2007569173088529023
+      spr_kiro2_0_death_strip62_44: 7738181676557527321
+      spr_kiro2_0_death_strip62_45: -3132755153395004206
+      spr_kiro2_0_death_strip62_46: -7769212178053579843
+      spr_kiro2_0_death_strip62_47: -1450674457529646229
+      spr_kiro2_0_death_strip62_48: 5391562158095505554
+      spr_kiro2_0_death_strip62_49: 3509369782869355968
+      spr_kiro2_0_death_strip62_5: 2563343726892548020
+      spr_kiro2_0_death_strip62_50: -4280348838419947917
+      spr_kiro2_0_death_strip62_51: 942684389054481795
+      spr_kiro2_0_death_strip62_52: -1248328962794661120
+      spr_kiro2_0_death_strip62_53: 2816856194056497449
+      spr_kiro2_0_death_strip62_54: 6967154232249604167
+      spr_kiro2_0_death_strip62_55: 8701181986730448363
+      spr_kiro2_0_death_strip62_56: -2447561874125657046
+      spr_kiro2_0_death_strip62_57: 4421177970375372800
+      spr_kiro2_0_death_strip62_58: -3362460468736575931
+      spr_kiro2_0_death_strip62_59: -2700557385752628660
+      spr_kiro2_0_death_strip62_6: -3530873017968755143
+      spr_kiro2_0_death_strip62_60: -5441561824381713153
+      spr_kiro2_0_death_strip62_61: 1194167935547568732
+      spr_kiro2_0_death_strip62_62: -8903109177750874314
+      spr_kiro2_0_death_strip62_63: 9092709351792333759
+      spr_kiro2_0_death_strip62_64: 6081708361345839525
+      spr_kiro2_0_death_strip62_65: 8139295912936177601
+      spr_kiro2_0_death_strip62_66: 7973342470010751536
+      spr_kiro2_0_death_strip62_67: 2898996460687692705
+      spr_kiro2_0_death_strip62_68: -7652879377983891257
+      spr_kiro2_0_death_strip62_69: -573969536763425622
+      spr_kiro2_0_death_strip62_7: -3740775496424811288
+      spr_kiro2_0_death_strip62_70: 164770534167430338
+      spr_kiro2_0_death_strip62_71: 3945947571416730548
+      spr_kiro2_0_death_strip62_72: 4248382428895978416
+      spr_kiro2_0_death_strip62_73: -417002279628847824
+      spr_kiro2_0_death_strip62_8: -3443966899604857697
+      spr_kiro2_0_death_strip62_9: -4936263024765529913
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

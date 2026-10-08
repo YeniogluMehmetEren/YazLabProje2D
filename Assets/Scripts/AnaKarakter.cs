@@ -6,10 +6,11 @@ public class AnaKarakter : MonoBehaviour
 
     public Rigidbody2D move;
     public Animator animator;
-    public float hiz = 5f;
+    public int hiz = 5;
     public float damage=1f;
     public float health=10f;
     public SpriteRenderer sprite;
+    public float x;
 
 
 
@@ -18,23 +19,24 @@ public class AnaKarakter : MonoBehaviour
 
     {
         
-        float x = Input.GetAxis("Horizontal");
+         x = Input.GetAxisRaw("Horizontal");
 
-         move.linearVelocity=new Vector2(x * hiz,0);
+         move.linearVelocity = new Vector2(x * hiz, move.linearVelocity.y);   
 
-        if(x==0)
+        if (x==0)
         {
-            animator.SetBool("Run", false);
+            animator.SetBool("RunRight", false);
+            animator.SetBool("RunLeft", false);
         }
         else if (x==-1)
         {
-            animator.SetBool("Run", true);
+            animator.SetBool("RunLeft", true);
             sprite.flipX=true;
         }
 
         else if (x==1)
         {
-            animator.SetBool("Run", true);
+            animator.SetBool("RunRight", true);
             sprite.flipX=false;
         }
 
