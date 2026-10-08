@@ -85,6 +85,11 @@ public class AnaKarakter : MonoBehaviour
         {
             animator.SetBool("Fall",false); 
         }
+
+        else if (isGrounded==false)
+        {
+            animator.SetBool("Run",false);
+        }
     }
 
     public void Hit()
