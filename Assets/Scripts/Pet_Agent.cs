@@ -83,7 +83,7 @@ public class Pet_Agent : Agent
 
         if (hedefteMi)
         {
-            AddReward(0.003f);
+            AddReward(0.001f);
         }
 
         _cumulativeReward = GetCumulativeReward();
