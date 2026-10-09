@@ -15,6 +15,9 @@ public class Boss : MonoBehaviour
     public float takipmenzili=20f;
     public float mesafex;
     public int karar;
+    public SpriteRenderer spriteRenderer;
+    public GameObject AOE;
+    public float patlamalarArasiMesafe = 1f;    
     public enum  durumlar  { Attack1, Attack2, Teleport, Move };
     public durumlar currentState = durumlar.Move;
     bool canAttack = true;
@@ -40,11 +43,11 @@ public class Boss : MonoBehaviour
     {
         if (mesafex > 0)
         {
-            action.linearVelocity = new Vector2(speed, action.linearVelocity.y);
+            spriteRenderer.flipX = true;
         }
         else if (mesafex < 0)
         {
-            action.linearVelocity = new Vector2(-speed, action.linearVelocity.y);
+            spriteRenderer.flipX = false;
         }
     }
 
@@ -62,8 +65,10 @@ public class Boss : MonoBehaviour
 
     public IEnumerator Attack2()
     {
-        canAttack = false;
+        
         currentState = durumlar.Attack2;
+        canAttack = false;
+        YonAyarla();
         animator.SetTrigger("Attack2");
         float animlength = animator.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
@@ -77,28 +82,46 @@ public class Boss : MonoBehaviour
         currentState = durumlar.Teleport;
         canAttack = false;
         animator.SetTrigger("teleport");
+
         Vector2 pozisyon = transform.position;
         float animlength= animator.GetCurrentAnimatorStateInfo(0).length;
       
         yield return new WaitForSeconds(animlength);
         if(mesafex>0)
         {
-            pozisyon.x = Knight.position.x + 8f;
+            pozisyon.x = Knight.position.x + 9.3f;
         }
 
         else if (mesafex<0)
         {
-            pozisyon.x = Knight.position.x - 8f;
+            pozisyon.x = Knight.position.x - 9.3f;
         }
 
       
         transform.position = pozisyon;
 
         canAttack = true;
-        currentState = durumlar.Move;
+        yield return new WaitForSeconds(1f);
+        currentState = durumlar.Attack2;
 
     }
 
+
+
+    public IEnumerator AOEAttack()
+    {
+        Vector3 yon = transform.position-Knight.position;
+      
+        for(int i=0; i<mesafex; i++)
+        {
+            Vector3 patlamaNoktasi = transform.position + (yon * (patlamalarArasiMesafe * i));
+            Instantiate(AOE,patlamaNoktasi,Quaternion.identity);
+            Destroy(AOE, 0.5f);
+            yield return new WaitForSeconds(0.5f);
+        }
+
+
+    }
 
 
     void Start()
@@ -120,11 +143,19 @@ public class Boss : MonoBehaviour
                 else if(Mathf.Abs(mesafex) <= menzil&&canAttack==true)
                 {
                     animator.SetBool(name: "Run", value: false);
+                    int karar = Random.Range(0, 1);
            
-                    action.linearVelocity = Vector2.zero;
-                    StartCoroutine(Teleport());
-                    YonAyarla();
-                    StartCoroutine(Attack2());
+
+                    if(karar==0)
+                    {
+                        action.linearVelocity = Vector2.zero;
+                        StartCoroutine(Teleport());
+                    }
+
+                    else if (karar==1)
+                    {
+                        StartCoroutine(Attack1());
+                    }
 
                 }
                 break;
@@ -132,10 +163,10 @@ public class Boss : MonoBehaviour
                
                 break;
             case durumlar.Attack2:
-               
+                StartCoroutine(Attack2());
                 break;
             case durumlar.Teleport:
-              
+       
                 break;
         }
 
