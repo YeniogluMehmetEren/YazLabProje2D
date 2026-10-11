@@ -21,21 +21,26 @@ public class Boss : MonoBehaviour
     public Transform baslangicyeri;
     public enum  durumlar  { Attack1, Attack2, Teleport, Move, Karar};
     public durumlar currentState = durumlar.Move;
-    bool canAttack = true;
+    public bool canAttack = true;
 
 
     public void Run()
     {
     
-        animator.SetBool("Run", true);
-        if(mesafex>0)
+        
+        if(canAttack==true)
         {
-            action.linearVelocity = new Vector2(speed, action.linearVelocity.y);
+            animator.SetBool("Run", true);
+            if (mesafex > 0)
+            {
+                action.linearVelocity = new Vector2(speed, action.linearVelocity.y);
+            }
+            else if (mesafex < 0)
+            {
+                action.linearVelocity = new Vector2(-speed, action.linearVelocity.y);
+            }
         }
-        else if (mesafex<0)
-        {
-            action.linearVelocity = new Vector2(-speed, action.linearVelocity.y);
-        }
+       
         
     }
 
@@ -61,6 +66,8 @@ public class Boss : MonoBehaviour
         float animlength = animator.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         canAttack = true;
+        yield return new WaitForSeconds(1.5f);
+       
         currentState = durumlar.Move;
     }
 
@@ -74,8 +81,10 @@ public class Boss : MonoBehaviour
         animator.SetTrigger("Attack2");
         yield return new WaitForEndOfFrame();
         float animlength = animator.GetCurrentAnimatorStateInfo(0).length;
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length+0.3f);
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         canAttack = true;
+        yield return new WaitForSeconds(1.5f);
+        
         currentState = durumlar.Move;
     }
 
@@ -91,11 +100,11 @@ public class Boss : MonoBehaviour
         float animlength= animator.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animlength);
         pozisyon.x = Knight.position.x + 9.3f;
-        
+       
 
-        
 
-      
+
+
         transform.position = pozisyon;
 
 
@@ -166,8 +175,9 @@ public class Boss : MonoBehaviour
                 else if(Mathf.Abs(mesafex) <= menzil&&canAttack==true)
                 {
                     animator.SetBool(name: "Run", value: false);
-                 
-                     StartCoroutine(KararVer());
+                    action.linearVelocity=Vector2 .zero;
+
+                    StartCoroutine(KararVer());
 
                  
 

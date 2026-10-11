@@ -16,6 +16,7 @@ public class AnaKarakter : MonoBehaviour
 
 
 
+
     public void Walk()
 
     {
