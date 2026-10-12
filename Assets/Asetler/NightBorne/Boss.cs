@@ -27,8 +27,8 @@ public class Boss : MonoBehaviour
     public void Run()
     {
     
-        
-        if(canAttack==true)
+         currentState= durumlar.Move;   
+        if (canAttack==true)
         {
             animator.SetBool("Run", true);
             if (mesafex > 0)
@@ -66,49 +66,54 @@ public class Boss : MonoBehaviour
         float animlength = animator.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         canAttack = true;
-        yield return new WaitForSeconds(1.5f);
-       
-        currentState = durumlar.Move;
+        currentState= durumlar.Move;    
     }
 
 
     public IEnumerator Attack2()
     {
-        
-        currentState = durumlar.Attack2;
         canAttack = false;
-        YonAyarla();
+        currentState = durumlar.Attack2;
+       
+      
         animator.SetTrigger("Attack2");
+        YonAyarla();
         yield return new WaitForEndOfFrame();
         float animlength = animator.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        yield return new WaitForSeconds(0.5f);
         canAttack = true;
-        yield return new WaitForSeconds(1.5f);
-        
+
         currentState = durumlar.Move;
+
+
+
     }
 
     public IEnumerator Teleport()
     {
-        
-        currentState = durumlar.Teleport;
- 
-        animator.SetTrigger("teleport");
-
         Vector2 pozisyon = transform.position;
-        yield return new WaitForEndOfFrame();
-        float animlength= animator.GetCurrentAnimatorStateInfo(0).length;
-        yield return new WaitForSeconds(animlength);
-        pozisyon.x = Knight.position.x + 9.3f;
-       
+        currentState = durumlar.Teleport;
+        canAttack = false;
+        int karar= Random.Range(0, 2);
+    
 
-
-
-
+        
+    
+        if(karar==0)
+        {
+            pozisyon.x = Knight.position.x + 10f;
+        }
+        else if(karar==1)
+        {
+            pozisyon.x = Knight.position.x - 10f;
+        }   
         transform.position = pozisyon;
+        yield return new  WaitForSeconds(0.5f);
+        canAttack = true;
 
 
-        StartCoroutine(Attack2());
+
 
     }
 
@@ -136,7 +141,6 @@ public class Boss : MonoBehaviour
     {
         currentState = durumlar.Karar;
         karar = Random.Range(0, 2);
-        yield return new WaitForSeconds(0.5f);  
         if(karar==0)
         {
    
@@ -145,12 +149,13 @@ public class Boss : MonoBehaviour
 
         else if(karar==1)
         {
-             
-            StartCoroutine(Teleport());
+            animator.SetTrigger("teleport");
+            
+            yield return new WaitForSeconds(0.2f);
+            StartCoroutine(Attack2());
         }
 
-        yield return new WaitForSeconds(5f);
-        currentState = durumlar.Move;
+
     }
 
 
@@ -170,12 +175,13 @@ public class Boss : MonoBehaviour
             case durumlar.Move:
                 if(Mathf.Abs(mesafex) <= takipmenzili && Mathf.Abs(mesafex)>menzil)
                 {
+                    YonAyarla();
                     Run();
                 }
-                else if(Mathf.Abs(mesafex) <= menzil&&canAttack==true)
+                else if(Mathf.Abs(mesafex) <= menzil&& canAttack==true)
                 {
                     animator.SetBool(name: "Run", value: false);
-                    action.linearVelocity=Vector2 .zero;
+                    action.linearVelocity=Vector2.zero;
 
                     StartCoroutine(KararVer());
 
@@ -184,14 +190,16 @@ public class Boss : MonoBehaviour
                 }
                 break;
             case durumlar.Attack1:
-               
+               action.linearVelocity=Vector2.zero;
                 break;
             case durumlar.Attack2:
-                
+                   action.linearVelocity=Vector2.zero;
                 break;
             case durumlar.Teleport:
+                action.linearVelocity = Vector2.zero;
+                animator.SetBool("Run", false);
                 break;
-
+               
             case durumlar.Karar:
             break;
         }
