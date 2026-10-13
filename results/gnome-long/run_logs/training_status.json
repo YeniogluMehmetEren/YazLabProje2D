@@ -1,0 +1,65 @@
+{
+    "Gnome": {
+        "checkpoints": [
+            {
+                "steps": 3499936,
+                "file_path": "results\\gnome-long\\Gnome\\Gnome-3499936.onnx",
+                "reward": null,
+                "creation_time": 1791479420.8015742,
+                "auxillary_file_paths": [
+                    "results\\gnome-long\\Gnome\\Gnome-3499936.pt"
+                ]
+            },
+            {
+                "steps": 3999968,
+                "file_path": "results\\gnome-long\\Gnome\\Gnome-3999968.onnx",
+                "reward": 2.793333570007235,
+                "creation_time": 1791480134.4679542,
+                "auxillary_file_paths": [
+                    "results\\gnome-long\\Gnome\\Gnome-3999968.pt"
+                ]
+            },
+            {
+                "steps": 4499960,
+                "file_path": "results\\gnome-long\\Gnome\\Gnome-4499960.onnx",
+                "reward": 2.67027295592495,
+                "creation_time": 1791480947.225631,
+                "auxillary_file_paths": [
+                    "results\\gnome-long\\Gnome\\Gnome-4499960.pt"
+                ]
+            },
+            {
+                "steps": 4999936,
+                "file_path": "results\\gnome-long\\Gnome\\Gnome-4999936.onnx",
+                "reward": null,
+                "creation_time": 1791481653.3146665,
+                "auxillary_file_paths": [
+                    "results\\gnome-long\\Gnome\\Gnome-4999936.pt"
+                ]
+            },
+            {
+                "steps": 5000448,
+                "file_path": "results\\gnome-long\\Gnome\\Gnome-5000448.onnx",
+                "reward": null,
+                "creation_time": 1791481653.4284775,
+                "auxillary_file_paths": [
+                    "results\\gnome-long\\Gnome\\Gnome-5000448.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5000448,
+            "file_path": "results\\gnome-long\\Gnome.onnx",
+            "reward": null,
+            "creation_time": 1791481653.4284775,
+            "auxillary_file_paths": [
+                "results\\gnome-long\\Gnome\\Gnome-5000448.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
