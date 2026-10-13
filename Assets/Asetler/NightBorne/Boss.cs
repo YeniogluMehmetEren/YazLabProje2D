@@ -18,11 +18,13 @@ public class Boss : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public GameObject AOE;
     public float patlamalarArasiMesafe = 1f;
+    public Transform baslangicyerisol;
     public Transform baslangicyeri;
-    public enum  durumlar  { Attack1, Attack2, Teleport, Move, Karar};
+    public enum  durumlar  { Attack1, Attack2, Teleport, Move, Karar,tpAttack};
     public durumlar currentState = durumlar.Move;
     public bool canAttack = true;
-
+    public  GameObject yeniMermi;
+    public bool tpattack = false;
 
     public void Run()
     {
@@ -69,7 +71,25 @@ public class Boss : MonoBehaviour
         currentState= durumlar.Move;    
     }
 
+    public IEnumerator TPattack()
+    {
+        canAttack = false;
+        currentState = durumlar.tpAttack;
+      
+        for(int i=0; i<3; i++)
+        {
+            Vector2 playerposition = Knight.position;
+            animator.SetTrigger("teleport");
+            yield return new WaitForSeconds(0.5f);
+            transform.position = playerposition;
+        }
+        tpattack = false;
+        canAttack= true;   
+        yield return new WaitForSeconds(1f);
+        currentState = durumlar.Move;
+    
 
+    }
     public IEnumerator Attack2()
     {
         canAttack = false;
@@ -92,15 +112,21 @@ public class Boss : MonoBehaviour
 
     public IEnumerator Teleport()
     {
+      
+        
+           
+       
+
         Vector2 pozisyon = transform.position;
         currentState = durumlar.Teleport;
         canAttack = false;
         int karar= Random.Range(0, 2);
-    
+        animator.SetTrigger("teleport");
+        yield return new WaitForEndOfFrame();
+        yield return new WaitForSeconds(0.57f);
 
-        
-    
-        if(karar==0)
+
+        if (karar==0)
         {
             pozisyon.x = Knight.position.x + 10f;
         }
@@ -109,29 +135,46 @@ public class Boss : MonoBehaviour
             pozisyon.x = Knight.position.x - 10f;
         }   
         transform.position = pozisyon;
-        yield return new  WaitForSeconds(0.5f);
+        yield return new  WaitForSeconds(1f);
         canAttack = true;
+       
+
+ 
+
+
 
 
 
 
     }
 
-
-
-    public IEnumerator AOEAttack()
+    public void TPkarar()
     {
-        Vector3 yon = transform.position-Knight.position;
-      
-        for(int i=0; i<mesafex/4; i++)
+        if(tpattack==true)
         {
-            Vector3 patlamaNoktasi = baslangicyeri.position + yon/ 4;
-            GameObject yeniMermi=Instantiate(AOE,patlamaNoktasi,Quaternion.identity);
-            
-            yield return new WaitForSeconds(0.5f);
-            Destroy(yeniMermi, 0.5f);
+            StartCoroutine(TPattack());
         }
 
+        else if (tpattack==false)
+        {
+            StartCoroutine(Teleport());
+        }
+    }
+
+    public void AOEAttack()
+    {
+        Vector3 yon = transform.position-Knight.position;
+        Vector3 arttýr = yon.normalized * 0.25f;
+        for (int i=0; i<5; i++)
+        {
+
+
+            Vector3 patlamaNoktasi = baslangicyeri.position +arttýr;
+            yeniMermi=Instantiate(AOE,patlamaNoktasi,Quaternion.identity);
+            Destroy(yeniMermi, 1.5f);
+
+        }
+       
 
     }
 
@@ -140,8 +183,10 @@ public class Boss : MonoBehaviour
     public IEnumerator KararVer()
     {
         currentState = durumlar.Karar;
-        karar = Random.Range(0, 2);
-        if(karar==0)
+        karar = Random.Range(0, 3);
+        Debug.Log(karar);
+        canAttack = false;
+        if (karar==0)
         {
    
             StartCoroutine(Attack1());
@@ -149,12 +194,14 @@ public class Boss : MonoBehaviour
 
         else if(karar==1)
         {
-            animator.SetTrigger("teleport");
-            
-            yield return new WaitForSeconds(0.2f);
+            StartCoroutine(Teleport()); 
+            yield return new WaitForSeconds(1f);
             StartCoroutine(Attack2());
         }
-
+        else if (karar==2)
+        {
+            StartCoroutine(TPattack());
+        }
 
     }
 
@@ -202,6 +249,11 @@ public class Boss : MonoBehaviour
                
             case durumlar.Karar:
             break;
+
+                case durumlar.tpAttack:
+                action.linearVelocity = Vector2.zero;
+                animator.SetBool("Run", false);
+                break;
         }
 
 

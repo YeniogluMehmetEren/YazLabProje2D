@@ -443,6 +443,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1182482512443068179, guid: 75bd6ffcec8e5b7469fb5bc80b511e9c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7.2458496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182482512443068179, guid: 75bd6ffcec8e5b7469fb5bc80b511e9c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7.2458496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182482512443068179, guid: 75bd6ffcec8e5b7469fb5bc80b511e9c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.2458496
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182482512443068179, guid: 75bd6ffcec8e5b7469fb5bc80b511e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.04
       objectReference: {fileID: 0}
@@ -585,6 +597,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1515811029}
+  - {fileID: 1192296855}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 153.583, z: 0}
 --- !u!114 &303868101
@@ -609,11 +622,14 @@ MonoBehaviour:
   mesafex: 0
   karar: 0
   spriteRenderer: {fileID: 303868099}
-  AOE: {fileID: 7089802429954338371, guid: 75bd6ffcec8e5b7469fb5bc80b511e9c, type: 3}
-  patlamalarArasiMesafe: 1
-  baslangicyeri: {fileID: 1515811029}
+  AOE: {fileID: 1748485018}
+  patlamalarArasiMesafe: 5
+  baslangicyerisol: {fileID: 1515811029}
+  baslangicyeri: {fileID: 1192296855}
   currentState: 3
   canAttack: 1
+  yeniMermi: {fileID: 1748485018}
+  tpattack: 0
 --- !u!61 &303868102
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -709,6 +725,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1192296854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1192296855}
+  m_Layer: 0
+  m_Name: Sag
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1192296855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192296854}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.231, y: -0.124, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 303868100}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1256022388
 GameObject:
   m_ObjectHideFlags: 0
@@ -2276,7 +2323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1515811029}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Sol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2291,12 +2338,17 @@ Transform:
   m_GameObject: {fileID: 1515811028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.122, y: -0.121, z: 0}
+  m_LocalPosition: {x: 0.271, y: -0.119, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 303868100}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1748485018 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7089802429954338371, guid: 75bd6ffcec8e5b7469fb5bc80b511e9c, type: 3}
+  m_PrefabInstance: {fileID: 249610326}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1821583408
 GameObject:
   m_ObjectHideFlags: 0
