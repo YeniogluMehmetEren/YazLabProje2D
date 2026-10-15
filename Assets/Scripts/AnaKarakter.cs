@@ -46,7 +46,17 @@ public class AnaKarakter : MonoBehaviour
 
     }
 
+    public void DealDamage(float damage)
+    {
 
+    }
+
+
+
+    public void GetDamage(float damage)
+    {
+
+    }
 
     private void OnCollisionExit2D(Collision2D collision)
     {

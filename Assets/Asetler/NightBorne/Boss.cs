@@ -25,6 +25,7 @@ public class Boss : MonoBehaviour
     public bool canAttack = true;
     public  GameObject yeniMermi;
     public bool tpattack = false;
+    public AnaKarakter anaKarakter;
 
     public void Run()
     {
@@ -148,6 +149,55 @@ public class Boss : MonoBehaviour
 
     }
 
+
+    public void DamageVur(float damage)
+    {
+       if(spriteRenderer.flipX==false)
+        {
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(baslangicyerisol.position, 4);
+
+            if(hitEnemies!= null)
+            {
+                foreach(Collider2D enemy in hitEnemies)
+                {
+                   anaKarakter.GetDamage(damage);
+                }
+            }
+        }
+
+
+         else if(spriteRenderer.flipX==true)
+          {
+                Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(baslangicyeri.position, 4);
+    
+                if(hitEnemies!= null)
+                {
+                 foreach(Collider2D enemy in hitEnemies)
+                 {
+                     anaKarakter.GetDamage(damage);
+                 }
+                }
+        }
+    }
+
+
+
+
+    public void DamageAl(float damage)
+    {
+
+
+        hp = hp - damage;
+
+        if (hp <= 0)
+        {
+            hp = 0;
+            animator.SetTrigger("teleport");
+            float animlength = animator.GetCurrentAnimatorStateInfo(0).length;
+            Destroy(gameObject, animlength);
+        }
+
+    }
     public void TPkarar()
     {
         if(tpattack==true)
