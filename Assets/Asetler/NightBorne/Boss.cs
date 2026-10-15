@@ -26,6 +26,7 @@ public class Boss : MonoBehaviour
     public  GameObject yeniMermi;
     public bool tpattack = false;
     public AnaKarakter anaKarakter;
+    public Transform camera;
 
     public void Run()
     {
@@ -81,8 +82,11 @@ public class Boss : MonoBehaviour
         {
             Vector2 playerposition = Knight.position;
             animator.SetTrigger("teleport");
+            
             yield return new WaitForSeconds(0.5f);
+            StartCoroutine(ShakeCamera(0.02f, 0.3f));
             transform.position = playerposition;
+            yield return new WaitForSeconds(1f);
         }
         tpattack = false;
         canAttack= true;   
@@ -111,6 +115,33 @@ public class Boss : MonoBehaviour
 
     }
 
+    private IEnumerator ShakeCamera(float siddet, float zaman)
+    {
+        Vector3 orginalpozisyon = camera.localPosition;
+
+
+
+        float gecensure = 0f;
+        while (gecensure <= zaman)
+        {
+
+            float x = Random.Range(-1f, 1f) * siddet;
+            float y = Random.Range(-1f, 1f) * siddet;
+
+
+            camera.localPosition = new Vector3(orginalpozisyon.x + x, orginalpozisyon.y + y, orginalpozisyon.z);
+            gecensure += Time.unscaledDeltaTime;
+            yield return null;
+        }
+
+
+
+        camera.localPosition = orginalpozisyon;
+
+
+
+    }
+
     public IEnumerator Teleport()
     {
       
@@ -123,9 +154,10 @@ public class Boss : MonoBehaviour
         canAttack = false;
         int karar= Random.Range(0, 2);
         animator.SetTrigger("teleport");
+       
         yield return new WaitForEndOfFrame();
         yield return new WaitForSeconds(0.57f);
-
+        StartCoroutine(ShakeCamera(0.03f, 0.3f));
 
         if (karar==0)
         {

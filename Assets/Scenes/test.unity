@@ -630,6 +630,8 @@ MonoBehaviour:
   canAttack: 1
   yeniMermi: {fileID: 1748485018}
   tpattack: 0
+  anaKarakter: {fileID: 8807692791754232519}
+  camera: {fileID: 3630543910312137447}
 --- !u!61 &303868102
 BoxCollider2D:
   m_ObjectHideFlags: 0
