@@ -574,7 +574,7 @@ SpriteRenderer:
   m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -8804577451312863447, guid: fe2d94f0a9e1e744baaf8ac90b57fa89, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9622642, g: 0.9577252, b: 0.960942, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -592,7 +592,7 @@ Transform:
   m_GameObject: {fileID: 303868098}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.97354543, z: -0, w: 0.2284939}
-  m_LocalPosition: {x: 4.43, y: 0.63, z: -0.09}
+  m_LocalPosition: {x: 8.79, y: 0.72, z: 0.64}
   m_LocalScale: {x: 14.074416, y: 14.074416, z: 14.074416}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -617,6 +617,7 @@ MonoBehaviour:
   speed: 15
   hp: 40
   menzil: 5
+  damage: 4
   animator: {fileID: 303868104}
   takipmenzili: 15
   mesafex: 0
@@ -626,12 +627,14 @@ MonoBehaviour:
   patlamalarArasiMesafe: 5
   baslangicyerisol: {fileID: 1515811029}
   baslangicyeri: {fileID: 1192296855}
-  currentState: 3
+  currentState: 5
   canAttack: 1
   yeniMermi: {fileID: 1748485018}
   tpattack: 0
   anaKarakter: {fileID: 8807692791754232519}
   camera: {fileID: 3630543910312137447}
+  color: {r: 0.9528302, g: 0.9303578, b: 0.9303578, a: 0}
+  isShielded: 1
 --- !u!61 &303868102
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2942,8 +2945,8 @@ Transform:
   m_GameObject: {fileID: 645310414509974681}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.11, y: 0.07, z: -10}
-  m_LocalScale: {x: 0.0055144317, y: 0.23830077, z: 1}
+  m_LocalPosition: {x: 0.15, y: 0.33, z: -10}
+  m_LocalScale: {x: 0.0055144313, y: 0.23830077, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8787238003001927828}
@@ -3152,9 +3155,9 @@ Transform:
   m_LocalScale: {x: 3.9841192, y: 4.47891, z: 1.6099}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 3630543910312137447}
   - {fileID: 8269579012390606577}
   - {fileID: 8923548243419136578}
-  - {fileID: 3630543910312137447}
   - {fileID: 828201202}
   - {fileID: 1686841150}
   m_Father: {fileID: 0}
@@ -3180,6 +3183,13 @@ MonoBehaviour:
   sprite: {fileID: 2307359605940224246}
   x: 0
   isGrounded: 1
+  boss: {fileID: 303868101}
+  spriteRenderer: {fileID: 2307359605940224246}
+  vurusyeri: {fileID: 828201202}
+  vurusyerireverse: {fileID: 1686841150}
+  EnemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!224 &8923548243419136578
 RectTransform:
   m_ObjectHideFlags: 0

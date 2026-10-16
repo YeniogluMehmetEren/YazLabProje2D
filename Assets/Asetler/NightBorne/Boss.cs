@@ -11,6 +11,7 @@ public class Boss : MonoBehaviour
     public float speed = 9f;
     public float hp = 40f;
     public float menzil=7f;
+    public float damage=4f;
     public Animator animator;
     public float takipmenzili=20f;
     public float mesafex;
@@ -20,14 +21,15 @@ public class Boss : MonoBehaviour
     public float patlamalarArasiMesafe = 1f;
     public Transform baslangicyerisol;
     public Transform baslangicyeri;
-    public enum  durumlar  { Attack1, Attack2, Teleport, Move, Karar,tpAttack};
+    public enum  durumlar  { Attack1, Attack2, Attack3,Attack4,Teleport, Move, Karar,tpAttack,Retreat};
     public durumlar currentState = durumlar.Move;
     public bool canAttack = true;
     public  GameObject yeniMermi;
     public bool tpattack = false;
     public AnaKarakter anaKarakter;
     public Transform camera;
-
+    public Color color;
+    public bool isShielded = true;
     public void Run()
     {
     
@@ -46,6 +48,27 @@ public class Boss : MonoBehaviour
         }
        
         
+    }
+
+
+    public void Retreat()
+    {
+        currentState= durumlar.Retreat; 
+
+        
+        
+            animator.SetBool("Run", true);
+            if (mesafex > 0)
+            {
+                action.linearVelocity = new Vector2(-speed*3, action.linearVelocity.y);
+            }
+            else if (mesafex < 0)
+            {
+                action.linearVelocity = new Vector2(speed*3, action.linearVelocity.y);
+            }
+        
+
+        currentState= durumlar.Move;
     }
 
 
@@ -77,12 +100,12 @@ public class Boss : MonoBehaviour
     {
         canAttack = false;
         currentState = durumlar.tpAttack;
-      
-        for(int i=0; i<3; i++)
+        spriteRenderer.color = Color.blueViolet;   
+        for (int i=0; i<3; i++)
         {
             Vector2 playerposition = Knight.position;
             animator.SetTrigger("teleport");
-            
+            YonAyarla();
             yield return new WaitForSeconds(0.5f);
             StartCoroutine(ShakeCamera(0.02f, 0.3f));
             transform.position = playerposition;
@@ -90,7 +113,8 @@ public class Boss : MonoBehaviour
         }
         tpattack = false;
         canAttack= true;   
-        yield return new WaitForSeconds(1f);
+ 
+        spriteRenderer.color = Color.white;
         currentState = durumlar.Move;
     
 
@@ -106,6 +130,48 @@ public class Boss : MonoBehaviour
         yield return new WaitForEndOfFrame();
         float animlength = animator.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        yield return new WaitForSeconds(0f);
+        canAttack = true;
+
+        currentState = durumlar.Move;
+
+
+
+    }
+
+
+    public IEnumerator Attack3()
+    {
+        canAttack = false;
+        currentState = durumlar.Attack3;
+
+
+        animator.SetTrigger("Attack3");
+        YonAyarla();
+        yield return new WaitForEndOfFrame();
+        float animlength = animator.GetCurrentAnimatorStateInfo(0).length;
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        yield return new WaitForSeconds(0f);
+        canAttack = true;
+
+        currentState = durumlar.Move;
+
+
+
+    }
+
+
+    public IEnumerator Attack4()
+    {
+        canAttack = false;
+        currentState = durumlar.Attack4;
+
+
+        animator.SetTrigger("Attack4");
+        YonAyarla();
+        yield return new WaitForEndOfFrame();
+        float animlength = animator.GetCurrentAnimatorStateInfo(0).length;
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         yield return new WaitForSeconds(0.5f);
         canAttack = true;
 
@@ -114,6 +180,8 @@ public class Boss : MonoBehaviour
 
 
     }
+
+
 
     private IEnumerator ShakeCamera(float siddet, float zaman)
     {
@@ -170,9 +238,8 @@ public class Boss : MonoBehaviour
         transform.position = pozisyon;
         yield return new  WaitForSeconds(1f);
         canAttack = true;
-       
 
- 
+
 
 
 
@@ -182,7 +249,21 @@ public class Boss : MonoBehaviour
     }
 
 
-    public void DamageVur(float damage)
+    public void GetDamage(float damage)
+    {
+        if (isShielded == true)
+        {
+            spriteRenderer.color = Color.blue;
+        }
+
+        else if (isShielded == false)
+        {
+            spriteRenderer.color = Color.white;
+            hp -= damage;
+        }
+    }
+
+    public void DamageVur()
     {
        if(spriteRenderer.flipX==false)
         {
@@ -192,7 +273,8 @@ public class Boss : MonoBehaviour
             {
                 foreach(Collider2D enemy in hitEnemies)
                 {
-                   anaKarakter.GetDamage(damage);
+                    AnaKarakter anakarakter = enemy.GetComponent<AnaKarakter>();
+                    anaKarakter.GetDamage(damage);
                 }
             }
         }
@@ -206,7 +288,9 @@ public class Boss : MonoBehaviour
                 {
                  foreach(Collider2D enemy in hitEnemies)
                  {
-                     anaKarakter.GetDamage(damage);
+
+                    AnaKarakter anakarakter = enemy.GetComponent<AnaKarakter>();
+                    anakarakter.GetDamage(damage);
                  }
                 }
         }
@@ -265,13 +349,14 @@ public class Boss : MonoBehaviour
     public IEnumerator KararVer()
     {
         currentState = durumlar.Karar;
-        karar = Random.Range(0, 3);
+        karar = Random.Range(0, 5);
         Debug.Log(karar);
         canAttack = false;
         if (karar==0)
         {
    
             StartCoroutine(Attack1());
+         
         }
 
         else if(karar==1)
@@ -283,21 +368,55 @@ public class Boss : MonoBehaviour
         else if (karar==2)
         {
             StartCoroutine(TPattack());
+      
+        }
+
+        else if (karar==3)
+        {
+            StartCoroutine(Attack3());
+           
+        }
+        else if (karar==4)
+        {
+            StartCoroutine(Attack4());
+           
         }
 
     }
 
 
+
+    public void ShieldUp()
+    {
+       
+        if(isShielded==true)
+        {
+            spriteRenderer.color = Color.blue;
+
+        }
+
+        else if(isShielded==false)
+        {
+            spriteRenderer.color = Color.white;
+        }
+    }
+
     void Start()
     {
       
-        
+        color=spriteRenderer.color;
+        color = Color.white;
+       
 
     }
 
     // Update is called once per frame
   void Update()
     {
+        if (isShielded == true)
+        {
+            spriteRenderer.color = Color.blue;
+        }
         mesafex = Knight.position.x - transform.position.x;
         switch (currentState)
         {
@@ -313,11 +432,15 @@ public class Boss : MonoBehaviour
                     action.linearVelocity=Vector2.zero;
 
                     StartCoroutine(KararVer());
-
-                 
-
+         
                 }
-                break;
+
+
+                else if (Mathf.Abs(mesafex) <menzil)
+                {
+                    Retreat();
+                }
+                    break;
             case durumlar.Attack1:
                action.linearVelocity=Vector2.zero;
                 break;
@@ -327,12 +450,20 @@ public class Boss : MonoBehaviour
             case durumlar.Teleport:
                 action.linearVelocity = Vector2.zero;
                 animator.SetBool("Run", false);
+            break;
+             case durumlar.Attack3:
+                action.linearVelocity = Vector2.zero;
                 break;
-               
+            case durumlar.Attack4:
+                action.linearVelocity = Vector2.zero;
+                break;
+
             case durumlar.Karar:
             break;
+            case durumlar.Retreat:
+            break;
 
-                case durumlar.tpAttack:
+            case durumlar.tpAttack:
                 action.linearVelocity = Vector2.zero;
                 animator.SetBool("Run", false);
                 break;

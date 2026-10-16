@@ -13,8 +13,11 @@ public class AnaKarakter : MonoBehaviour
     public SpriteRenderer sprite;
     public float x;
     public bool isGrounded = true;
-
-
+    public Boss boss;
+    public SpriteRenderer spriteRenderer;
+    public Transform vurusyeri;
+    public Transform vurusyerireverse;
+    public LayerMask EnemyLayer;
 
 
     public void Walk()
@@ -46,16 +49,48 @@ public class AnaKarakter : MonoBehaviour
 
     }
 
-    public void DealDamage(float damage)
+    public void DealDamage()
     {
+        if(spriteRenderer.flipX==false)
+        {
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(vurusyeri.position, 4,EnemyLayer);
 
+            if(hitEnemies!= null)
+            {
+                foreach(Collider2D enemy in hitEnemies)
+                {
+                    Boss boss = enemy.GetComponent<Boss>();
+
+                   boss.GetDamage(damage);
+                    boss.isShielded = false;
+                }
+            }
+        }
+
+
+         else if(spriteRenderer.flipX==true)
+          {
+                Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(vurusyerireverse.position, 4,EnemyLayer);
+    
+                if(hitEnemies!= null)
+                {
+                 foreach(Collider2D enemy in hitEnemies)
+                 {
+
+                    Boss boss = enemy.GetComponent<Boss>();
+
+                    boss.GetDamage(damage);
+                    boss.isShielded = false;
+                 }
+                }
+        }
     }
 
 
 
     public void GetDamage(float damage)
     {
-
+        
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -124,7 +159,7 @@ public class AnaKarakter : MonoBehaviour
 
     void Start()
     {
-        
+     EnemyLayer = LayerMask.NameToLayer("Boss");
     }
 
     void Update()
