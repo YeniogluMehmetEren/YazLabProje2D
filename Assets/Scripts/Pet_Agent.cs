@@ -7,6 +7,7 @@ using UnityEngine;
 public class Pet_Agent : Agent
 {
     [SerializeField] GameObject mainCharacter;
+    [SerializeField] GameObject boss;
     [SerializeField] private float moveSpeed = 1.5f;
     [SerializeField] private float jump = 5f;
 
@@ -16,12 +17,18 @@ public class Pet_Agent : Agent
     [SerializeField] public int _currentEpisode = 0;
     [HideInInspector] public float _cumulativeReward = 0f;
     private bool hedefteMi = false;
+
+    private Boss bossScript;
+    private bool isBossShielded;
+    private bool isBossShieldBreakable;
     public override void Initialize()
     {
         Debug.Log("Initialize()");
 
         _currentEpisode = 0;
         _cumulativeReward = 0f;
+
+        bossScript = boss.GetComponentInChildren<Boss>();
     }
 
     public override void OnEpisodeBegin()
@@ -46,11 +53,22 @@ public class Pet_Agent : Agent
         float mainCharacterPosX_normalized = mainCharacter.transform.localPosition.x / 5f;
         float mainCharacterPosY_normalized = mainCharacter.transform.localPosition.y / 5f;
 
-        float agentPosX_normalized = transform.localPosition.x / 5f;
-        float agentPosY_normalized = transform.localPosition.y / 5f;
-
         sensor.AddObservation(mainCharacterPosX_normalized);
         sensor.AddObservation(mainCharacterPosY_normalized);
+
+        float bossPosX_normalized = boss.transform.localPosition.x / 5f;
+        float bossPosY_normalized = boss.transform.localPosition.y / 5f;
+        isBossShielded = bossScript.IsShielded();
+        isBossShieldBreakable = bossScript.IsShieldBreakable();
+        float isBossShieldBreakableF = isBossShieldBreakable ? 1.0f : 0.0f;
+
+        sensor.AddObservation(bossPosX_normalized);
+        sensor.AddObservation(bossPosY_normalized);
+        sensor.AddObservation(isBossShieldBreakableF);
+
+        float agentPosX_normalized = transform.localPosition.x / 5f;
+        float agentPosY_normalized = transform.localPosition.y / 5f;
+        
         sensor.AddObservation(agentPosX_normalized);
         sensor.AddObservation(agentPosY_normalized);
     }
@@ -112,6 +130,26 @@ public class Pet_Agent : Agent
         if (other.gameObject.CompareTag("goal"))
         {
             hedefteMi = true;
+        }
+
+        if (other.gameObject.CompareTag("boss"))
+        {
+            if (isBossShieldBreakable)
+            {
+                isBossShieldBreakable = false;
+                isBossShielded = false;
+                //Boss kodundan da shieldi deaktive et
+
+                //Animasyon tetikle
+
+                AddReward(2f);
+            }
+            else if(isBossShielded && !isBossShieldBreakable)
+            {
+                AddReward(-0.1f);
+
+                transform.localPosition = Vector3.zero;
+            }
         }
     }
 

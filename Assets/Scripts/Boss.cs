@@ -30,6 +30,7 @@ public class Boss : MonoBehaviour
     public Transform camera;
     public Color color;
     public bool isShielded = true;
+    public bool isShieldBreakable = true;
     public void Run()
     {
     
@@ -399,6 +400,15 @@ public class Boss : MonoBehaviour
         {
             spriteRenderer.color = Color.white;
         }
+    }
+
+    public bool IsShieldBreakable()
+    {
+        return isShieldBreakable;
+    }
+    public bool IsShielded()
+    {
+        return isShielded;
     }
 
     void Start()

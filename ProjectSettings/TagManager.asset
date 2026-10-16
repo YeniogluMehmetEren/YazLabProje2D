@@ -6,6 +6,7 @@ TagManager:
   tags:
   - goal
   - ground
+  - boss
   layers:
   - Default
   - TransparentFX
