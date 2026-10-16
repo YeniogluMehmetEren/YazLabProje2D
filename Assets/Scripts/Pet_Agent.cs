@@ -8,6 +8,7 @@ public class Pet_Agent : Agent
 {
     [SerializeField] GameObject mainCharacter;
     [SerializeField] GameObject boss;
+    [SerializeField] Animator animator;
     [SerializeField] private float moveSpeed = 1.5f;
     [SerializeField] private float jump = 5f;
 
@@ -114,12 +115,15 @@ public class Pet_Agent : Agent
         switch (action)
         {
             case 1: //Move Left
+                animator.SetBool("Run", true);
                 transform.position += transform.right * moveSpeed * Time.deltaTime;
                 break;
             case 2: //Move Right
+                animator.SetBool("Run", true);
                 transform.position += -transform.right * moveSpeed * Time.deltaTime;
                 break;
             case 3: //Jump
+                animator.SetBool("Run", false);
                 transform.position += transform.up * jump * Time.deltaTime;
                 break;
         }
@@ -140,7 +144,7 @@ public class Pet_Agent : Agent
                 isBossShielded = false;
                 //Boss kodundan da shieldi deaktive et
 
-                //Animasyon tetikle
+                animator.SetTrigger("Attack");
 
                 AddReward(2f);
             }
