@@ -18,6 +18,8 @@ public class AnaKarakter : MonoBehaviour
     public Transform vurusyeri;
     public Transform vurusyerireverse;
     public LayerMask EnemyLayer;
+    public Collider2D kilic;
+    public Collider2D reversekilic;
 
 
     public void Walk()
@@ -61,7 +63,7 @@ public class AnaKarakter : MonoBehaviour
                 {
                     Boss boss = enemy.GetComponent<Boss>();
 
-                   boss.GetDamage(damage);
+                   boss.DamageAl(damage);
                     boss.isShielded = false;
                 }
             }
@@ -79,7 +81,7 @@ public class AnaKarakter : MonoBehaviour
 
                     Boss boss = enemy.GetComponent<Boss>();
 
-                    boss.GetDamage(damage);
+                    boss.DamageAl(damage);
                     boss.isShielded = false;
                  }
                 }
@@ -157,10 +159,7 @@ public class AnaKarakter : MonoBehaviour
     }
 
 
-    void Start()
-    {
-     EnemyLayer = LayerMask.NameToLayer("Boss");
-    }
+   
 
     void Update()
     {

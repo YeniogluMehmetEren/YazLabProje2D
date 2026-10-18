@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Threading;
 using Unity.MLAgents.Integrations.Match3;
 using UnityEngine;
 using UnityEngine.InputSystem.LowLevel;
@@ -100,8 +101,9 @@ public class Boss : MonoBehaviour
     public IEnumerator TPattack()
     {
         canAttack = false;
+        tpattack = true;
         currentState = durumlar.tpAttack;
-        spriteRenderer.color = Color.blueViolet;   
+        spriteRenderer.color = Color.red;   
         for (int i=0; i<3; i++)
         {
             Vector2 playerposition = Knight.position;
@@ -114,8 +116,6 @@ public class Boss : MonoBehaviour
         }
         tpattack = false;
         canAttack= true;   
- 
-        spriteRenderer.color = Color.white;
         currentState = durumlar.Move;
     
 
@@ -249,20 +249,9 @@ public class Boss : MonoBehaviour
 
     }
 
+   
 
-    public void GetDamage(float damage)
-    {
-        if (isShielded == true)
-        {
-            spriteRenderer.color = Color.blue;
-        }
-
-        else if (isShielded == false)
-        {
-            spriteRenderer.color = Color.white;
-            hp -= damage;
-        }
-    }
+   
 
     public void DamageVur()
     {
@@ -303,9 +292,33 @@ public class Boss : MonoBehaviour
     public void DamageAl(float damage)
     {
 
+        if(isShielded)
+        {
+            isShielded = false;
+        }
+        else
+        {
+            hp = hp - damage;
 
-        hp = hp - damage;
+           
+        }
+          
 
+    }
+
+
+    public IEnumerator ShieldReset()
+    {
+       if(isShielded == false)
+        {
+            yield return new WaitForSeconds(10f);
+            isShielded = true;
+            Debug.Log("Kalkan açýldý");
+        }
+    }
+
+    public void Death()
+    {
         if (hp <= 0)
         {
             hp = 0;
@@ -313,7 +326,6 @@ public class Boss : MonoBehaviour
             float animlength = animator.GetCurrentAnimatorStateInfo(0).length;
             Destroy(gameObject, animlength);
         }
-
     }
     public void TPkarar()
     {
@@ -414,20 +426,23 @@ public class Boss : MonoBehaviour
     void Start()
     {
       
-        color=spriteRenderer.color;
-        color = Color.white;
-       
+        tpattack = false;
 
     }
 
     // Update is called once per frame
   void Update()
     {
-        if (isShielded == true)
+        if (isShielded == true&& tpattack==false)
         {
             spriteRenderer.color = Color.blue;
         }
-        mesafex = Knight.position.x - transform.position.x;
+
+        else
+        {
+            spriteRenderer.color = Color.white;
+        }
+            mesafex = Knight.position.x - transform.position.x;
         switch (currentState)
         {
             case durumlar.Move:
@@ -479,6 +494,7 @@ public class Boss : MonoBehaviour
                 break;
         }
 
-
+        Death();
+        StartCoroutine(ShieldReset());
     }
 }
