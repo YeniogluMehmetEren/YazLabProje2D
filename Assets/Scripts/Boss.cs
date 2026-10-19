@@ -399,19 +399,24 @@ public class Boss : MonoBehaviour
 
 
 
-    public void ShieldUp()
+    public void SetColor()
     {
-       
-        if(isShielded==true)
-        {
+       if(isShielded)
+       {
             spriteRenderer.color = Color.blue;
 
-        }
+       }
 
-        else if(isShielded==false)
+        else if (!isShielded || !tpattack) 
         {
             spriteRenderer.color = Color.white;
         }
+
+       else if (tpattack)
+        {
+            spriteRenderer.color = Color.red;
+        }
+
     }
 
     public bool IsShieldBreakable()
@@ -433,15 +438,9 @@ public class Boss : MonoBehaviour
     // Update is called once per frame
   void Update()
     {
-        if (isShielded == true&& tpattack==false)
-        {
-            spriteRenderer.color = Color.blue;
-        }
+       
 
-        else
-        {
-            spriteRenderer.color = Color.white;
-        }
+        
             mesafex = Knight.position.x - transform.position.x;
         switch (currentState)
         {
@@ -495,6 +494,7 @@ public class Boss : MonoBehaviour
         }
 
         Death();
+        SetColor();
         StartCoroutine(ShieldReset());
     }
 }
