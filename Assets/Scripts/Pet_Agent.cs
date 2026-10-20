@@ -19,9 +19,10 @@ public class Pet_Agent : Agent
     [HideInInspector] public float _cumulativeReward = 0f;
     private bool hedefteMi = false;
 
+    [Header("Boss Ayarlari")]
     private Boss bossScript;
-    private bool isBossShielded;
-    private bool isBossShieldBreakable;
+    [SerializeField] bool isBossShielded;
+    [SerializeField] bool isBossShieldBreakable;
     public override void Initialize()
     {
         Debug.Log("Initialize()");
@@ -29,7 +30,7 @@ public class Pet_Agent : Agent
         _currentEpisode = 0;
         _cumulativeReward = 0f;
 
-        bossScript = boss.GetComponentInChildren<Boss>();
+        bossScript = boss.GetComponent<Boss>();
     }
 
     public override void OnEpisodeBegin()
@@ -40,13 +41,16 @@ public class Pet_Agent : Agent
         _cumulativeReward = 0f;
         hedefteMi = false;
 
+        bossScript.Shield5050();
+
         SetAgentPos();
     }
 
     private void SetAgentPos()
     {
         transform.localPosition = Vector3.zero;
-        mainCharacter.transform.localPosition = new Vector3(Random.Range(-30f, 30f),0,0);
+        mainCharacter.transform.localPosition = new Vector3(Random.Range(-30f, 30f),1,0);
+        boss.transform.localPosition = new Vector3(Random.Range(-30f, 30f),1,0);
     }
 
     public override void CollectObservations(VectorSensor sensor)
@@ -111,6 +115,11 @@ public class Pet_Agent : Agent
     public void MoveAgent(ActionSegment<int> act)
     {
         var action = act[0];
+        
+        if (action == 0)
+        {
+            animator.SetBool("Run", false);
+        }
 
         switch (action)
         {
@@ -131,22 +140,26 @@ public class Pet_Agent : Agent
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("Trigger Tetiklendi " + other.tag);
+
         if (other.gameObject.CompareTag("goal"))
         {
             hedefteMi = true;
         }
-
         if (other.gameObject.CompareTag("boss"))
         {
             if (isBossShieldBreakable)
             {
                 isBossShieldBreakable = false;
                 isBossShielded = false;
-                //Boss kodundan da shieldi deaktive et
 
                 animator.SetTrigger("Attack");
 
+                bossScript.ShieldKirAiIcin();
+
                 AddReward(2f);
+
+                EndEpisode();
             }
             else if(isBossShielded && !isBossShieldBreakable)
             {

@@ -33,24 +33,27 @@ public class Boss : MonoBehaviour
     public bool isShielded = true;
     public bool isShieldBreakable = true;
     int counter = 0;
+
+    [Header("Ai Egitimi")]
+    public bool AiEgitimiOlsunMu = true;
     public void Run()
     {
-    
-         currentState= durumlar.Move;   
-        if (canAttack==true)
+        if (!AiEgitimiOlsunMu)
         {
-            animator.SetBool("Run", true);
-            if (mesafex > 0)
+            currentState = durumlar.Move;
+            if (canAttack == true)
             {
-                action.linearVelocity = new Vector2(speed, action.linearVelocity.y);
-            }
-            else if (mesafex < 0)
-            {
-                action.linearVelocity = new Vector2(-speed, action.linearVelocity.y);
+                animator.SetBool("Run", true);
+                if (mesafex > 0)
+                {
+                    action.linearVelocity = new Vector2(speed, action.linearVelocity.y);
+                }
+                else if (mesafex < 0)
+                {
+                    action.linearVelocity = new Vector2(-speed, action.linearVelocity.y);
+                }
             }
         }
-       
-        
     }
 
 
@@ -290,7 +293,26 @@ public class Boss : MonoBehaviour
     }
 
 
+    public void ShieldKirAiIcin()
+    {
+        isShielded = false;
+        isShieldBreakable = false;
+        StartCoroutine(ShieldReset());
+    }
 
+    public void Shield5050()
+    {
+        if (Random.Range(0f, 1f)<0.5f)
+        {
+            isShielded = false;
+            isShieldBreakable = false;
+        }
+        else
+        {
+            isShielded = true;
+            isShieldBreakable = true;
+        }
+    }
 
     public void DamageAl(float damage)
     {
@@ -298,6 +320,7 @@ public class Boss : MonoBehaviour
         if(isShielded)
         {
             isShielded = false;
+            isShieldBreakable = false;
             StartCoroutine(ShieldReset());
         }
         else
@@ -371,40 +394,42 @@ public class Boss : MonoBehaviour
 
     public IEnumerator KararVer()
     {
-        currentState = durumlar.Karar;
-        karar = Random.Range(0, 5);
-        Debug.Log(karar);
-        canAttack = false;
-        if (karar==0)
+        if (!AiEgitimiOlsunMu)
         {
-   
-            StartCoroutine(Attack1());
-         
-        }
+            currentState = durumlar.Karar;
+            karar = Random.Range(0, 5);
+            Debug.Log(karar);
+            canAttack = false;
+            if (karar == 0)
+            {
 
-        else if(karar==1)
-        {
-            StartCoroutine(Teleport()); 
-            yield return new WaitForSeconds(1f);
-            StartCoroutine(Attack2());
-        }
-        else if (karar==2)
-        {
-            StartCoroutine(TPattack());
-      
-        }
+                StartCoroutine(Attack1());
 
-        else if (karar==3)
-        {
-            StartCoroutine(Attack3());
-           
-        }
-        else if (karar==4)
-        {
-            StartCoroutine(Attack4());
-           
-        }
+            }
 
+            else if (karar == 1)
+            {
+                StartCoroutine(Teleport());
+                yield return new WaitForSeconds(1f);
+                StartCoroutine(Attack2());
+            }
+            else if (karar == 2)
+            {
+                StartCoroutine(TPattack());
+
+            }
+
+            else if (karar == 3)
+            {
+                StartCoroutine(Attack3());
+
+            }
+            else if (karar == 4)
+            {
+                StartCoroutine(Attack4());
+
+            }
+        }
     }
 
 
