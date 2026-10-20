@@ -32,6 +32,7 @@ public class Boss : MonoBehaviour
     public Color color;
     public bool isShielded = true;
     public bool isShieldBreakable = true;
+    int counter = 0;
     public void Run()
     {
     
@@ -221,6 +222,7 @@ public class Boss : MonoBehaviour
         Vector2 pozisyon = transform.position;
         currentState = durumlar.Teleport;
         canAttack = false;
+      
         int karar= Random.Range(0, 2);
         animator.SetTrigger("teleport");
        
@@ -238,6 +240,7 @@ public class Boss : MonoBehaviour
         }   
         transform.position = pozisyon;
         yield return new  WaitForSeconds(1f);
+        
         canAttack = true;
 
 
@@ -295,10 +298,17 @@ public class Boss : MonoBehaviour
         if(isShielded)
         {
             isShielded = false;
+            StartCoroutine(ShieldReset());
         }
         else
         {
             hp = hp - damage;
+            counter++;
+            if(counter>=10)
+            {
+                counter = 10;
+                isShieldBreakable = true;
+            }
 
            
         }
@@ -311,7 +321,7 @@ public class Boss : MonoBehaviour
     {
        if(isShielded == false)
         {
-            yield return new WaitForSeconds(10f);
+            yield return new WaitForSeconds(30f);
             isShielded = true;
             Debug.Log("Kalkan açýldý");
         }
@@ -401,21 +411,21 @@ public class Boss : MonoBehaviour
 
     public void SetColor()
     {
-       if(isShielded)
+       if(isShielded==true)
        {
             spriteRenderer.color = Color.blue;
 
        }
 
-        else if (!isShielded || !tpattack) 
+        else if (isShielded==false && tpattack==false) 
         {
             spriteRenderer.color = Color.white;
         }
 
-       else if (tpattack)
-        {
+       else if (tpattack==true)
+       {
             spriteRenderer.color = Color.red;
-        }
+       }
 
     }
 
@@ -495,6 +505,6 @@ public class Boss : MonoBehaviour
 
         Death();
         SetColor();
-        StartCoroutine(ShieldReset());
+        
     }
 }
