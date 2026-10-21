@@ -33,6 +33,9 @@ public class Boss : MonoBehaviour
     public bool isShielded = true;
     public bool isShieldBreakable = true;
     int counter = 0;
+    public AudioSource TeleportSesleri;
+    public AudioClip Tp1;
+    public AudioClip Tp2;
 
     [Header("Ai Egitimi")]
     public bool AiEgitimiOlsunMu = true;
@@ -300,6 +303,23 @@ public class Boss : MonoBehaviour
         StartCoroutine(ShieldReset());
     }
 
+
+    public void TeleportSFX()
+    {
+        int ses = Random.Range(0, 2);
+
+
+        if(ses==0)
+        {
+            TeleportSesleri.PlayOneShot(Tp1);
+        }
+        else if (ses==1)
+        {
+            TeleportSesleri.PlayOneShot(Tp2);
+        }
+
+    }
+
     public void Shield5050()
     {
         if (Random.Range(0f, 1f)<0.5f)
@@ -373,21 +393,33 @@ public class Boss : MonoBehaviour
         }
     }
 
-    public void AOEAttack()
+    public IEnumerator AOEAttack()
     {
-        Vector3 yon = transform.position-Knight.position;
-        Vector3 arttýr = yon.normalized * 0.25f;
-        for (int i=0; i<5; i++)
+        Vector3 yon = transform.position - Knight.position;
+        Vector3 arttir = yon.normalized * 2f;
+        Vector3 patlamaNoktasi;
+
+      
+        if (spriteRenderer.flipX ==true)
         {
+            patlamaNoktasi = baslangicyeri.position;
+        }
+        else 
+        {
+            patlamaNoktasi = baslangicyerisol.position;
+        }
 
-
-            Vector3 patlamaNoktasi = baslangicyeri.position +arttýr;
-            yeniMermi=Instantiate(AOE,patlamaNoktasi,Quaternion.identity);
-            Destroy(yeniMermi, 1.5f);
+      
+        for (int i = 0; i <6; i++)
+        {
+            yeniMermi = Instantiate(AOE, patlamaNoktasi, Quaternion.identity);
+            patlamaNoktasi-= arttir;
+            yield return new WaitForSeconds(0.3f);
+            Destroy(yeniMermi, 0f);
 
         }
-       
 
+      
     }
 
 
