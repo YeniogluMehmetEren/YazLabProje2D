@@ -55,7 +55,7 @@ public class AnaKarakter : MonoBehaviour
     {
         if(spriteRenderer.flipX==false)
         {
-            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(vurusyeri.position, 7,EnemyLayer);
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(vurusyeri.position, 3,EnemyLayer);
 
             if(hitEnemies!= null)
             {
@@ -64,7 +64,7 @@ public class AnaKarakter : MonoBehaviour
                     Boss boss = enemy.GetComponent<Boss>();
 
                     boss.DamageAl(damage);
-                    boss.isShielded = false;
+            
                 }
             }
         }
@@ -72,7 +72,7 @@ public class AnaKarakter : MonoBehaviour
 
          else if(spriteRenderer.flipX==true)
           {
-                Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(vurusyerireverse.position, 7,EnemyLayer);
+                Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(vurusyerireverse.position, 3,EnemyLayer);
     
                 if(hitEnemies!= null)
                 {
@@ -82,7 +82,7 @@ public class AnaKarakter : MonoBehaviour
                     Boss boss = enemy.GetComponent<Boss>();
 
                     boss.DamageAl(damage);
-                    boss.isShielded = false;
+                
                  }
                 }
         }

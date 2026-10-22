@@ -22,7 +22,7 @@ public class Boss : MonoBehaviour
     public float patlamalarArasiMesafe = 1f;
     public Transform baslangicyerisol;
     public Transform baslangicyeri;
-    public enum  durumlar  { Attack1, Attack2, Attack3,Attack4,Teleport, Move, Karar,tpAttack,Retreat};
+    public enum  durumlar  { Attack1, Attack2, Attack3,Attack4,Teleport, Move, Karar,tpAttack,Retreat,Stunned};
     public durumlar currentState = durumlar.Move;
     public bool canAttack = true;
     public  GameObject yeniMermi;
@@ -31,11 +31,13 @@ public class Boss : MonoBehaviour
     public Transform camera;
     public Color color;
     public bool isShielded = true;
-    public bool isShieldBreakable = true;
-    int counter = 0;
+    public bool isShieldBreakable = false;
+    public int counter = 0;
     public AudioSource TeleportSesleri;
     public AudioClip Tp1;
     public AudioClip Tp2;
+    public LayerMask Layer;
+    bool isStunned = false;
 
     [Header("Ai Egitimi")]
     public bool AiEgitimiOlsunMu = true;
@@ -334,37 +336,60 @@ public class Boss : MonoBehaviour
         }
     }
 
-    public void DamageAl(float damage)
+    public IEnumerator Stunned()
     {
+        currentState = durumlar.Stunned;
+        isStunned = true;
+        isShieldBreakable = true;
+        animator.SetBool("stun", true);
+        yield return new WaitForSeconds(5f);
+        animator.SetBool("stun", false);
+        isStunned = false;
 
-        if(isShielded)
-        {
-            isShielded = false;
-            isShieldBreakable = false;
-            StartCoroutine(ShieldReset());
-        }
-        else
-        {
-            hp = hp - damage;
-            counter++;
-            if(counter>=10)
-            {
-                counter = 10;
-                isShieldBreakable = true;
-            }
-
-           
-        }
-          
+        currentState= durumlar.Move;
 
     }
 
+    public void DamageAl(float damage)
+    {
+        if(isShielded==true)
+        counter++;
+        if(counter>=10)
+        {
+            counter = 0;
+            StartCoroutine(Stunned());
+        }
+
+        if(isShieldBreakable==true)
+        {
+            isShieldBreakable=false;
+            isShielded = false;
+            StartCoroutine(ShieldReset());
+        }
+
+        if(isShielded==false)
+        {
+            hp = hp - damage;
+            StartCoroutine(DamageEffect());
+            StartCoroutine(ShakeCamera(0.002f, 0.2f));
+
+        }
+       
+          
+
+    }
+    public IEnumerator DamageEffect()
+    {
+        spriteRenderer.color= Color.gray;
+        yield return new WaitForSeconds(0.3f);
+        spriteRenderer.color = Color.white;
+    }
 
     public IEnumerator ShieldReset()
     {
        if(isShielded == false)
         {
-            yield return new WaitForSeconds(30f);
+            yield return new WaitForSeconds(15f);
             isShielded = true;
             Debug.Log("Kalkan açýldý");
         }
@@ -512,16 +537,15 @@ public class Boss : MonoBehaviour
         switch (currentState)
         {
             case durumlar.Move:
-                if(Mathf.Abs(mesafex) <= takipmenzili && Mathf.Abs(mesafex)>menzil)
+                if(Mathf.Abs(mesafex) <= takipmenzili && Mathf.Abs(mesafex)>menzil && isStunned==false)
                 {
                     YonAyarla();
                     Run();
                 }
-                else if(Mathf.Abs(mesafex) <= menzil&& canAttack==true)
+                else if(Mathf.Abs(mesafex) <= menzil&& canAttack==true && isStunned==false)
                 {
                     animator.SetBool(name: "Run", value: false);
                     action.linearVelocity=Vector2.zero;
-
                     StartCoroutine(KararVer());
          
                 }
@@ -529,35 +553,39 @@ public class Boss : MonoBehaviour
 
                 else if (Mathf.Abs(mesafex) <menzil)
                 {
-                    Retreat();
+                    
                 }
-                    break;
-            case durumlar.Attack1:
-               action.linearVelocity=Vector2.zero;
-                break;
-            case durumlar.Attack2:
-                   action.linearVelocity=Vector2.zero;
-                break;
-            case durumlar.Teleport:
-                action.linearVelocity = Vector2.zero;
-                animator.SetBool("Run", false);
-            break;
-             case durumlar.Attack3:
-                action.linearVelocity = Vector2.zero;
-                break;
-            case durumlar.Attack4:
-                action.linearVelocity = Vector2.zero;
-                break;
 
+
+             
+            break;
+            case durumlar.Attack1:
+            action.linearVelocity=Vector2.zero;
+            break;
+            case durumlar.Attack2:
+            action.linearVelocity=Vector2.zero;
+            break;
+            case durumlar.Teleport:
+            action.linearVelocity = Vector2.zero;
+            animator.SetBool("Run", false);
+            break;
+            case durumlar.Attack3:
+            action.linearVelocity = Vector2.zero;
+            break;
+            case durumlar.Attack4:
+            action.linearVelocity = Vector2.zero;
+            break;
             case durumlar.Karar:
             break;
             case durumlar.Retreat:
             break;
-
-            case durumlar.tpAttack:
+            case durumlar.Stunned:
                 action.linearVelocity = Vector2.zero;
-                animator.SetBool("Run", false);
-                break;
+            break;
+            case durumlar.tpAttack:
+            action.linearVelocity = Vector2.zero;
+            animator.SetBool("Run", false);
+            break;
         }
 
         Death();
