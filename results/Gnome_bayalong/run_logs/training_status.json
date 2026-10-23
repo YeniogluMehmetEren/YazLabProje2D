@@ -2,22 +2,58 @@
     "Gnome": {
         "checkpoints": [
             {
-                "steps": 576,
-                "file_path": "results\\Gnome_bayalong\\Gnome\\Gnome-576.onnx",
+                "steps": 3499936,
+                "file_path": "results\\Gnome_bayalong\\Gnome\\Gnome-3499936.onnx",
                 "reward": null,
-                "creation_time": 1792778273.8576202,
+                "creation_time": 1792785801.2277052,
                 "auxillary_file_paths": [
-                    "results\\Gnome_bayalong\\Gnome\\Gnome-576.pt"
+                    "results\\Gnome_bayalong\\Gnome\\Gnome-3499936.pt"
+                ]
+            },
+            {
+                "steps": 3999936,
+                "file_path": "results\\Gnome_bayalong\\Gnome\\Gnome-3999936.onnx",
+                "reward": null,
+                "creation_time": 1792786356.2829044,
+                "auxillary_file_paths": [
+                    "results\\Gnome_bayalong\\Gnome\\Gnome-3999936.pt"
+                ]
+            },
+            {
+                "steps": 4499968,
+                "file_path": "results\\Gnome_bayalong\\Gnome\\Gnome-4499968.onnx",
+                "reward": null,
+                "creation_time": 1792786913.6426086,
+                "auxillary_file_paths": [
+                    "results\\Gnome_bayalong\\Gnome\\Gnome-4499968.pt"
+                ]
+            },
+            {
+                "steps": 4999936,
+                "file_path": "results\\Gnome_bayalong\\Gnome\\Gnome-4999936.onnx",
+                "reward": null,
+                "creation_time": 1792787482.5210524,
+                "auxillary_file_paths": [
+                    "results\\Gnome_bayalong\\Gnome\\Gnome-4999936.pt"
+                ]
+            },
+            {
+                "steps": 5000448,
+                "file_path": "results\\Gnome_bayalong\\Gnome\\Gnome-5000448.onnx",
+                "reward": null,
+                "creation_time": 1792787482.6264067,
+                "auxillary_file_paths": [
+                    "results\\Gnome_bayalong\\Gnome\\Gnome-5000448.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 576,
+            "steps": 5000448,
             "file_path": "results\\Gnome_bayalong\\Gnome.onnx",
             "reward": null,
-            "creation_time": 1792778273.8576202,
+            "creation_time": 1792787482.6264067,
             "auxillary_file_paths": [
-                "results\\Gnome_bayalong\\Gnome\\Gnome-576.pt"
+                "results\\Gnome_bayalong\\Gnome\\Gnome-5000448.pt"
             ]
         }
     },

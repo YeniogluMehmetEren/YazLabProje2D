@@ -328,6 +328,7 @@ public class Boss : MonoBehaviour
         {
             isShielded = false;
             isShieldBreakable = false;
+            StartCoroutine(ShieldReset());
         }
         else
         {

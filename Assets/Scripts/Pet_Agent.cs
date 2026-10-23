@@ -106,7 +106,7 @@ public class Pet_Agent : Agent
 
         if (hedefteMi && !isBossShieldBreakable)
         {
-            AddReward(0.005f);
+            AddReward(0.01f);
         }
 
         _cumulativeReward = GetCumulativeReward();
@@ -157,11 +157,11 @@ public class Pet_Agent : Agent
 
                 bossScript.ShieldKirAiIcin();
 
-                AddReward(2f);
+                AddReward(4f);
             }
             else if(isBossShielded && !isBossShieldBreakable)
             {
-                AddReward(-0.5f);
+                AddReward(-0.2f);
             }
         }
     }
