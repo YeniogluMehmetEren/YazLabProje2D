@@ -1,0 +1,65 @@
+{
+    "Gnome": {
+        "checkpoints": [
+            {
+                "steps": 8499988,
+                "file_path": "results\\Gnome_umarimSon\\Gnome\\Gnome-8499988.onnx",
+                "reward": null,
+                "creation_time": 1792874109.292987,
+                "auxillary_file_paths": [
+                    "results\\Gnome_umarimSon\\Gnome\\Gnome-8499988.pt"
+                ]
+            },
+            {
+                "steps": 8999956,
+                "file_path": "results\\Gnome_umarimSon\\Gnome\\Gnome-8999956.onnx",
+                "reward": null,
+                "creation_time": 1792874751.271704,
+                "auxillary_file_paths": [
+                    "results\\Gnome_umarimSon\\Gnome\\Gnome-8999956.pt"
+                ]
+            },
+            {
+                "steps": 9499956,
+                "file_path": "results\\Gnome_umarimSon\\Gnome\\Gnome-9499956.onnx",
+                "reward": null,
+                "creation_time": 1792875395.4123456,
+                "auxillary_file_paths": [
+                    "results\\Gnome_umarimSon\\Gnome\\Gnome-9499956.pt"
+                ]
+            },
+            {
+                "steps": 9999988,
+                "file_path": "results\\Gnome_umarimSon\\Gnome\\Gnome-9999988.onnx",
+                "reward": null,
+                "creation_time": 1792876043.441013,
+                "auxillary_file_paths": [
+                    "results\\Gnome_umarimSon\\Gnome\\Gnome-9999988.pt"
+                ]
+            },
+            {
+                "steps": 10000116,
+                "file_path": "results\\Gnome_umarimSon\\Gnome\\Gnome-10000116.onnx",
+                "reward": null,
+                "creation_time": 1792876043.5739634,
+                "auxillary_file_paths": [
+                    "results\\Gnome_umarimSon\\Gnome\\Gnome-10000116.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10000116,
+            "file_path": "results\\Gnome_umarimSon\\Gnome.onnx",
+            "reward": null,
+            "creation_time": 1792876043.5739634,
+            "auxillary_file_paths": [
+                "results\\Gnome_umarimSon\\Gnome\\Gnome-10000116.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.2.2+cu121"
+    }
+}

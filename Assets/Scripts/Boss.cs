@@ -375,12 +375,12 @@ public class Boss : MonoBehaviour
             StartCoroutine(Stunned());
         }
 
-        if(isShieldBreakable==true)
+        /*if(isShieldBreakable==true)
         {
             isShieldBreakable=false;
             isShielded = false;
             StartCoroutine(ShieldReset());
-        }
+        }*/
 
         if(isShielded==false)
         {

@@ -2983,7 +2983,7 @@ MonoBehaviour:
   mainCharacter: {fileID: 1639038025015072}
   boss: {fileID: 1849092363011421366}
   animator: {fileID: 6838210659090946744}
-  moveSpeed: 4
+  moveSpeed: 7
   jump: 5
   _currentEpisode: 0
   _cumulativeReward: 0
@@ -3011,9 +3011,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: d4ba2b1af903de044889979919118547, type: 3}
+  m_Model: {fileID: 0}
   m_InferenceDevice: 0
-  m_BehaviorType: 2
+  m_BehaviorType: 0
   m_BehaviorName: Gnome
   TeamId: 0
   m_UseChildSensors: 1
@@ -3308,7 +3308,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6431262144879740180}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -3418,7 +3418,7 @@ GameObject:
   - component: {fileID: 7928041961936707387}
   m_Layer: 0
   m_Name: AiTrigger
-  m_TagString: boss
+  m_TagString: bossShield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -2,58 +2,58 @@
     "Gnome": {
         "checkpoints": [
             {
-                "steps": 8499968,
-                "file_path": "results\\Gnome_bayalong\\Gnome\\Gnome-8499968.onnx",
-                "reward": 91.33332218478124,
-                "creation_time": 1792804712.960631,
-                "auxillary_file_paths": [
-                    "results\\Gnome_bayalong\\Gnome\\Gnome-8499968.pt"
-                ]
-            },
-            {
-                "steps": 8999960,
-                "file_path": "results\\Gnome_bayalong\\Gnome\\Gnome-8999960.onnx",
-                "reward": 77.63635491105643,
-                "creation_time": 1792805277.960774,
-                "auxillary_file_paths": [
-                    "results\\Gnome_bayalong\\Gnome\\Gnome-8999960.pt"
-                ]
-            },
-            {
-                "steps": 9499936,
-                "file_path": "results\\Gnome_bayalong\\Gnome\\Gnome-9499936.onnx",
+                "steps": 8499988,
+                "file_path": "results\\Gnome_bayalong\\Gnome\\Gnome-8499988.onnx",
                 "reward": null,
-                "creation_time": 1792805837.0879467,
+                "creation_time": 1792856873.831552,
                 "auxillary_file_paths": [
-                    "results\\Gnome_bayalong\\Gnome\\Gnome-9499936.pt"
+                    "results\\Gnome_bayalong\\Gnome\\Gnome-8499988.pt"
                 ]
             },
             {
-                "steps": 9999968,
-                "file_path": "results\\Gnome_bayalong\\Gnome\\Gnome-9999968.onnx",
+                "steps": 8999956,
+                "file_path": "results\\Gnome_bayalong\\Gnome\\Gnome-8999956.onnx",
                 "reward": null,
-                "creation_time": 1792806397.856813,
+                "creation_time": 1792857461.8492944,
                 "auxillary_file_paths": [
-                    "results\\Gnome_bayalong\\Gnome\\Gnome-9999968.pt"
+                    "results\\Gnome_bayalong\\Gnome\\Gnome-8999956.pt"
                 ]
             },
             {
-                "steps": 10000608,
-                "file_path": "results\\Gnome_bayalong\\Gnome\\Gnome-10000608.onnx",
-                "reward": null,
-                "creation_time": 1792806397.9663248,
+                "steps": 9499988,
+                "file_path": "results\\Gnome_bayalong\\Gnome\\Gnome-9499988.onnx",
+                "reward": 6.286666536082824,
+                "creation_time": 1792858051.1382842,
                 "auxillary_file_paths": [
-                    "results\\Gnome_bayalong\\Gnome\\Gnome-10000608.pt"
+                    "results\\Gnome_bayalong\\Gnome\\Gnome-9499988.pt"
+                ]
+            },
+            {
+                "steps": 9999988,
+                "file_path": "results\\Gnome_bayalong\\Gnome\\Gnome-9999988.onnx",
+                "reward": null,
+                "creation_time": 1792858642.7755613,
+                "auxillary_file_paths": [
+                    "results\\Gnome_bayalong\\Gnome\\Gnome-9999988.pt"
+                ]
+            },
+            {
+                "steps": 10000116,
+                "file_path": "results\\Gnome_bayalong\\Gnome\\Gnome-10000116.onnx",
+                "reward": null,
+                "creation_time": 1792858642.8497484,
+                "auxillary_file_paths": [
+                    "results\\Gnome_bayalong\\Gnome\\Gnome-10000116.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 10000608,
+            "steps": 10000116,
             "file_path": "results\\Gnome_bayalong\\Gnome.onnx",
             "reward": null,
-            "creation_time": 1792806397.9663248,
+            "creation_time": 1792858642.8497484,
             "auxillary_file_paths": [
-                "results\\Gnome_bayalong\\Gnome\\Gnome-10000608.pt"
+                "results\\Gnome_bayalong\\Gnome\\Gnome-10000116.pt"
             ]
         }
     },
