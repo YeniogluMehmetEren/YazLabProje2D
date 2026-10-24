@@ -158,6 +158,8 @@ public class Pet_Agent : Agent
                 bossScript.ShieldKirAiIcin();
 
                 AddReward(4f);
+
+                //transform.localPosition = new Vector3(mainCharacter.transform.localPosition.x + 1.5f, transform.localPosition.y, 0);
             }
             else if(isBossShielded && !isBossShieldBreakable)
             {

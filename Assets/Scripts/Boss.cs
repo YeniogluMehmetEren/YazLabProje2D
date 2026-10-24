@@ -390,8 +390,12 @@ public class Boss : MonoBehaviour
     {
        if(isShielded == false)
         {
-            yield return new WaitForSeconds(4f); //15den 4e çektim ai eðitimi için
+            yield return new WaitForSeconds(15f);
             isShielded = true;
+            if (AiEgitimiOlsunMu)
+            {
+                isShieldBreakable = true;
+            }
             Debug.Log("Kalkan açýldý");
         }
     }
