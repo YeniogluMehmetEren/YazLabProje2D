@@ -1,4 +1,8 @@
+using Google.Protobuf.WellKnownTypes;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class AnaKarakter : MonoBehaviour
 {
@@ -18,8 +22,51 @@ public class AnaKarakter : MonoBehaviour
     public Transform vurusyeri;
     public Transform vurusyerireverse;
     public LayerMask EnemyLayer;
+    public LayerMask PlayerLayer;
     public Collider2D kilic;
     public Collider2D reversekilic;
+    public GameObject King;
+    public Slider slider;
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("AOE"))
+        {
+            GetDamage(boss.damage * 2);
+        }
+
+       
+    }
+
+
+
+    public IEnumerator HasarAlma()
+    {
+        King.layer = LayerMask.NameToLayer("Default");
+
+        for(int i=0; i<5; i++)
+        {
+            sprite.enabled = false;
+            yield return new WaitForSeconds(0.1f);
+            sprite.enabled = true;
+        }
+
+        King.layer = LayerMask.NameToLayer("Player");
+
+
+
+
+    }
+
+
+    public IEnumerator FreezeTime(float time)
+    {
+        Time.timeScale = 0f;
+
+        yield return new WaitForSecondsRealtime(time);
+
+        Time.timeScale = 1f;
+    }
 
 
     public void Walk()
@@ -88,11 +135,19 @@ public class AnaKarakter : MonoBehaviour
         }
     }
 
-
+    
 
     public void GetDamage(float damage)
     {
-        
+        health -= damage;
+        animator.SetTrigger("GetHit");
+        StartCoroutine(HasarAlma());
+        if (health<=0)
+        {
+            health = 0;
+            animator.CrossFade("Death", 0.6f);
+            SceneManager.LoadScene("test");
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -158,11 +213,17 @@ public class AnaKarakter : MonoBehaviour
         Jump();
     }
 
+    public void Start()
+    {
+        Time.timeScale = 1f;
+        slider.maxValue = health;
+        slider.minValue = 0;
+    }
 
-   
 
     void Update()
     {
         Hareketler();
+        slider.value = health;
     }
 }
