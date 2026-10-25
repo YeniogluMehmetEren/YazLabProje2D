@@ -44,6 +44,7 @@ public class Boss : MonoBehaviour
     public float tpmesafesi = 10f;
     public Slider slider;
     bool enterSecondPhase = false;
+   
 
     [Header("Ai Egitimi")]
     public bool AiEgitimiOlsunMu = true;
@@ -78,7 +79,7 @@ public class Boss : MonoBehaviour
     }
 
 
-    public void Retreat()
+    public IEnumerator Retreat()
     {
         currentState= durumlar.Retreat; 
 
@@ -87,15 +88,21 @@ public class Boss : MonoBehaviour
             animator.SetBool("Run", true);
             if (mesafex > 0)
             {
-                action.linearVelocity = new Vector2(-speed*3, action.linearVelocity.y);
+                action.linearVelocity = new Vector2(-speed*2.25f, action.linearVelocity.y);
             }
             else if (mesafex < 0)
             {
-                action.linearVelocity = new Vector2(speed*3, action.linearVelocity.y);
+                action.linearVelocity = new Vector2(speed*2.25f, action.linearVelocity.y);
             }
-        
 
-        currentState= durumlar.Move;
+        yield return new WaitForSeconds(0.2f);
+
+        action.linearVelocity = Vector2.zero;
+
+        currentState = durumlar.Move;
+
+       
+
     }
 
 
@@ -236,34 +243,7 @@ public class Boss : MonoBehaviour
 
     }
 
-    public IEnumerator Teleport()
-    {
-      
-        currentState = durumlar.Teleport;
-        canAttack = false;
-        Vector2 pozisyon = transform.position;
-        int karar= Random.Range(0, 2);
-        animator.SetTrigger("teleport");
-       
-        yield return new WaitForEndOfFrame();
-        yield return new WaitForSeconds(0.57f);
-        StartCoroutine(ShakeCamera(0.03f, 0.3f));
-      
-
-        if (karar==0)
-        {
-            pozisyon.x = Knight.position.x + tpmesafesi;
-        }
-        else if(karar==1)
-        {
-            pozisyon.x = Knight.position.x - tpmesafesi;
-        }   
-        transform.position = pozisyon;
-       
-        
-        canAttack = true;
-    }
-
+   
    
 
    
@@ -368,7 +348,12 @@ public class Boss : MonoBehaviour
     public void DamageAl(float damage)
     {
         if(isShielded==true)
-        counter++;
+        {
+            counter++;
+            anaKarakter.KilicSesleri.clip = anaKarakter.KalkanaVurma;
+            anaKarakter.KilicSesleri.Play();
+        }
+    
         if(counter>=10)
         {
             counter = 0;
@@ -387,6 +372,8 @@ public class Boss : MonoBehaviour
             hp = hp - damage;
             StartCoroutine(DamageEffect());
             StartCoroutine(ShakeCamera(0.01f, 0.1f));
+            anaKarakter.KilicSesleri.clip = anaKarakter.Kiliclavurma;
+            anaKarakter.KilicSesleri.Play();
             StartCoroutine(anaKarakter.FreezeTime(0.1f));
 
         }
@@ -468,12 +455,43 @@ public class Boss : MonoBehaviour
       
     }
 
+
+    public IEnumerator Teleport()
+    {
+
+        currentState = durumlar.Teleport;
+        canAttack = false;
+        Vector2 pozisyon = transform.position;
+        int karar = Random.Range(0, 2);
+        animator.SetTrigger("teleport");
+
+        yield return new WaitForEndOfFrame();
+        yield return new WaitForSeconds(0.57f);
+        StartCoroutine(ShakeCamera(0.03f, 0.3f));
+
+
+        if (karar == 0)
+        {
+            pozisyon.x = Knight.position.x + tpmesafesi;
+        }
+        else if (karar == 1)
+        {
+            pozisyon.x = Knight.position.x - tpmesafesi;
+        }
+        transform.position = pozisyon;
+
+
+        canAttack = true;
+    }
+
+
+
+
     public IEnumerator SecondPhase()
     {
         currentState = durumlar.SecondPhase;
-
-        Vector3 patlamaNoktasi;
-        Vector3 patlamaNoktasi2;
+        tpmesafesi = tpmesafesi*7 / 10;
+     
 
         
        
@@ -487,25 +505,32 @@ public class Boss : MonoBehaviour
             yield return new WaitForSeconds(0.3f);
             YonAyarla();
 
-
+            
             Vector3 yon = transform.position - Knight.position;
-            Vector3 arttir = yon.normalized * 4f;
-            patlamaNoktasi = baslangicyeri.position;
-            patlamaNoktasi2 = baslangicyerisol.position;
+            Vector3 arttir = yon.normalized * 3f;
+            Vector3 patlamaNoktasi;
+            Vector3 patlamaNoktasi2;
 
-      
-            for (int j = 0; j < 6; j++)
+
+            for (int j = 0; j < 3; j++)
             {
+                YonAyarla();
+                patlamaNoktasi = baslangicyeri.position;
+                patlamaNoktasi2 = baslangicyerisol.position;
+
                 yeniMermi = Instantiate(AOE, patlamaNoktasi, Quaternion.identity);
                 yeniMermi2 = Instantiate(AOE, patlamaNoktasi2, Quaternion.identity);
-
+               
+               
                 patlamaNoktasi -= arttir;
                 patlamaNoktasi2 += arttir;
 
-                yield return new WaitForSeconds(0.6f);
+                yield return new WaitForSeconds(0.3f);
                 Destroy(yeniMermi, 0f);
                 Destroy(yeniMermi2, 0f);
+                yield return new WaitForSeconds(0.5f);
             }
+           
         }
 
 
@@ -610,7 +635,7 @@ public class Boss : MonoBehaviour
                     YonAyarla();
                     Run();
                 }
-                else if(Mathf.Abs(mesafex) <= menzil&& canAttack==true && isStunned==false)
+                else if(Mathf.Abs(mesafex) <= menzil&& canAttack==true && isStunned==false && Mathf.Abs(mesafex)>4)
                 {
                     animator.SetBool(name: "Run", value: false);
                     action.linearVelocity=Vector2.zero;
@@ -619,9 +644,9 @@ public class Boss : MonoBehaviour
                 }
 
 
-                else if (Mathf.Abs(mesafex) <menzil)
+                else if (Mathf.Abs(mesafex)<=4)
                 {
-                    
+                   StartCoroutine(Retreat());
                 }
 
                if(hp<= maxhp/2 && isStunned==false &&enterSecondPhase==false)
@@ -651,7 +676,8 @@ public class Boss : MonoBehaviour
             case durumlar.Karar:
             break;
             case durumlar.Retreat:
-            break;
+               
+                break;
             case durumlar.Stunned:
                 action.linearVelocity = Vector2.zero;
             break;

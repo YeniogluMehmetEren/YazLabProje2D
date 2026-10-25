@@ -27,12 +27,23 @@ public class AnaKarakter : MonoBehaviour
     public Collider2D reversekilic;
     public GameObject King;
     public Slider slider;
+    public AudioSource KilicSesleri;
+    public AudioClip Kilicsallama;
+    public AudioClip Kilicsallama2;
+    public AudioClip Kilicsallama3;
+    public AudioClip Kiliclavurma;
+    public AudioClip KalkanaVurma;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("AOE"))
         {
             GetDamage(boss.damage * 2);
+        }
+
+        else if (collision.CompareTag("goal"))
+        {
+            return;
         }
 
        
@@ -111,6 +122,7 @@ public class AnaKarakter : MonoBehaviour
                     Boss boss = enemy.GetComponent<Boss>();
 
                     boss.DamageAl(damage);
+                    
             
                 }
             }
@@ -129,8 +141,9 @@ public class AnaKarakter : MonoBehaviour
                     Boss boss = enemy.GetComponent<Boss>();
 
                     boss.DamageAl(damage);
-                
-                 }
+                    
+
+                }
                 }
         }
     }
@@ -197,9 +210,28 @@ public class AnaKarakter : MonoBehaviour
 
     public void Hit()
     {
-        if(Input.GetMouseButtonDown(0))
+        int sýra = 0;
+        if (Input.GetMouseButtonDown(0))
         {
+            sýra++;
             animator.SetTrigger("Attack");
+            
+
+            if(sýra==0)
+            {
+                KilicSesleri.PlayOneShot(Kilicsallama);
+            }
+
+            else if(sýra==1)
+            {
+                KilicSesleri.PlayOneShot(Kilicsallama2);
+            }
+
+            else if (sýra==2)
+            {
+                KilicSesleri.PlayOneShot(Kilicsallama3);
+                sýra = 0;
+            }
         }
         
     }
