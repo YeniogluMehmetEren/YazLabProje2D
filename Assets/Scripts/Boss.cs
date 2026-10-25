@@ -357,7 +357,7 @@ public class Boss : MonoBehaviour
         isStunned = true;
         isShieldBreakable = true;
         animator.SetBool("stun", true);
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(5f);
         animator.SetBool("stun", false);
         isStunned = false;
 

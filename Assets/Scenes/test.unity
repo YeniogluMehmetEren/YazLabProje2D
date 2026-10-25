@@ -3544,7 +3544,7 @@ GameObject:
   - component: {fileID: 3723838413668134236}
   - component: {fileID: 7469592202062249096}
   - component: {fileID: 7090823321458708116}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: NightBorne_0
   m_TagString: boss
   m_Icon: {fileID: 0}
@@ -3752,8 +3752,8 @@ Transform:
   m_GameObject: {fileID: 7704802804596155680}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15, y: 0.7, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -14.81, y: -0.27, z: 0}
+  m_LocalScale: {x: 1.601, y: 1.601, z: 1.601}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3765,7 +3765,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7987348715860537872}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -4043,7 +4043,7 @@ MonoBehaviour:
   Tp2: {fileID: 8300000, guid: 0b862a39fd1f41e4c995b517126537cb, type: 3}
   Layer:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 64
   tpmesafesi: 10
   slider: {fileID: 1357737283}
   AiEgitimiOlsunMu: 0
@@ -4274,7 +4274,7 @@ MonoBehaviour:
   vurusyerireverse: {fileID: 1206450239689315362}
   EnemyLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 128
   PlayerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -4810,7 +4810,7 @@ GameObject:
   - component: {fileID: 4188361383873810509}
   - component: {fileID: 4269533529296776880}
   - component: {fileID: 8611521144442866372}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: GnomeAgent
   m_TagString: Untagged
   m_Icon: {fileID: 0}

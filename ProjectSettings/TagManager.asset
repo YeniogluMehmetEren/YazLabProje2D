@@ -4,14 +4,11 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - goal
-  - ground
   - boss
-<<<<<<< Updated upstream
-  - AOE
-=======
+  - goal
   - bossShield
->>>>>>> Stashed changes
+  - AOE
+  - ground
   layers:
   - Default
   - TransparentFX
@@ -20,8 +17,8 @@ TagManager:
   - Water
   - UI
   - Player
-  - Agent
   - Boss
+  - Agent
   - 
   - 
   - 
