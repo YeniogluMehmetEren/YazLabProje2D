@@ -75,6 +75,7 @@ public class Boss : MonoBehaviour
         StartCoroutine(SecondPhase());
         damage = damage * 1.5f;
         speed = speed * 2f;
+        animator.SetFloat("hýz", 1.7f);
  
     }
 
@@ -502,33 +503,47 @@ public class Boss : MonoBehaviour
 
           
             StartCoroutine(Teleport());
-            yield return new WaitForSeconds(0.3f);
             YonAyarla();
+            yield return new WaitForSeconds(0.6f);
+            
 
             
             Vector3 yon = transform.position - Knight.position;
             Vector3 arttir = yon.normalized * 3f;
             Vector3 patlamaNoktasi;
             Vector3 patlamaNoktasi2;
+            patlamaNoktasi = baslangicyeri.position;
+            patlamaNoktasi2 = baslangicyerisol.position;
 
 
             for (int j = 0; j < 3; j++)
             {
                 YonAyarla();
-                patlamaNoktasi = baslangicyeri.position;
-                patlamaNoktasi2 = baslangicyerisol.position;
+               
 
                 yeniMermi = Instantiate(AOE, patlamaNoktasi, Quaternion.identity);
                 yeniMermi2 = Instantiate(AOE, patlamaNoktasi2, Quaternion.identity);
                
-               
-                patlamaNoktasi -= arttir;
-                patlamaNoktasi2 += arttir;
 
-                yield return new WaitForSeconds(0.3f);
+                if(spriteRenderer.flipX==true)
+                {
+                    patlamaNoktasi -= arttir;
+                    patlamaNoktasi2 += arttir;
+                }
+
+                else if (spriteRenderer.flipX==false)
+                {
+                    patlamaNoktasi += arttir;
+                    patlamaNoktasi2 -= arttir;
+                }
+
+
+
+
+                    yield return new WaitForSeconds(0.3f);
                 Destroy(yeniMermi, 0f);
                 Destroy(yeniMermi2, 0f);
-                yield return new WaitForSeconds(0.5f);
+                yield return new WaitForSeconds(0.32f);
             }
            
         }
@@ -644,7 +659,7 @@ public class Boss : MonoBehaviour
                 }
 
 
-                else if (Mathf.Abs(mesafex)<=4)
+                else if (Mathf.Abs(mesafex)<=4 && isStunned==false)
                 {
                    StartCoroutine(Retreat());
                 }
