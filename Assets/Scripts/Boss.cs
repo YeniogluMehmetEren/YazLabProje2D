@@ -44,13 +44,17 @@ public class Boss : MonoBehaviour
     public float tpmesafesi = 10f;
     public Slider slider;
     bool enterSecondPhase = false;
-   
+    public Transform giris;
+    public Animator crowdAnimator;
+    public AudioSource crowdAudio;
+    public AudioClip EntranceAudio;
+    public AudioClip ApplauseAudio;
 
     [Header("Ai Egitimi")]
     public bool AiEgitimiOlsunMu = true;
     public void Run()
     {
-        if (!AiEgitimiOlsunMu)
+        if (!AiEgitimiOlsunMu && anaKarakter.bossdur==false)
         {
             currentState = durumlar.Move;
             if (canAttack == true)
@@ -69,11 +73,28 @@ public class Boss : MonoBehaviour
     }
 
 
+    public IEnumerator SahneyeGiris()
+    {
+        Vector2 giriskonumu = giris.position;
+        Vector2 ilkkonum = transform.position;
+
+        animator.SetTrigger("Teleport");
+        yield return new WaitForSeconds(0.45f);
+        transform.position = giriskonumu;
+
+        if(hp<=0)
+        {
+            yield return new WaitForSeconds(2f);
+            Death();
+            transform.position = ilkkonum;
+        }
+    }
+
+
     public void ActivateSecondPhase()
     {
        
         StartCoroutine(SecondPhase());
-        damage = damage * 1.5f;
         speed = speed * 2f;
         animator.SetFloat("hýz", 1.7f);
  
@@ -89,11 +110,11 @@ public class Boss : MonoBehaviour
             animator.SetBool("Run", true);
             if (mesafex > 0)
             {
-                action.linearVelocity = new Vector2(-speed*2.25f, action.linearVelocity.y);
+                action.linearVelocity = new Vector2(25, action.linearVelocity.y);
             }
             else if (mesafex < 0)
             {
-                action.linearVelocity = new Vector2(speed*2.25f, action.linearVelocity.y);
+                action.linearVelocity = new Vector2(25f, action.linearVelocity.y);
             }
 
         yield return new WaitForSeconds(0.2f);
@@ -127,6 +148,12 @@ public class Boss : MonoBehaviour
         yield return new WaitForEndOfFrame();
         float animlength = animator.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        if (enterSecondPhase == true)
+        {
+
+            StartCoroutine(Teleport());
+            yield return new WaitForSeconds(1f);
+        }
         canAttack = true;
         currentState= durumlar.Move;    
     }
@@ -165,6 +192,12 @@ public class Boss : MonoBehaviour
         float animlength = animator.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         yield return new WaitForSeconds(0f);
+        if (enterSecondPhase == true)
+        {
+
+            StartCoroutine(Teleport());
+            yield return new WaitForSeconds(1f);
+        }
         canAttack = true;
 
         currentState = durumlar.Move;
@@ -172,6 +205,8 @@ public class Boss : MonoBehaviour
 
 
     }
+
+
 
 
     public IEnumerator Attack3()
@@ -186,6 +221,12 @@ public class Boss : MonoBehaviour
         float animlength = animator.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         yield return new WaitForSeconds(0f);
+        if (enterSecondPhase == true)
+        {
+
+            StartCoroutine(Teleport());
+            yield return new WaitForSeconds(1f);
+        }
         canAttack = true;
 
         currentState = durumlar.Move;
@@ -207,6 +248,12 @@ public class Boss : MonoBehaviour
         float animlength = animator.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         yield return new WaitForSeconds(0.5f);
+        if (enterSecondPhase == true)
+        {
+
+            StartCoroutine(Teleport());
+            yield return new WaitForSeconds(1f);
+        }
         canAttack = true;
 
         currentState = durumlar.Move;
@@ -217,7 +264,7 @@ public class Boss : MonoBehaviour
 
 
 
-    private IEnumerator ShakeCamera(float siddet, float zaman)
+    public IEnumerator ShakeCamera(float siddet, float zaman)
     {
         Vector3 orginalpozisyon = camera.localPosition;
 
@@ -336,6 +383,8 @@ public class Boss : MonoBehaviour
     {
         currentState = durumlar.Stunned;
         isStunned = true;
+        crowdAudio.clip = EntranceAudio;
+        crowdAudio.Play();
         isShieldBreakable = true;
         animator.SetBool("stun", true);
         yield return new WaitForSeconds(5f);
@@ -410,7 +459,6 @@ public class Boss : MonoBehaviour
             hp = 0;
             animator.SetTrigger("teleport");
             float animlength = animator.GetCurrentAnimatorStateInfo(0).length;
-            Destroy(gameObject, animlength);
             slider.gameObject.SetActive(false);
         }
     }
@@ -492,31 +540,36 @@ public class Boss : MonoBehaviour
     {
         currentState = durumlar.SecondPhase;
         tpmesafesi = tpmesafesi*7 / 10;
-     
+        crowdAnimator.SetTrigger("Entrance");
+        yield return new WaitForEndOfFrame();
+        animator.SetBool("run", false);
+
 
         
        
 
 
-        for (int i = 0; i < 6; i++)
+        for (int i = 0; i < 5; i++)
         {
 
           
             StartCoroutine(Teleport());
-            YonAyarla();
             yield return new WaitForSeconds(0.6f);
+            currentState = durumlar.SecondPhase;
+            YonAyarla();
+            
             
 
             
             Vector3 yon = transform.position - Knight.position;
-            Vector3 arttir = yon.normalized * 3f;
+            Vector3 arttir = yon.normalized * 1.5f;
             Vector3 patlamaNoktasi;
             Vector3 patlamaNoktasi2;
             patlamaNoktasi = baslangicyeri.position;
             patlamaNoktasi2 = baslangicyerisol.position;
 
 
-            for (int j = 0; j < 3; j++)
+            for (int j = 0; j < 4; j++)
             {
                 YonAyarla();
                
@@ -540,17 +593,20 @@ public class Boss : MonoBehaviour
 
 
 
-                    yield return new WaitForSeconds(0.3f);
+                yield return new WaitForSeconds(0.3f);
                 Destroy(yeniMermi, 0f);
                 Destroy(yeniMermi2, 0f);
-                yield return new WaitForSeconds(0.32f);
+                
             }
-           
+            yield return new WaitForSeconds(0.3f);
+
         }
 
 
        
         enterSecondPhase = true;
+        crowdAnimator.SetTrigger("Applause");
+        crowdAudio.PlayOneShot(ApplauseAudio);
         currentState = durumlar.Move;
     }
 
@@ -568,6 +624,8 @@ public class Boss : MonoBehaviour
             {
 
                 StartCoroutine(Attack1());
+              
+                
 
             }
 
@@ -586,11 +644,13 @@ public class Boss : MonoBehaviour
             else if (karar == 3)
             {
                 StartCoroutine(Attack3());
+               
 
             }
             else if (karar == 4)
             {
                 StartCoroutine(Attack4());
+               
 
             }
         }

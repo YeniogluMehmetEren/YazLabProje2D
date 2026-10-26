@@ -33,22 +33,72 @@ public class AnaKarakter : MonoBehaviour
     public AudioClip Kilicsallama3;
     public AudioClip Kiliclavurma;
     public AudioClip KalkanaVurma;
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    public Animator crowdAnimator;
+    public AudioSource crowdAudio;
+    public AudioSource loopAudio;
+    public AudioClip EntranceAudio;
+    public AudioClip ApplauseAudio;
+    public AudioClip LoopAudio;
+    bool entrance=false;
+    public bool bossdur = false;
+    bool canMove = true;
+    private IEnumerator OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("AOE"))
         {
-            GetDamage(boss.damage * 2);
+            GetDamage(boss.damage * 1.5f);
         }
 
-        else if (collision.CompareTag("goal"))
+        else if (collision.CompareTag("giris")&&entrance==false)
         {
-            return;
+            entrance = true;
+            bossdur = true;
+            canMove = false;
+           
+            yield return new WaitForEndOfFrame();
+            animator.SetBool("run", false);
+            move.linearVelocity = Vector2.zero;
+          
+            
+            crowdAudio.clip=EntranceAudio;
+            crowdAudio.Play();
+            StartCoroutine(boss.SahneyeGiris());
+            yield return new WaitForSeconds(2f);
+            
+            crowdAnimator.SetTrigger("Entrance");
+            StartCoroutine(boss.ShakeCamera(0.05f, 6f));
+            yield return new WaitForSeconds(6f);
+  
+            canMove = true;
+            bossdur = false;
+          
+            
+
         }
 
        
     }
 
+    
+
+
+
+    public void Dash()
+    {
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            animator.SetTrigger("Dash");
+            if(spriteRenderer.flipX==false)
+            {
+                move.linearVelocity = new Vector2(hiz * 3, move.linearVelocityY);         
+            }
+
+            else if (spriteRenderer.flipX==true)
+            {
+                move.linearVelocity = new Vector2(hiz * -3, move.linearVelocityY);
+            }
+        }
+    }
 
 
     public IEnumerator HasarAlma()
@@ -183,7 +233,7 @@ public class AnaKarakter : MonoBehaviour
 
     public void Jump()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space) &&isGrounded==true)
         {
             move.AddForce(new Vector2(0f, jumpforce), ForceMode2D.Impulse);
             animator.SetTrigger("Jump");
@@ -240,9 +290,14 @@ public class AnaKarakter : MonoBehaviour
 
     public void Hareketler()
     {
-        Walk();
-        Hit();
-        Jump();
+        if(canMove==true)
+        {
+            Walk();
+            Hit();
+            Jump();
+            Dash();
+        }
+       
     }
 
     public void Start()

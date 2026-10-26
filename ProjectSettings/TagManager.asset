@@ -9,6 +9,7 @@ TagManager:
   - bossShield
   - AOE
   - ground
+  - giris
   layers:
   - Default
   - TransparentFX
