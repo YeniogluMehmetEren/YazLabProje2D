@@ -344,6 +344,7 @@ public class Boss : MonoBehaviour
     {
         isShielded = false;
         isShieldBreakable = false;
+        Debug.Log("Kalkan kýrýldý");
         StartCoroutine(ShieldReset());
     }
 

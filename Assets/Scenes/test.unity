@@ -356,7 +356,7 @@ GameObject:
   - component: {fileID: 603996997}
   - component: {fileID: 603996996}
   - component: {fileID: 603996995}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: BackStage2
   m_TagString: ground
   m_Icon: {fileID: 0}

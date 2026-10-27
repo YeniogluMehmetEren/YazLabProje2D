@@ -146,7 +146,7 @@ public class Pet_Agent : Agent
         {
             hedefteMi = true;
         }
-        if (other.gameObject.CompareTag("boss"))
+        if (other.gameObject.CompareTag("bossShield"))
         {
             if (isBossShieldBreakable)
             {
