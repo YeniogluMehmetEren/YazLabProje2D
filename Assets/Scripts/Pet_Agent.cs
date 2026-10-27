@@ -41,7 +41,7 @@ public class Pet_Agent : Agent
         _cumulativeReward = 0f;
         hedefteMi = false;
 
-        bossScript.Shield5050();
+        //bossScript.Shield5050();
 
 
     }
