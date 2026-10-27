@@ -43,7 +43,7 @@ public class Pet_Agent : Agent
 
         bossScript.Shield5050();
 
-        SetAgentPos();
+
     }
 
     private void SetAgentPos()
@@ -146,7 +146,7 @@ public class Pet_Agent : Agent
         {
             hedefteMi = true;
         }
-        if (other.gameObject.CompareTag("bossShield"))
+        if (other.gameObject.CompareTag("boss"))
         {
             if (isBossShieldBreakable)
             {
