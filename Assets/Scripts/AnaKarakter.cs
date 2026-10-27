@@ -34,6 +34,8 @@ public class AnaKarakter : MonoBehaviour
     public AudioClip Kiliclavurma;
     public AudioClip KalkanaVurma;
     public Animator crowdAnimator;
+    public Animator crowdAnimator2;
+    public Animator crowdAnimator3;
     public AudioSource crowdAudio;
     public AudioSource loopAudio;
     public AudioClip EntranceAudio;
@@ -66,6 +68,8 @@ public class AnaKarakter : MonoBehaviour
             yield return new WaitForSeconds(2f);
             
             crowdAnimator.SetTrigger("Entrance");
+            crowdAnimator2.SetTrigger("Entrance");
+            crowdAnimator3.SetTrigger("Entrance");
             StartCoroutine(boss.ShakeCamera(0.05f, 6f));
             yield return new WaitForSeconds(6f);
   

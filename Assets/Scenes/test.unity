@@ -4879,6 +4879,8 @@ MonoBehaviour:
   Kiliclavurma: {fileID: 8300000, guid: 6935e52c4f0c76745a32c8a0a4d88422, type: 3}
   KalkanaVurma: {fileID: 8300000, guid: 954d093b4525d80419bea17cd9443901, type: 3}
   crowdAnimator: {fileID: 2127830698}
+  crowdAnimator2: {fileID: 1238037086}
+  crowdAnimator3: {fileID: 1172857237}
   crowdAudio: {fileID: 1172857236}
   loopAudio: {fileID: 8826599524349687394}
   EntranceAudio: {fileID: 8300000, guid: ec3e74806d1a9324abc8a2df28bed242, type: 3}

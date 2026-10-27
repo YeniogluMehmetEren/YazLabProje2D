@@ -386,6 +386,9 @@ public class Boss : MonoBehaviour
         isStunned = true;
         crowdAudio.clip = EntranceAudio;
         crowdAudio.Play();
+        anaKarakter.crowdAnimator.SetTrigger("Entrance");
+        anaKarakter.crowdAnimator2.SetTrigger("Entrance");
+        anaKarakter.crowdAnimator.SetTrigger("Entrance");
         isShieldBreakable = true;
         animator.SetBool("stun", true);
         yield return new WaitForSeconds(5f);
@@ -455,7 +458,7 @@ public class Boss : MonoBehaviour
 
     public void Death()
     {
-        if (hp <= 0)
+        if (hp <= 0 && anaKarakter.bossdur==true)
         {
             hp = 0;
             animator.SetTrigger("teleport");
