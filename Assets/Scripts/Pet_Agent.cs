@@ -150,10 +150,10 @@ public class Pet_Agent : Agent
         {
             if (isBossShieldBreakable)
             {
+                animator.SetTrigger("Attack");
+
                 isBossShieldBreakable = false;
                 isBossShielded = false;
-
-                animator.SetTrigger("Attack");
 
                 bossScript.ShieldKirAiIcin();
 
