@@ -604,14 +604,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCKontrolu
   modelName: phi3
-  npcSystemPrompt: "Sen kentin kap\u0131s\u0131n\u0131 koruyan ya\u015Fl\u0131 bir
-    muhaf\u0131zs\u0131n. Oyuncu senden ge\xE7mek istiyor.\nOyuncunun s\xF6yledi\u011Fi
-    c\xFCmleye g\xF6re ikna olma durumunu de\u011Ferlendir.\nE\u011Fer mant\u0131kl\u0131
-    bir gerek\xE7e veya r\xFC\u015Fvet sunarsa 'iknaEtkisi'ni y\xFCksek pozitif (+10
-    ile +25 aras\u0131), E\u011Fer hakaret ederse veya tehdit ederse negatif (-10
-    ile -25 aras\u0131) bir de\u011Fer ver.\nCevab\u0131n\u0131 YALNIZCA \u015Fu
-    JSON format\u0131nda ver:\n{\n  \"dialogResponse\": \"Oyuncuya s\xF6yleyece\u011Fin
-    T\xFCrk\xE7e c\xFCmle\",\n\"iknaEtkisi\": 15\n}"
 --- !u!212 &592196884
 SpriteRenderer:
   serializedVersion: 2
@@ -4290,12 +4282,12 @@ GameObject:
   - component: {fileID: 1638681165}
   - component: {fileID: 1638681164}
   m_Layer: 5
-  m_Name: Klavye
+  m_Name: "CanvasNpcKonu\u015Fma"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1638681164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4613,59 +4605,6 @@ Transform:
   m_Children:
   - {fileID: 813614177}
   m_Father: {fileID: 42901046}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2086271144
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2086271146}
-  - component: {fileID: 2086271145}
-  m_Layer: 0
-  m_Name: NPCManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2086271145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2086271144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65142ab5838d94340a39ae17abf7662d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPCKontrolu
-  modelName: psi3
-  npcSystemPrompt: "Sen kentin kap\u0131s\u0131n\u0131 koruyan ya\u015Fl\u0131 bir
-    muhaf\u0131zs\u0131n. Oyuncu senden ge\xE7mek istiyor.\nOyuncunun s\xF6yledi\u011Fi
-    c\xFCmleye g\xF6re ikna olma durumunu de\u011Ferlendir.\nE\u011Fer mant\u0131kl\u0131
-    bir gerek\xE7e veya r\xFC\u015Fvet sunarsa 'iknaEtkisi'ni y\xFCksek pozitif (+10
-    ile +25 aras\u0131), E\u011Fer hakaret ederse veya tehdit ederse negatif (-10
-    ile -25 aras\u0131) bir de\u011Fer ver.\nCevab\u0131n\u0131 YALNIZCA \u015Fu
-    JSON format\u0131nda ver:\n{\n  \"dialogResponse\": \"Oyuncuya s\xF6yleyece\u011Fin
-    T\xFCrk\xE7e c\xFCmle\",\n\"iknaEtkisi\": 15\n}"
---- !u!4 &2086271146
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2086271144}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -48.13441, y: 8.99142, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2094262915
 GameObject:
@@ -6639,6 +6578,5 @@ SceneRoots:
   - {fileID: 2013407183773673407}
   - {fileID: 237450131}
   - {fileID: 42901046}
-  - {fileID: 2086271146}
   - {fileID: 1638681167}
   - {fileID: 592196885}

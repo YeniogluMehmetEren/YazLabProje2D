@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 
 
-[Serializable] public class OllamaRequest
+public class OllamaRequest
 {
     public string model;
     public string prompt;
@@ -13,12 +13,12 @@ using UnityEngine.Networking;
     public string format = "json";
 }
 
-[Serializable] public class OllamaResponse
+public class OllamaResponse
 {
     public string response;
 }
 
-[Serializable] public class NPCData
+public class NPCData
 {
     public string dialogResponse;
     public int iknaEtkisi;
@@ -34,15 +34,13 @@ public class NPCKontrolu : MonoBehaviour
     private int toplamIknaPuani = 0;
     private int IknaBasariSýnýrý = 100;
 
-    [SerializeField] private string npcSistemPrompt =
-    "Sen kentin kapýsýný koruyan yaþlý bir muhafýzsýn. Oyuncu senden geçmek istiyor.\n" +
-    "Oyuncunun söylediði cümleye göre ikna olma durumunu deðerlendir.\n" +
-    "Eðer mantýklý bir gerekçe veya rüþvet sunarsa 'iknaEtkisi'ni yüksek pozitif (+10 ile +25 arasý), " +
-    "Eðer hakaret ederse veya tehdit ederse negatif (-10 ile -25 arasý) bir deðer ver.\n" +
-    "Cevabýný YALNIZCA þu JSON formatýnda ver:\n" +
-    "{\n" +
-    "  \"dialogResponse\": \"Oyuncuya söyleyeceðin Türkçe cümle\",\n\"iknaEtkisi\": 15\n" +
-    "}";
+    private string npcSistemPrompt =
+    "Sen oyuncunun bir canavarý kestiðine inanmýyorsun. Oyuncu senden geçmek istiyor. " +
+    "Oyuncunun söylediði cümleye göre ikna olma durumunu deðerlendir. " +
+    "Eðer mantýklý bir gerekçe(canavarýn ýþýnlandýðýný,kýlýç kullandýðýný,kalkaný olduðunu,mor ve siyah renklerde olduðunu) söylerse veya rüþvet sunarsa 'iknaEtkisi'ni yüksek pozitif (+10 ile +25 arasý), " +
+    "Eðer hakaret ederse veya tehdit ederse negatif (-10 ile -25 arasý) bir deðer ver. " +
+    "Cevabýný YALNIZCA þu JSON formatýnda ver: " +
+    "\"dialogResponse\": Oyuncuya söyleyeceðin Türkçe cümle \"iknaEtkisi\": Oyuncunun söylediðine ne kadar ikna olduðun";
 
     public void SendPlayerMessage(string playerInput)
     {
