@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 
 
-public class OllamaRequest
+[Serializable]public class OllamaRequest
 {
     public string model;
     public string prompt;
@@ -13,18 +13,18 @@ public class OllamaRequest
     public string format = "json";
 }
 
-public class OllamaResponse
+[Serializable]public class OllamaResponse
 {
     public string response;
 }
 
-public class NPCData
+[Serializable]public class NPCData
 {
     public string dialogResponse;
     public int iknaEtkisi;
 }
 
-public class NPCKontrolu : MonoBehaviour
+public class NpcOllama : MonoBehaviour
 {
     
     private string ollamaUrl = "http://localhost:11434/api/generate";

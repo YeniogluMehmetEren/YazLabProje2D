@@ -10,6 +10,7 @@ TagManager:
   - AOE
   - ground
   - giris
+  - monk
   layers:
   - Default
   - TransparentFX

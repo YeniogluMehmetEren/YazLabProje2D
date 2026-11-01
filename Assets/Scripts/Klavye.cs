@@ -7,7 +7,7 @@ public class Klavye : MonoBehaviour
 
     public TMP_InputField mesaj;
 
-    public NPCKontrolu npcKontrolcusu;
+    public NpcOllama npcKontrolcusu;
 
     void Start()
     {

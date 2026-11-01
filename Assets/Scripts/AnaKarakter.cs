@@ -43,7 +43,7 @@ public class AnaKarakter : MonoBehaviour
     public AudioClip LoopAudio;
     bool entrance=false;
     public bool bossdur = false;
-    bool canMove = true;
+    public bool canMove = true;
     private IEnumerator OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("AOE"))
