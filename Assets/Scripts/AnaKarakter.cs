@@ -41,14 +41,17 @@ public class AnaKarakter : MonoBehaviour
     public AudioClip EntranceAudio;
     public AudioClip ApplauseAudio;
     public AudioClip LoopAudio;
+    public Slider shieldSlider;
+    public Canvas escmenu;
     bool entrance=false;
     public bool bossdur = false;
     public bool canMove = true;
+    bool isPaused=false;
     private IEnumerator OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("AOE"))
         {
-            GetDamage(boss.damage * 1.5f);
+            StartCoroutine(GetDamage(boss.damage));
         }
 
         else if (collision.CompareTag("giris")&&entrance==false)
@@ -83,8 +86,33 @@ public class AnaKarakter : MonoBehaviour
        
     }
 
-    
+    void PauseGame()
+    {
+        isPaused = true;
+        Time.timeScale = 0f; 
 
+     
+        
+    }
+
+    public void ResumeGame()
+    {
+        isPaused = false;
+        Time.timeScale = 1f; 
+        escmenu.gameObject.SetActive(false);
+
+
+
+    }
+    public void ESCMENU()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            escmenu.gameObject.SetActive(true);
+            PauseGame();
+
+        }
+    }
 
 
     public void Dash()
@@ -202,17 +230,28 @@ public class AnaKarakter : MonoBehaviour
         }
     }
 
+    public void Menu()
+    {
+        
+    }
     
 
-    public void GetDamage(float damage)
+    public IEnumerator GetDamage(float damage)
     {
         health -= damage;
         animator.SetTrigger("GetHit");
         StartCoroutine(HasarAlma());
-        if (health<=0)
+        yield return null;
+      
+    }
+
+    public IEnumerator Death()
+    {
+        if (health <= 0)
         {
             health = 0;
             animator.CrossFade("Death", 0.6f);
+            yield return new WaitForSeconds(1.5f);
             SceneManager.LoadScene("test");
         }
     }
@@ -297,11 +336,17 @@ public class AnaKarakter : MonoBehaviour
         if(canMove==true)
         {
             Walk();
-            Hit();
+            if(isPaused==false)
+            {
+                Hit();
+            }
+           
             Jump();
             Dash();
+            ESCMENU();
+            
         }
-       
+       StartCoroutine(Death()); 
     }
 
     public void Start()
@@ -309,6 +354,8 @@ public class AnaKarakter : MonoBehaviour
         Time.timeScale = 1f;
         slider.maxValue = health;
         slider.minValue = 0;
+        shieldSlider.maxValue = 10;
+        shieldSlider.minValue = 0;
     }
 
 
@@ -316,5 +363,6 @@ public class AnaKarakter : MonoBehaviour
     {
         Hareketler();
         slider.value = health;
+        shieldSlider.value = boss.counter;
     }
 }
