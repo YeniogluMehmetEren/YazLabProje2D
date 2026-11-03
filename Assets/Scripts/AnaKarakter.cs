@@ -18,6 +18,7 @@ public class AnaKarakter : MonoBehaviour
     public float x;
     public bool isGrounded = true;
     public Boss boss;
+    public Enemy enemy;
     public SpriteRenderer spriteRenderer;
     public Transform vurusyeri;
     public Transform vurusyerireverse;
@@ -202,10 +203,12 @@ public class AnaKarakter : MonoBehaviour
                 foreach(Collider2D enemy in hitEnemies)
                 {
                     Boss boss = enemy.GetComponent<Boss>();
+                    Enemy dusman= enemy.GetComponent<Enemy>();
 
                     boss.DamageAl(damage);
-                    
-            
+                    dusman.DamageAl(damage);
+
+
                 }
             }
         }
@@ -221,9 +224,11 @@ public class AnaKarakter : MonoBehaviour
                  {
 
                     Boss boss = enemy.GetComponent<Boss>();
+                    Enemy dusman= enemy.GetComponent<Enemy>();
 
                     boss.DamageAl(damage);
-                    
+                    dusman.DamageAl(damage);
+
 
                 }
                 }

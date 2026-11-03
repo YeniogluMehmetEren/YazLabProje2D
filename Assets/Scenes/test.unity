@@ -7031,6 +7031,7 @@ MonoBehaviour:
   x: 0
   isGrounded: 1
   boss: {fileID: 3723838413668134236}
+  enemy: {fileID: 0}
   spriteRenderer: {fileID: 4062882273103804177}
   vurusyeri: {fileID: 6224243178608928625}
   vurusyerireverse: {fileID: 1206450239689315362}
