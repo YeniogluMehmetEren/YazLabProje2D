@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Text;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -29,10 +30,13 @@ public class NpcOllama : MonoBehaviour
     
     private string ollamaUrl = "http://localhost:11434/api/generate";
 
-    [SerializeField] private string modelName = "phi3"; //phi3 veya //llama3.2
+    [SerializeField] private string modelName = "llama3.2"; //phi3 veya //llama3.2
 
     private int toplamIknaPuani = 0;
     private int IknaBasariSýnýrý = 100;
+
+    [SerializeField] private TextUI TextUIKodu;
+    private TextMeshProUGUI textDusunuyor;
 
     private string npcSistemPrompt =
     "Sen oyuncunun bir canavarý kestiðine inanmýyorsun. Oyuncu senden geçmek istiyor. " +
@@ -44,6 +48,7 @@ public class NpcOllama : MonoBehaviour
 
     public void SendPlayerMessage(string playerInput)
     {
+        textDusunuyor = TextUIKodu.DusunuyorTextiEkle();
         StartCoroutine(PostLLMRequest(playerInput));
     }
 
@@ -79,6 +84,7 @@ public class NpcOllama : MonoBehaviour
             else
             {
                 Debug.LogError("LLM Baðlantý Hatasý: " + request.error);
+                TextUIKodu.TextEkle("LLM Baðlantý Hatasý: " + request.error);
             }
         }
     }
@@ -94,13 +100,20 @@ public class NpcOllama : MonoBehaviour
             toplamIknaPuani += npcData.iknaEtkisi;
             Debug.Log("Ýkna Oraný: " + toplamIknaPuani);
 
-            //UI Kodunu Guncelle
+            if (textDusunuyor != null)
+            {
+                Destroy(textDusunuyor);
+            }
+
+            TextUIKodu.GuvenTextGuncelle(toplamIknaPuani);
+            TextUIKodu.NpcTextiEkle(npcData.dialogResponse);
 
             SeneryoTamamlandiMi();
         }
         catch (Exception e)
         {
             Debug.LogError("LLM istenen formatta yanýt veremedi " + e.Message);
+            TextUIKodu.TextEkle("LLM istenen formatta yanýt veremedi " + e.Message);
         }
     }
 
@@ -109,6 +122,7 @@ public class NpcOllama : MonoBehaviour
         if (toplamIknaPuani >= IknaBasariSýnýrý)
         {
             Debug.Log("SENARYO BÝTTÝ: NPC ikna oldu.");
+            TextUIKodu.TextEkle("Ýkna etmeyi baþardýn.");
             //Bölüm bitince ne olacaksa
         }
     }

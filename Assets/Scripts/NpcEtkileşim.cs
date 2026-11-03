@@ -7,7 +7,6 @@ public class NpcEtkileşim : MonoBehaviour
     [SerializeField] private AnaKarakter anaKarakterKodu;
 
     private bool oyuncuAlandaMi;
-    private bool eBasildiMi;
 
     
     private void Update()
@@ -16,22 +15,22 @@ public class NpcEtkileşim : MonoBehaviour
         {
             EBasti();
         }
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            TabBasti();
+        }
     }
 
     public void EBasti()
     {
-        eBasildiMi = !eBasildiMi;
+        anaKarakterKodu.canMove = false;
+        yaziUI.SetActive(true);
+    }
 
-        if (eBasildiMi)
-        {
-            anaKarakterKodu.canMove = false;
-            yaziUI.SetActive(true);
-        }
-        else if (!eBasildiMi)
-        {
-            anaKarakterKodu.canMove = true;
-            yaziUI.SetActive(false);
-        }
+    public void TabBasti()
+    {
+        anaKarakterKodu.canMove = true;
+        yaziUI.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
