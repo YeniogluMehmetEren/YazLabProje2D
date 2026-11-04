@@ -44,7 +44,7 @@ public class AnaKarakter : MonoBehaviour
     public AudioClip LoopAudio;
     public Slider shieldSlider;
     public Canvas escmenu;
-    public bool entrance=false;
+    bool entrance=false;
     public bool bossdur = false;
     public bool canMove = true;
     bool isPaused=false;
@@ -203,10 +203,10 @@ public class AnaKarakter : MonoBehaviour
                 foreach(Collider2D enemy in hitEnemies)
                 {
                     Boss boss = enemy.GetComponent<Boss>();
-                  
+                    Enemy dusman= enemy.GetComponent<Enemy>();
 
                     boss.DamageAl(damage);
-            
+                    dusman.DamageAl(damage);
 
 
                 }
@@ -224,10 +224,10 @@ public class AnaKarakter : MonoBehaviour
                  {
 
                     Boss boss = enemy.GetComponent<Boss>();
-             
+                    Enemy dusman= enemy.GetComponent<Enemy>();
 
                     boss.DamageAl(damage);
-                   
+                    dusman.DamageAl(damage);
 
 
                 }
