@@ -11,6 +11,10 @@ TagManager:
   - ground
   - giris
   - monk
+  - cadirKapisi
+  - arenayaGirdigimizKapi
+  - arenadanCikisKapi
+  - sonKapi
   layers:
   - Default
   - TransparentFX
