@@ -7537,6 +7537,8 @@ MonoBehaviour:
   EntranceAudio: {fileID: 8300000, guid: ec3e74806d1a9324abc8a2df28bed242, type: 3}
   ApplauseAudio: {fileID: 8300000, guid: fbf265c20cf53ec4aa4fb23715eeed80, type: 3}
   LoopAudio: {fileID: 8300000, guid: 913ebf4ee7d79bb49af1ef371f62dbd5, type: 3}
+  shieldSlider: {fileID: 0}
+  escmenu: {fileID: 0}
   bossdur: 0
   canMove: 1
 --- !u!4 &5402417657914695258
