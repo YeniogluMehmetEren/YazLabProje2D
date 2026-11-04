@@ -55,27 +55,31 @@ public class Pet_Agent : Agent
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        float mainCharacterPosX_normalized = mainCharacter.transform.localPosition.x / 5f;
-        float mainCharacterPosY_normalized = mainCharacter.transform.localPosition.y / 5f;
+        if(mainCharacter!=null)
+        {
+            float mainCharacterPosX_normalized = mainCharacter.transform.localPosition.x / 5f;
+            float mainCharacterPosY_normalized = mainCharacter.transform.localPosition.y / 5f;
 
-        sensor.AddObservation(mainCharacterPosX_normalized);
-        sensor.AddObservation(mainCharacterPosY_normalized);
+            sensor.AddObservation(mainCharacterPosX_normalized);
+            sensor.AddObservation(mainCharacterPosY_normalized);
 
-        float bossPosX_normalized = boss.transform.localPosition.x / 5f;
-        float bossPosY_normalized = boss.transform.localPosition.y / 5f;
-        isBossShielded = bossScript.IsShielded();
-        isBossShieldBreakable = bossScript.IsShieldBreakable();
-        float isBossShieldBreakableF = isBossShieldBreakable ? 1.0f : 0.0f;
+            float bossPosX_normalized = boss.transform.localPosition.x / 5f;
+            float bossPosY_normalized = boss.transform.localPosition.y / 5f;
+            isBossShielded = bossScript.IsShielded();
+            isBossShieldBreakable = bossScript.IsShieldBreakable();
+            float isBossShieldBreakableF = isBossShieldBreakable ? 1.0f : 0.0f;
 
-        sensor.AddObservation(bossPosX_normalized);
-        sensor.AddObservation(bossPosY_normalized);
-        sensor.AddObservation(isBossShieldBreakableF);
+            sensor.AddObservation(bossPosX_normalized);
+            sensor.AddObservation(bossPosY_normalized);
+            sensor.AddObservation(isBossShieldBreakableF);
 
-        float agentPosX_normalized = transform.localPosition.x / 5f;
-        float agentPosY_normalized = transform.localPosition.y / 5f;
-        
-        sensor.AddObservation(agentPosX_normalized);
-        sensor.AddObservation(agentPosY_normalized);
+            float agentPosX_normalized = transform.localPosition.x / 5f;
+            float agentPosY_normalized = transform.localPosition.y / 5f;
+
+            sensor.AddObservation(agentPosX_normalized);
+            sensor.AddObservation(agentPosY_normalized);
+        }
+       
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)
