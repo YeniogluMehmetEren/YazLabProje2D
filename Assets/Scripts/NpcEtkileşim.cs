@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class NpcEtkileşim : MonoBehaviour
@@ -5,7 +6,11 @@ public class NpcEtkileşim : MonoBehaviour
     [SerializeField] private GameObject yaziUI;
     [SerializeField] private GameObject eTiklaYazisi;
     [SerializeField] private AnaKarakter anaKarakterKodu;
-
+    [SerializeField] Boss boss;
+    [SerializeField] Transform tpKonumu;
+    [SerializeField] GameObject anaKarakter;
+    [SerializeField] SpriteRenderer spriteRenderer;
+    float mesafex;
     private bool oyuncuAlandaMi;
 
     
@@ -18,6 +23,21 @@ public class NpcEtkileşim : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             TabBasti();
+        }
+        mesafex = anaKarakter.transform.position.x - transform.position.x;
+
+    }
+
+
+    public void YonAyarla()
+    {
+        if (mesafex > 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else if (mesafex < 0)
+        {
+            spriteRenderer.flipX = false;
         }
     }
 
@@ -32,6 +52,17 @@ public class NpcEtkileşim : MonoBehaviour
         anaKarakterKodu.canMove = true;
         yaziUI.SetActive(false);
     }
+
+    public IEnumerator GetToPlayer()
+    {
+        Vector2 MonkPozisyonu = transform.position;
+        if(boss.hp<=0)
+        {
+            yield return new WaitForSeconds(4f);
+            transform.position = tpKonumu.position;
+        }
+    }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {

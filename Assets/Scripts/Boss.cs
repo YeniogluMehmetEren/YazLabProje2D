@@ -47,9 +47,12 @@ public class Boss : MonoBehaviour
     public Transform giris;
     public Animator crowdAnimator;
     public AudioSource crowdAudio;
+    public AudioSource crowdAudioloop;
     public AudioClip EntranceAudio;
     public AudioClip ApplauseAudio;
+    public AudioClip SecondFaz;
     bool isDead = false;
+    [SerializeField] NpcEtkileþim npcEtkilesim;
     Vector2 pozisyon;
 
     [Header("Ai Egitimi")]
@@ -89,11 +92,16 @@ public class Boss : MonoBehaviour
 
     public void ActivateSecondPhase()
     {
-       
+
+        anaKarakter.loopAudio.Stop();
         StartCoroutine(SecondPhase());
         speed = speed * 2f;
         animator.SetFloat("hýz", 1.7f);
- 
+        anaKarakter.SeyircileriCostur();
+        crowdAudioloop.loop = true;
+        crowdAudioloop.clip = SecondFaz;
+        crowdAudioloop.Play();
+
     }
 
 
@@ -384,7 +392,7 @@ public class Boss : MonoBehaviour
         crowdAudio.Play();
         anaKarakter.crowdAnimator.SetTrigger("Entrance");
         anaKarakter.crowdAnimator2.SetTrigger("Entrance");
-        anaKarakter.crowdAnimator.SetTrigger("Entrance");
+        anaKarakter.crowdAnimator3.SetTrigger("Entrance");
         isShieldBreakable = true;
         animator.SetBool("stun", true);
         yield return new WaitForSeconds(5f);
@@ -465,6 +473,9 @@ public class Boss : MonoBehaviour
             yield return new WaitForSeconds(animlength);
             slider.gameObject.SetActive(false);
             transform.position = pozisyon;
+            anaKarakter.SeyircileriCostur();
+            StartCoroutine(npcEtkilesim.GetToPlayer());
+            crowdAudioloop.Stop();
         }
     }
     public void TPkarar()
@@ -779,6 +790,13 @@ public class Boss : MonoBehaviour
 
        StartCoroutine(Death());
         SetColor();
-        
+
+        if(enterSecondPhase==true && hp>=1)
+        {
+            anaKarakter.crowdAnimator.SetTrigger("Entrance");
+            anaKarakter.crowdAnimator2.SetTrigger("Entrance");
+            anaKarakter.crowdAnimator3.SetTrigger("Entrance");
+        }
+
     }
 }

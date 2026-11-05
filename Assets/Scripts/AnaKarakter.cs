@@ -42,12 +42,24 @@ public class AnaKarakter : MonoBehaviour
     public AudioClip EntranceAudio;
     public AudioClip ApplauseAudio;
     public AudioClip LoopAudio;
+    public AudioClip Announcer;
+    public AudioClip FirstPhase;
     public Slider shieldSlider;
     public Canvas escmenu;
     public bool entrance=false;
     public bool bossdur = false;
     public bool canMove = true;
     bool isPaused=false;
+
+
+    public void SeyircileriCostur()
+    {
+        crowdAudio.clip=EntranceAudio;
+        crowdAudio.Play();
+        crowdAnimator.SetTrigger("Entrance");
+        crowdAnimator2.SetTrigger("Entrance");
+        crowdAnimator3.SetTrigger("Entrance");
+    }
     private IEnumerator OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("AOE"))
@@ -68,6 +80,10 @@ public class AnaKarakter : MonoBehaviour
             
             crowdAudio.clip=EntranceAudio;
             crowdAudio.Play();
+            crowdAudio.PlayOneShot(Announcer);
+            loopAudio.loop = true;
+            loopAudio.clip = FirstPhase;
+            loopAudio.Play();
             StartCoroutine(boss.SahneyeGiris());
             yield return new WaitForSeconds(2f);
             
