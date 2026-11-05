@@ -15,6 +15,7 @@ TagManager:
   - arenayaGirdigimizKapi
   - arenadanCikisKapi
   - sonKapi
+  - "s\u0131n\u0131r"
   layers:
   - Default
   - TransparentFX
@@ -29,7 +30,7 @@ TagManager:
   - Ground
   - Monk
   - Enemy
-  - 
+  - Camera
   - 
   - 
   - 
