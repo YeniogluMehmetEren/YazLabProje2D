@@ -6,20 +6,22 @@ using UnityEngine;
 
 public class Pet_Agent : Agent
 {
+
     [SerializeField] GameObject mainCharacter;
     [SerializeField] GameObject boss;
     [SerializeField] Animator animator;
     [SerializeField] private float moveSpeed = 1.5f;
     [SerializeField] private float jump = 5f;
 
-    //[SerializeField] private TextMeshProUGUI textEpisode;
-    //[SerializeField] private TextMeshProUGUI textReward;
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Collider2D agentCollider;
+    [SerializeField] private LayerMask yerLayer;
 
+    [Header("Bölüm Kontrolü Ýçin")]
     [SerializeField] public int _currentEpisode = 0;
-    [HideInInspector] public float _cumulativeReward = 0f;
-    private bool hedefteMi = false;
+    [SerializeField] public float _cumulativeReward = 0f;
+    [SerializeField] private bool hedefteMi = false;
 
-    [Header("Boss Ayarlari")]
     private Boss bossScript;
     [SerializeField] bool isBossShielded;
     [SerializeField] bool isBossShieldBreakable;
@@ -41,21 +43,21 @@ public class Pet_Agent : Agent
         _cumulativeReward = 0f;
         hedefteMi = false;
 
-        //bossScript.Shield5050();
+        bossScript.Shield5050();
 
-
+        SetAgentPos();
     }
 
     private void SetAgentPos()
     {
-        transform.localPosition = Vector3.zero;
-        mainCharacter.transform.localPosition = new Vector3(Random.Range(-30f, 30f),1,0);
-        boss.transform.localPosition = new Vector3(Random.Range(-30f, 30f),1,0);
+        transform.localPosition = new Vector3(-166f, 0 , 0);
+        mainCharacter.transform.localPosition = new Vector3(Random.Range(-190f, -135f),3.5f,0);
+        boss.transform.localPosition = new Vector3(Random.Range(-190f, -135f), 3.5f, 0);
     }
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        if(mainCharacter!=null)
+        /*if(mainCharacter!=null)
         {
             float mainCharacterPosX_normalized = mainCharacter.transform.localPosition.x / 5f;
             float mainCharacterPosY_normalized = mainCharacter.transform.localPosition.y / 5f;
@@ -78,8 +80,24 @@ public class Pet_Agent : Agent
 
             sensor.AddObservation(agentPosX_normalized);
             sensor.AddObservation(agentPosY_normalized);
+        }*/
+
+
+        if (mainCharacter != null && boss != null)
+        {
+            Vector3 oyuncuyaUzaklýk = mainCharacter.transform.position - transform.position;
+            Vector3 bossaUzaklýk = boss.transform.position - transform.position;
+
+            sensor.AddObservation(Mathf.Clamp(oyuncuyaUzaklýk.x / 20f, -1f, 1f));
+            sensor.AddObservation(Mathf.Clamp(oyuncuyaUzaklýk.y / 20f, -1f, 1f));
+
+            sensor.AddObservation(Mathf.Clamp(bossaUzaklýk.x / 20f, -1f, 1f));
+            sensor.AddObservation(Mathf.Clamp(bossaUzaklýk.y / 20f, -1f, 1f));
+
+            isBossShieldBreakable = bossScript.IsShieldBreakable();
+            sensor.AddObservation(isBossShieldBreakable ? 1.0f : 0.0f);
         }
-       
+
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)
@@ -108,7 +126,7 @@ public class Pet_Agent : Agent
 
         AddReward(-2f / MaxStep);
 
-        if (hedefteMi && !isBossShieldBreakable)
+        if (hedefteMi)
         {
             AddReward(0.01f);
         }
@@ -137,7 +155,11 @@ public class Pet_Agent : Agent
                 break;
             case 3: //Jump
                 animator.SetBool("Run", false);
-                transform.position += transform.up * jump * Time.deltaTime;
+                //transform.position += transform.up * jump * Time.deltaTime;
+                if (agentCollider.IsTouchingLayers(yerLayer))
+                {
+                    rb.AddForce(Vector2.up * jump, ForceMode2D.Impulse);
+                }
                 break;
         }
     }
@@ -162,8 +184,6 @@ public class Pet_Agent : Agent
                 bossScript.ShieldKirAiIcin();
 
                 AddReward(4f);
-
-                //transform.localPosition = new Vector3(mainCharacter.transform.localPosition.x + 1.5f, transform.localPosition.y, 0);
             }
             else if(isBossShielded && !isBossShieldBreakable)
             {

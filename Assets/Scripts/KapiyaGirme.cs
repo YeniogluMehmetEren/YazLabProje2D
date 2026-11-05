@@ -11,6 +11,8 @@ public class KapiyaGirme : MonoBehaviour
     [SerializeField] private GameObject arenadanCikisKapi;
     [SerializeField] private GameObject sonKapi;
 
+    [SerializeField] private GameObject GnomeCýkýs;
+
     private bool cadirKapisiOnundeMi;
     private bool arenayaGirdigimizKapiOnundeMi;
     private bool arenadanCikisKapiOnundeMi;
@@ -79,4 +81,14 @@ public class KapiyaGirme : MonoBehaviour
             sonKapiOnundeMi = false;
         }
     }
+
+    private void Start()
+    {
+        //Invoke("GnomeYolla", 5f);
+    }
+
+    /*private void GnomeYolla()
+    {
+        gnome.transform.position = GnomeCýkýs.transform.position;
+    }*/
 }

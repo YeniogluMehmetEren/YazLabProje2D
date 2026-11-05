@@ -1,0 +1,29 @@
+{
+    "Gnome": {
+        "checkpoints": [
+            {
+                "steps": 5760,
+                "file_path": "results\\Y\\Gnome\\Gnome-5760.onnx",
+                "reward": null,
+                "creation_time": 1793892063.8821387,
+                "auxillary_file_paths": [
+                    "results\\Y\\Gnome\\Gnome-5760.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5760,
+            "file_path": "results\\Y\\Gnome.onnx",
+            "reward": null,
+            "creation_time": 1793892063.8821387,
+            "auxillary_file_paths": [
+                "results\\Y\\Gnome\\Gnome-5760.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.2.2+cu121"
+    }
+}

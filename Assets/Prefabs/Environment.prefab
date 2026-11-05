@@ -184,24 +184,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51bf4823998fd4a42ae0272ff499e6cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnaKarakter
-  move: {fileID: 4139245402198592281}
-  animator: {fileID: 4077837421147237424}
+  move: {fileID: 0}
+  animator: {fileID: 0}
   hiz: 10
   damage: 1
   health: 10
-  jumpforce: 120
-  sprite: {fileID: 786709970369200878}
+  jumpforce: 15
+  sprite: {fileID: 0}
   x: 0
   isGrounded: 1
-  boss: {fileID: 2560288688991348085}
-  spriteRenderer: {fileID: 786709970369200878}
-  vurusyeri: {fileID: 8477963362858839507}
-  vurusyerireverse: {fileID: 5397447066513218001}
+  boss: {fileID: 0}
+  enemy: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  vurusyeri: {fileID: 0}
+  vurusyerireverse: {fileID: 0}
   EnemyLayer:
     serializedVersion: 2
-    m_Bits: 256
-  kilic: {fileID: 5900549164027931316}
-  reversekilic: {fileID: 6854536891753671809}
+    m_Bits: 128
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  kilic: {fileID: 0}
+  reversekilic: {fileID: 0}
+  King: {fileID: 0}
+  slider: {fileID: 0}
+  KilicSesleri: {fileID: 0}
+  Kilicsallama: {fileID: 8300000, guid: affb943b29ef8b54f89e2a55fd700887, type: 3}
+  Kilicsallama2: {fileID: 8300000, guid: 84764fb773a8d6a428665f5467632625, type: 3}
+  Kilicsallama3: {fileID: 8300000, guid: cea97bc70ca8ce741ad355ef5678835d, type: 3}
+  Kiliclavurma: {fileID: 8300000, guid: 6935e52c4f0c76745a32c8a0a4d88422, type: 3}
+  KalkanaVurma: {fileID: 8300000, guid: 954d093b4525d80419bea17cd9443901, type: 3}
+  crowdAnimator: {fileID: 0}
+  crowdAnimator2: {fileID: 0}
+  crowdAnimator3: {fileID: 0}
+  crowdAudio: {fileID: 0}
+  loopAudio: {fileID: 0}
+  EntranceAudio: {fileID: 8300000, guid: ec3e74806d1a9324abc8a2df28bed242, type: 3}
+  ApplauseAudio: {fileID: 8300000, guid: fbf265c20cf53ec4aa4fb23715eeed80, type: 3}
+  LoopAudio: {fileID: 8300000, guid: 913ebf4ee7d79bb49af1ef371f62dbd5, type: 3}
+  shieldSlider: {fileID: 0}
+  escmenu: {fileID: 0}
+  entrance: 0
+  bossdur: 0
+  canMove: 1
 --- !u!95 &4077837421147237424
 Animator:
   serializedVersion: 7
@@ -412,6 +437,7 @@ MonoBehaviour:
   Knight: {fileID: 2912297653361713894}
   speed: 15
   hp: 40
+  maxhp: 40
   menzil: 3
   damage: 4
   animator: {fileID: 8611745852975854753}
@@ -426,6 +452,7 @@ MonoBehaviour:
   currentState: 5
   canAttack: 1
   yeniMermi: {fileID: 0}
+  yeniMermi2: {fileID: 0}
   tpattack: 0
   anaKarakter: {fileID: 8911253574395286022}
   camera: {fileID: 0}
@@ -439,6 +466,13 @@ MonoBehaviour:
   Layer:
     serializedVersion: 2
     m_Bits: 1
+  tpmesafesi: 10
+  slider: {fileID: 0}
+  giris: {fileID: 0}
+  crowdAnimator: {fileID: 0}
+  crowdAudio: {fileID: 0}
+  EntranceAudio: {fileID: 0}
+  ApplauseAudio: {fileID: 0}
   AiEgitimiOlsunMu: 1
 --- !u!95 &8611745852975854753
 Animator:
@@ -3011,9 +3045,9 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
+  m_Model: {fileID: 5022602860645237092, guid: c2dc4cb67a8c57c4f9d1455ed95e420e, type: 3}
   m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_BehaviorType: 2
   m_BehaviorName: Gnome
   TeamId: 0
   m_UseChildSensors: 1

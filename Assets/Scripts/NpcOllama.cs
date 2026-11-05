@@ -30,7 +30,7 @@ public class NpcOllama : MonoBehaviour
     
     private string ollamaUrl = "http://localhost:11434/api/generate";
 
-    [SerializeField] private string modelName = "llama3.2"; //phi3 veya //llama3.2
+    [SerializeField] private string modelName = "gemma3:4b"; //phi3 veya //llama3.2 //gemma3:4b
 
     private int toplamIknaPuani = 0;
     private int IknaBasariSýnýrý = 100;
