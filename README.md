@@ -7,10 +7,10 @@ Oyunumuz esir düşmüş yetenkli bir savaşçı ve arkadaşının  seyircileri 
 
 ---
 
-## 2. Kullanılan Teknolojiler
+## 2. Otonom AI Kahramanın Karar Mekanizması
 <img width="2634" height="4872" alt="işte buuu" src="https://github.com/user-attachments/assets/abaf84ad-8d18-4e6a-b379-8116d0685366" />
 
-## 3. Kurulum ve Çalıştırma
+## 3. LLM Entegrasyonunun Mimarisi
 Yerel LLM entegrasyonunun mimarisi, NPC'nin karakterini, oyunun bağlamını ve kesin JSON çıktısı verme kuralını tanımlayan bir sistem promptu tasarımı ile başlar. Oyuncu bir metin girdiğinde, bu girdiyi prompt ile paketleyerek yerel LLM sunucusuna iletir ve model, cümleyi analiz ederek yalnızca NPC'nin cevabını ve eylemin puanını barındıran bir JSON şeması döndürür. Bu veriler ayrıştırılarak NPC'nin diyalog metnini oyuncuya gösterir ve ikna barı güncellenir. Toplam puan belirlenen eşiğe ulaştığında ise arena kapısı açılır ve senaryo sonlanır.
 
 <img width="2238" height="1506" alt="LLM yeee" src="https://github.com/user-attachments/assets/6f045c88-a4f7-47c8-89d5-e4a8a8d1fa93" />
@@ -22,7 +22,7 @@ Ollama sunucusunun kapalı olması veya ağın yanıt vermemesi gibi erişilemez
 
 ---
 
-## 6. Proje Ekibi ve Referanslar / Katkıda Bulunanlar
+## 6. Sonuç
 **Başarılar** 
 Boss yapay zekası (state machine) sayesinde ana karakterimiz ve boss arasındaki mesafeye göre şekillenen bir karar mekanizması başarıyla kodlandı.
 Oyuncuyu gerçek bir şov maçına çıkmış gibi hissetirmek için yapılan çevre ve ses tasarımı yapıldı.
