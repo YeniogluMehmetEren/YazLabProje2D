@@ -38,6 +38,9 @@ public class NpcOllama : MonoBehaviour
     [SerializeField] private TextUI TextUIKodu;
     private TextMeshProUGUI textDusunuyor;
 
+    [SerializeField] private GameObject SonKapiAcik;
+    [SerializeField] private GameObject SonKapiKapali;
+
     private string npcSistemPrompt =
     "Sen oyuncunun bir canavarı kestiğine inanmıyorsun. Oyuncu senden geçmek istiyor. " +
     "Oyuncunun söylediği cümleye göre ikna olma durumunu değerlendir. " +
@@ -123,7 +126,18 @@ public class NpcOllama : MonoBehaviour
         {
             Debug.Log("SENARYO BİTTİ: NPC ikna oldu.");
             TextUIKodu.TextEkle("İkna etmeyi başardın.");
-            //Bölüm bitince ne olacaksa
+
+            SonKapiAcik.SetActive(true);
+            SonKapiKapali.SetActive(false);
         }
+    }
+
+    public bool GetIknaOlduMu()
+    {
+        if (toplamIknaPuani >= 100)
+        {
+            return true;
+        }
+        return false;
     }
 }

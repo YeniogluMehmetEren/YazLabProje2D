@@ -15,6 +15,7 @@ public class TextUI : MonoBehaviour
 
     void Start()
     {
+        GuvenTextGuncelle(0);
         mesaj.onSubmit.AddListener(delegate { TextAiGonder(); });
         InputAl();
     }

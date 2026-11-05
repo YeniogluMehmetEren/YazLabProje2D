@@ -7,16 +7,13 @@ public class KapiyaGirme : MonoBehaviour
 
     [SerializeField] private GameObject cadirKapisi;
     [SerializeField] private GameObject arenayaGirdigimizKapi;
-
     [SerializeField] private GameObject arenadanCikisKapi;
-    [SerializeField] private GameObject sonKapi;
-
-    [SerializeField] private GameObject GnomeCýkýs;
+    
+    [SerializeField] private NpcOllama monkKodu;
 
     private bool cadirKapisiOnundeMi;
     private bool arenayaGirdigimizKapiOnundeMi;
     private bool arenadanCikisKapiOnundeMi;
-    private bool sonKapiOnundeMi;
 
     private void Update()
     {
@@ -30,15 +27,9 @@ public class KapiyaGirme : MonoBehaviour
             anaKarakter.transform.position = cadirKapisi.transform.position;
             gnome.transform.position = cadirKapisi.transform.position;
         }
-        else if (arenadanCikisKapiOnundeMi && Input.GetKeyDown(KeyCode.E))
+        else if (arenadanCikisKapiOnundeMi && Input.GetKeyDown(KeyCode.E) && monkKodu.GetIknaOlduMu())
         {
-            anaKarakter.transform.position = sonKapi.transform.position;
-            gnome.transform.position = sonKapi.transform.position;
-        }
-        else if (sonKapiOnundeMi && Input.GetKeyDown(KeyCode.E))
-        {
-            anaKarakter.transform.position = arenadanCikisKapi.transform.position;
-            gnome.transform.position = arenadanCikisKapi.transform.position;
+            Debug.Log("OYUN BÝTTÝ");
         }
     }
 
@@ -56,10 +47,6 @@ public class KapiyaGirme : MonoBehaviour
         {
             arenadanCikisKapiOnundeMi = true;
         }
-        else if (other.CompareTag("sonKapi"))
-        {
-            sonKapiOnundeMi = true;
-        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -76,19 +63,7 @@ public class KapiyaGirme : MonoBehaviour
         {
             arenadanCikisKapiOnundeMi = false;
         }
-        else if (other.CompareTag("sonKapi"))
-        {
-            sonKapiOnundeMi = false;
-        }
     }
 
-    private void Start()
-    {
-        //Invoke("GnomeYolla", 5f);
-    }
-
-    /*private void GnomeYolla()
-    {
-        gnome.transform.position = GnomeCýkýs.transform.position;
-    }*/
+    
 }
