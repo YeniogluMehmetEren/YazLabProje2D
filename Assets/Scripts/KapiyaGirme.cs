@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class KapiyaGirme : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class KapiyaGirme : MonoBehaviour
     
     [SerializeField] private NpcOllama monkKodu;
     [SerializeField] GameObject GameOver;
+    [SerializeField] Slider slider1;
+    [SerializeField] Slider slider2;
+     
 
     private bool cadirKapisiOnundeMi;
     private bool arenayaGirdigimizKapiOnundeMi;
@@ -21,7 +25,10 @@ public class KapiyaGirme : MonoBehaviour
     {
         
         GameOver.SetActive(true);
+        slider1.gameObject.SetActive(false);
+        slider2.gameObject.SetActive(false);
         Time.timeScale = 0f;
+        
     }
 
 

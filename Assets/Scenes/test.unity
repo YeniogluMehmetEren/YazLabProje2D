@@ -328,9 +328,9 @@ Transform:
   m_GameObject: {fileID: 100576928}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3145.0269, y: -40.141365, z: -41253.066}
-  m_LocalScale: {x: 16.942263, y: 15.07063, z: 41.928062}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 19, y: 16.901047, z: 47.020473}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1657569764}
   m_Father: {fileID: 1108551674550061215}
@@ -405,7 +405,7 @@ GameObject:
   - component: {fileID: 212432866}
   - component: {fileID: 212432869}
   - component: {fileID: 212432868}
-  - component: {fileID: 212432867}
+  - component: {fileID: 212432870}
   m_Layer: 5
   m_Name: Viewport
   m_TagString: Untagged
@@ -433,19 +433,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -10, y: 0}
   m_Pivot: {x: 0, y: 1}
---- !u!114 &212432867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 212432865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Mask
-  m_ShowMaskGraphic: 0
 --- !u!114 &212432868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -484,6 +471,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 212432865}
   m_CullTransparentMesh: 1
+--- !u!114 &212432870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212432865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RectMask2D
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
 --- !u!1 &237450128
 GameObject:
   m_ObjectHideFlags: 0
@@ -1229,7 +1230,7 @@ Transform:
   m_GameObject: {fileID: 402246974}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.1, y: -6.2, z: -1}
+  m_LocalPosition: {x: 190.9, y: -6.2, z: -1}
   m_LocalScale: {x: 1.8, y: 1.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1249,7 +1250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b84eb65b109daaa4eac29196b3dad659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  yaziUI: {fileID: 1638681163}
+  yaziUI: {fileID: 1638681166}
   eTiklaYazisi: {fileID: 91852354}
   anaKarakterKodu: {fileID: 5162264437509632850}
   boss: {fileID: 3551809332958940400}
@@ -2076,8 +2077,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1422217138}
+  m_Children: []
   m_Father: {fileID: 1382565057}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3271,6 +3271,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1135487219}
+  - {fileID: 1422217138}
   - {fileID: 1382565057}
   - {fileID: 1643279138}
   - {fileID: 1386053625}
@@ -3657,10 +3658,10 @@ RectTransform:
   m_GameObject: {fileID: 1422217137}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.02, y: 0.13, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 861233760}
+  m_Father: {fileID: 1296044225}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3941,7 +3942,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "G\xFCven 100/100"
+  m_text: "G\xFCven 0/100"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4313,7 +4314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4717337867775099443, guid: 735adce62ea4f974e93ebb937b3e6429, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5359617972951706090, guid: 735adce62ea4f974e93ebb937b3e6429, type: 3}
       propertyPath: m_Pivot.x
@@ -6318,6 +6319,8 @@ MonoBehaviour:
   arenadanCikisKapi: {fileID: 1050518731}
   monkKodu: {fileID: 402246981}
   GameOver: {fileID: 100576928}
+  slider1: {fileID: 8802614232647675764}
+  slider2: {fileID: 4973524589541281481}
 --- !u!222 &629706786240838013
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8105,7 +8108,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.018327087, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8115,7 +8118,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.1587932, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &1882629243122418952
 GameObject:
@@ -8409,6 +8412,8 @@ MonoBehaviour:
   arenadanCikisKapi: {fileID: 1050518731}
   monkKodu: {fileID: 402246981}
   GameOver: {fileID: 100576928}
+  slider1: {fileID: 8802614232647675764}
+  slider2: {fileID: 4973524589541281481}
 --- !u!212 &2098154478281150067
 SpriteRenderer:
   serializedVersion: 2
@@ -10493,7 +10498,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: c2dc4cb67a8c57c4f9d1455ed95e420e, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: b18b6c8cc5223e4449efa5ff2c92ccb5, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 2
   m_BehaviorName: Gnome
@@ -11995,7 +12000,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
@@ -12943,7 +12948,7 @@ Transform:
   m_GameObject: {fileID: 8548643062979693831}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -186.15, y: -0.83, z: 0}
+  m_LocalPosition: {x: -185.4, y: -1, z: 0}
   m_LocalScale: {x: 3.9841192, y: 4.47891, z: 1.6099}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15062,7 +15067,7 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 5000
+  MaxStep: 0
   mainCharacter: {fileID: 8548643062979693831}
   boss: {fileID: 2590623338298090741}
   animator: {fileID: 306384017913922555}
@@ -15072,7 +15077,7 @@ MonoBehaviour:
   agentCollider: {fileID: 8531467344267547815}
   yerLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1024
   _currentEpisode: 0
   _cumulativeReward: 0
   hedefteMi: 0

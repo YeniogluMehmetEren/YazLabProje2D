@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class NpcEtkileşim : MonoBehaviour
 {
-    [SerializeField] private GameObject yaziUI;
+    [SerializeField] private Canvas yaziUI;
     [SerializeField] private GameObject eTiklaYazisi;
     [SerializeField] private AnaKarakter anaKarakterKodu;
     [SerializeField] Boss boss;
@@ -44,16 +44,17 @@ public class NpcEtkileşim : MonoBehaviour
     public void EBasti()
     {
         anaKarakterKodu.canMove = false;
-        yaziUI.SetActive(true);
+        yaziUI.gameObject.SetActive(true);
     }
 
     public void TabBasti()
     {
         anaKarakterKodu.canMove = true;
-        yaziUI.SetActive(false);
+        Canvas.ForceUpdateCanvases();
+        yaziUI.gameObject.SetActive(false);
     }
 
-    public IEnumerator GetToPlayer()
+    /*public IEnumerator GetToPlayer()
     {
         Vector2 MonkPozisyonu = transform.position;
         if(boss.hp<=0)
@@ -61,7 +62,7 @@ public class NpcEtkileşim : MonoBehaviour
             yield return new WaitForSeconds(4f);
             transform.position = tpKonumu.position;
         }
-    }
+    }*/
 
 
     private void OnTriggerEnter2D(Collider2D other)

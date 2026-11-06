@@ -395,7 +395,7 @@ public class Boss : MonoBehaviour
         anaKarakter.crowdAnimator3.SetTrigger("Entrance");
         isShieldBreakable = true;
         animator.SetBool("stun", true);
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(2.5f);
         animator.SetBool("stun", false);
         isStunned = false;
         isShieldBreakable = false;
@@ -475,7 +475,7 @@ public class Boss : MonoBehaviour
             slider.gameObject.SetActive(false);
             transform.position = pozisyon;
             anaKarakter.SeyircileriCostur();
-            StartCoroutine(npcEtkilesim.GetToPlayer());
+            //(npcEtkilesim.GetToPlayer());
             crowdAudioloop.Stop();
         }
     }
