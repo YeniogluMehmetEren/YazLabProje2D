@@ -38,5 +38,5 @@ OLLAMA - Gemma3:4b kullanılarak tutarlı bir NPC diyalog örüntüsü tasarland
 Ekstra bir para sistemi ve satın alınabilecek geliştirmeler veya ürünler eklenebilirdi.
 
 **Geliştiriciler:**
-- [Senin Adın/GitHub Linkin](https://github.com/KaanKeriman) - Temel mekanikler,Seviye Tasarımı,Asset araştırması,Boss AI'ı (LLM değil),Boss Tasarımı, Bölge Tasarımı
-- [Kerem'in Adı/GitHub Linki](https://github.com/keremin-profili) - Otonom AI Eğitimi,LLM NPC Tasarımı ve kodlanması,Level tasarımı,Asset araştırması
+- [KaanKeriman/(https://github.com/KaanKeriman) - Temel mekanikler,Seviye Tasarımı,Asset araştırması,Boss AI'ı (LLM değil),Boss Tasarımı, Bölge Tasarımı
+- [Kerem'in Adı/(https://github.com/YeniogluMehmetEren) - Otonom AI Eğitimi,LLM NPC Tasarımı ve kodlanması,Level tasarımı,Asset araştırması
