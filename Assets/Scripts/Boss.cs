@@ -349,7 +349,7 @@ public class Boss : MonoBehaviour
         isShielded = false;
         isShieldBreakable = false;
         Debug.Log("Kalkan kýrýldý");
-        //StartCoroutine(ShieldReset());
+        StartCoroutine(ShieldReset());
     }
 
 
@@ -393,13 +393,14 @@ public class Boss : MonoBehaviour
         anaKarakter.crowdAnimator.SetTrigger("Entrance");
         anaKarakter.crowdAnimator2.SetTrigger("Entrance");
         anaKarakter.crowdAnimator3.SetTrigger("Entrance");
-        //isShieldBreakable = true; kaldýrýlcak
+        isShieldBreakable = true;
         animator.SetBool("stun", true);
         yield return new WaitForSeconds(5f);
         animator.SetBool("stun", false);
         isStunned = false;
+        isShieldBreakable = false;
 
-        currentState= durumlar.Move;
+        currentState = durumlar.Move;
 
     }
 
@@ -450,7 +451,7 @@ public class Boss : MonoBehaviour
     {
        if(isShielded == false)
         {
-            yield return new WaitForSeconds(100f); //15
+            yield return new WaitForSeconds(15f);
             isShielded = true;
             if (AiEgitimiOlsunMu)
             {

@@ -43,8 +43,8 @@ public class Pet_Agent : Agent
         _cumulativeReward = 0f;
         hedefteMi = false;
 
-        bossScript.Shield5050();
-        SetAgentPos();
+        //bossScript.Shield5050();
+        //SetAgentPos();
     }
 
     private void SetAgentPos()
@@ -123,17 +123,17 @@ public class Pet_Agent : Agent
     {
         MoveAgent(actions.DiscreteActions);
 
-        AddReward(-2f / MaxStep);
+        //AddReward(-1f / MaxStep);
 
         /*if (hedefteMi)
         {
             if (!isBossShieldBreakable)
             {
-                AddReward(0.1f);
+                AddReward(0.05f);
             }
             else
             {
-                AddReward(-0.02f);
+                AddReward(-0.05f);
             }
 
         }*/
@@ -181,13 +181,13 @@ public class Pet_Agent : Agent
 
         if (other.gameObject.CompareTag("goal"))
         {
-            //hedefteMi = true;
+            hedefteMi = true;
 
-            if (!isBossShieldBreakable)
+            /*if (!isBossShieldBreakable)
             {
                 AddReward(2f);
                 EndEpisode();
-            }
+            }*/
         }
         if (other.gameObject.CompareTag("bossShield"))
         {
@@ -200,13 +200,13 @@ public class Pet_Agent : Agent
 
                 bossScript.ShieldKirAiIcin();
 
-                AddReward(3f);
-                EndEpisode();
+                //AddReward(3f);
+                //EndEpisode();
             }
             else
             {
-                AddReward(-0.5f);
-                EndEpisode();
+                //AddReward(-1f);
+                //EndEpisode();
             }
         }
     }
@@ -215,7 +215,7 @@ public class Pet_Agent : Agent
     {
         if (other.gameObject.CompareTag("goal"))
         {
-            //hedefteMi = false;
+            hedefteMi = false;
         }
     }
 }

@@ -17820,7 +17820,7 @@ GameObject:
   - component: {fileID: 3534248504317029564}
   - component: {fileID: 8693262419822868649}
   - component: {fileID: 8716012870609898600}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: "Ust S\u0131n\u0131r"
   m_TagString: ground
   m_Icon: {fileID: 0}
@@ -19052,7 +19052,7 @@ MonoBehaviour:
   boss: {fileID: 7933925536940696140}
   animator: {fileID: 5307834840144790850}
   moveSpeed: 7
-  jump: 3.5
+  jump: 3
   rb: {fileID: 8537425087193867389}
   agentCollider: {fileID: 4290968746781151774}
   yerLayer:
@@ -22095,7 +22095,7 @@ GameObject:
   - component: {fileID: 7609195695344470724}
   - component: {fileID: 5926603462509934960}
   - component: {fileID: 8710789854610961034}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: "Sa\u011F S\u0131n\u0131r"
   m_TagString: ground
   m_Icon: {fileID: 0}
@@ -24493,7 +24493,7 @@ GameObject:
   - component: {fileID: 1581778993795429736}
   - component: {fileID: 6843009675623072040}
   - component: {fileID: 5131099729672149823}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: "Sol S\u0131n\u0131r"
   m_TagString: ground
   m_Icon: {fileID: 0}
