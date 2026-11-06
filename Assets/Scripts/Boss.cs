@@ -24,7 +24,7 @@ public class Boss : MonoBehaviour
     public float patlamalarArasiMesafe = 1f;
     public Transform baslangicyerisol;
     public Transform baslangicyeri;
-    public enum  durumlar  { Attack1, Attack2, Attack3,Attack4,Teleport, Move, Karar,tpAttack,Retreat,Stunned,SecondPhase};
+    public enum  durumlar  { Attack1, Attack2, Attack3,Attack4,Teleport, Move, Karar,tpAttack,Retreat,Stunned,SecondPhase,Death};
     public durumlar currentState = durumlar.Move;
     public bool canAttack = true;
     public  GameObject yeniMermi;
@@ -462,7 +462,7 @@ public class Boss : MonoBehaviour
 
     public IEnumerator Death()
     {
-       
+       currentState = durumlar.Death;   
         if (hp <= 0 && isDead==false)
         {
             anaKarakter.bossdur = true;
@@ -750,9 +750,16 @@ public class Boss : MonoBehaviour
                         ActivateSecondPhase();
                     }
 
+                    else if(hp<=0)
+                    {
+                      StartCoroutine(Death());
+                    }
+
+                   
+
 
                 }
-                    break;
+            break;
             case durumlar.Attack1:
                         action.linearVelocity = Vector2.zero;
                         break;
@@ -783,12 +790,14 @@ public class Boss : MonoBehaviour
                         break;
 
                     case durumlar.SecondPhase:
+                break;
 
-                        break;
-                    }
+                case durumlar.Death:
+                break;
+        }
                 
 
-       StartCoroutine(Death());
+       
         SetColor();
 
         if(enterSecondPhase==true && hp>=1)
