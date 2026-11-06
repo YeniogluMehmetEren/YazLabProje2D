@@ -51,6 +51,7 @@ KARAKTERÝN VE BÝLDÝKLERÝN:
 
 PUANLAMA SÝSTEMÝ (iknaEtkisi):
 Oyuncunun cümlesini analiz et ve -25 ile +25 arasýnda bir ""iknaEtkisi"" puaný belirle:
+- Özel Kelime (+100): Oyuncu sucuk derse kapýyý hemen aç.
 - MÜKEMMEL (+15 ile +25): Oyuncu sana rüþvet/altýn teklif ederse VEYA savaþýn detaylarýný (ýþýnlanma, mavi kalkan, mor/siyah renk, kýlýç, cücenin kalkaný kýrmasý, sersemletme) doðru þekilde anlatýrsa.
 - YETERSÝZ (0 ile +10): Sadece ""Canavarý kestim, kapýyý aç"" gibi kuru ve detaysýz bir cümle kurarsa. Þüpheci yaklaþ.
 - KÖTÜ (-10 ile -25): Oyuncu canavar hakkýnda yanlýþ bilgi verirse (farklý renk vb.), seni tehdit ederse veya hakaret ederse.
