@@ -19,6 +19,19 @@ Yerel LLM entegrasyonunun mimarisi, NPC'nin karakterini, oyunun bağlamını ve 
 Ollama sunucusunun kapalı olması veya ağın yanıt vermemesi gibi erişilemezlik durumları UnityWebRequest denetleyicisi ile tespit edilir. İkinci bir güvenlik önlemi olarak, LLM'in JSON şemasının dışına çıkıp bozuk veya geçersiz bir metin üretmesi ihtimaline karşı veri ayrıştırma işlemi try-catch bloğu içinde yapılır. Bu strateji sayesinde sistem, sunucu kapansa dahi hata verip donmak yerine süreci iptal ederek oyuncuya standart bir uyarı mesajı gösterir.
 
 ## 5. Uygulamaya Ait Görüntüler
+<img width="1917" height="1078" alt="Ekran görüntüsü 2026-11-06 164757" src="https://github.com/user-attachments/assets/53d0fe24-9550-4a29-b384-f0081d633b78" />
+
+<img width="1916" height="1078" alt="Ekran görüntüsü 2026-11-06 164815" src="https://github.com/user-attachments/assets/32f6fb47-6f2b-4e4a-bfb6-db0a23452aa0" />
+
+<img width="1917" height="1078" alt="Ekran görüntüsü 2026-11-06 164840" src="https://github.com/user-attachments/assets/d3191b96-d053-4883-974a-f82aec148958" />
+
+<img width="1030" height="392" alt="Ekran görüntüsü 2026-11-06 132935" src="https://github.com/user-attachments/assets/7ee3290d-2375-4805-b0b5-312f6fa663af" />
+
+<img width="1031" height="523" alt="Ekran görüntüsü 2026-11-06 132927" src="https://github.com/user-attachments/assets/85b92e9d-3ada-4df4-ba1d-c3194b3b1cd1" />
+
+<img width="1917" height="1078" alt="Ekran görüntüsü 2026-11-06 170341" src="https://github.com/user-attachments/assets/2634c9c7-bef9-4ce0-9883-0fc69ba398a0" />
+
+<img width="1917" height="1078" alt="Ekran görüntüsü 2026-11-06 170437" src="https://github.com/user-attachments/assets/13347cde-927b-4d74-8ded-c74e42bd5fe8" />
 
 ---
 
@@ -39,4 +52,4 @@ Ekstra bir para sistemi ve satın alınabilecek geliştirmeler veya ürünler ek
 
 **Geliştiriciler:**
 - [KaanKeriman/(https://github.com/KaanKeriman) - Temel mekanikler,Seviye Tasarımı,Asset araştırması,Boss AI'ı (LLM değil),Boss Tasarımı, Bölge Tasarımı
-- [Kerem'in Adı/(https://github.com/YeniogluMehmetEren) - Otonom AI Eğitimi,LLM NPC Tasarımı ve kodlanması,Level tasarımı,Asset araştırması
+- [Mehmet Eren Yenioğlu/(https://github.com/YeniogluMehmetEren) - Otonom AI Eğitimi,LLM NPC Tasarımı ve kodlanması,Level tasarımı,Asset araştırması
