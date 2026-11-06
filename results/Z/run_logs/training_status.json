@@ -1,0 +1,65 @@
+{
+    "Gnome": {
+        "checkpoints": [
+            {
+                "steps": 183426,
+                "file_path": "results\\Z\\Gnome\\Gnome-183426.onnx",
+                "reward": 2.2564838365201028,
+                "creation_time": 1793953677.4841034,
+                "auxillary_file_paths": [
+                    "results\\Z\\Gnome\\Gnome-183426.pt"
+                ]
+            },
+            {
+                "steps": 197824,
+                "file_path": "results\\Z\\Gnome\\Gnome-197824.onnx",
+                "reward": 2.102563590624116,
+                "creation_time": 1793953897.431725,
+                "auxillary_file_paths": [
+                    "results\\Z\\Gnome\\Gnome-197824.pt"
+                ]
+            },
+            {
+                "steps": 335792,
+                "file_path": "results\\Z\\Gnome\\Gnome-335792.onnx",
+                "reward": 2.217211247120105,
+                "creation_time": 1793954484.2450752,
+                "auxillary_file_paths": [
+                    "results\\Z\\Gnome\\Gnome-335792.pt"
+                ]
+            },
+            {
+                "steps": 499969,
+                "file_path": "results\\Z\\Gnome\\Gnome-499969.onnx",
+                "reward": 2.106107288132154,
+                "creation_time": 1793955143.2890134,
+                "auxillary_file_paths": [
+                    "results\\Z\\Gnome\\Gnome-499969.pt"
+                ]
+            },
+            {
+                "steps": 952049,
+                "file_path": "results\\Z\\Gnome\\Gnome-952049.onnx",
+                "reward": 2.099909099665555,
+                "creation_time": 1793956518.6219573,
+                "auxillary_file_paths": [
+                    "results\\Z\\Gnome\\Gnome-952049.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 952049,
+            "file_path": "results\\Z\\Gnome.onnx",
+            "reward": 2.099909099665555,
+            "creation_time": 1793956518.6219573,
+            "auxillary_file_paths": [
+                "results\\Z\\Gnome\\Gnome-952049.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.2.2+cu121"
+    }
+}

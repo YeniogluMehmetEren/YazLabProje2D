@@ -349,7 +349,7 @@ public class Boss : MonoBehaviour
         isShielded = false;
         isShieldBreakable = false;
         Debug.Log("Kalkan kýrýldý");
-        StartCoroutine(ShieldReset());
+        //StartCoroutine(ShieldReset());
     }
 
 
@@ -371,11 +371,11 @@ public class Boss : MonoBehaviour
 
     public void Shield5050()
     {
-        if (Random.Range(0f, 1f)<0.5f)
+        if (Random.Range(0f, 1f)<0.65f)
         {
             isShielded = false;
             isShieldBreakable = false;
-            StartCoroutine(ShieldReset());
+            //StartCoroutine(ShieldReset());
         }
         else
         {
@@ -393,7 +393,7 @@ public class Boss : MonoBehaviour
         anaKarakter.crowdAnimator.SetTrigger("Entrance");
         anaKarakter.crowdAnimator2.SetTrigger("Entrance");
         anaKarakter.crowdAnimator3.SetTrigger("Entrance");
-        isShieldBreakable = true;
+        //isShieldBreakable = true; kaldýrýlcak
         animator.SetBool("stun", true);
         yield return new WaitForSeconds(5f);
         animator.SetBool("stun", false);
@@ -450,7 +450,7 @@ public class Boss : MonoBehaviour
     {
        if(isShielded == false)
         {
-            yield return new WaitForSeconds(15f);
+            yield return new WaitForSeconds(100f); //15
             isShielded = true;
             if (AiEgitimiOlsunMu)
             {

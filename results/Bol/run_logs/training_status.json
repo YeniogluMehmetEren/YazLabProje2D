@@ -1,0 +1,47 @@
+{
+    "Gnome": {
+        "checkpoints": [
+            {
+                "steps": 51277,
+                "file_path": "results\\Bol\\Gnome\\Gnome-51277.onnx",
+                "reward": -1.9997091801329092,
+                "creation_time": 1793947170.45637,
+                "auxillary_file_paths": [
+                    "results\\Bol\\Gnome\\Gnome-51277.pt"
+                ]
+            },
+            {
+                "steps": 499961,
+                "file_path": "results\\Bol\\Gnome\\Gnome-499961.onnx",
+                "reward": 1.555597033765581,
+                "creation_time": 1793949401.4096026,
+                "auxillary_file_paths": [
+                    "results\\Bol\\Gnome\\Gnome-499961.pt"
+                ]
+            },
+            {
+                "steps": 863987,
+                "file_path": "results\\Bol\\Gnome\\Gnome-863987.onnx",
+                "reward": 0.9841999943767276,
+                "creation_time": 1793951365.53996,
+                "auxillary_file_paths": [
+                    "results\\Bol\\Gnome\\Gnome-863987.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 863987,
+            "file_path": "results\\Bol\\Gnome.onnx",
+            "reward": 0.9841999943767276,
+            "creation_time": 1793951365.53996,
+            "auxillary_file_paths": [
+                "results\\Bol\\Gnome\\Gnome-863987.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.2.2+cu121"
+    }
+}

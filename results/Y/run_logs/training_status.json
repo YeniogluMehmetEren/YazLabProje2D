@@ -2,22 +2,58 @@
     "Gnome": {
         "checkpoints": [
             {
-                "steps": 5760,
-                "file_path": "results\\Y\\Gnome\\Gnome-5760.onnx",
-                "reward": null,
-                "creation_time": 1793892063.8821387,
+                "steps": 2499967,
+                "file_path": "results\\Y\\Gnome\\Gnome-2499967.onnx",
+                "reward": 34.248885764016045,
+                "creation_time": 1793937295.4436622,
                 "auxillary_file_paths": [
-                    "results\\Y\\Gnome\\Gnome-5760.pt"
+                    "results\\Y\\Gnome\\Gnome-2499967.pt"
+                ]
+            },
+            {
+                "steps": 2999959,
+                "file_path": "results\\Y\\Gnome\\Gnome-2999959.onnx",
+                "reward": null,
+                "creation_time": 1793940284.3380659,
+                "auxillary_file_paths": [
+                    "results\\Y\\Gnome\\Gnome-2999959.pt"
+                ]
+            },
+            {
+                "steps": 3499991,
+                "file_path": "results\\Y\\Gnome\\Gnome-3499991.onnx",
+                "reward": 42.02777631084124,
+                "creation_time": 1793943292.6469538,
+                "auxillary_file_paths": [
+                    "results\\Y\\Gnome\\Gnome-3499991.pt"
+                ]
+            },
+            {
+                "steps": 3569958,
+                "file_path": "results\\Y\\Gnome\\Gnome-3569958.onnx",
+                "reward": null,
+                "creation_time": 1793943851.1235304,
+                "auxillary_file_paths": [
+                    "results\\Y\\Gnome\\Gnome-3569958.pt"
+                ]
+            },
+            {
+                "steps": 3574011,
+                "file_path": "results\\Y\\Gnome\\Gnome-3574011.onnx",
+                "reward": 2.8269103536831923,
+                "creation_time": 1793945040.1838672,
+                "auxillary_file_paths": [
+                    "results\\Y\\Gnome\\Gnome-3574011.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 5760,
+            "steps": 3574011,
             "file_path": "results\\Y\\Gnome.onnx",
-            "reward": null,
-            "creation_time": 1793892063.8821387,
+            "reward": 2.8269103536831923,
+            "creation_time": 1793945040.1838672,
             "auxillary_file_paths": [
-                "results\\Y\\Gnome\\Gnome-5760.pt"
+                "results\\Y\\Gnome\\Gnome-3574011.pt"
             ]
         }
     },
