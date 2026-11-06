@@ -10,10 +10,21 @@ public class KapiyaGirme : MonoBehaviour
     [SerializeField] private GameObject arenadanCikisKapi;
     
     [SerializeField] private NpcOllama monkKodu;
+    [SerializeField] GameObject GameOver;
 
     private bool cadirKapisiOnundeMi;
     private bool arenayaGirdigimizKapiOnundeMi;
     private bool arenadanCikisKapiOnundeMi;
+
+
+    public void SetGameOverActive()
+    {
+        
+        GameOver.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+
 
     private void Update()
     {
@@ -30,6 +41,7 @@ public class KapiyaGirme : MonoBehaviour
         else if (arenadanCikisKapiOnundeMi && Input.GetKeyDown(KeyCode.E) && monkKodu.GetIknaOlduMu())
         {
             Debug.Log("OYUN BÝTTÝ");
+            SetGameOverActive();
         }
     }
 
