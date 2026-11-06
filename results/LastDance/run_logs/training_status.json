@@ -1,0 +1,47 @@
+{
+    "Gnome": {
+        "checkpoints": [
+            {
+                "steps": 499962,
+                "file_path": "results\\LastDance\\Gnome\\Gnome-499962.onnx",
+                "reward": 51.66082340135024,
+                "creation_time": 1793962459.9047756,
+                "auxillary_file_paths": [
+                    "results\\LastDance\\Gnome\\Gnome-499962.pt"
+                ]
+            },
+            {
+                "steps": 999961,
+                "file_path": "results\\LastDance\\Gnome\\Gnome-999961.onnx",
+                "reward": 45.0799123843511,
+                "creation_time": 1793964002.7936196,
+                "auxillary_file_paths": [
+                    "results\\LastDance\\Gnome\\Gnome-999961.pt"
+                ]
+            },
+            {
+                "steps": 1048154,
+                "file_path": "results\\LastDance\\Gnome\\Gnome-1048154.onnx",
+                "reward": 58.3407173562381,
+                "creation_time": 1793964253.1955802,
+                "auxillary_file_paths": [
+                    "results\\LastDance\\Gnome\\Gnome-1048154.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1048154,
+            "file_path": "results\\LastDance\\Gnome.onnx",
+            "reward": 58.3407173562381,
+            "creation_time": 1793964253.1955802,
+            "auxillary_file_paths": [
+                "results\\LastDance\\Gnome\\Gnome-1048154.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
